@@ -45,11 +45,12 @@ cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
 
 
 # 2.4.3 vConTACT visualization
-# rule vConTACT_visualize:
-#     input: 
-#         network = 'output/{sample}/vcontact2/c1.ntw',
-#         overview = 'output/{sample}/vcontact2/genome_by_genome_overview.csv'
-#     output: "output/{sample}/{sample}_vConTACT.pdf"
-#     conda: "envs/phagesnake.yaml"
-#     shell: ''''''
+rule vConTACT_visualize:
+    input: 
+        network = 'output/{sample}/c1.ntw',
+        overview = 'output/{sample}/genome_by_genome_overview.csv'
+    output: "output/{sample}/{sample}_vConTACT.pdf"
+    conda: "envs/phagesnake.yaml"
+    shell: '''python {script_dir}/vc_visualize.py -nwk {input.network} \\
+    -ovv {input.overview} -o {output}'''
 

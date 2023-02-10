@@ -37,13 +37,6 @@ rule nucl_align:
 touch {output}
 '''
 
-rule terL_tree:
-    input: expand("output/{sample}/TerL.pdf",sample=Samples)
-    output: temp('Done-terL-tree')
-    shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
-touch {output}
-'''
-
 rule annotations:
     input:
         expand("output/{sample}/{sample}.png",sample=Samples),
@@ -54,11 +47,18 @@ echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
 touch {output}
 '''
 
+rule terL_tree:
+    input: expand("output/{sample}/TerL.pdf",sample=Samples)
+    output: temp('Done-terL-tree')
+    shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
+touch {output}
+'''
+
 rule run_vConTACT:
     input:
-        #expand("output/{sample}/{sample}_vConTACT.pdf",sample=Samples),
-        expand("output/{sample}/c1.ntw",sample=Samples),
-        expand("output/{sample}/genome_by_genome_overview.csv",sample=Samples)
+        # expand("output/{sample}/c1.ntw",sample=Samples),
+        # expand("output/{sample}/genome_by_genome_overview.csv",sample=Samples),
+        expand("output/{sample}/{sample}_vConTACT.pdf",sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}

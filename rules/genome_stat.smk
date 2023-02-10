@@ -17,10 +17,9 @@ rule get_orf_list:
 # 3.2 statistic genome infomation
 rule statistics_genome:
     input:
-        fna_dir = fna_dir,
         orf = "orf.list"
     output: "seq_info.tsv"
     conda: "envs/phagesnake.yaml"
     shell: '''python {script_dir}/get_fasta_info.py \\
-    -i {input.fna_dir} -orf {input.orf} -o .
+    -i {fna_dir} -orf {input.orf} -o .
 '''
