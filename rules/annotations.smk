@@ -1,3 +1,4 @@
+# Snakemake script
 # 2.1 prodigal annotation
 rule Prodigal:
     input: "fna_files/{sample}.fasta"
@@ -27,7 +28,8 @@ rule Diamond_blastp:
     params: 
         vc2_db = f"{db_path}{db_prefix}_vConTACT2_proteins.dmnd"
     conda: "envs/phagesnake.yaml"
-    shell: '''diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
+    shell: '''#
+diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
 -p 60 --sensitive --outfmt 6 qseqid sseqid pident qcovhsp
 '''
 
@@ -76,9 +78,7 @@ rule final_gbk:
         eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"
     output: "output/{sample}/{sample}.gbk"
     conda: "envs/phagesnake.yaml"
-    params: 
-        scripts = script_dir
-    shell: '''python {params.scripts}/make_final_gbk.py \\
+    shell: '''python {script_dir}/make_final_gbk.py \\
     -f {input.fa} -a {input.faa} \\
     -b {input.blastp} -e {input.eggnog} \\
     -o {output}
@@ -89,7 +89,5 @@ rule final_gbk:
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
     output: "output/{sample}/{sample}.png"
-    params: 
-        scripts = script_dir
     conda: "envs/phagesnake.yaml"
-    shell: "python {params.scripts}/plot_arrow.py -i {input} -o {output}"
+    shell: "python {script_dir}/plot_arrow.py -i {input} -o {output}"

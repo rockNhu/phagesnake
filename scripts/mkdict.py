@@ -1,10 +1,10 @@
 #!/bin/env python3
 #-* coding = UTF-8 *-
 # Author = Shixuan Huang (Rock Nhu)
+import pathlib
 import re,sys
 input_file = sys.argv[1]
-with open(input_file) as f:
-    content = f.read()
+content = pathlib.Path(input_file).read_text()
 res = re.findall('(>(.*?)\n[A-Z|\n|\ ]*)',content)
 if res == []:
     exit('The fasta file is empty.')

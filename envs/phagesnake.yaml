@@ -1,0 +1,20 @@
+name: phagesnake
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - mmseqs2
+  - diamond
+  - prodigal
+  - eggnog-mapper
+  - hmmer
+  - iqtree
+  - mafft
+  - python>3.6
+  - pip:
+    - matplotlib
+    - pyani
+    - biopython
+    - dna_features_viewer

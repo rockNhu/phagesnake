@@ -1,3 +1,4 @@
+# Snakemake script
 # 2.2.3 catch the terminase in the blastp fmt: self and neibours
 rule find_terL:
     input: 
@@ -10,22 +11,21 @@ rule find_terL:
         terl_neib_fmt = temp("output/{sample}/TerL_neib_fmt.faa"),
         terl_faa = "output/{sample}/TerL.faa"
     params:
-        scripts = script_dir,
         totalname_dict = f'{db_path}{db_prefix}_vConTACT2_proteins_totalname.pydict',
         nameseq_dict = f'{db_path}{db_prefix}_vConTACT2_proteins_nameseq.pydict',
         genome_totalname_dict = f'{db_path}{db_prefix}_genomes_totalname.pydict'
     conda: "envs/phagesnake.yaml"
     shell: '''
-python {params.scripts}/get_terL_self.py \\
+python {script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
     -f {input.faa} -of {output.terl_self} -s {wildcards.sample}
-python {params.scripts}/get_seqs_from_dict.py \\
+python {script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict}
-python {params.scripts}/terL_neib_id2name.py \\
+python {script_dir}/terL_neib_id2name.py \\
     -i {output.terl_neib} -tn {params.genome_totalname_dict} \\
     -o {output.terl_neib_fmt}
-python {params.scripts}/cat_terL.py \\
+python {script_dir}/cat_terL.py \\
     --self {output.terl_self} --neib {output.terl_neib_fmt} \\
     -o {output.terl_faa} -s {wildcards.sample}
 '''
@@ -54,12 +54,11 @@ rule phylotree_visualize:
     input: "output/{sample}/TerL.aln.treefile"
     output: "output/{sample}/TerL.pdf"
     params:
-        scripts = script_dir,
         wkdir = "output/{sample}"
     conda: "envs/phagesnake.yaml"
     shell: '''
 if [ -s {input} ];then
-    python {params.scripts}/plot_tree.py {input} {output}
+    python {script_dir}/plot_tree.py {input} {output}
     # cleanup
     if [ ! -d {params.wkdir}/temp ];then mkdir {params.wkdir}/temp;fi
     mv {params.wkdir}/TerL.aln* {params.wkdir}/temp

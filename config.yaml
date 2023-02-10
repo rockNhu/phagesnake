@@ -1,8 +1,6 @@
 # the config file of snakemake
 workdir: "."
 fna_dir: "fna_files/"
-script_dir : '/public/home/pangrui/huangshixuan/phage_protocol/script/'
-vcontact2_bin : '/public/home/pangrui/huangshixuan/viromics/software/vcontact2/bin/cluster_one-1.0.jar'
-db_path : "/public/home/pangrui/huangshixuan/viromics/Database/vcontact2_db/Oct/"
+script_dir : 'scripts/'
+db_path : "Database/vcontact2_db/Oct/"
 db_prefix : "1Oct2022"
-py_dict_dir: "/public/home/pangrui/huangshixuan/viromics/Database/vcontact2_db/Oct/"

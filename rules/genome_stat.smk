@@ -1,3 +1,4 @@
+# Snakemake script
 # 3.1 get orf.list
 rule get_orf_list:
     input: 
@@ -19,9 +20,7 @@ rule statistics_genome:
         fna_dir = fna_dir,
         orf = "orf.list"
     output: "seq_info.tsv"
-    params: 
-        scripts = script_dir
     conda: "envs/phagesnake.yaml"
-    shell: '''python {params.scripts}/get_fasta_info.py \\
+    shell: '''python {script_dir}/get_fasta_info.py \\
     -i {input.fna_dir} -orf {input.orf} -o .
 '''
