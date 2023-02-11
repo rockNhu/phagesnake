@@ -11,7 +11,7 @@ class get_seqs_from_dict(object):
         parser.add_argument('-ns','--nameseqs',required=True,help='Path of input nameseqs.pydict')
         parser.add_argument('-tn','--totalname',required=True,help='Path of input totalname.pydict')
         parser.add_argument('-o','--output',required=True,help='Path of output')
-        parser.add_argument('--seperate',help='output to a dir or a file')
+        parser.add_argument('--seperate', action='store_true' ,help='output to a dir or a file')
         args = parser.parse_args()
         self.main(args)
 

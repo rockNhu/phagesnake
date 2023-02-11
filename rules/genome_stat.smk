@@ -1,6 +1,5 @@
 # Snakemake script
 # 3.1 get orf.list
-workdir: config['workdir']
 rule get_orf_list:
     input: 
         faas = expand("output/{sample}/{sample}.faa",sample=Samples)
@@ -20,7 +19,7 @@ rule statistics_genome:
     input:
         orf = "orf.list"
     output: "seq_info.tsv"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/get_fasta_info.py \\
     -i {fna_dir} -orf {input.orf} -o .
 '''

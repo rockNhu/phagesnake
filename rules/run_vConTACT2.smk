@@ -1,6 +1,5 @@
 # Snakemake script
 # 2.4.1 vConTACT gene2genome
-workdir: config['workdir']
 rule gene2genome:
     input: 'output/{sample}/{sample}.faa'
     output: 'output/{sample}/vcontact2/gene_to_genome.csv'
@@ -24,10 +23,10 @@ rule vConTACT2:
         overview = 'output/{sample}/genome_by_genome_overview.csv'
     params:
         wk_dir = 'output/{sample}/vcontact2',
-        vcontact2_db_blp = f"{db_path}allVSall.dm.tsv",
-        vcontact2_db = f"{db_path}{db_prefix}_vConTACT2_proteins.dmnd",
-        vcontact2_db_g2g = f"{db_path}{db_prefix}_vConTACT2_gene_to_genome.csv"
-    conda: "envs/phagesnake.yaml"
+        vcontact2_db_blp = f"{db_path}/allVSall.dm.tsv",
+        vcontact2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd",
+        vcontact2_db_g2g = f"{db_path}/{db_prefix}_vConTACT2_gene_to_genome.csv"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     threads: 60
     shell: '''cat {params.vcontact2_db_blp} {input.blp} > \\
     {params.wk_dir}/vConTACT2_blastp.tsv
@@ -51,7 +50,7 @@ rule vConTACT_visualize:
         network = 'output/{sample}/c1.ntw',
         overview = 'output/{sample}/genome_by_genome_overview.csv'
     output: "output/{sample}/{sample}_vConTACT.pdf"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/vc_visualize.py -nwk {input.network} \\
     -ovv {input.overview} -o {output}'''
 

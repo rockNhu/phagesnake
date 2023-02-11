@@ -6,8 +6,9 @@ import os
 
 configfile: "config.yaml"
 workdir: config['workdir']
+Conda_env_dir = config['Conda_yaml_dir']
 fna_dir = config['fna_dir'].rstrip('\\/')
-db_path = config['db_path']
+db_path = config['db_path'].rstrip('\\/')
 db_prefix = config['db_prefix']
 script_dir = config['script_dir'].rstrip('\\/')
 

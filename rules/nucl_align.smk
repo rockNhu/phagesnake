@@ -1,20 +1,15 @@
 # Snakemake script
 # 1.1 blastn to find the similar species genomes
-workdir: config['workdir']
 rule MMseqs_blastn:
     input:
-        fna_dir + "/{sample}.fasta"
+        fa = fna_dir + "/{sample}.fasta",
+        db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
         'output/{sample}/blastn.tsv'
-    threads: 20
-    conda: "envs/phagesnake.yaml"
-    params:
-        db_path = f'{db_path}{db_prefix}_genomes.fa'
-    shell: '''mmseqs easy-search --search-type 3 {input} \\
-    {params.db_path} {output} output/{wildcards.sample}/tmp \\
-    --threads {threads} --format-output "query,target,pident,qcov"
-# clean up the temporary
-rm -rf output/{wildcards.sample}/tmp
+    threads: 60
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell: '''mmseqs easy-search --search-type 3 {input.fa} {input.db} {output} \\
+    output/tmp --threads {threads} --format-output "query,target,pident,qcov"
 '''
 
 
@@ -52,19 +47,20 @@ rule catch_nucl_neibours:
 rule catch_neibours_fna:
     input: 
         fa = fna_dir + "/{sample}.fasta",
-        ex_list = 'output/{sample}/blastn.list'
+        ex_list = 'output/{sample}/blastn.list',
+        totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
+        nameseq_dict = f'{db_path}/{db_prefix}_genomes_nameseq.pydict'
     output: 
         directory("output/{sample}/n_output")
-    conda: "envs/phagesnake.yaml"
-    params:
-        script_dir = script_dir,
-        totalname_dict = f'{db_path}{db_prefix}_genomes_totalname.pydict',
-        nameseq_dict = f'{db_path}{db_prefix}_genomes_nameseq.pydict'
-    shell: '''python {params.script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
-    -o {output} -ns {params.nameseq_dict} -tn {params.totalname_dict} \\
-    --seperate
-# add self fna
-cp {input.fa} {output}
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell: '''if [ -s {input.ex_list} ];then
+    python {script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
+        -o {output} -ns {input.nameseq_dict} -tn {input.totalname_dict} --seperate
+    # add self fna
+    cp {input.fa} {output}/{input.fa}
+else
+    mkdir -p {output}
+fi
 '''
 
 
@@ -75,7 +71,7 @@ rule pyANI:
         nd = "output/{sample}/n_output" # blastn out dir
     output:
         directory("output/{sample}/ANI_output")
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''if [ -s {input.to_check} ];then
     average_nucleotide_identity.py -i {input.nd} -o {output} -m ANIb -g
 else

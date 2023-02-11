@@ -1,10 +1,9 @@
 # Snakemake script
 # 2.1 prodigal annotation
-workdir: config['workdir']
 rule Prodigal:
     input: "fna_files/{sample}.fasta"
     output: "output/{sample}/{sample}.faa"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: "prodigal -i {input} -a {output} -c -q"
 
 
@@ -15,7 +14,7 @@ rule EggNOG:
     threads: 50
     params:
         out_dir = 'output/{sample}/eggnog'
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''mkdir -p {params.out_dir}
 emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
     --output_dir {params.out_dir} --go_evidence non-electronic 
@@ -27,11 +26,11 @@ rule Diamond_blastp:
     input: 'output/{sample}/{sample}.faa'
     output: 'output/{sample}/{sample}.dm.tsv'
     params: 
-        vc2_db = f"{db_path}{db_prefix}_vConTACT2_proteins.dmnd"
-    conda: "envs/phagesnake.yaml"
-    shell: '''#
-diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
--p 60 --sensitive --outfmt 6 qseqid sseqid pident qcovhsp
+        vc2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd"
+    threads: 60
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell: '''diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
+-p {threads} --sensitive --outfmt 6 qseqid sseqid pident qcovhsp
 '''
 
 
@@ -40,7 +39,7 @@ rule filter_All_BLASTp:
     input: 'output/{sample}/{sample}.dm.tsv'
     output: 'output/{sample}/blastp_fmt.tsv'
     params: 
-        totalname_dict = f'{db_path}{db_prefix}_vConTACT2_proteins_totalname.pydict'
+        totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict'
     run:
         def is_unknown(product):
             unknow_words = [
@@ -78,7 +77,7 @@ rule final_gbk:
         blastp = "output/{sample}/blastp_fmt.tsv",
         eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"
     output: "output/{sample}/{sample}.gbk"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/make_final_gbk.py \\
     -f {input.fa} -a {input.faa} \\
     -b {input.blastp} -e {input.eggnog} \\
@@ -90,5 +89,5 @@ rule final_gbk:
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
     output: "output/{sample}/{sample}.png"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: "python {script_dir}/plot_arrow.py -i {input} -o {output}"

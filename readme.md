@@ -19,7 +19,7 @@ The location of the download database is set in `config.yaml`, and an absolute p
 The "db_prefix" was the time of database, e.g. `1Oct2022`.
 
 ```bash
-snakemake -s ./rules/setup.smk
+snakemake -s ./rules/setup.smk --cores 60
 ```
 
 ## 1. Input setting
@@ -30,8 +30,15 @@ Them would be copied into a new folder, default input directory was set as `fna_
 When all configs were correct, the protocol could run easily.
 ```bash
 conda activate phage_snake
-snakemake -s phagesnake.smk -j 2
+snakemake -s phagesnake.smk --cores 60
 ```
 
-# Result
-## 
+# The total protocol
+The Directed Acyclic Graph(DAG) plot of PhageSnake here:
+![dag](dag.svg)
+
+## 1. Nucleotide alignment protocol
+This protocol was present as `nucl_align` in the DAG plot.
+- [MMseqs2](https://github.com/soedinglab/MMseqs2) was used to alignment phage genome to the database. The output in this step is `blastn.tsv`.
+- The `blastn.tsv` was filtered by **identity > 70%** and **coverage > 70%** of alignment, and output file was `blastn.list`, it record accession ids.
+- The acc. id 

@@ -1,6 +1,5 @@
 # Snakemake script
 # 2.2.3 catch the terminase in the blastp fmt: self and neibours
-workdir: config['workdir']
 rule find_terL:
     input: 
         blastp_fmt = "output/{sample}/blastp_fmt.tsv",
@@ -12,12 +11,11 @@ rule find_terL:
         terl_neib_fmt = temp("output/{sample}/TerL_neib_fmt.faa"),
         terl_faa = "output/{sample}/TerL.faa"
     params:
-        totalname_dict = f'{db_path}{db_prefix}_vConTACT2_proteins_totalname.pydict',
-        nameseq_dict = f'{db_path}{db_prefix}_vConTACT2_proteins_nameseq.pydict',
-        genome_totalname_dict = f'{db_path}{db_prefix}_genomes_totalname.pydict'
-    conda: "envs/phagesnake.yaml"
-    shell: '''
-python {script_dir}/get_terL_self.py \\
+        totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict',
+        nameseq_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_nameseq.pydict',
+        genome_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict'
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell: '''python {script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
     -f {input.faa} -of {output.terl_self} -s {wildcards.sample}
 python {script_dir}/get_seqs_from_dict.py \\
@@ -37,9 +35,8 @@ rule MAFFT_iqtree:
     input: "output/{sample}/TerL.faa"
     output: "output/{sample}/TerL.aln", "output/{sample}/TerL.aln.treefile"
     threads: 20
-    conda: "envs/phagesnake.yaml"
-    shell: '''
-if [ $(grep -c '>' {input}) -gt 3 ];then 
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell: '''if [ $(grep -c '>' {input}) -gt 3 ];then 
     mafft --auto {input} > {output[0]}
     iqtree -s {output[0]} -T {threads} -B 1000
 else
@@ -56,7 +53,7 @@ rule phylotree_visualize:
     output: "output/{sample}/TerL.pdf"
     params:
         wkdir = "output/{sample}"
-    conda: "envs/phagesnake.yaml"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''
 if [ -s {input} ];then
     python {script_dir}/plot_tree.py {input} {output}
