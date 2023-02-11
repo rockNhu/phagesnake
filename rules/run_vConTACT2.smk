@@ -1,5 +1,6 @@
 # Snakemake script
 # 2.4.1 vConTACT gene2genome
+workdir: config['workdir']
 rule gene2genome:
     input: 'output/{sample}/{sample}.faa'
     output: 'output/{sample}/vcontact2/gene_to_genome.csv'

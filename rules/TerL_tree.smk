@@ -1,5 +1,6 @@
 # Snakemake script
 # 2.2.3 catch the terminase in the blastp fmt: self and neibours
+workdir: config['workdir']
 rule find_terL:
     input: 
         blastp_fmt = "output/{sample}/blastp_fmt.tsv",

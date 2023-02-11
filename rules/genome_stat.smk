@@ -1,5 +1,6 @@
 # Snakemake script
 # 3.1 get orf.list
+workdir: config['workdir']
 rule get_orf_list:
     input: 
         faas = expand("output/{sample}/{sample}.faa",sample=Samples)

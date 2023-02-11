@@ -1,5 +1,6 @@
 # Snakemake script
 # 1.1 blastn to find the similar species genomes
+workdir: config['workdir']
 rule MMseqs_blastn:
     input:
         fna_dir + "/{sample}.fasta"

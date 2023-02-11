@@ -1,5 +1,6 @@
 # Snakemake script
 # 2.1 prodigal annotation
+workdir: config['workdir']
 rule Prodigal:
     input: "fna_files/{sample}.fasta"
     output: "output/{sample}/{sample}.faa"
