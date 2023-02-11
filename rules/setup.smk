@@ -1,62 +1,92 @@
 # Snakemake script
+import os
 
 configfile: "config.yaml"
-workdir: config['workdir']
 db_path = config['db_path']
+if not os.path.exists(db_path):
+    os.makedirs(db_path)
+workdir: db_path
 db_prefix = config['db_prefix']
 script_dir = config['script_dir'].rstrip('\\/')
 
 rule all:
     input:
-        'Download_ok',
-        "pydict_ok",
-        "vc_accel_db"
+        f"{db_prefix}_vConTACT2_proteins.faa",
+        f"{db_prefix}_vConTACT2_family_annotations.tsv",
+        f"{db_prefix}_vConTACT2_gene_to_genome.csv",
+        f"{db_prefix}_vConTACT2_genus_annotations.tsv",
+        f"{db_prefix}_vConTACT2_host_annotations.tsv",
+        f"{db_prefix}_vConTACT2_lowest_taxa_annotations.tsv",
+        f"{db_prefix}_vConTACT2_subfamily_annotations.tsv",
+        f"{db_prefix}_genomes.fa",
+        f"{db_prefix}_data.tsv",
+        'allVSall.dm.tsv',
+        f'{db_prefix}_genomes_totalname.pydict',
+        f'{db_prefix}_genomes_nameseq.pydict',
+        f'{db_prefix}_vConTACT2_proteins_totalname.pydict',
+        f'{db_prefix}_vConTACT2_proteins_nameseq.pydict'
+
 
 rule download_db:
-    output: temp('Download_ok')
-    shell: '''cd {db_path}
-function download(file){{
-    Target={output.pfammap}
-    success=0
-    Ret=$(wget --tries 10 --retry-connrefused --waitretry=60 --timeout=60 -q http://inphared.s3.climb.ac.uk/${db_prefix}${{file}} || echo "404 Not Found")
-    if echo $Ret | grep -i -q "404 Not Found"; then
-        echo "server not responding for $file"
-        exit 1
+    params:
+        main_url = 'https://millardlab-inphared.s3.climb.ac.uk'
+    output: 
+        f"{db_prefix}_vConTACT2_proteins.faa",
+        f"{db_prefix}_vConTACT2_family_annotations.tsv",
+        f"{db_prefix}_vConTACT2_gene_to_genome.csv",
+        f"{db_prefix}_vConTACT2_genus_annotations.tsv",
+        f"{db_prefix}_vConTACT2_host_annotations.tsv",
+        f"{db_prefix}_vConTACT2_lowest_taxa_annotations.tsv",
+        f"{db_prefix}_vConTACT2_subfamily_annotations.tsv",
+        f"{db_prefix}_genomes.fa",
+        f"{db_prefix}_data.tsv"
+    shell: '''
+function download() {{
+    file=$1
+    if [ ! -s ${{file}}.gz ] && [ ! -s ${{file}} ];then
+        echo "Downloading $file"
+        Ret=$(wget --tries 5 --timeout=60 -q {params.main_url}/${{file}} || \\
+            wget --tries 5 --timeout=60 -q {params.main_url}/${{file}}.gz || \\
+            echo "404 Not Found")
+        if echo $Ret | grep -i -q "404 Not Found"; then
+            echo "server not responding for $file"
+            exit 1
+        else
+            echo "$file was download successfully"
+        fi
     else
-        success=1
+        echo "$file was download successfully"
     fi
 }}
-for file in (
-vConTACT2_proteins.faa
-vConTACT2_family_annotations.tsv
-vConTACT2_gene_to_genome.csv
-vConTACT2_genus_annotations.tsv
-vConTACT2_host_annotations.tsv
-vConTACT2_lowest_taxa_annotations.tsv
-vConTACT2_subfamily_annotations.tsv
-genomes.fa
-data.tsv
-);do
+for file in {output};do
     download ${{file}}
 done
-touch {output}
+gunzip *.gz
 '''
 
 rule make_py_dict:
+    input:
+        genomes = f'{db_prefix}_genomes.fa',
+        protein = f'{db_prefix}_vConTACT2_proteins.faa'
     output: 
-        temp(touch("pydict_ok"))
-    shell: '''cd {db_path}
-python scripts/mkdict.py {db_prefix}_genomes.fa
-python scripts/mkdict.py {db_prefix}_vConTACT2_protein.fa
+        f'{db_prefix}_genomes_totalname.pydict',
+        f'{db_prefix}_genomes_nameseq.pydict',
+        f'{db_prefix}_vConTACT2_proteins_totalname.pydict',
+        f'{db_prefix}_vConTACT2_proteins_nameseq.pydict',
+    shell: '''
+python {script_dir}/mkdict.py {input.genomes}
+python {script_dir}/mkdict.py {input.protein}
 '''
 
 rule vConTACT2_accelerate_db:
-    output: temp(touch("vc_accel_db"))
+    input:
+        protein = f'{db_prefix}_vConTACT2_proteins.faa',
+    output:
+        dmnd = f'{db_prefix}_vConTACT2_proteins.dmnd',
+        ava = 'allVSall.dm.tsv'
     threads: 60
-    shell: '''cd {db_path}
-diamond makedb --in {db_prefix}_vConTACT2_proteins.faa \\
-    -p {threads} --db {db_prefix}_vConTACT2_proteins.dmnd
-diamond blastp --query {db_prefix}_vConTACT2_proteins.faa \\
-    --db {db_prefix}_vConTACT2_proteins.dmnd -p {threads} \\
-    --sensitive -o allVSall.dm.tsv
+    shell: '''
+diamond makedb --in {input.protein} -p {threads} --db {output.dmnd}
+diamond blastp --query {input.protein} --db {output.dmnd} -p {threads} \\
+    --sensitive -o {output.ava}
 '''
