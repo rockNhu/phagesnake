@@ -3,6 +3,7 @@
 rule gene2genome:
     input: 'output/{sample}/{sample}.faa'
     output: 'output/{sample}/vcontact2/gene_to_genome.csv'
+    log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     run:
         with open(output[0],'w') as f:
             f.write('protein_id,contig_id,keywords\n')
@@ -26,6 +27,7 @@ rule vConTACT2:
         vcontact2_db_blp = f"{db_path}/allVSall.dm.tsv",
         vcontact2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd",
         vcontact2_db_g2g = f"{db_path}/{db_prefix}_vConTACT2_gene_to_genome.csv"
+    log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     threads: 60
     shell: '''cat {params.vcontact2_db_blp} {input.blp} > \\
@@ -37,7 +39,7 @@ cat {params.vcontact2_db_g2g} {input.g2g} > \\
 vcontact2 --blast-fp {params.wk_dir}/vConTACT2_blastp.tsv \\
     --proteins-fp {params.wk_dir}/vConTACT2_gene_to_genome.csv \\
     --db 'None' --rel-mode Diamond --pcs-mode MCL \\
-    --vcs-mode ClusterONE --output-dir {params.wk_dir} -t {threads}
+    --vcs-mode ClusterONE --output-dir {params.wk_dir} -t {threads} >> {log}
 
 cp {params.wk_dir}/c1.ntw {output.network}
 cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
@@ -50,7 +52,8 @@ rule vConTACT_visualize:
         network = 'output/{sample}/c1.ntw',
         overview = 'output/{sample}/genome_by_genome_overview.csv'
     output: "output/{sample}/{sample}_vConTACT.pdf"
+    log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/vc_visualize.py -nwk {input.network} \\
-    -ovv {input.overview} -o {output}'''
+    -ovv {input.overview} -o {output} >> {log}'''
 

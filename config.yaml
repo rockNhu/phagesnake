@@ -1,6 +1,7 @@
 # the config file of snakemake
 workdir: "."
 Conda_yaml_dir: "envs"
+log_dir: "log"
 fna_dir: "fna_files/"
 script_dir : 'scripts/'
 db_path : "Database/vcontact2_db/Oct/"

@@ -7,9 +7,10 @@ rule MMseqs_blastn:
     output:
         'output/{sample}/blastn.tsv'
     threads: 60
+    log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''mmseqs easy-search --search-type 3 {input.fa} {input.db} {output} \\
-    output/tmp --threads {threads} --format-output "query,target,pident,qcov"
+    output/tmp --threads {threads} --format-output "query,target,pident,qcov" > {log}
 '''
 
 
@@ -19,6 +20,7 @@ rule catch_nucl_neibours:
         tsv = 'output/{sample}/blastn.tsv'
     output: 
         l = 'output/{sample}/blastn.list'
+    log: f"{log_dir}/" + "{sample}_nucl_align.log"
     run: 
         to_extract = dict()
         for line in open(input.tsv):
@@ -52,12 +54,13 @@ rule catch_neibours_fna:
         nameseq_dict = f'{db_path}/{db_prefix}_genomes_nameseq.pydict'
     output: 
         directory("output/{sample}/n_output")
+    log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''if [ -s {input.ex_list} ];then
     python {script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
-        -o {output} -ns {input.nameseq_dict} -tn {input.totalname_dict} --seperate
+        -o {output} -ns {input.nameseq_dict} -tn {input.totalname_dict} --seperate >> {log}
     # add self fna
-    cp {input.fa} {output}/{input.fa}
+    cp {input.fa} {output}/{wildcards.sample}.fasta
 else
     mkdir -p {output}
 fi
@@ -71,9 +74,10 @@ rule pyANI:
         nd = "output/{sample}/n_output" # blastn out dir
     output:
         directory("output/{sample}/ANI_output")
+    log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''if [ -s {input.to_check} ];then
-    average_nucleotide_identity.py -i {input.nd} -o {output} -m ANIb -g
+    average_nucleotide_identity.py -i {input.nd} -o {output} -m ANIb -g >> {log}
 else
     echo "Error: empty neibours with {wildcards.sample}"
     mkdir -p {output}

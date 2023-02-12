@@ -4,7 +4,7 @@
 import os
 import argparse
 class get_seqs_from_dict(object):
-    '''This class is for doing what.'''
+    '''This class is for catching seqs from pydict.'''
     def __init__(self):
         parser = argparse.ArgumentParser(description='This script is used to catch fasta and seperate them to a dir or all of them to a file')
         parser.add_argument('-i','--input',required=True,help='Path of input list')

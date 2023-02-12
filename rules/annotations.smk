@@ -4,7 +4,8 @@ rule Prodigal:
     input: "fna_files/{sample}.fasta"
     output: "output/{sample}/{sample}.faa"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: "prodigal -i {input} -a {output} -c -q"
+    log: f"{log_dir}/" + "{sample}_annotations.log"
+    shell: "prodigal -i {input} -a {output} -c -q > {log}"
 
 
 # 2.1.1 EggNOG annotation
@@ -14,10 +15,11 @@ rule EggNOG:
     threads: 50
     params:
         out_dir = 'output/{sample}/eggnog'
+    log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''mkdir -p {params.out_dir}
 emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
-    --output_dir {params.out_dir} --go_evidence non-electronic 
+    --output_dir {params.out_dir} --go_evidence non-electronic --resume >> {log}
 '''
 
 
@@ -28,9 +30,10 @@ rule Diamond_blastp:
     params: 
         vc2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd"
     threads: 60
+    log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
--p {threads} --sensitive --outfmt 6 qseqid sseqid pident qcovhsp
+    -p {threads} --quiet --sensitive --outfmt 6 qseqid sseqid pident qcovhsp >> {log}
 '''
 
 
@@ -77,11 +80,12 @@ rule final_gbk:
         blastp = "output/{sample}/blastp_fmt.tsv",
         eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"
     output: "output/{sample}/{sample}.gbk"
+    log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/make_final_gbk.py \\
     -f {input.fa} -a {input.faa} \\
     -b {input.blastp} -e {input.eggnog} \\
-    -o {output}
+    -o {output} >> {log}
 '''
 
 
@@ -89,5 +93,6 @@ rule final_gbk:
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
     output: "output/{sample}/{sample}.png"
+    log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: "python {script_dir}/plot_arrow.py -i {input} -o {output}"
+    shell: "python {script_dir}/plot_arrow.py -i {input} -o {output} >> {log}"
