@@ -17,3 +17,5 @@ dependencies:
     - pyani
     - biopython
     - dna_features_viewer
+    - networkx
+    - plotly
