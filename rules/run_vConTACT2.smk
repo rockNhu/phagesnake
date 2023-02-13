@@ -50,10 +50,34 @@ cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
 rule vConTACT_visualize:
     input: 
         network = 'output/{sample}/c1.ntw',
-        overview = 'output/{sample}/genome_by_genome_overview.csv'
-    output: "output/{sample}/{sample}_vConTACT.pdf"
+        overview = 'output/{sample}/genome_by_genome_overview.csv',
+        db_data = f'{db_path}/{db_prefix}_data.tsv'
+    output: 
+        small_network = temp('output/{sample}/small_c1.ntw'),
+        small_overview = temp('output/{sample}/small_genome_by_genome_overview.csv'),
+        small_database = temp('output/{sample}/small_data.tsv'),
+        big_graph = directory("output/{sample}/{sample}_vConTACT_plot"),
+        small_graph = directory("output/{sample}/{sample}_small_vConTACT_plot")
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
+    threads: 60
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/vc_visualize.py -nwk {input.network} \\
-    -ovv {input.overview} -o {output} >> {log}'''
+    shell: '''
+python {script_dir}/smaller_vc_network.py -nwk {input.network} \\
+    -ovv {input.overview} -db {input.db_data} -s {wildcards.sample} \\
+    -onwk {output.small_network} -oovv {output.small_overview} \\
+    -odb {output.small_database} >> {log}
+if [ -s {output.small_network} ];then
+    # the big graph
+    python {script_dir}/graphanalyzer.py --graph {input.network} --csv {input.overview} \\
+        --metas {input.db_data} --prefix {wildcards.sample} --view 2d -t {threads} \\ 
+        -o {output.big_graph} >> {log}
+    # the small graph
+    python {script_dir}/graphanalyzer.py --graph {input.network} --csv {input.overview} \\
+        --metas {input.db_data} --prefix {wildcards.sample} --view 2d -t {threads} \\
+        -o {output.small_graph} >> {log}
+else
+    echo "The phage is singleton in INPHARED database."
+    mkdir -p {output.big_graph}
+    mkdir -p {output.small_graph}
+'''
 
