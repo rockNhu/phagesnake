@@ -6,3 +6,4 @@ fna_dir: "fna_files/"
 script_dir : 'scripts/'
 db_path : "Database/vcontact2_db/Oct/"
 db_prefix : "1Oct2022"
+run_vConTACT: False

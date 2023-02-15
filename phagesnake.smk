@@ -13,6 +13,7 @@ Conda_env_dir = config['Conda_yaml_dir']
 fna_dir = config['fna_dir'].rstrip('\\/')
 db_path = config['db_path'].rstrip('\\/')
 db_prefix = config['db_prefix']
+run_vc = config['run_vConTACT']
 script_dir = config['script_dir'].rstrip('\\/')
 
 Samples, = glob_wildcards(os.path.join(fna_dir,"{name}.fasta"))
@@ -24,8 +25,8 @@ rule all:
         'Done-ANI',
         'Done-terL-tree',
         'Done-anno',
-        'Done-vConTACT',
-        'Done-Stat'
+        'Done-Stat',
+        'Done-vConTACT' if run_vc == True else ''
 
 
 include: 'rules/nucl_align.smk'
