@@ -62,12 +62,12 @@ This protocol part was present as `annotations` in the DAG plot.
 
 | Color                                             |    Function    |
 | ------------------------------------------------- | :------------: |
-| <font color=grey>$\blacksquare$</font> Grey       |  Hypothetical  |
-| <font color=red>$\blacksquare$</font> $\blacksquare$"#FF0000"$\blacksquare$ Red         | DNA metabolism |
-| <font color=orange>$\blacksquare$</font> Orange   |     Lytic      |
-| <font color=blue>$\blacksquare$</font> Blue       |    Package     |
-| <font color=skyblue>$\blacksquare$</font> SkyBlue |   Structure    |
-| <font color=Green>$\blacksquare$</font>  Green    | Host dependent |
+| <font color="grey">$\blacksquare$</font> Grey       |  Hypothetical  |
+| <font color="red">$\blacksquare$</font> Red         | DNA metabolism |
+| <font color="orange">$\blacksquare$</font> Orange   |     Lytic      |
+| <font color="blue">$\blacksquare$</font> Blue       |    Package     |
+| <font color="skyblue">$\blacksquare$</font> SkyBlue |   Structure    |
+| <font color="Green">$\blacksquare$</font>  Green    | Host dependent |
 
 ## 3. TerL Tree protocol
 This protocol part was present as `terL_tree` in the DAG plot.
