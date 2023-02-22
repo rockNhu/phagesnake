@@ -63,7 +63,7 @@ This protocol part was present as `annotations` in the DAG plot.
 | Color                                             |    Function    |
 | ------------------------------------------------- | :------------: |
 | <font color=grey>$\blacksquare$</font> Grey       |  Hypothetical  |
-| <font color=red>$\blacksquare$</font> Red         | DNA metabolism |
+| <font color=red>$\blacksquare$</font> #FF0000 Red         | DNA metabolism |
 | <font color=orange>$\blacksquare$</font> Orange   |     Lytic      |
 | <font color=blue>$\blacksquare$</font> Blue       |    Package     |
 | <font color=skyblue>$\blacksquare$</font> SkyBlue |   Structure    |
@@ -89,6 +89,6 @@ The accelerated method was successful, but would also be taken a very long time 
 If this part was necessary, set `run_vConTACT` as `True` in `config.yaml` (default was `False`).
 
  ## 5. Genome statistic protocol
-This protocol part was present as `run_vConTACT` in the DAG plot.
+This protocol part was present as `genome_stat` in the DAG plot.
 
 - Only python was used to statistic GC%, scaffold number, length, and ORFs number.
