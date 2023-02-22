@@ -62,7 +62,7 @@ This protocol part was present as `annotations` in the DAG plot.
 
 | Color                                             |    Function    |
 | ------------------------------------------------- | :------------: |
-| <font color="grey">$\blacksquare$</font> ![#999999](https://via.placeholder.com/15/999999/000000?text=+) Grey       |  Hypothetical  |
+| <font color="grey">$\blacksquare$</font> Grey       |  Hypothetical  |
 | <font color="red">$\blacksquare$</font> Red         | DNA metabolism |
 | <font color="orange">$\blacksquare$</font> Orange   |     Lytic      |
 | <font color="blue">$\blacksquare$</font> Blue       |    Package     |
