@@ -62,9 +62,11 @@ class get_TerL(object):
                 re_find_seq = re.findall(f'>{spt} .*?\n([A-Z|\n]*)', content)[0]
                 if len(re_find_seq) > 150:  # terminase large always > 150 bp
                     self.seq += re_find_seq.replace('\n', '')
-        except:
+        except IndexError:
             self.seq = ''
             print(f'Error: Terminase Not Found in {self.args.sample}')
+        except Exception as e:
+            print(f'Other error in Terminase found\n{e}')
 
     def output(self):
         # output neibour ids to list
