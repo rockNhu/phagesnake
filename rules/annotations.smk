@@ -2,10 +2,12 @@
 # 2.1 prodigal annotation
 rule Prodigal:
     input: "fna_files/{sample}.fasta"
-    output: "output/{sample}/{sample}.faa"
+    output: 
+        faa = "output/{sample}/{sample}.faa"
+        gff = "output/{sample}/{sample}.gff"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_annotations.log"
-    shell: "prodigal -i {input} -a {output} -c -q > {log}"
+    shell: "prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q > {log}"
 
 
 # 2.1.1 EggNOG annotation
@@ -92,7 +94,11 @@ rule final_gbk:
 # 2.3.1 genome_viewer
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
-    output: "output/{sample}/{sample}.png"
+    output: 
+        png_out = "output/{sample}/{sample}.png",
+        svg_out = "output/{sample}/{sample}.svg"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: "python {script_dir}/plot_arrow.py -i {input} -o {output} >> {log}"
+    shell: '''python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
+python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
+'''

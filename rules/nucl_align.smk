@@ -80,7 +80,7 @@ rule pyANI:
     shell: '''if [ -s {input.to_check} ];then
     average_nucleotide_identity.py -i {input.nd} -o {output} -m ANIb -g >> {log}
 else
-    echo "Error: empty neibours with {wildcards.sample}"
+    echo "Error: empty neibours with {wildcards.sample}" >> {log}
     mkdir -p {output}
 fi
 '''

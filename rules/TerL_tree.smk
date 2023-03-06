@@ -6,7 +6,7 @@ rule find_terL:
         faa = "output/{sample}/{sample}.faa"
     output: 
         terl_list = temp("output/{sample}/TerL.list"),
-        terl_self = temp("output/{sample}/TerL_self.faa"),
+        terl_self = "output/{sample}/TerL_self.faa",
         terl_neib = temp("output/{sample}/TerL_neib.faa"),
         terl_neib_fmt = temp("output/{sample}/TerL_neib_fmt.faa"),
         terl_faa = "output/{sample}/TerL.faa"
