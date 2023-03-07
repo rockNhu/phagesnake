@@ -19,21 +19,32 @@ script_dir = config['script_dir'].rstrip('\\/')
 Samples, = glob_wildcards(os.path.join(fna_dir,"{name}.fasta"))
 Samples = [sam for sam in Samples if '/' not in sam]
 
+if run_vc == True:
+    rule all:
+        input:
+            'Done-ANI',
+            'Done-terL-tree',
+            'Done-anno',
+            'Done-Stat',
+            'Done-vConTACT'
+    include: 'rules/nucl_align.smk'
+    include: 'rules/terL_tree.smk'
+    include: 'rules/annotations.smk'
+    include: 'rules/run_vConTACT2.smk'
+    include: 'rules/genome_stat.smk'
+else:
+    rule all:
+        input:
+            'Done-ANI',
+            'Done-terL-tree',
+            'Done-anno',
+            'Done-Stat',
+    include: 'rules/nucl_align.smk'
+    include: 'rules/terL_tree.smk'
+    include: 'rules/annotations.smk'
+    include: 'rules/genome_stat.smk'
 
-rule all:
-    input:
-        'Done-ANI',
-        'Done-terL-tree',
-        'Done-anno',
-        'Done-Stat',
-        'Done-vConTACT' if run_vc == True else ''
 
-
-include: 'rules/nucl_align.smk'
-include: 'rules/terL_tree.smk'
-include: 'rules/annotations.smk'
-include: 'rules/run_vConTACT2.smk'
-include: 'rules/genome_stat.smk'
 
 rule nucl_align:
     input: expand("output/{sample}/ANI_output",sample=Samples)
@@ -47,7 +58,7 @@ rule annotations:
         expand("output/{sample}/{sample}.png",sample=Samples),
         expand("output/{sample}/{sample}.gbk",sample=Samples)
     output: temp('Done-anno')
-    shell: '''echo "TerL phylotree - finished."
+    shell: '''echo "Annotations - finished."
 echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
 touch {output}
 '''
@@ -61,8 +72,8 @@ touch {output}
 
 rule run_vConTACT:
     input:
-        # expand("output/{sample}/c1.ntw",sample=Samples),
-        # expand("output/{sample}/genome_by_genome_overview.csv",sample=Samples),
+        expand("output/{sample}/c1.ntw",sample=Samples),
+        expand("output/{sample}/genome_by_genome_overview.csv",sample=Samples),
         expand("output/{sample}/{sample}_vConTACT.pdf",sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."

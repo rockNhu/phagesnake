@@ -3,7 +3,7 @@
 rule Prodigal:
     input: "fna_files/{sample}.fasta"
     output: 
-        faa = "output/{sample}/{sample}.faa"
+        faa = "output/{sample}/{sample}.faa",
         gff = "output/{sample}/{sample}.gff"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_annotations.log"
@@ -21,7 +21,7 @@ rule EggNOG:
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''mkdir -p {params.out_dir}
 emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
-    --output_dir {params.out_dir} --go_evidence non-electronic --resume >> {log}
+    --output_dir {params.out_dir} --go_evidence non-electronic >> {log}
 '''
 
 
@@ -100,5 +100,5 @@ rule genome_visualize:
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
-python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
+python {script_dir}/plot_arrow.py -i {input} -o {output.svg_out} >> {log}
 '''

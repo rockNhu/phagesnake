@@ -1,4 +1,5 @@
 # Snakemake script
+
 # 2.4.1 vConTACT gene2genome
 rule gene2genome:
     input: 'output/{sample}/{sample}.faa'

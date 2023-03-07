@@ -16,9 +16,10 @@ rule find_terL:
         genome_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict'
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/get_terL_self.py \\
+    shell: '''echo "{wildcards.sample} : TerL_tree start" > {log}
+python {script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
-    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} > {log}
+    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
 python {script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict} >> {log}

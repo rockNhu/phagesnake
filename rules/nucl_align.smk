@@ -5,13 +5,14 @@ rule MMseqs_blastn:
         fa = fna_dir + "/{sample}.fasta",
         db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
-        tmp_dir = temp('tmp'),
+        tmp_dir = temp(directory('tmp/{sample}')),
         blastn_out = 'output/{sample}/blastn.tsv'
     threads: 60
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
-    {output.tmpdir} --threads {threads} --format-output "query,target,pident,qcov" > {log}
+    shell: '''echo "{wildcards.sample} : nucl_align start" > {log}
+mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
+    {output.tmp_dir} --threads {threads} --format-output "query,target,pident,qcov" >> {log}
 '''
 
 
