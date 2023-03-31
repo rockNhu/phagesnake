@@ -1,7 +1,7 @@
 # PhageSnake
 The PhageSnake was a basic automated bacteriophage(phage) genome analysis protocol, coded by Snakemake.
-The input was only phage genomic assembly in FASTA format. **Only 1 contig/scaffold for the genome is supported now.**
-
+The input was only phage genomic assembly in FASTA format.
+If the input FASTA file contains multiple contigs, each contig will be run independently.
 
 # Usage
 ## 0. Installation
@@ -11,8 +11,8 @@ It was easier to rebuild an environment by CONDA.
 Used software was listed in `./envs/phagesnake.yaml`.
 
 ```bash
-conda create -n phage_snake -f ./envs/phagesnake.yaml
-conda activate phage_snake
+conda create -n phagesnake -f ./envs/phagesnake.yaml
+conda activate phagesnake
 conda install snakemake
 ```
 
@@ -34,7 +34,7 @@ They would be copied into a new folder, default input directory was set as `fna_
 When all configs were correct, the protocol could run easily.
 
 ```bash
-conda activate phage_snake
+conda activate phagesnake
 snakemake -s phagesnake.smk --cores 60
 ```
 
@@ -91,4 +91,4 @@ If this part was necessary, set `run_vConTACT` as `True` in `config.yaml` (defau
  ## 5. Genome statistic protocol
 This protocol part was present as `genome_stat` in the DAG plot.
 
-- Only python was used to statistic GC%, scaffold number, length, and ORFs number.
+- Only python was used to statistic GC%, length, and ORFs number.

@@ -10,13 +10,15 @@ log_dir = config['log_dir'].rstrip('\\/')
 if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 Conda_env_dir = config['Conda_yaml_dir']
-fna_dir = config['fna_dir'].rstrip('\\/')
 db_path = config['db_path'].rstrip('\\/')
 db_prefix = config['db_prefix']
 run_vc = config['run_vConTACT']
 script_dir = config['script_dir'].rstrip('\\/')
-
-Samples, = glob_wildcards(os.path.join(fna_dir,"{name}.fasta"))
+# fmt input sample files in fasta fmt
+fna_dir = config['fna_dir'].rstrip('\\/')
+fmt_fna_dir = config['fmt_fna_dir'].rstrip('\\/')
+os.system(f'python {script_dir}/fmt_input_file.py -i {fna_dir} -o {fmt_fna_dir} > {log_dir}/fmt.log')
+Samples, = glob_wildcards(os.path.join(fmt_fna_dir,"{name}.fasta"))
 Samples = [sam for sam in Samples if '/' not in sam]
 
 if run_vc == True:
@@ -27,23 +29,19 @@ if run_vc == True:
             'Done-anno',
             'Done-Stat',
             'Done-vConTACT'
-    include: 'rules/nucl_align.smk'
-    include: 'rules/terL_tree.smk'
-    include: 'rules/annotations.smk'
     include: 'rules/run_vConTACT2.smk'
-    include: 'rules/genome_stat.smk'
 else:
     rule all:
         input:
             'Done-ANI',
             'Done-terL-tree',
             'Done-anno',
-            'Done-Stat',
-    include: 'rules/nucl_align.smk'
-    include: 'rules/terL_tree.smk'
-    include: 'rules/annotations.smk'
-    include: 'rules/genome_stat.smk'
+            'Done-Stat'
 
+include: 'rules/nucl_align.smk'
+include: 'rules/terL_tree.smk'
+include: 'rules/annotations.smk'
+include: 'rules/genome_stat.smk'
 
 
 rule nucl_align:
@@ -80,7 +78,7 @@ rule run_vConTACT:
 touch {output}
 '''
 
-rule genome_stat:
+rule genome_stat: 
     input: "seq_info.tsv"
     output: temp('Done-Stat')
     shell: '''echo "Genome statistic - finished. Only python3 used."

@@ -1,13 +1,13 @@
 # Snakemake script
 # 2.1 prodigal annotation
 rule Prodigal:
-    input: "fna_files/{sample}.fasta"
+    input: fmt_fna_dir +"/{sample}.fasta"
     output: 
         faa = "output/{sample}/{sample}.faa",
         gff = "output/{sample}/{sample}.gff"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_annotations.log"
-    shell: "prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q > {log}"
+    shell: "prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q -p meta > {log}"
 
 
 # 2.1.1 EggNOG annotation
@@ -19,9 +19,9 @@ rule EggNOG:
         out_dir = 'output/{sample}/eggnog'
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''mkdir -p {params.out_dir}
+    shell: '''if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
 emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
-    --output_dir {params.out_dir} --go_evidence non-electronic >> {log}
+    --output_dir {params.out_dir} --override --go_evidence non-electronic >> {log}
 '''
 
 
@@ -77,7 +77,7 @@ rule filter_All_BLASTp:
 # 2.3 fasta + Prodigal + EggNOG + blastp -> gbk
 rule final_gbk:
     input:
-        fa = fna_dir + "/{sample}.fasta",
+        fa = fmt_fna_dir + "/{sample}.fasta",
         faa = "output/{sample}/{sample}.faa",
         blastp = "output/{sample}/blastp_fmt.tsv",
         eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"

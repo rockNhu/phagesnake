@@ -45,7 +45,7 @@ rule MAFFT_iqtree:
     shell: '''if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
 if [ $(grep -c '>' {input}) -gt 3 ];then 
     mafft --auto --quiet {input} > {output.aln}
-    iqtree -s {output.aln} -T {threads} -B 1000 >> {log}
+    iqtree -s {output.aln} -T {threads} --undo -B 1000 >> {log}
 else
     echo "Error: {input} is not ok!"
     for i in {output};do

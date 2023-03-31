@@ -40,6 +40,8 @@ class get_GC(object):
 
     def count(self,seq):
         total = len(seq)
+        if not total:
+            return False, False
         n = sum(i in ['g', 'c', 'G', 'C'] for i in seq)
         gc = n / total * 100
         return gc,total
@@ -56,6 +58,9 @@ class get_GC(object):
                 else:
                     the_seq += line.strip()
             gc,length = self.count(the_seq)
+            if not gc:
+                print(f"Error: divied by 0:{bsname}")
+                continue
             if self.orfs is None:
                 output_line.append(f'{bsname}\t{gc}\t{length}\t{sca_num}\n')
             else:

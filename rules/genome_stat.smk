@@ -23,6 +23,6 @@ rule statistics_genome:
     output: "seq_info.tsv"
     log: f"{log_dir}/genome_stat.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/get_fasta_info.py \\
-    -i {fna_dir} -orf {input.orf} -o . >> {log}
+    shell: '''python {script_dir}/get_fasta_info2.py \\
+    -i {fmt_fna_dir} -orf {input.orf} -o . >> {log}
 '''

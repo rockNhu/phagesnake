@@ -2,7 +2,7 @@
 # 1.1 blastn to find the similar species genomes
 rule MMseqs_blastn:
     input:
-        fa = fna_dir + "/{sample}.fasta",
+        fa = fmt_fna_dir + "/{sample}.fasta",
         db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
         tmp_dir = temp(directory('tmp/{sample}')),
@@ -50,7 +50,7 @@ rule catch_nucl_neibours:
 # 1.3 catch the neibour fna and seperate neibours wtih format to "n_output"
 rule catch_neibours_fna:
     input: 
-        fa = fna_dir + "/{sample}.fasta",
+        fa = fmt_fna_dir + "/{sample}.fasta",
         ex_list = 'output/{sample}/blastn.list',
         totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         nameseq_dict = f'{db_path}/{db_prefix}_genomes_nameseq.pydict'
