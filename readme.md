@@ -5,7 +5,7 @@ If the input FASTA file contains multiple contigs, each contig will be run indep
 
 # Usage
 ## 0. Installation
-#### 0.1 Environment setting
+### 0.1 Environment setting
 
 It was easier to rebuild an environment by CONDA.
 Used software was listed in `./envs/phagesnake.yaml`.
@@ -16,7 +16,7 @@ conda activate phagesnake
 conda install snakemake
 ```
 
-#### 0.2 Database download
+### 0.2 Database download
 
 The used database would download from [INPHARED](https://github.com/RyanCook94/inphared).
 The location of the download database is set in `config.yaml`, and an absolute path is recommended here.
@@ -31,11 +31,18 @@ All the input files were phage nucleotide genome assemblies in FASTA type.
 They would be copied into a new folder, default input directory was set as `fna_files`, but could be changed in `config.yaml`.
 
 ## 2. Run protocol
-When all configs were correct, the protocol could run easily.
+When all configurations were correct, the protocol could run easily as follow:
 
 ```bash
 conda activate phagesnake
 snakemake -s phagesnake.smk --cores 60
+```
+
+If **Cluster Server** was available, the protocol also could run as follow:
+
+```bash
+conda activate phagesnake
+snakemake -s phagesnake.smk --cluster 'qsub -d . -e error.log -o output.log' -j 4
 ```
 
 # The parts of the PhageSnake
@@ -92,3 +99,52 @@ If this part was necessary, set `run_vConTACT` as `True` in `config.yaml` (defau
 This protocol part was present as `genome_stat` in the DAG plot.
 
 - Only python was used to statistic GC%, length, and ORFs number.
+
+# Sample and output
+## sample data
+
+The sample datas were in `fna_files`. Here, two types of input FASTA format showed. All of samples downloaded from [NCBI Genbank](https://www.ncbi.nlm.nih.gov/genbank/) database.
+
+1. The assembly only had 1 contig was the best. In sample datas, `vB_VpP_AC2.fasta` had a complete genome. The genome of this single contig was recommended.
+
+2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In sample datas, `LY2_LY4.fasta` had multiple genomes. In the default PhageSnake protocol, it would be divided into contigs and analysis one by one. If contig length was lower then 5000 bp, it would be skipped.
+
+##  Result
+
+All results were in `output`.
+
+### ANI output
+
+AC2: ![](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
+
+### Annotation output
+
+The arrow plot from `.gbk`.
+
+AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.svg)
+
+LY2: ![vB_BceH_LY2](output/LY2_LY4_0/LY2_LY4_0.svg)
+
+LY4: ![vB_BceP_LY4](output/LY2_LY4_1/LY2_LY4_1.svg)
+
+### TerL tree output
+
+AC2: ![](output/vB_VpP_AC2_0/TerL.svg)
+
+LY2: ![](output/LY2_LY4_0/TerL.svg)
+
+### Genome Statistic
+
+[genome_statistic](seq_info.tsv)
+
+# Other tips
+### rerun
+Often, the outputs were unsatisfactory, the middle file could be changed by hand, then rerun the protocol. In another way, build a new small protocol for optimization was also recommended.
+
+When rerun protocol, the files marked as `protected()` should be delete, except the **ProtectedOutputException**, then rerun it.
+To except this **Exception**, could run with `--dry-run` to check.
+
+```bash
+# check the protocol
+snakemake -s phagesnake.smk --dry-run -R
+```

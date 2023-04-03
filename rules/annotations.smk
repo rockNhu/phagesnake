@@ -81,7 +81,7 @@ rule final_gbk:
         faa = "output/{sample}/{sample}.faa",
         blastp = "output/{sample}/blastp_fmt.tsv",
         eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"
-    output: "output/{sample}/{sample}.gbk"
+    output: protected("output/{sample}/{sample}.gbk")
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/make_final_gbk.py \\
@@ -95,8 +95,8 @@ rule final_gbk:
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
     output: 
-        png_out = "output/{sample}/{sample}.png",
-        svg_out = "output/{sample}/{sample}.svg"
+        png_out = protected("output/{sample}/{sample}.png"),
+        svg_out = protected("output/{sample}/{sample}.svg")
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}

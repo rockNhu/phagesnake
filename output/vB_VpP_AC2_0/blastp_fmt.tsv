@@ -1,0 +1,715 @@
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	100.0	ON864052_00003
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.8	MT501516_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.5	FJ896200_00012
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585160_00029
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585159_00029
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585158_00030
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OP117450_00026
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON872379_00037
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON080941_00038
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON080940_00002
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OM362522_00039
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OM799543_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	MZ516827_00002
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	MZ182247_00002
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	MZ020222_00034
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	MF754112_00022
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	MF754111_00036
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.3	OK349506_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.3	MW331544_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.3	LR794124_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MZ592921_00047
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MW250641_00038
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MT178448_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.6	ON457557_00011
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.6	ON457556_00006
+vB_VpP_AC2_4	DNA polymerase	99.9	100.0	ON864052_00004
+vB_VpP_AC2_4	DNA polymerase	99.9	99.6	MT501516_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	99.4	MW331544_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	99.4	LR794124_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	99.1	FJ896200_00015
+vB_VpP_AC2_4	DNA polymerase	99.9	99.3	ON080941_00036
+vB_VpP_AC2_4	DNA polymerase	99.9	99.0	ON872379_00035
+vB_VpP_AC2_4	DNA polymerase	99.9	99.1	MF754111_00038
+vB_VpP_AC2_4	DNA polymerase	99.9	97.3	OP117450_00024
+vB_VpP_AC2_4	DNA polymerase	99.9	96.9	MZ020222_00032
+vB_VpP_AC2_4	DNA polymerase	99.9	97.7	OK585158_00028
+vB_VpP_AC2_4	DNA polymerase	99.9	97.5	OM799543_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	97.4	OK349506_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	97.3	ON080940_00004
+vB_VpP_AC2_4	DNA polymerase	99.9	97.2	OK585160_00027
+vB_VpP_AC2_4	DNA polymerase	99.9	97.2	OK585159_00027
+vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MF754112_00024
+vB_VpP_AC2_4	DNA polymerase	99.9	96.2	ON457555_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	96.2	ON457554_00013
+vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MN974282_00012
+vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MK474470_00012
+vB_VpP_AC2_4	DNA polymerase	99.9	96.1	MZ592921_00001
+vB_VpP_AC2_4	DNA polymerase	99.9	95.8	OM362522_00037
+vB_VpP_AC2_4	DNA polymerase	99.9	95.8	MZ516827_00004
+vB_VpP_AC2_4	DNA polymerase	99.9	95.8	MZ182247_00004
+vB_VpP_AC2_5	hypothetical protein	99.5	66.7	MN974282_00013
+vB_VpP_AC2_5	hypothetical protein	99.5	66.7	MK474470_00013
+vB_VpP_AC2_5	hypothetical protein	99.5	65.1	OP117450_00023
+vB_VpP_AC2_5	hypothetical protein	99.5	65.6	ON080941_00034
+vB_VpP_AC2_5	hypothetical protein	99.5	65.1	MZ592921_00002
+vB_VpP_AC2_5	hypothetical protein	99.5	64.6	OK585158_00026
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	100.0	ON864052_00006
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	OK585158_00025
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	ON080941_00033
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	OK349506_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	FJ896200_00017
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	86.9	OM799543_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	ON872379_00033
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	OM362522_00035
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	OP117450_00022
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	MZ592921_00003
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MZ516827_00007
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MZ020222_00030
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MT501516_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	ON080940_00006
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MF754112_00027
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MF754111_00040
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MN974282_00014
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MK474470_00014
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MZ182247_00006
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457557_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457556_00010
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457555_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457554_00015
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	83.8	OK585160_00025
+vB_VpP_AC2_6	nucleotidyltransferase	99.5	83.8	OK585159_00025
+vB_VpP_AC2_7	endonuclease	99.2	100.0	ON864052_00007
+vB_VpP_AC2_7	endonuclease	96.6	62.6	MW331544_00016
+vB_VpP_AC2_7	endonuclease	96.6	62.6	LR794124_00016
+vB_VpP_AC2_7	HNH endonuclease	71.4	43.5	KX689784_00033
+vB_VpP_AC2_7	HNH endonuclease	71.4	43.5	KJ748011_00016
+vB_VpP_AC2_7	endonuclease	71.4	42.4	MW367418_00014
+vB_VpP_AC2_7	endonuclease	71.4	42.4	KY084243_00016
+vB_VpP_AC2_7	endonuclease	72.3	43.0	MT808983_00020
+vB_VpP_AC2_7	HNH endonuclease	71.4	42.4	MK903281_00017
+vB_VpP_AC2_7	endonuclease	77.3	38.7	MZ833439_00015
+vB_VpP_AC2_7	HNH endonuclease	71.4	41.2	MT446394_00042
+vB_VpP_AC2_7	endonuclease	84.0	40.0	EU734171_00019
+vB_VpP_AC2_7	HNH endonuclease	68.9	43.9	OX335426_00042
+vB_VpP_AC2_7	HNH endonuclease	68.9	43.9	OX335394_00043
+vB_VpP_AC2_7	HNH endonuclease	68.9	43.9	OX335359_00039
+vB_VpP_AC2_7	endonuclease	71.4	38.8	ON528721_00021
+vB_VpP_AC2_7	endonuclease	71.4	38.8	OL744217_00012
+vB_VpP_AC2_7	endonuclease	71.4	38.8	MF285620_00015
+vB_VpP_AC2_7	endonuclease	71.4	38.8	KU687347_00017
+vB_VpP_AC2_7	endonuclease	77.3	39.4	MZ820094_00160
+vB_VpP_AC2_7	endonuclease	77.3	39.4	MZ820093_00161
+vB_VpP_AC2_7	HNH endonuclease	63.9	44.2	MN308080_00023
+vB_VpP_AC2_7	HNH endonuclease	63.9	44.2	MN327636_00001
+vB_VpP_AC2_7	HNH endonuclease	63.9	40.8	OX335441_00002
+vB_VpP_AC2_7	HNH endonuclease	63.9	40.8	OX335378_00050
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	100.0	ON864052_00010
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	OK349506_00018
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MW331544_00019
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	LR794124_00019
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MT501516_00018
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MF754111_00043
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MF754112_00030
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.1	ON080941_00030
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.1	ON872379_00030
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585160_00022
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585159_00022
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	ON080940_00009
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585158_00022
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	OM799543_00018
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	OP117450_00019
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MZ516827_00010
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	FJ896200_00020
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ592921_00006
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MW250641_00031
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MT178448_00018
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ020222_00027
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ182247_00009
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.2	OM362522_00032
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	85.6	ON457557_00018
+vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	85.6	ON457556_00013
+vB_VpP_AC2_12	hypothetical protein	99.3	69.5	MW331544_00021
+vB_VpP_AC2_12	hypothetical protein	99.3	69.5	LR794124_00021
+vB_VpP_AC2_12	hypothetical protein	99.3	68.8	ON457557_00020
+vB_VpP_AC2_12	hypothetical protein	99.3	68.8	ON457556_00015
+vB_VpP_AC2_12	hypothetical protein	99.3	67.4	MT501516_00020
+vB_VpP_AC2_12	hypothetical protein	98.6	62.9	ON080941_00028
+vB_VpP_AC2_12	hypothetical protein	98.6	62.1	OK585158_00020
+vB_VpP_AC2_12	hypothetical protein	98.6	61.4	FJ896200_00022
+vB_VpP_AC2_13	RNaseH	99.7	100.0	ON864052_00013
+vB_VpP_AC2_13	RNaseH	99.7	99.4	MT178448_00021
+vB_VpP_AC2_13	RNaseH	99.7	99.7	ON080941_00027
+vB_VpP_AC2_13	RNaseH	99.7	99.1	OK585160_00019
+vB_VpP_AC2_13	RNaseH	99.7	99.1	OK585159_00019
+vB_VpP_AC2_13	RNaseH	99.7	99.1	OP117450_00016
+vB_VpP_AC2_13	RNaseH	99.7	99.1	ON872379_00027
+vB_VpP_AC2_13	RNaseH	99.7	99.1	MF754111_00046
+vB_VpP_AC2_13	RNaseH	99.7	98.7	MW250641_00028
+vB_VpP_AC2_13	RNaseH	99.7	98.4	MF754112_00033
+vB_VpP_AC2_13	RNaseH	99.7	97.5	OK585158_00019
+vB_VpP_AC2_13	RNaseH	99.7	97.8	MT501516_00021
+vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ182247_00012
+vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ020222_00024
+vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ516827_00013
+vB_VpP_AC2_13	RNaseH	99.7	97.2	ON080940_00012
+vB_VpP_AC2_13	RNaseH	99.7	97.2	OM362522_00029
+vB_VpP_AC2_13	RNaseH	99.7	97.2	OM799543_00021
+vB_VpP_AC2_13	RNaseH	99.7	97.2	MZ592921_00009
+vB_VpP_AC2_13	RNaseH	99.7	97.5	MW331544_00022
+vB_VpP_AC2_13	RNaseH	99.7	97.2	ON457557_00021
+vB_VpP_AC2_13	RNaseH	99.7	97.2	ON457556_00016
+vB_VpP_AC2_13	RNaseH	99.7	97.2	OK349506_00021
+vB_VpP_AC2_13	RNaseH	99.7	96.8	ON457555_00021
+vB_VpP_AC2_13	RNaseH	99.7	96.8	ON457554_00021
+vB_VpP_AC2_15	endonuclease VII	99.3	100.0	ON864052_00015
+vB_VpP_AC2_15	endonuclease VII	99.3	99.3	ON872379_00025
+vB_VpP_AC2_15	endonuclease VII	99.3	99.3	ON080941_00025
+vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MZ592921_00011
+vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MZ182247_00014
+vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MT501516_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OP117450_00014
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585160_00017
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585159_00017
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	ON080940_00014
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MZ516827_00015
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MZ020222_00022
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585158_00017
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OM799543_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MF754111_00048
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MF754112_00035
+vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OM362522_00027
+vB_VpP_AC2_15	endonuclease VII	99.3	97.3	ON457555_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	97.3	ON457554_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	97.3	OK349506_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	97.3	MN974282_00022
+vB_VpP_AC2_15	endonuclease VII	99.3	97.3	MK474470_00022
+vB_VpP_AC2_15	endonuclease VII	99.3	96.6	ON457557_00023
+vB_VpP_AC2_15	endonuclease VII	99.3	96.6	ON457556_00018
+vB_VpP_AC2_15	endonuclease VII	99.3	97.9	MW250641_00026
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	100.0	ON864052_00017
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	OK585158_00015
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	ON080941_00023
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	ON080940_00016
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK585160_00015
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK585159_00015
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	MT501516_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	ON872379_00023
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	OM799543_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK349506_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	MW331544_00026
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	LR794124_00027
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	MZ182247_00016
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	97.9	MF754111_00001
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	FJ896200_00027
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	97.9	MN974282_00024
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	97.9	MK474470_00024
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	97.4	OM362522_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	96.4	ON457557_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	96.4	ON457556_00020
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	94.8	MT178448_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	95.9	ON457555_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	95.9	ON457554_00025
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	95.9	MF754112_00037
+vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	94.3	MW250641_00024
+vB_VpP_AC2_19	RNA polymerase	99.9	100.0	ON864052_00019
+vB_VpP_AC2_19	RNA polymerase	99.9	99.8	MT501516_00027
+vB_VpP_AC2_19	RNA polymerase	99.9	99.6	OP117450_00010
+vB_VpP_AC2_19	RNA polymerase	99.9	99.6	MZ592921_00015
+vB_VpP_AC2_19	RNA polymerase	99.9	99.6	OM799543_00027
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON080941_00021
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	FJ896200_00029
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	MZ020222_00018
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON872379_00021
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON080940_00018
+vB_VpP_AC2_19	RNA polymerase	99.9	99.4	OK585158_00013
+vB_VpP_AC2_19	RNA polymerase	99.9	99.5	OK349506_00027
+vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MF754112_00039
+vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MF754111_00003
+vB_VpP_AC2_19	RNA polymerase	99.9	99.3	OK585160_00013
+vB_VpP_AC2_19	RNA polymerase	99.9	99.3	OK585159_00013
+vB_VpP_AC2_19	RNA polymerase	99.9	99.4	OM362522_00023
+vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MW250641_00022
+vB_VpP_AC2_19	RNA polymerase	99.9	99.3	MZ182247_00018
+vB_VpP_AC2_19	RNA polymerase	99.9	99.1	MZ516827_00019
+vB_VpP_AC2_19	RNA polymerase	99.9	99.3	MW331544_00028
+vB_VpP_AC2_19	RNA polymerase	99.9	99.3	LR794124_00029
+vB_VpP_AC2_19	RNA polymerase	99.9	98.9	MT178448_00027
+vB_VpP_AC2_19	RNA polymerase	99.9	97.9	MN974282_00026
+vB_VpP_AC2_19	RNA polymerase	99.9	97.9	MK474470_00026
+vB_VpP_AC2_21	virion structural protein	98.8	100.0	ON864052_00021
+vB_VpP_AC2_21	virion structural protein	98.8	100.0	ON864052_00025
+vB_VpP_AC2_21	virion structural protein	98.8	98.8	OK585158_00011
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON080941_00019
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MW331544_00030
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	LR794124_00031
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MT501516_00029
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	FJ896200_00031
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MN974282_00028
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MK474470_00028
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457557_00029
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457556_00024
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457555_00030
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457554_00029
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MW250641_00020
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MT178448_00029
+vB_VpP_AC2_21	virion structural protein	98.8	97.5	MF754111_00005
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK349506_00029
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK585160_00011
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK585159_00011
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	OP117450_00008
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	ON872379_00019
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	ON080940_00020
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	OM362522_00021
+vB_VpP_AC2_21	virion structural protein	98.8	96.3	MZ592921_00017
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457557_00030
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457556_00025
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457555_00031
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457554_00030
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	MN974282_00029
+vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	MK474470_00029
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585160_00010
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585159_00010
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585158_00010
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON080941_00018
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK349506_00030
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MW331544_00031
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	LR794124_00032
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MT501516_00030
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	FJ896200_00032
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OP117450_00007
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON872379_00018
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON080940_00021
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OM362522_00020
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OM799543_00030
+vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MZ592921_00018
+vB_VpP_AC2_23	hypothetical protein	53.0	100.0	ON864052_00022
+vB_VpP_AC2_23	hypothetical protein	53.0	100.0	ON864052_00026
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	ON457557_00030
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	ON457556_00025
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	ON457555_00031
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	ON457554_00030
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	MN974282_00029
+vB_VpP_AC2_23	head-tail adaptor	51.5	94.1	MK474470_00029
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OK585160_00010
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OK585159_00010
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OK585158_00010
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	ON080941_00018
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OK349506_00030
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	MW331544_00031
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	LR794124_00032
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	MT501516_00030
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	FJ896200_00032
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OP117450_00007
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	ON872379_00018
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	ON080940_00021
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OM362522_00020
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	OM799543_00030
+vB_VpP_AC2_23	head-tail adaptor	51.5	91.2	MZ592921_00018
+vB_VpP_AC2_25	virion structural protein	98.8	100.0	ON864052_00021
+vB_VpP_AC2_25	virion structural protein	98.8	100.0	ON864052_00025
+vB_VpP_AC2_25	virion structural protein	98.8	98.8	OK585158_00011
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON080941_00019
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MW331544_00030
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	LR794124_00031
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MT501516_00029
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	FJ896200_00031
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MN974282_00028
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MK474470_00028
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457557_00029
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457556_00024
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457555_00030
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457554_00029
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MW250641_00020
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MT178448_00029
+vB_VpP_AC2_25	virion structural protein	98.8	97.5	MF754111_00005
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK349506_00029
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK585160_00011
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK585159_00011
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	OP117450_00008
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	ON872379_00019
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	ON080940_00020
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	OM362522_00021
+vB_VpP_AC2_25	virion structural protein	98.8	96.3	MZ592921_00017
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457557_00030
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457556_00025
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457555_00031
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457554_00030
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	MN974282_00029
+vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	MK474470_00029
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585160_00010
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585159_00010
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585158_00010
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON080941_00018
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK349506_00030
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MW331544_00031
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	LR794124_00032
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MT501516_00030
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	FJ896200_00032
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OP117450_00007
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON872379_00018
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON080940_00021
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OM362522_00020
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OM799543_00030
+vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MZ592921_00018
+vB_VpP_AC2_27	hypothetical protein	53.0	100.0	ON864052_00022
+vB_VpP_AC2_27	hypothetical protein	53.0	100.0	ON864052_00026
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	ON457557_00030
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	ON457556_00025
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	ON457555_00031
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	ON457554_00030
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	MN974282_00029
+vB_VpP_AC2_27	head-tail adaptor	51.5	94.1	MK474470_00029
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OK585160_00010
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OK585159_00010
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OK585158_00010
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	ON080941_00018
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OK349506_00030
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	MW331544_00031
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	LR794124_00032
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	MT501516_00030
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	FJ896200_00032
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OP117450_00007
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	ON872379_00018
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	ON080940_00021
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OM362522_00020
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	OM799543_00030
+vB_VpP_AC2_27	head-tail adaptor	51.5	91.2	MZ592921_00018
+vB_VpP_AC2_28	head-tail adaptor	99.8	100.0	ON864052_00028
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585160_00010
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585159_00010
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585158_00010
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	MT501516_00030
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	MF754111_00006
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	ON080941_00018
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	OM799543_00030
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	OK349506_00030
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	MW331544_00031
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	LR794124_00032
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	FJ896200_00032
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	OP117450_00007
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	ON872379_00018
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	ON080940_00021
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	MW250641_00019
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	MF754112_00042
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	MT178448_00030
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	MZ592921_00018
+vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457556_00025
+vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457555_00031
+vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457554_00030
+vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	MZ516827_00022
+vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	OM362522_00020
+vB_VpP_AC2_28	head-tail adaptor	99.8	98.7	MZ020222_00015
+vB_VpP_AC2_29	head scaffolding protein	99.6	100.0	ON864052_00029
+vB_VpP_AC2_29	head scaffolding protein	99.6	100.0	ON080941_00017
+vB_VpP_AC2_29	head scaffolding protein	99.6	99.6	OK349506_00031
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	OK585158_00009
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	MW331544_00032
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	LR794124_00033
+vB_VpP_AC2_29	head scaffolding protein	99.6	99.3	MT501516_00031
+vB_VpP_AC2_29	head scaffolding protein	99.6	99.3	FJ896200_00033
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.9	OK585159_00009
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OP117450_00006
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	ON872379_00017
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OM362522_00019
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OM799543_00031
+vB_VpP_AC2_29	head scaffolding protein	99.6	97.4	MZ592921_00019
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MF754112_00043
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MF754111_00007
+vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MZ516827_00023
+vB_VpP_AC2_29	head scaffolding protein	99.6	97.8	OK585160_00009
+vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	MZ020222_00014
+vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	MW250641_00018
+vB_VpP_AC2_29	head scaffolding protein	99.6	96.3	MZ182247_00022
+vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	ON080940_00022
+vB_VpP_AC2_29	head scaffolding protein	99.6	95.9	MT178448_00031
+vB_VpP_AC2_29	head scaffolding protein	99.6	83.7	ON457557_00032
+vB_VpP_AC2_29	head scaffolding protein	99.6	83.7	ON457556_00026
+vB_VpP_AC2_30	major head protein	99.7	100.0	ON864052_00030
+vB_VpP_AC2_30	major head protein	99.7	99.7	MW331544_00033
+vB_VpP_AC2_30	major head protein	99.7	99.7	LR794124_00034
+vB_VpP_AC2_30	major head protein	99.7	99.7	MT501516_00032
+vB_VpP_AC2_30	major head protein	99.7	99.7	FJ896200_00034
+vB_VpP_AC2_30	major head protein	99.7	99.4	OK585160_00008
+vB_VpP_AC2_30	major head protein	99.7	99.4	OK585159_00008
+vB_VpP_AC2_30	major head protein	99.7	99.4	ON080940_00023
+vB_VpP_AC2_30	major head protein	99.7	99.4	OK349506_00032
+vB_VpP_AC2_30	major head protein	99.7	99.1	MZ516827_00024
+vB_VpP_AC2_30	major head protein	99.7	98.8	OK585158_00008
+vB_VpP_AC2_30	major head protein	99.7	97.9	OM799543_00032
+vB_VpP_AC2_30	major head protein	99.7	97.9	MF754111_00008
+vB_VpP_AC2_30	major head protein	99.7	97.6	OP117450_00005
+vB_VpP_AC2_30	major head protein	99.7	97.6	OM362522_00018
+vB_VpP_AC2_30	major head protein	99.7	97.6	MZ592921_00020
+vB_VpP_AC2_30	major head protein	99.7	97.6	ON872379_00016
+vB_VpP_AC2_30	major head protein	99.7	97.6	MZ182247_00023
+vB_VpP_AC2_30	major head protein	99.7	97.6	MZ020222_00013
+vB_VpP_AC2_30	major head protein	99.7	97.6	MT178448_00032
+vB_VpP_AC2_30	major head protein	99.4	97.9	MF754112_00044
+vB_VpP_AC2_30	major head protein	99.7	97.6	ON080941_00016
+vB_VpP_AC2_30	major head protein	99.4	97.3	MW250641_00017
+vB_VpP_AC2_30	major head protein	99.4	96.7	ON457557_00033
+vB_VpP_AC2_30	major head protein	99.4	96.7	ON457556_00027
+vB_VpP_AC2_32	tail protein	99.5	100.0	ON864052_00032
+vB_VpP_AC2_32	tail protein	99.5	100.0	OK349506_00034
+vB_VpP_AC2_32	tail protein	99.5	100.0	MZ516827_00026
+vB_VpP_AC2_32	tail protein	99.5	100.0	MW331544_00035
+vB_VpP_AC2_32	tail protein	99.5	100.0	LR794124_00036
+vB_VpP_AC2_32	tail protein	99.5	100.0	MT501516_00034
+vB_VpP_AC2_32	tail protein	99.5	99.5	MF754111_00010
+vB_VpP_AC2_32	tail protein	99.5	99.5	OK585158_00006
+vB_VpP_AC2_32	tail protein	99.5	99.5	ON080941_00014
+vB_VpP_AC2_32	tail protein	99.5	99.5	OM799543_00034
+vB_VpP_AC2_32	tail protein	99.5	99.5	FJ896200_00036
+vB_VpP_AC2_32	tail protein	99.5	98.9	MF754112_00046
+vB_VpP_AC2_32	tail protein	99.5	97.8	ON080940_00025
+vB_VpP_AC2_32	tail protein	99.5	97.8	MZ592921_00022
+vB_VpP_AC2_32	tail protein	99.5	97.3	OK585160_00006
+vB_VpP_AC2_32	tail protein	99.5	97.3	OK585159_00006
+vB_VpP_AC2_32	tail protein	99.5	97.3	OP117450_00003
+vB_VpP_AC2_32	tail protein	99.5	97.3	MW250641_00015
+vB_VpP_AC2_32	tail protein	99.5	96.8	MT178448_00034
+vB_VpP_AC2_32	tail protein	99.5	96.2	ON872379_00014
+vB_VpP_AC2_32	tail protein	99.5	96.2	OM362522_00016
+vB_VpP_AC2_32	tail protein	99.5	96.2	MZ182247_00025
+vB_VpP_AC2_32	tail protein	99.5	96.2	MZ020222_00011
+vB_VpP_AC2_32	tail protein	99.5	96.2	ON457557_00035
+vB_VpP_AC2_32	tail protein	99.5	96.2	ON457556_00029
+vB_VpP_AC2_33	tail protein	99.9	100.0	ON864052_00033
+vB_VpP_AC2_33	tail protein	99.9	99.0	MZ516827_00027
+vB_VpP_AC2_33	tail protein	99.9	98.8	MT501516_00035
+vB_VpP_AC2_33	tail protein	99.9	98.8	FJ896200_00037
+vB_VpP_AC2_33	tail protein	99.9	98.8	MF754112_00047
+vB_VpP_AC2_33	tail protein	99.9	98.7	MW331544_00036
+vB_VpP_AC2_33	tail protein	99.9	98.7	LR794124_00037
+vB_VpP_AC2_33	tail protein	99.9	98.5	ON080941_00013
+vB_VpP_AC2_33	tail protein	99.9	98.2	OK585160_00005
+vB_VpP_AC2_33	tail protein	99.9	98.2	OK585159_00005
+vB_VpP_AC2_33	tail protein	99.9	96.8	OK585158_00005
+vB_VpP_AC2_33	tail protein	99.9	98.3	OK349506_00035
+vB_VpP_AC2_33	tail protein	99.9	98.3	MF754111_00011
+vB_VpP_AC2_33	tail protein	99.9	94.2	MN974282_00034
+vB_VpP_AC2_33	tail protein	99.9	94.2	MK474470_00034
+vB_VpP_AC2_33	tail protein	99.9	94.1	ON457555_00036
+vB_VpP_AC2_33	tail protein	99.9	94.1	ON457554_00036
+vB_VpP_AC2_33	tail protein	99.9	94.1	ON457557_00036
+vB_VpP_AC2_33	tail protein	99.9	94.1	ON457556_00030
+vB_VpP_AC2_33	tail protein	99.9	94.6	MZ592921_00023
+vB_VpP_AC2_33	tail protein	99.9	95.4	ON080940_00026
+vB_VpP_AC2_33	tail protein	99.9	95.0	MW250641_00014
+vB_VpP_AC2_33	tail protein	99.9	94.4	MZ182247_00026
+vB_VpP_AC2_33	tail protein	99.9	95.1	OP117450_00002
+vB_VpP_AC2_33	tail protein	99.9	94.2	ON872379_00013
+vB_VpP_AC2_34	internal virion protein	99.6	100.0	ON864052_00034
+vB_VpP_AC2_34	internal virion protein	99.6	98.4	OK585158_00004
+vB_VpP_AC2_34	internal virion protein	99.6	98.4	FJ896200_00038
+vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK585160_00004
+vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK585159_00004
+vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK349506_00036
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457557_00037
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457556_00031
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457555_00037
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457554_00037
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	MN974282_00035
+vB_VpP_AC2_34	internal virion protein	99.6	86.7	MK474470_00035
+vB_VpP_AC2_34	internal virion protein	85.1	84.9	MZ182247_00027
+vB_VpP_AC2_34	internal virion protein	85.1	84.4	MW250641_00013
+vB_VpP_AC2_34	internal virion protein	98.0	84.8	MT178448_00036
+vB_VpP_AC2_34	internal virion protein	85.1	84.0	ON872379_00012
+vB_VpP_AC2_34	internal virion protein	85.1	84.0	MZ020222_00009
+vB_VpP_AC2_34	internal virion protein	85.1	84.0	OM362522_00014
+vB_VpP_AC2_34	internal virion protein	85.1	84.4	ON080941_00012
+vB_VpP_AC2_34	internal virion protein	85.1	84.4	MT501516_00036
+vB_VpP_AC2_34	internal virion protein	85.1	83.0	OP117450_00001
+vB_VpP_AC2_34	internal virion protein	85.1	83.0	ON080940_00027
+vB_VpP_AC2_34	internal virion protein	85.1	83.0	OM799543_00036
+vB_VpP_AC2_34	internal virion protein	85.1	83.0	MZ592921_00024
+vB_VpP_AC2_34	internal virion protein	85.1	83.0	MF754112_00048
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	100.0	ON864052_00035
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	99.0	MT501516_00037
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.9	MZ516827_00029
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.9	ON080941_00011
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.5	OK585158_00003
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.2	FJ896200_00039
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.2	OK349506_00037
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	MW331544_00038
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	LR794124_00039
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	ON080940_00028
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	97.8	OM799543_00037
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.1	OK585160_00003
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.1	OK585159_00003
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.3	MW250641_00012
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.3	MF754111_00013
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.2	ON872379_00011
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.8	MF754112_00049
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.7	MZ182247_00028
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.4	MT178448_00037
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.5	MZ020222_00008
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.5	MN974282_00036
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.5	MK474470_00036
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.4	ON457557_00038
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.4	ON457556_00032
+vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.3	ON457555_00038
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	100.0	ON864052_00036
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	MF754112_00050
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	OK585160_00002
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	OK585159_00002
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	ON872379_00010
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MF754111_00014
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ020222_00007
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OP117450_00046
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	ON080941_00010
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ182247_00029
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OM799543_00038
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ592921_00026
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ516827_00030
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OK585158_00002
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	OM362522_00011
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.0	ON080940_00029
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	MW250641_00011
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	MT501516_00038
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.9	OK349506_00038
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.9	MT178448_00038
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.8	MW331544_00039
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.8	LR794124_00040
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.5	FJ896200_00040
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.0	ON457555_00039
+vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.0	ON457554_00039
+vB_VpP_AC2_37	tail fiber protein	99.5	100.0	ON864052_00037
+vB_VpP_AC2_37	tail fiber protein	99.5	99.5	OK349506_00039
+vB_VpP_AC2_37	tail fiber protein	99.5	99.5	MZ516827_00031
+vB_VpP_AC2_37	tail fiber protein	99.5	99.0	ON080941_00009
+vB_VpP_AC2_37	tail fiber protein	99.5	99.0	MW331544_00040
+vB_VpP_AC2_37	tail fiber protein	99.5	99.0	LR794124_00041
+vB_VpP_AC2_37	tail fiber protein	99.5	98.5	OK585158_00001
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MF754111_00015
+vB_VpP_AC2_37	tail fiber protein	99.5	98.5	FJ896200_00041
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OM799543_00039
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MZ592921_00027
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MZ020222_00006
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MT501516_00039
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OK585160_00001
+vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OK585159_00001
+vB_VpP_AC2_37	tail fiber protein	99.5	97.5	ON080940_00030
+vB_VpP_AC2_37	tail fiber protein	99.5	97.0	ON872379_00009
+vB_VpP_AC2_37	tail fiber protein	99.5	97.0	OM362522_00010
+vB_VpP_AC2_37	tail fiber protein	99.5	97.0	MZ182247_00030
+vB_VpP_AC2_37	tail fiber protein	99.5	97.0	OP117450_00045
+vB_VpP_AC2_37	tail fiber protein	99.5	96.1	MW250641_00010
+vB_VpP_AC2_37	tail fiber protein	99.5	96.1	MT178448_00039
+vB_VpP_AC2_37	tail fiber protein	99.5	95.1	ON457555_00040
+vB_VpP_AC2_37	tail fiber protein	99.5	95.1	ON457554_00040
+vB_VpP_AC2_37	tail fiber protein	99.5	94.6	ON457557_00040
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585160_00047
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585159_00047
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585158_00048
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	ON864052_00039
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MZ516827_00033
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MW331544_00042
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	LR794124_00043
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MT501516_00041
+vB_VpP_AC2_39	terminase small subunit	99.0	100.0	FJ896200_00043
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OP117450_00043
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON872379_00007
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON080941_00007
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON080940_00032
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OM799543_00041
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OK349506_00041
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MZ182247_00032
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MF754112_00003
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MT178448_00041
+vB_VpP_AC2_39	terminase small subunit	99.0	97.0	OM362522_00008
+vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MW250641_00008
+vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MZ592921_00029
+vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MZ020222_00004
+vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MF754111_00017
+vB_VpP_AC2_39	terminase small subunit	99.0	97.0	ON457557_00042
+vB_VpP_AC2_39	terminase small subunit	99.0	97.0	ON457556_00036
+vB_VpP_AC2_40	terminase large subunit	99.8	100.0	ON864052_00040
+vB_VpP_AC2_40	terminase large subunit	99.8	99.8	OP117450_00042
+vB_VpP_AC2_40	terminase large subunit	99.8	99.8	OM799543_00042
+vB_VpP_AC2_40	terminase large subunit	99.8	99.8	MZ592921_00030
+vB_VpP_AC2_40	terminase large subunit	99.8	99.8	MZ020222_00003
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585160_00046
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585159_00046
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585158_00047
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	ON080941_00006
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	ON080940_00033
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK349506_00042
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MZ516827_00034
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MW331544_00043
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	LR794124_00044
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MT501516_00042
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MF754112_00004
+vB_VpP_AC2_40	terminase large subunit	99.8	99.5	MW250641_00007
+vB_VpP_AC2_40	terminase large subunit	99.8	99.5	MF754111_00018
+vB_VpP_AC2_40	terminase large subunit	99.8	99.7	FJ896200_00044
+vB_VpP_AC2_40	terminase large subunit	99.8	99.5	ON872379_00006
+vB_VpP_AC2_40	terminase large subunit	99.8	99.4	OM362522_00007
+vB_VpP_AC2_40	terminase large subunit	99.8	99.2	MT178448_00042
+vB_VpP_AC2_40	terminase large subunit	99.8	99.4	MZ182247_00033
+vB_VpP_AC2_40	terminase large subunit	99.8	98.7	ON457557_00043
+vB_VpP_AC2_40	terminase large subunit	99.8	98.7	ON457556_00037
+vB_VpP_AC2_43	hypothetical protein	99.5	51.0	MZ592921_00033
+vB_VpP_AC2_43	hypothetical protein	99.5	50.0	OP117450_00039
+vB_VpP_AC2_43	hypothetical protein	99.5	49.5	MZ020222_00049
+vB_VpP_AC2_43	hypothetical protein	97.3	42.6	OK349506_00045
+vB_VpP_AC2_44	endolysin	99.3	100.0	ON872379_00002
+vB_VpP_AC2_44	endolysin	99.3	100.0	ON864052_00044
+vB_VpP_AC2_44	endolysin	99.3	100.0	ON080940_00037
+vB_VpP_AC2_44	endolysin	99.3	100.0	MZ516827_00038
+vB_VpP_AC2_44	endolysin	99.3	100.0	MZ182247_00038
+vB_VpP_AC2_44	endolysin	99.3	99.3	MT501516_00046
+vB_VpP_AC2_44	endolysin	99.3	99.3	MF754112_00009
+vB_VpP_AC2_44	endolysin	99.3	99.3	MF754111_00023
+vB_VpP_AC2_44	endolysin	99.3	98.5	OK585160_00041
+vB_VpP_AC2_44	endolysin	99.3	98.5	OK585159_00041
+vB_VpP_AC2_44	endolysin	99.3	98.5	OM362522_00002
+vB_VpP_AC2_44	endolysin	99.3	98.5	OM799543_00047
+vB_VpP_AC2_44	endolysin	99.3	97.8	MZ020222_00047
+vB_VpP_AC2_44	endolysin	99.3	96.4	OK349506_00046
+vB_VpP_AC2_44	endolysin	99.3	96.4	OK585158_00043
+vB_VpP_AC2_44	endolysin	99.3	96.4	ON080941_00002
+vB_VpP_AC2_44	endolysin	99.3	96.4	FJ896200_00048
+vB_VpP_AC2_44	endolysin	99.3	97.1	MZ592921_00035
+vB_VpP_AC2_44	endolysin	99.3	96.4	MW250641_00002
+vB_VpP_AC2_44	endolysin	99.3	95.6	MW331544_00047
+vB_VpP_AC2_44	endolysin	99.3	95.6	LR794124_00048
+vB_VpP_AC2_44	endolysin	99.3	96.4	OP117450_00037
+vB_VpP_AC2_44	endolysin	99.3	93.4	MN974282_00046
+vB_VpP_AC2_44	endolysin	99.3	93.4	MK474470_00046
+vB_VpP_AC2_44	endolysin	99.3	92.7	ON457557_00048
+vB_VpP_AC2_46	hypothetical protein	55.9	84.8	MT178448_00049
+vB_VpP_AC2_46	hypothetical protein	56.8	70.1	MW331544_00049
+vB_VpP_AC2_46	hypothetical protein	56.8	70.1	LR794124_00050
+vB_VpP_AC2_46	hypothetical protein	60.2	55.7	MT501516_00048
+vB_VpP_AC2_46	hypothetical protein	55.9	67.1	FJ896200_00050
+vB_VpP_AC2_46	hypothetical protein	50.8	66.7	MZ592921_00037
+vB_VpP_AC2_46	hypothetical protein	56.8	64.2	OK349506_00048
+vB_VpP_AC2_46	hypothetical protein	36.4	80.9	OK585158_00041
+vB_VpP_AC2_46	hypothetical protein	34.7	85.4	MZ020222_00045
+vB_VpP_AC2_46	hypothetical protein	33.1	80.0	OM799543_00049
+vB_VpP_AC2_46	hypothetical protein	68.6	46.9	MN974282_00048
+vB_VpP_AC2_46	hypothetical protein	68.6	46.9	MK474470_00048
+vB_VpP_AC2_46	hypothetical protein	31.4	51.9	ON080941_00049
+vB_VpP_AC2_49	endonuclease	93.3	54.6	MW250641_00046
+vB_VpP_AC2_49	endonuclease	93.3	53.6	MT178448_00003
+vB_VpP_AC2_49	endonuclease	99.0	51.5	OP117450_00033
+vB_VpP_AC2_49	endonuclease	99.0	51.5	MZ592921_00040
+vB_VpP_AC2_49	endonuclease	99.0	51.5	OM799543_00003
+vB_VpP_AC2_50	hypothetical protein	98.0	69.4	MT501516_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	ON457555_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	ON457554_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	MW331544_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	LR794124_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	FJ896200_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	67.3	MZ020222_00041
+vB_VpP_AC2_50	hypothetical protein	98.0	65.3	OK349506_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	65.3	MF754112_00015
+vB_VpP_AC2_50	hypothetical protein	98.0	65.3	MF754111_00029
+vB_VpP_AC2_50	hypothetical protein	98.0	65.3	MT178448_00004
+vB_VpP_AC2_50	hypothetical protein	98.0	61.2	OM362522_00046
+vB_VpP_AC2_50	hypothetical protein	98.0	61.2	OM799543_00004
+vB_VpP_AC2_50	hypothetical protein	80.0	52.5	ON457557_00004
+vB_VpP_AC2_50	hypothetical protein	80.0	52.5	ON457556_00047
+vB_VpP_AC2_50	hypothetical protein	58.0	58.6	OK585158_00037

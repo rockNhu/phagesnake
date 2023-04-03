@@ -25,7 +25,7 @@ if run_vc == True:
     rule all:
         input:
             'Done-ANI',
-            'Done-terL-tree',
+            'Done-TerL-tree',
             'Done-anno',
             'Done-Stat',
             'Done-vConTACT'
@@ -34,12 +34,12 @@ else:
     rule all:
         input:
             'Done-ANI',
-            'Done-terL-tree',
+            'Done-TerL-tree',
             'Done-anno',
             'Done-Stat'
 
 include: 'rules/nucl_align.smk'
-include: 'rules/terL_tree.smk'
+include: 'rules/TerL_tree.smk'
 include: 'rules/annotations.smk'
 include: 'rules/genome_stat.smk'
 
@@ -54,6 +54,7 @@ touch {output}
 rule annotations:
     input:
         expand("output/{sample}/{sample}.png",sample=Samples),
+        expand("output/{sample}/{sample}.svg",sample=Samples),
         expand("output/{sample}/{sample}.gbk",sample=Samples)
     output: temp('Done-anno')
     shell: '''echo "Annotations - finished."
@@ -61,9 +62,11 @@ echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
 touch {output}
 '''
 
-rule terL_tree:
-    input: expand("output/{sample}/TerL.pdf",sample=Samples)
-    output: temp('Done-terL-tree')
+rule TerL_tree:
+    input: 
+        expand("output/{sample}/TerL.png",sample=Samples),
+        expand("output/{sample}/TerL.svg",sample=Samples)
+    output: temp('Done-TerL-tree')
     shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
 touch {output}
 '''

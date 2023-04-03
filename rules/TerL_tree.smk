@@ -37,7 +37,7 @@ rule MAFFT_iqtree:
     input: "output/{sample}/TerL.faa"
     output:
         aln = "output/{sample}/TerL_tree/TerL.aln",
-        tree = "output/{sample}/TerL_tree/TerL.aln.treefile"
+        tree = protected("output/{sample}/TerL_tree/TerL.aln.treefile")
     threads: 20
     params: wkdir = "output/{sample}/TerL_tree"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
@@ -45,7 +45,7 @@ rule MAFFT_iqtree:
     shell: '''if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
 if [ $(grep -c '>' {input}) -gt 3 ];then 
     mafft --auto --quiet {input} > {output.aln}
-    iqtree -s {output.aln} -T {threads} --undo -B 1000 >> {log}
+    iqtree -s {output.aln} -T {threads} -B 1000 --redo-tree >> {log}
 else
     echo "Error: {input} is not ok!"
     for i in {output};do
@@ -58,12 +58,15 @@ fi
 # 2.2.5 ggtree visualization
 rule phylotree_visualize:
     input: "output/{sample}/TerL_tree/TerL.aln.treefile"
-    output: protected("output/{sample}/TerL.pdf")
+    output:
+        svg_out = protected("output/{sample}/TerL.svg"),
+        png_out = protected("output/{sample}/TerL.png")
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''
 if [ -s {input} ];then
-    python {script_dir}/plot_tree.py {input} {output} >> {log}
+    python {script_dir}/plot_tree.py {input} {output.svg_out} >> {log}
+    python {script_dir}/plot_tree.py {input} {output.png_out} >> {log}
 else
     touch {output}
 fi
