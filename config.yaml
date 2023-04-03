@@ -1,10 +1,10 @@
 # the config file of snakemake
-workdir: "."
-Conda_yaml_dir: "envs"
-log_dir: "log"
+workdir: "./"
+Conda_yaml_dir: "envs/"
+log_dir: "log/"
 fna_dir: "fna_files/"
-temp_dir: "temp"
+fmt_fna_dir: "fmt_fna/"
 script_dir : 'scripts/'
-db_path : "Database/vcontact2_db/Oct/"
-db_prefix : "1Oct2022"
+db_path : "Database/"
+db_prefix : "1Mar2023"
 run_vConTACT: False
