@@ -121,17 +121,17 @@ AC2: ![](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
 
 The arrow plot from `.gbk`.
 
-AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.svg)
+AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.png)
 
-LY2: ![vB_BceH_LY2](output/LY2_LY4_0/LY2_LY4_0.svg)
+LY2: ![vB_BceH_LY2](output/LY2_LY4_0/LY2_LY4_0.png)
 
-LY4: ![vB_BceP_LY4](output/LY2_LY4_1/LY2_LY4_1.svg)
+LY4: ![vB_BceP_LY4](output/LY2_LY4_1/LY2_LY4_1.png)
 
 ### TerL tree output
 
-AC2: ![](output/vB_VpP_AC2_0/TerL.svg)
+AC2: ![](output/vB_VpP_AC2_0/TerL.png)
 
-LY2: ![](output/LY2_LY4_0/TerL.svg)
+LY2: ![](output/LY2_LY4_0/TerL.png)
 
 ### Genome Statistic
 
