@@ -1,6 +1,7 @@
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
+from Bio import SeqIO
 from dna_features_viewer import BiopythonTranslator, CircularGraphicRecord
 '''
 usage website:
@@ -114,8 +115,15 @@ class arrow_plot(object):
             help='Path to output, default is custom_bopython_translator.png'
         )
         self.args = parser.parse_args()
+        self.size = self.size_controller()
         self.main()
 
+    def size_controller(self):
+        '''Using the genome size to set plot width'''
+        handle = SeqIO.read(open(self.args.input),'genbank')
+        seq_len = len(handle.seq)
+        return seq_len * 0.0006
+    
     def plot_arrow_n_gc(self):
         '''Plot the local gc content '''
         def gc_plot(record, windows=50):
@@ -128,7 +136,7 @@ class arrow_plot(object):
 
         graphic_record = MyCustomTranslator().translate_record(self.args.input)
         _, (ax1, ax2) = plt.subplots(
-            2, 1, figsize=(24, 6), sharex=True,
+            2, 1, figsize=(self.size, 6), sharex=True,
             gridspec_kw={"height_ratios": [4, 1]}
         )
         graphic_record.plot(ax=ax1, with_ruler=False, strand_in_label_threshold=4)
@@ -152,7 +160,7 @@ class arrow_plot(object):
 
     def plot_arrow_in_line(self):
         graphic_record = MyCustomTranslator().translate_record(self.args.input)
-        ax, _ = graphic_record.plot(figure_width=24)
+        ax, _ = graphic_record.plot(figure_width=self.size)
         ax.figure.tight_layout()
         ax.figure.savefig(self.args.output)
 
