@@ -26,6 +26,8 @@ class make_final_gbk(object):
         self.main()
 
     def _check_unknow(self, anno):
+        '''The unknow annotation in blast or eggnog,
+        return True, the anno is unknown'''
         unknow_words = ['Uncharacterized', 'uncharacterized',
                         'Unannotated', 'unannotated'
                         'Unknow', 'unknow',
@@ -34,6 +36,8 @@ class make_final_gbk(object):
         return any(un in anno for un in unknow_words)
 
     def _check_blur(self, anno):
+        '''The unknow annotation in eggnog
+        return True, the anno is blurred'''
         blur_words = ['putative','domain-contain','family']
         return any(b in anno for b in blur_words)
 
@@ -43,7 +47,7 @@ class make_final_gbk(object):
             content = line.strip('\n').split('\t')
             name = content[0]
             product = content[1]
-            if self._check_unknow(product)[0]:
+            if self._check_unknow(product):
                 continue
             elif name not in name_data:
                 name_data[name] = product
@@ -57,7 +61,7 @@ class make_final_gbk(object):
             content = line.strip('\n').split('\t')
             name = content[0]
             product = content[7]
-            if not self._check_unknow(product) or self._check_blur(product) or product == '-':
+            if self._check_unknow(product) or self._check_blur(product) or product == '-':
                 product = 'hypothetical protein'
             gos = content[9]
             ec = content[10]
