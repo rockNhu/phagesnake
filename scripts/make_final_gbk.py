@@ -26,9 +26,20 @@ class make_final_gbk(object):
         self.main()
 
     def _check_unknow(self, anno):
-        unknow_list = ['Uncharacterized','hypo','unknow','family','-','putative']
-        return any(un in anno for un in unknow_list)
+        '''The unknow annotation in blast or eggnog,
+        return True, the anno is unknown'''
+        unknow_words = ['Uncharacterized', 'uncharacterized',
+                        'Unannotated', 'unannotated'
+                        'Unknow', 'unknow',
+                        'Hypothetical', 'hypothetical',
+                        ]
+        return any(un in anno for un in unknow_words)
 
+    def _check_blur(self, anno):
+        '''The unknow annotation in eggnog
+        return True, the anno is blurred'''
+        blur_words = ['putative','domain-contain','family']
+        return any(b in anno for b in blur_words)
 
     def parse_blastp_anno(self, blastp_out):
         name_data = {}
@@ -36,7 +47,7 @@ class make_final_gbk(object):
             content = line.strip('\n').split('\t')
             name = content[0]
             product = content[1]
-            if 'Uncharacterized' in product or 'unknown' in product or 'hypothetical' in product:
+            if self._check_unknow(product):
                 continue
             elif name not in name_data:
                 name_data[name] = product
@@ -50,12 +61,7 @@ class make_final_gbk(object):
             content = line.strip('\n').split('\t')
             name = content[0]
             product = content[7]
-            if (
-                'Uncharacterized' in product
-                or 'hypothetical' in product
-                or 'unknown' in product
-                or product == '-'
-            ):
+            if self._check_unknow(product) or self._check_blur(product) or product == '-':
                 product = 'hypothetical protein'
             gos = content[9]
             ec = content[10]
@@ -113,7 +119,7 @@ class make_final_gbk(object):
                     features.append(feature)
             record.annotations['molecule_type'] = "DNA"
             new_record.append(SeqRecord(record.seq, seq_id, record.name,
-                record.description, record.dbxrefs, features, record.annotations))
+                                        record.description, record.dbxrefs, features, record.annotations))
         return new_record
 
     def _extract_eggnog_feature(self, eggnog, feature):
