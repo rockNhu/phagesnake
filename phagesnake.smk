@@ -82,7 +82,8 @@ touch {output}
 '''
 
 rule genome_stat: 
-    input: "seq_info.tsv"
+    input: "seq_info.tsv",
+        expand("output/{sample}/abr_check.tsv",sample=Samples)
     output: temp('Done-Stat')
     shell: '''echo "Genome statistic - finished. Only python3 used."
 touch {output}

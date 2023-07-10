@@ -9,7 +9,6 @@ rule Prodigal:
     log: f"{log_dir}/" + "{sample}_annotations.log"
     shell: "prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q -p meta > {log}"
 
-
 # 2.1.1 EggNOG annotation
 rule EggNOG:
     input: "output/{sample}/{sample}.faa"
@@ -24,7 +23,6 @@ emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
     --output_dir {params.out_dir} --override --go_evidence non-electronic >> {log}
 '''
 
-
 # 2.2.1 Diamond blastp All protein to find the annotation
 rule Diamond_blastp:
     input: 'output/{sample}/{sample}.faa'
@@ -37,7 +35,6 @@ rule Diamond_blastp:
     shell: '''diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
     -p {threads} --quiet --sensitive --outfmt 6 qseqid sseqid pident qcovhsp >> {log}
 '''
-
 
 # 2.2.2 parse the blastp All output
 rule filter_All_BLASTp:
@@ -73,7 +70,6 @@ rule filter_All_BLASTp:
         with open(output[0],'w') as f:
             f.write(out_line)
 
-
 # 2.3 fasta + Prodigal + EggNOG + blastp -> gbk
 rule final_gbk:
     input:
@@ -90,7 +86,6 @@ rule final_gbk:
     -o {output} >> {log}
 '''
 
-
 # 2.3.1 genome_viewer
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
@@ -101,4 +96,34 @@ rule genome_visualize:
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
 python {script_dir}/plot_arrow.py -i {input} -o {output.svg_out} >> {log}
+'''
+
+# abricate protocol
+rule abr:
+    input: fmt_fna_dir +"/{sample}.fasta"
+    output: 
+        card_out = "output/{sample}/ABRicate/CARD_out.tab",
+        vfdb_out = "output/{sample}/ABRicate/VFDB_out.tab",
+        resf_out = "output/{sample}/ABRicate/ResF_out.tab",
+        arga_out = "output/{sample}/ABRicate/ArgA_out.tab",
+        ecoh_out = "output/{sample}/ABRicate/EcoH_out.tab",
+        ecov_out = "output/{sample}/ABRicate/Ecoli_VF_out.tab",
+        megares_out = "output/{sample}/ABRicate/MegaRes_out.tab",
+        ncbi_out = "output/{sample}/ABRicate/NCBI_out.tab",
+        abr_check = protected("output/{sample}/abr_check.tsv")
+    log: f"{log_dir}/" + "{sample}_annotations.log"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    threads: 8
+    params:
+        out_dir = "output/{sample}/ABRicate"
+    shell: '''if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
+abricate --quiet --nopath --db card {input} 1> {output.card_out} 2>> {log}
+abricate --quiet --nopath --db vfdb {input} 1> {output.vfdb_out} 2>> {log}
+abricate --quiet --nopath --db resfinder {input} 1> {output.resf_out} 2>> {log}
+abricate --quiet --nopath --db argannot {input} 1> {output.arga_out} 2>> {log}
+abricate --quiet --nopath --db ecoh {input} 1> {output.ecoh_out} 2>> {log}
+abricate --quiet --nopath --db ecoli_vf {input} 1> {output.ecov_out} 2>> {log}
+abricate --quiet --nopath --db megares {input} 1> {output.megares_out} 2>> {log}
+abricate --quiet --nopath --db ncbi {input} 1> {output.ncbi_out} 2>> {log}
+python {script_dir}/count_final.py -i {params.out_dir} -o {output.abr_check} >> {log}
 '''
