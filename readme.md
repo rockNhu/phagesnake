@@ -1,7 +1,7 @@
 # PhageSnake
 
 The PhageSnake was a basic automated bacteriophage(phage) genome analysis protocol, coded by Snakemake.
-The input was only phage genomic assembly in FASTA format. **Only 1 contig/scaffold for the genome is supported now.**
+The input format only supported phage genomic assembly in FASTA format.
 
 ## Usage
 
@@ -9,7 +9,7 @@ The input was only phage genomic assembly in FASTA format. **Only 1 contig/scaff
 
 #### 0.1 Environment setting
 
-It was easier to rebuild an environment by CONDA.
+It was easier to rebuild an environment by [CONDA](https://github.com/conda/conda).
 Used software was listed in `./envs/phagesnake.yaml`.
 
 ```bash
@@ -73,6 +73,7 @@ This protocol part was present as `annotations` in the DAG plot.
 - For more annotation(KEGG, GO, EC, Pfam, etc.), [EggNOG](https://github.com/eggnogdb/eggnog-mapper) with its database was used.
 - Finally, comprehensively considered the protein annotations in alignments, using [Biopython](https://github.com/biopython/biopython) to make the final annotated genome: `.gbk`.
 - The genome visualization was plotted using [Dna Features Viewer](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer). In the genome plot, the colors of ORFs mean different functions of phage:
+- To check drug resistance genes and viral factors in the genome, ABRicate was used to align the genome to its database. Finally, output `abr_check.tsv`. If `abr_check.tsv` is empty, the genome was safe for humans.
 
 | Color                                             |    Function    |
 | ------------------------------------------------- | :------------: |
@@ -159,9 +160,10 @@ LY2: ![LY2terL](output/LY2_LY4_0/TerL.png)
 
 ### rerun
 
-Often, the outputs were unsatisfactory, the temporary file could be changed by hand, then rerun the protocol. In another way, it could build a new small protocol for optimization was also recommended.
+Often, the outputs were unsatisfactory, the temporary could be changed by hand, then rerun the protocol. In another way, it could build a new small protocol for optimization.
 
-When rerun protocol, the files marked as `protected()` would output the **ProtectedOutputException**, these files should be deleted, then rerun it.
+When rerun protocol, the files marked as `protected()` would throw the **ProtectedOutputException**, these files should be deleted, then rerun it.
+
 To fix this **Exception**, could run with `--dry-run` to check.
 
 ```bash
