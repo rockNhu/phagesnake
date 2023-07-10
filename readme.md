@@ -42,6 +42,13 @@ conda activate phage_snake
 snakemake -s phagesnake.smk --cores 60
 ```
 
+If **Cluster Server** was available, the protocol also could run as follow:
+
+```bash
+conda activate phagesnake
+snakemake -s phagesnake.smk --cluster 'qsub -d . -e error.log -o output.log' -j 4
+```
+
 ## The parts of the PhageSnake
 
 The Directed Acyclic Graph(DAG) plot of PhageSnake was here:
@@ -109,3 +116,55 @@ This protocol part was present as `genome_stat` in the DAG plot.
 |scaffolds number|Scaffolds of genome, to check the genome quality|
 |length|How many base pairs in genome|
 |ORFs number|Predict Open Reading Frames number in genome|
+
+## Sample and output
+
+### sample data
+
+The sample data were in `fna_files`. Here, two types of input FASTA format showed. All the samples were downloaded from [NCBI Genbank](https://www.ncbi.nlm.nih.gov/genbank/) database.
+
+1. The assembly only had 1 contig was the best. In sample data, `vB_VpP_AC2.fasta` had a complete genome. The genome of this single contig was recommended.
+
+2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In sample data, `LY2_LY4.fasta` had multiple genomes. In the default PhageSnake protocol, it would be divided into contigs and analyzed one by one. If any length of contig was lower than 5000 bp, it would be skipped.
+
+## Result
+
+All results were in `output`.
+
+### ANI output
+
+AC2: ![ac2ANI](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
+
+### Annotation output
+
+The arrow plot from `.gbk`.
+
+AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.png)
+
+LY2: ![vB_BceH_LY2](output/LY2_LY4_0/LY2_LY4_0.png)
+
+LY4: ![vB_BceP_LY4](output/LY2_LY4_1/LY2_LY4_1.png)
+
+### TerL tree output
+
+AC2: ![ac2terL](output/vB_VpP_AC2_0/TerL.png)
+
+LY2: ![LY2terL](output/LY2_LY4_0/TerL.png)
+
+### Genome Statistic
+
+[genome_statistic](seq_info.tsv)
+
+## Other tips
+
+### rerun
+
+Often, the outputs were unsatisfactory, the temporary file could be changed by hand, then rerun the protocol. In another way, it could build a new small protocol for optimization was also recommended.
+
+When rerun protocol, the files marked as `protected()` would output the **ProtectedOutputException**, these files should be deleted, then rerun it.
+To fix this **Exception**, could run with `--dry-run` to check.
+
+```bash
+# check the protocol
+snakemake -s phagesnake.smk --dry-run -R
+```
