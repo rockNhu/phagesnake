@@ -12,7 +12,7 @@ rule gene2genome:
                     name = line.split(' ',1)[0].replace('>', '')
                     f.write(f'{name},{wildcards.sample},none\n')
 
-#TODO: 2.2.1 the fmt checking
+# 2.4.2 bidirectory blast to get vConTACT input blastp file
 rule Diamond_blastp_raw:
     input:
         sample_faa = 'output/{sample}/{sample}.faa'
@@ -36,7 +36,7 @@ diamond blastp --query {params.database_faa} --db {output.sample_dmnd} \\
 cat {output.blp_f} {output.blp_r} > {output.final_blp}
 '''
 
-# 2.4.2 vConTACT2
+# 2.4.3 vConTACT2 main protocol
 rule vConTACT2:
     input: 
         g2g = 'output/{sample}/vcontact2/gene_to_genome.csv',
@@ -65,8 +65,8 @@ cp {params.wk_dir}/c1.ntw {output.network}
 cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
 '''
 
-# 2.4.3 vConTACT visualization
-rule vConTACT_visualize_test:
+# 2.4.4 vConTACT visualization
+rule vConTACT_visualize:
     input: 
         network = 'output/{sample}/c1.ntw',
         overview = 'output/{sample}/genome_by_genome_overview.csv',
@@ -75,22 +75,29 @@ rule vConTACT_visualize_test:
         small_network = 'output/{sample}/small_c1.ntw',
         small_overview = 'output/{sample}/small_genome_by_genome_overview.csv',
         small_database = 'output/{sample}/small_data.tsv',
-        graph = "output/{sample}/{sample}.html"
+        graph = "output/{sample}/{sample}_vConTACT2.html"
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     threads: 60
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    params: outdir = 'output/{sample}/graphanalyze'
+    params: outdir = 'output/{sample}/graphanalyze_'
     shell: '''
 python {script_dir}/smaller_vc_network.py -nwk {input.network} \\
     -ovv {input.overview} -db {input.db_data} -s {wildcards.sample} \\
     -onwk {output.small_network} -oovv {output.small_overview} \\
     -odb {output.small_database} >> {log}
-if [ ! -d {params.outdir} ];mkdir -p {params.outdir};fi
+if [ ! -d {params.outdir} ];then mkdir -p {params.outdir};fi
 if [ -s {output.small_network} ];then
     python {script_dir}/graphanalyzer.py --graph {input.network} --csv {input.overview} \\
         --metas {input.db_data} --prefix {wildcards.sample} --suffix '' \\
         --view 2d -t {threads} -o {params.outdir} >> {log}
-    cp {params.outdir}/*.html {output.graph}
+    cp {params.outdir}single-views_/{wildcards.sample}.html {output.graph}
+    mv {params.outdir}single-views_ {params.outdir}
+    mv {params.outdir}.pickle {params.outdir}
+    mv {params.outdir}results_vcontact2_.xlsx {params.outdir}
+    mv {params.outdir}results_vcontact2_.csv {params.outdir}
+    mv {params.outdir}graphanalyzer_.log {params.outdir}
+    mv {params.outdir}custom_taxonomy_table__mqc.txt {params.outdir}
+    mv {params.outdir}csv_edit_.xlsx {params.outdir}
 else
     echo "The phage is singleton in INPHARED database."
     touch {output.graph}
