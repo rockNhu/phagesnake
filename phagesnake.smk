@@ -79,7 +79,8 @@ rule run_vConTACT:
     input:
         expand("output/{sample}/c1.ntw",sample=Samples),
         expand("output/{sample}/genome_by_genome_overview.csv",sample=Samples),
-        expand("output/{sample}/{sample}_vConTACT.pdf",sample=Samples)
+        expand("output/{sample}/{sample}_vConTACT.pdf",sample=Samples),
+        expand('output/{sample}/small_c1.ntw',sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}

@@ -1,7 +1,6 @@
 #!/bin/env python3
 # -* coding = UTF-8 *-
 # @Author = Shixuan Huang
-
 import argparse
 
 
@@ -31,36 +30,56 @@ def check_singleton(ovv, sample):
     for line in open(ovv):
         return sample in line and 'Singleton' in line
 
-
 def filt_twice(nwk, ovv, db, sample):
     '''Get twice neibour of object.'''
-    once = []
-    for line in open(nwk):
-        content = line.strip('\n').split('\t')
-        data1 = content[0]
-        data2 = content[1]
+    class nwk_reader():
+        '''.ntw file has no header'''
+        def __init__(self, file):
+            self.reader = open(file)
+            self.handle = iter(self.reader)
+
+        def __iter__(self):
+            for line in self.handle:
+                content = line.strip('\n').split(' ')
+                data1 = content[0]
+                data2 = content[1]
+                yield data1, data2, line
+
+        def close(self):
+            self.reader.close()
+
+
+    once = set()
+    for data1, data2, _ in nwk_reader(nwk):
         if data1 == sample:
-            once.append(data2)
+            once.add(data2)
         elif data2 == sample:
-            once.append(data1)
-    twice = set()
-    twice_line = []
-    for line in open(nwk):
-        content = line.strip('\n').split('\t')
-        data1 = content[0]
-        data2 = content[1]
+            once.add(data1)
+    twice = set() # twice neibour is contain once
+    for data1, data2, _ in nwk_reader(nwk):
         if data1 in once or data2 in once:
             twice.add(data1)
             twice.add(data2)
-            twice_line.append(line)
-    twice_ovv = [
-        line for line in open(ovv)
-        if any(i in line.split(',')[0] for i in twice)
+    twice_line = [
+        line for data1, data2, line in nwk_reader(nwk)
+        if data1 in twice and data2 in twice
     ]
-    twice_db = [
-        line for line in open(db)
-        if any(i in line.split('\t')[0] for i in twice)
-    ]
+
+    def get_data(file, sp):
+        twice_out = []
+        head_num = 1
+        for line in open(file):
+            if head_num:
+                head_num -= 1
+                twice_out.append(line)
+                continue
+            if any(i in line.split(sp)[0] for i in twice):
+                twice_out.append(line)
+        return twice_out
+    
+    twice_ovv = get_data(ovv, ',')
+    twice_db = get_data(db, '\t')
+
     return twice_line, twice_ovv, twice_db
 
 def main():
@@ -79,3 +98,6 @@ def main():
         f.writelines(csv_filt)
     with open(args.output_small_db,'w') as f:
         f.writelines(metas_filt)
+
+if __name__ == '__main__':
+    main()

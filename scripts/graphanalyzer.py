@@ -289,7 +289,7 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
     logging.info('Processing of vConTACT2 output is started.\n')
 
     # less problematic when called as variable:
-    csv_edit = csv_edit.rename(columns={"VC Subcluster": "VCSubcluster"})
+    #csv_edit = csv_edit.rename(columns={"VC Subcluster": "VCSubcluster"})
     csv_edit = csv_edit.rename(columns={"VC Status": "VCStatus"})
 
     # sobstitute NA with '' to avoid future runtime errors:
@@ -358,17 +358,18 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
                 vc = "n.a."
                 sameclustered_list = []
 
+            # now VC subcluster change to VC and add "VC_" prefix
             elif status == "Clustered":
-                vc = row.VCSubcluster
+                vc = row.VC
                 # extract all scaffolds clustered in the same subcluster (hereafter: the "sameclustered")
-                sameclustered = csv_edit[csv_edit['VCSubcluster'] == vc]
+                sameclustered = csv_edit[csv_edit['VC'] == vc]
                 sameclustered_list = sameclustered["Genome"].tolist()
                 sameclustered_list.remove(scaffold) # remove current scaffold
 
             elif status == "Clustered/Singleton": # they have a subcluster of their own
                 # extract all the possible subclustered within the cluster
-                vc = "VC_" + row.VCSubcluster.split("_")[1] + "_"
-                sameclustered = csv_edit[csv_edit['VCSubcluster'].str.startswith(vc)]
+                vc = "VC_" + row.VC.split("_")[1] + "_"
+                sameclustered = csv_edit[csv_edit['VC'].str.startswith(vc)]
                 sameclustered_list = sameclustered["Genome"].tolist()
                 sameclustered_list.remove(scaffold) # remove current scaffold
 
@@ -377,7 +378,7 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
                 vc_list = status.replace("Overlap (", "").replace(")", "").split("/")
                 sameclustered = pnd.DataFrame() # empty df
                 for vc in vc_list: # extract the rows and glue them together with the others
-                    sameclustered = pnd.concat([sameclustered, csv_edit[csv_edit['VCSubcluster'].str.startswith(vc + "_")]])
+                    sameclustered = pnd.concat([sameclustered, csv_edit[csv_edit['VC'].str.startswith(vc + "_")]])
                     # handling of others Overlaps:
                     sameclustered = pnd.concat([sameclustered, csv_edit[
                         (csv_edit['VCStatus'].str.contains('\(' + vc + '/')) | \
@@ -445,8 +446,8 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
 
                 # update results:
                 if status == "Clustered/Singleton":
-                    # 'row.VCSubcluster' instead of 'vc', beacuse 'vc' changed during the algorithm
-                    results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, row.VCSubcluster)
+                    # 'row.VC' instead of 'vc', beacuse 'vc' changed during the algorithm
+                    results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, row.VC)
                 elif "Overlap" in status:
                     # 'n.a.' instead of 'vc', beacuse 'vc' changed during the algorithm
                     results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, vc="n.a.")
@@ -484,8 +485,8 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
 
                     # update results
                     if status == "Clustered/Singleton":
-                        # 'row.VCSubcluster' instead of 'vc', beacuse 'vc' changed during the algorithm
-                        results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, row.VCSubcluster)
+                        # 'row.VC' instead of 'vc', beacuse 'vc' changed during the algorithm
+                        results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, row.VC)
                     elif "Overlap" in status:
                         # 'n.a.' instead of 'vc', beacuse 'vc' changed during the algorithm
                         results = insertReference(csv_edit, results, scaffold, closer_ref, closer_ref_w, level, status, vc="n.a.")
@@ -508,7 +509,7 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
                     # Clustered, Outlier, Overlap. But NOT "Singleton" (that is: never present in the graph).
                     # Please note: also "Clustered/Singleton" is valid VCStatus, though never found in 'F' here till now.
                     status = row.VCStatus # should NOT be a "Singleton". 
-                    vc = row.VCSubcluster
+                    vc = row.VC
                     if status == "Outlier" or "Overlap" in status: 
                         vc = "n.a."
                     results = insertReference(csv_edit, results, scaffold=row.Genome, closer="n.a.", weight="n.a.", level=currlev, status=status, vc=vc)
@@ -577,7 +578,7 @@ def clusterExtractor(graph, csv_edit, output_path, string_suffix, prefix):
 def addGraphAttributes(graph, csv_edit, results, prefix): 
 
     # less problematic when called as variable
-    csv_edit = csv_edit.rename(columns={"VC Subcluster": "VCSubcluster"})
+    #csv_edit = csv_edit.rename(columns={"VC Subcluster": "VCSubcluster"})
     csv_edit = csv_edit.rename(columns={"VC Status": "VCStatus"})
 
     # sobstitute NA with '' to avoid future runtime errors
@@ -631,7 +632,7 @@ def addGraphAttributes(graph, csv_edit, results, prefix):
                     "A1_Species/Closer": row.Species,
                     "A2_Accession": row.Accession, # commentable because the index is already the accession.
                     "A3_Status": row.VCStatus,
-                    "A4_VC": row.VCSubcluster,
+                    "A4_VC": row.VC,
                     "A5_Level": "-",
                     "A6_Weight": "-",
                     "A7_Genus": row.Genus,
