@@ -1,0 +1,57 @@
+## Tue Jul 25 15:53:14 2023
+## emapper-2.1.9
+## /data/yangmeiyan/miniconda3/envs/phage_protocol/bin/emapper.py -i output/BA3_CA8_0/BA3_CA8_0.faa -o BA3_CA8_0 --cpu 50 --output_dir output/BA3_CA8_0/eggnog --override --go_evidence non-electronic
+##
+##/data/yangmeiyan/miniconda3/envs/phage_protocol/bin/diamond blastp -d /data/yangmeiyan/miniconda3/envs/phage_protocol/lib/python3.10/site-packages/data/eggnog_proteins.dmnd -q /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/BA3_CA8_0.faa --threads 50 -o /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/eggnog/BA3_CA8_0.emapper.hits --tmpdir /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/emappertmp_dmdn__x3zeutm --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
+#qseqid	sseqid	evalue	bitscore	qstart	qend	sstart	send	pident	qcov	scov
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_2	1540098.A0A0A0RW42_9CAUD	2.45e-75	268.0	4	776	5	752	27.2	97.4	95.9
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_3	537874.B3GVZ0_9CAUD	1.97e-10	63.9	8	173	2	161	31.7	94.9	98.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_4	1090134.G5DE94_9CAUD	7.91e-10	62.8	1	152	1	160	32.7	79.2	98.2
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_5	1538804.A0A088FAJ8_9CAUD	3.02e-11	64.7	11	139	9	142	33.3	89.6	94.4
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_6	675812.VHA_000853	3.8e-09	58.9	1	133	1	130	36.6	97.1	93.5
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_8	1538804.A0A088F6N8_9CAUD	2.94e-94	283.0	1	244	1	244	57.0	98.4	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_9	1538804.A0A088FAP5_9CAUD	2.74e-41	151.0	24	151	6	132	57.0	41.6	46.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_10	1027273.GZ77_08945	1.39e-13	71.2	7	120	19	131	34.8	72.2	79.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_11	1538804.A0A088F7X3_9CAUD	1.92e-120	357.0	15	306	6	297	56.5	81.3	96.4
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_12	1538804.A0A0A1CM43_9CAUD	4.4e-195	566.0	4	557	5	567	52.2	97.0	95.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_15	1238450.VIBNISOn1_1840078	2.58e-11	65.5	59	107	53	101	59.2	25.4	43.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_16	1175654.A0A0S0N9Z8_9CAUD	4.46e-06	53.5	150	193	180	223	56.8	22.6	19.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_17	1175654.A0A0S0N2M1_9CAUD	6.67e-23	98.2	45	119	89	163	56.0	34.2	43.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_18	1538804.A0A088FAQ4_9CAUD	7.28e-62	200.0	2	234	4	234	46.4	99.1	98.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_19	1175654.A0A0S0N8S9_9CAUD	8.65e-161	469.0	1	462	1	466	55.0	99.8	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_21	1538804.A0A088FAL2_9CAUD	3e-58	185.0	1	150	1	157	57.1	96.8	98.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_23	1175654.A0A0S0N787_9CAUD	1.71e-80	245.0	40	200	29	189	74.5	77.4	84.3
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_26	1175654.A0A0S0MVN0_9CAUD	2.58e-143	413.0	5	316	1	312	62.7	98.4	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_28	1175654.A0A0S0N5L1_9CAUD	8.53e-109	326.0	1	318	1	316	48.7	97.8	99.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_29	460265.Mnod_5711	7.98e-19	83.2	6	114	4	131	38.3	92.4	93.4
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_30	1175654.A0A0S0NAG2_9CAUD	4.85e-203	597.0	1	731	1	722	45.4	99.3	99.6
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_32	502025.Hoch_4937	6.17e-06	50.1	1	95	16	110	37.5	96.0	49.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_34	886882.PPSC2_p0456	5.04e-07	50.4	34	91	19	72	41.4	60.4	74.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_35	1538804.A0A088FAR2_9CAUD	4.23e-182	558.0	1	785	1	787	40.2	93.1	74.5
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_36	1538804.A0A088F6U0_9CAUD	7.83e-28	101.0	1	65	1	65	69.2	98.5	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_37	1175654.A0A0S0N2N8_9CAUD	1.49e-22	89.0	2	70	3	71	60.9	95.8	89.6
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_38	1548905.A0A0A1IX16_9CAUD	1.54e-67	217.0	5	267	7	269	43.0	98.1	97.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_39	1538804.A0A088F6R8_9CAUD	2.2e-67	234.0	1	543	1	546	29.5	99.5	99.3
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_41	1229755.K7R6D9_9CAUD	2.26e-95	288.0	1	274	1	273	52.7	99.6	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_42	1548905.A0A0A1IUN7_9CAUD	4.72e-146	456.0	1	795	1	823	37.8	99.3	99.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_43	1538804.A0A088F6L3_9CAUD	1.63e-08	57.8	7	131	16	150	30.9	91.9	81.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_44	1538804.A0A088FAF0_9CAUD	4.87e-107	321.0	1	316	1	307	53.6	99.7	98.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_46	1357272.AVEO02000188_gene4472	1.39e-19	86.3	9	139	19	148	32.8	93.6	87.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_48	1300345.LF41_2436	1.97e-16	79.7	1	134	1	126	40.4	76.1	77.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_50	1538804.A0A088F7T3_9CAUD	2.29e-12	70.5	1	74	1	73	45.9	34.7	40.3
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_51	1175654.A0A0S0N2Q7_9CAUD	1.09e-142	414.0	16	351	3	343	60.5	95.2	99.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_52	1175654.A0A0S0NAM4_9CAUD	1.16e-50	175.0	27	286	1	261	41.4	89.7	96.3
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_53	1538804.A0A088F6M3_9CAUD	2.05e-59	204.0	1	383	1	389	30.6	98.7	99.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_54	1538804.A0A088FAG1_9CAUD	7.51e-122	374.0	11	494	7	479	44.8	91.8	93.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_55	1538804.A0A088F7T7_9CAUD	9.77e-284	786.0	12	521	10	515	69.9	97.5	98.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_58	1096930.L284_19030	1.17e-18	82.0	17	100	18	101	47.6	75.7	69.4
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_59	1538804.A0A088F6M8_9CAUD	1.46e-54	176.0	1	161	2	162	53.1	98.2	98.8
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_60	1540098.A0A0A0RQD4_9CAUD	2.53e-24	100.0	2	176	12	177	36.5	97.8	89.7
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_62	1233488.S4T7U7_9CAUD	1.36e-18	92.8	1	301	1	294	29.3	85.0	97.4
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_63	1242969.ATCC51562_1782	3.42e-06	48.5	1	81	1	81	27.2	84.4	100.0
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_64	1468411.X2KTU1_9CAUD	4.82e-25	100.0	7	141	8	151	41.1	94.4	94.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_65	1540098.A0A0A0RPB2_9CAUD	1.66e-08	57.4	6	126	3	129	28.7	86.4	90.1
+MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_83	1175654.A0A0S0N8V2_9CAUD	1.7e-24	100.0	4	146	21	170	41.6	93.5	85.7
+## 48 queries scanned
+## Total time (seconds): 0.01081991195678711
+## Rate: 4436.27 q/s

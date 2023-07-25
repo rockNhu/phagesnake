@@ -1,0 +1,144 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=21;
+TAXLABELS
+[1] 'Vibrio_phage_V07'
+[2] 'Escherichia_phage_SeppeHuegi_strain_Bas24'
+[3] 'Vibrio_phage_2.117.O._10N.261.45.E9'
+[4] 'UNVERIFIED__Vibrio_phage_GH32'
+[5] 'Aeromonas_phage_SD04'
+[6] 'Vibrio_phage_pVco-14'
+[7] 'Escherichia_phage_WildeMaa_strain_Bas23'
+[8] 'Vibrio_phage_vB_VpaS_AL-2'
+[9] 'Vibrio_phage_vB_VpaS_ALK'
+[10] 'Vibrio_phage_vB_VpS_BA3'
+[11] 'Vibrio_phage_VpKK5'
+[12] 'Vibrio_phage_vB_VpaS_CHI'
+[13] 'Escherichia_phage_vB_EcoS_SA126VB'
+[14] 'Vibrio_phage_vB_VpS_CA8'
+[15] 'Vibrio_phage_PH669_Scaffold1_genomic_sequence'
+[16] 'Escherichia_phage_VogelGryff_strain_Bas25'
+[17] 'Vibrio_phage_1.117.O._10N.261.45.E9'
+[18] 'Vibrio_phage_vB_VhaS-tm'
+[19] 'Escherichia_phage_Skure'
+[20] 'Escherichia_phage_GottfriedDienst_strain_Bas21'
+[21] 'Alteromonas_phage_vB_AcoS-R7M'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=21 nsplits=108;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 5,
+	100	 7,
+	48	 5 7,
+	64	 2 5 7,
+	100	 16,
+	38	 2 5 7 16,
+	100	 13,
+	100	 19,
+	100	 20,
+	75	 19 20,
+	65	 13 19 20,
+	100	 2 5 7 13 16 19 20,
+	100	 3,
+	100	 17,
+	100	 3 17,
+	100	 4,
+	100	 11,
+	100	 4 11,
+	100	 3 4 11 17,
+	100	 21,
+	77	 3 4 11 17 21,
+	91	 1 6 8 9 10 12 14 15 18,
+	100	 6,
+	100	 9,
+	100	 12,
+	98	 9 12,
+	100	 18,
+	79	 9 12 18,
+	100	 6 9 12 18,
+	100	 1 8 10 14 15,
+	100	 10,
+	19	 1 8 14 15,
+	100	 14,
+	52	 1 8 15,
+	100	 8,
+	100	 15,
+	23	 8 15,
+	100	 1,
+	33	 2 5,
+	8	 2 5 7 13 16,
+	22	 2 5 7 13 16 19 20 21,
+	45	 1 10 14 15,
+	27	 1 10 14,
+	71	 10 14,
+	11	 2 5 7 13 16 19,
+	39	 13 16 19 20,
+	2	 1 3 4 8 10 11 14 15 17 21,
+	7	 1 8 10 15,
+	8	 5 7 13 16 19 20,
+	2	 1 14 15,
+	48	 1 15,
+	9	 13 20,
+	16	 16 19,
+	10	 2 7,
+	5	 2 5 7 13 19 20,
+	2	 5 13 16 19 20,
+	5	 2 19 20,
+	7	 5 16,
+	8	 5 7 16,
+	11	 2 5 7 16 19 20,
+	8	 6 9 12,
+	7	 3 4 6 9 11 12 17 18 21,
+	6	 13 16 19,
+	2	 2 16,
+	1	 5 7 13 19 20,
+	1	 8 14 15,
+	13	 6 18,
+	3	 2 5 13 16 19 20,
+	5	 7 13 16 19 20,
+	3	 7 16,
+	3	 13 19,
+	1	 1 8,
+	0	 12 18,
+	0	 13 16,
+	4	 2 13 16 19 20,
+	2	 2 7 13 16 19 20,
+	1	 5 7 13 16,
+	1	 1 6 8 9 10 12 14 15 18 21,
+	6	 2 5 7 16 19,
+	0	 8 10 14 15,
+	2	 5 7 13 16 19,
+	0	 1 10 15,
+	2	 1 10,
+	1	 2 5 16,
+	0	 6 12 18,
+	0	 2 7 16,
+	1	 6 9 18,
+	0	 7 16 19,
+	1	 14 15,
+	0	 1 14,
+	0	 10 14 15,
+	0	 9 18,
+	0	 2 16 19,
+	0	 8 10 15,
+	0	 1 3 4 8 10 11 14 15 17,
+	0	 2 5 13 19 20,
+	0	 5 13 19 20,
+	0	 1 8 10 14,
+	0	 2 5 7 20,
+	0	 2 13 19 20,
+	0	 2 5 7 13,
+	0	 7 13 19 20,
+	0	 16 19 20,
+	0	 8 10 14,
+	0	 2 5 7 13 16 20,
+	0	 5 7 16 19,
+	0	 2 7 13 19 20,
+;
+END; [Splits]
+

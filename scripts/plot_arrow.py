@@ -23,7 +23,7 @@ class MyCustomTranslator(BiopythonTranslator):
         '''color the annotation'''
         # add the color reference below here, 2:DNA 4:package 5:structure 10:lysin 3:support
         color1 = [
-            'hypo', 'Hypo', 'unknow', 'Unknow', 'Uncharactrize', 'family'
+            'hypo', 'Hypo', 'unknow', 'Unknow', 'Uncharactrize', 'family', 'unannotated'
         ]
         color2 = [
             'deaminase', 'kinase', 'polymerase', 'helicase', 'transferase',
@@ -76,7 +76,8 @@ class MyCustomTranslator(BiopythonTranslator):
             return BiopythonTranslator.compute_feature_color(self, feature)
 
     def compute_feature_label(self, feature):
-        if feature.type == "CDS" and 'hypo' in feature.qualifiers['product'][0]:
+        unknow_names = ['hypo', 'unannotated']
+        if feature.type == "CDS" and any(i in feature.qualifiers['product'][0] for i in unknow_names):
             return None  # do not display hypothetical protein
         else:
             return BiopythonTranslator.compute_feature_label(self, feature)
