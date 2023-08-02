@@ -103,3 +103,17 @@ else
     touch {output.graph}
 fi
 '''
+
+rule vcontact_clean:
+    input:
+        network = 'output/{sample}/c1.ntw',
+        overview = 'output/{sample}/genome_by_genome_overview.csv',
+        small_network = 'output/{sample}/small_c1.ntw',
+        small_overview = 'output/{sample}/small_genome_by_genome_overview.csv',
+        small_database = 'output/{sample}/small_data.tsv',
+        graph = "output/{sample}/{sample}_vConTACT2.html"
+    output:
+        status = temp('output/{sample}/vcontact-clean')
+    shell: '''rm -r output/{sample}/vcontact2
+touch {output.status}
+'''

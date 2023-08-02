@@ -15,7 +15,6 @@ mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
     {output.tmp_dir} --threads {threads} --format-output "query,target,pident,qcov" >> {log}
 '''
 
-
 # 1.2 parse the blastn output
 rule catch_nucl_neibours:
     input: 
@@ -68,7 +67,6 @@ else
 fi
 '''
 
-
 # 1.4 do ANI using the pyani, the method is ANIb
 rule pyANI:
     input: 
@@ -83,5 +81,23 @@ rule pyANI:
 else
     echo "Error: empty neibours with {wildcards.sample}" >> {log}
     mkdir -p {output}
+    touch {output}/ANIb_percentage_identity.tab
+fi
+'''
+
+#1.5 replot the ANI output heatmap
+rule ANI_plot:
+    input:
+        tab = "output/{sample}/ANI_output/ANIb_percentage_identity.tab"
+    output:
+        svg = "output/{sample}/ANIb_percentage_identity.svg",
+        png = "output/{sample}/ANIb_percentage_identity.png"
+    conda: f"{Conda_env_dir}/phagesnake.yaml"
+    shell:'''if [ -s {input.tab} ];then
+    python {script_dir}/ani_heatmap.py -i {input.tab} -o {output.svg}
+    python {script_dir}/ani_heatmap.py -i {input.tab} -o {output.png}
+else
+    touch {output.svg}
+    touch {output.png}
 fi
 '''

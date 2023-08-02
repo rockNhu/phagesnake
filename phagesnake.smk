@@ -48,7 +48,9 @@ include: 'rules/genome_stat.smk'
 
 
 rule nucl_align:
-    input: expand("output/{sample}/ANI_output",sample=Samples)
+    input:
+        svg = expand("output/{sample}/ANIb_percentage_identity.svg",sample=Samples),
+        png = expand("output/{sample}/ANIb_percentage_identity.png",sample=Samples),
     output: temp('Done-ANI')
     shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
 touch {output}
@@ -68,6 +70,7 @@ touch {output}
 
 rule TerL_tree:
     input: 
+        #expand("output/{sample}/TerL-clean",sample=Samples),
         expand("output/{sample}/TerL.png",sample=Samples),
         expand("output/{sample}/TerL.svg",sample=Samples)
     output: temp('Done-TerL-tree')
@@ -76,10 +79,14 @@ touch {output}
 '''
 
 rule run_vConTACT:
-    input:
-        expand("output/{sample}/c1.ntw",sample=Samples),
-        expand("output/{sample}/{sample}_vConTACT2.html",sample=Samples),
-        expand('output/{sample}/small_c1.ntw',sample=Samples)
+    input: 
+        #clean_status = expand('output/{sample}/vcontact-clean',sample=Samples),
+        network = expand('output/{sample}/c1.ntw',sample=Samples),
+        overview = expand('output/{sample}/genome_by_genome_overview.csv',sample=Samples),
+        small_network = expand('output/{sample}/small_c1.ntw',sample=Samples),
+        small_overview = expand('output/{sample}/small_genome_by_genome_overview.csv',sample=Samples),
+        small_database = expand('output/{sample}/small_data.tsv',sample=Samples),
+        graph = expand("output/{sample}/{sample}_vConTACT2.html",sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}

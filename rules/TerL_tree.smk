@@ -37,7 +37,7 @@ rule MAFFT_iqtree:
     input: "output/{sample}/TerL.faa"
     output:
         aln = "output/{sample}/TerL_tree/TerL.aln",
-        tree = protected("output/{sample}/TerL_tree/TerL.aln.treefile")
+        tree = "output/{sample}/TerL_tree/TerL.aln.treefile"
     threads: 20
     params: wkdir = "output/{sample}/TerL_tree"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
@@ -59,8 +59,8 @@ fi
 rule phylotree_visualize:
     input: "output/{sample}/TerL_tree/TerL.aln.treefile"
     output:
-        svg_out = protected("output/{sample}/TerL.svg"),
-        png_out = protected("output/{sample}/TerL.png")
+        svg_out = "output/{sample}/TerL.svg",
+        png_out = "output/{sample}/TerL.png"
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''
@@ -70,4 +70,20 @@ if [ -s {input} ];then
 else
     touch {output}
 fi
+'''
+
+rule TerL_clean:
+    input:
+        faa = "output/{sample}/TerL.faa",
+        faa_self = "output/{sample}/TerL_self.faa",
+        treefile = "output/{sample}/TerL_tree/TerL.aln.treefile",
+        svg_out = "output/{sample}/TerL.svg",
+        png_out = "output/{sample}/TerL.png"
+    output:
+        treefile = "output/{sample}/TerL.aln.treefile"
+        status = temp("output/{sample}/TerL-clean")
+    shell: '''cp {input.treefile} {output.treefile}
+rm {input.faa}
+rm {input.faa_self}
+touch {output.status}
 '''
