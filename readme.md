@@ -1,7 +1,8 @@
 # PhageSnake
 
 The PhageSnake was a basic automated bacteriophage(phage) genome analysis protocol, coded by Snakemake.
-The input format only supported phage genomic assembly in FASTA format.
+
+**The input file must be phage genomic assembly in FASTA format.**
 
 ## Usage
 
@@ -31,7 +32,7 @@ snakemake -s ./rules/setup.smk --cores 60
 ### 1. Input setting
 
 All the input files were phage nucleotide genome assemblies in FASTA type.
-They would be copied into a new folder, default input directory was set as `fna_files`, but could be changed in `config.yaml`.
+They would be copied into a new folder, default input directory was set as `fna_files`, it could be changed in `config.yaml`.
 
 ### 2. Run protocol
 
@@ -51,7 +52,7 @@ snakemake -s phagesnake.smk --cluster 'qsub -d . -e error.log -o output.log' -j 
 
 ## The parts of the PhageSnake
 
-The Directed Acyclic Graph(DAG) plot of PhageSnake was here:
+The Directed Acyclic Graph(DAG) plot of PhageSnake:
 
 ![dag](dag.svg)
 
@@ -118,15 +119,15 @@ This protocol part was present as `genome_stat` in the DAG plot.
 |length|How many base pairs in genome|
 |ORFs number|Predict Open Reading Frames number in genome|
 
-## Sample and output
+## Example and output
 
-### sample data
+### Example data
 
-The sample data were in `fna_files`. Here, two types of input FASTA format showed. All the samples were downloaded from [NCBI Genbank](https://www.ncbi.nlm.nih.gov/genbank/) database.
+The example data were in `fna_files`. Here, two types of input FASTA format showed. All the examples were downloaded from [NCBI Genbank](https://www.ncbi.nlm.nih.gov/genbank/) database.
 
-1. The assembly only had 1 contig was the best. In sample data, `vB_VpP_AC2.fasta` had a complete genome. The genome of this single contig was recommended.
+1. The assembly only had 1 contig was the best. In example data, `vB_VpP_AC2.fasta` had a complete genome. The genome of this single contig was recommended.
 
-2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In sample data, `LY2_LY4.fasta` had multiple genomes. In the default PhageSnake protocol, it would be divided into contigs and analyzed one by one. If any length of contig was lower than 5000 bp, it would be skipped.
+2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In example data, `CA8_BA3.fasta` had multiple genomes. In the default PhageSnake protocol, it would be divided into contigs and analyzed one by one. If any length of contig was lower than 5000 bp, it would be skipped.
 
 ## Result
 
@@ -136,21 +137,23 @@ All results were in `output`.
 
 AC2: ![ac2ANI](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
 
+replot AC2: ![ac2ANI_replot](output/vB_VpP_AC2_0/ANIb_percentage_identity.svg)
+
 ### Annotation output
 
-The arrow plot from `.gbk`.
+The protein annotation of genome, using arrow plot with `.gbk`.
 
 AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.png)
 
-LY2: ![vB_BceH_LY2](output/LY2_LY4_0/LY2_LY4_0.png)
+CA8: ![vB_VpS_CA8](output/BA3_CA8_0/BA3_CA8_0.png)
 
-LY4: ![vB_BceP_LY4](output/LY2_LY4_1/LY2_LY4_1.png)
+BA3: ![vB_VpS_BA3](output/BA3_CA8_1/BA3_CA8_1.png)
 
 ### TerL tree output
 
 AC2: ![ac2terL](output/vB_VpP_AC2_0/TerL.png)
 
-LY2: ![LY2terL](output/LY2_LY4_0/TerL.png)
+CA8: ![CA8terL](output/BA3_CA8_0/TerL.png)
 
 ### Genome Statistic
 
@@ -162,7 +165,7 @@ LY2: ![LY2terL](output/LY2_LY4_0/TerL.png)
 
 Often, the outputs were unsatisfactory, the temporary could be changed by hand, then rerun the protocol. In another way, it could build a new small protocol for optimization.
 
-When rerun protocol, the files marked as `protected()` would throw the **ProtectedOutputException**, these files should be deleted, then rerun it.
+In old version, when rerun protocol, the files marked as `protected()` would throw the **ProtectedOutputException**, these files should be deleted, then rerun it. The `protected()` sign was deleted in new version.
 
 To fix this **Exception**, could run with `--dry-run` to check.
 
