@@ -1,0 +1,19 @@
+17:14:20 INFO: Processing of vConTACT2 output is started.
+
+17:14:20 INFO: Viral scaffolds in total: 1
+17:14:20 INFO: Viral scaffolds in the graph: 1
+
+17:14:20 INFO: Scaffold: vB_VpP_AC2_0
+17:14:20 INFO: VCStatus: Clustered
+17:14:20 INFO: # Neighbors: 139
+17:14:20 INFO: Status: Clustered
+17:14:20 INFO: Number of sameclustered (sc): 29
+17:14:20 INFO: Are all sc connected to scaffold?: True
+17:14:20 INFO: closer_node: ON864052
+17:14:20 INFO: closer_node_w: 160.888799
+17:14:20 INFO: closer_ref: ON864052
+17:14:20 INFO: closer_ref_w: 160.888799
+17:14:20 INFO: level: C1
+17:14:20 INFO: ##############################################
+
+17:14:20 INFO: Processing of vConTACT2 output is ended.

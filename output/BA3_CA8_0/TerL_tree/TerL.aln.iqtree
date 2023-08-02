@@ -2,7 +2,7 @@ IQ-TREE 2.2.0.3 COVID-edition built Aug  2 2022
 
 Input file name: output/BA3_CA8_0/TerL_tree/TerL.aln
 Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
-Random seed number: 890868
+Random seed number: 734560
 
 REFERENCES
 ----------
@@ -346,150 +346,150 @@ Model of substitution: Q.pfam+G4
 State frequencies: (model)
 
 Model of rate heterogeneity: Gamma with 4 categories
-Gamma shape alpha: 0.6146
+Gamma shape alpha: 0.6148
 
  Category  Relative_rate  Proportion
-  1         0.0561         0.2500
-  2         0.3203         0.2500
-  3         0.8886         0.2500
-  4         2.7349         0.2500
+  1         0.0562         0.2500
+  2         0.3204         0.2500
+  3         0.8887         0.2500
+  4         2.7347         0.2500
 Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -4803.9151 (s.e. 138.4095)
+Log-likelihood of the tree: -4803.9151 (s.e. 138.4088)
 Unconstrained log-likelihood (without tree): -2759.3277
 Number of free parameters (#branches + #model parameters): 40
-Akaike information criterion (AIC) score: 9687.8302
-Corrected Akaike information criterion (AICc) score: 9694.4298
+Akaike information criterion (AIC) score: 9687.8301
+Corrected Akaike information criterion (AICc) score: 9694.4297
 Bayesian information criterion (BIC) score: 9859.3445
 
 Total tree length (sum of branch lengths): 1.9854
-Sum of internal branch lengths: 1.4458 (72.8202% of tree length)
+Sum of internal branch lengths: 1.4458 (72.8199% of tree length)
 
 WARNING: 2 near-zero internal branches (<0.0019) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
-NOTE: Tree is UNROOTED although outgroup taxon 'Vibrio_phage_PH669_Scaffold1_genomic_sequence' is drawn at root
+NOTE: Tree is UNROOTED although outgroup taxon 'Vibrio_phage_vB_VpaS_AL-2' is drawn at root
 Numbers in parentheses are  ultrafast bootstrap support (%)
 
-+**Vibrio_phage_PH669_Scaffold1_genomic_sequence
++**Vibrio_phage_vB_VpaS_AL-2
 |
-|                        +**Vibrio_phage_vB_VpaS_ALK
-|                     +--| (97)
-|                     |  +**Vibrio_phage_vB_VpaS_CHI
-|                  +--| (86)
-|                  |  +--Vibrio_phage_vB_VhaS-tm
-|             +----| (100)
-|             |    +--Vibrio_phage_pVco-14
-|     +-------| (100)
-|     |       |                                                   +--Escherichia_phage_Skure
-|     |       |                                                +--| (57)
-|     |       |                                                |  |  +**Escherichia_phage_vB_EcoS_SA126VB
-|     |       |                                                |  +--| (55)
-|     |       |                                                |     |        +**Aeromonas_phage_SD04
-|     |       |                                                |     |     +**| (59)
-|     |       |                                                |     |     |  +**Escherichia_phage_vB_EcoS_OddieOddie
-|     |       |                                                |     |  +--| (70)
-|     |       |                                                |     |  |  +--Escherichia_phage_SeppeHuegi_strain_Bas24
-|     |       |                                                |     +--| (67)
-|     |       |                                                |        +--Escherichia_phage_VogelGryff_strain_Bas25
-|     |       |   +--------------------------------------------| (100)
-|     |       |   |                                            +**Escherichia_phage_GottfriedDienst_strain_Bas21
-|     |       +---| (95)
-|     |           |  +----------------Alteromonas_phage_vB_AcoS-R7M
-|     |           +--| (63)
-|     |              |                +--UNVERIFIED__Vibrio_phage_GH32
-|     |              |         +------| (100)
-|     |              |         |      +--Vibrio_phage_VpKK5
-|     |              +---------| (100)
-|     |                        |       +**Vibrio_phage_2.117.O._10N.261.45.E9
-|     |                        +-------| (100)
-|     |                                +**Vibrio_phage_1.207.B._10N.222.51.C2
-|  +--| (71)
-|  |  +**Vibrio_phage_vB_VpaS_AL-2
-+**| (68)
-|  |  +**UNVERIFIED__Vibrio_phage_VspDsh_1
-|  +--| (82)
-|     +**Vibrio_phage_vB_VpS_BA3
+|                                                              +**Escherichia_phage_vB_EcoS_SA126VB
+|                                                           +--| (52)
+|                                                           |  |  +--Escherichia_phage_VogelGryff_strain_Bas25
+|                                                           |  +--| (73)
+|                                                           |     |  +**Escherichia_phage_vB_EcoS_OddieOddie
+|                                                           |     +--| (74)
+|                                                           |        |  +--Escherichia_phage_SeppeHuegi_strain_Bas24
+|                                                           |        +**| (13)
+|                                                           |           +**Escherichia_phage_WildeMaa_strain_Bas23
+|                                                        +--| (56)
+|                                                        |  +--Escherichia_phage_Skure
+|           +--------------------------------------------| (100)
+|           |                                            +**Escherichia_phage_GottfriedDienst_strain_Bas21
+|       +---| (95)
+|       |   |                   +--Vibrio_phage_VpKK5
+|       |   |            +------| (100)
+|       |   |            |      +--UNVERIFIED__Vibrio_phage_GH32
+|       |   |  +---------| (100)
+|       |   |  |         |       +**Vibrio_phage_1.207.B._10N.222.51.C2
+|       |   |  |         +-------| (100)
+|       |   |  |                 +**Vibrio_phage_1.117.O._10N.261.45.E9
+|       |   +--| (58)
+|       |      +-----------------Alteromonas_phage_vB_AcoS-R7M
++-------| (100)
+|       |          +**Vibrio_phage_vB_VpaS_CHI
+|       |       +--| (98)
+|       |       |  +**Vibrio_phage_vB_VpaS_ALK
+|       |    +--| (83)
+|       |    |  +--Vibrio_phage_vB_VhaS-tm
+|       +----| (100)
+|            +--Vibrio_phage_pVco-14
 |
-+--Vibrio_phage_V07
+|     +**Vibrio_phage_vB_VpS_CA8
+|  +--| (85)
+|  |  +**Vibrio_phage_vB_VpS_BA3
++--| (67)
+   |  +--Vibrio_phage_V07
+   +**| (74)
+      +**Vibrio_phage_PH669_Scaffold1_genomic_sequence
 
 Tree in newick format:
 
-(Vibrio_phage_PH669_Scaffold1_genomic_sequence:0.0000010000,((((((Vibrio_phage_vB_VpaS_ALK:0.0000010000,Vibrio_phage_vB_VpaS_CHI:0.0000010000)97:0.0119373813,Vibrio_phage_vB_VhaS-tm:0.0141252390)86:0.0070316003,Vibrio_phage_pVco-14:0.0072437161)100:0.0982629071,(((Escherichia_phage_Skure:0.0060648346,(Escherichia_phage_vB_EcoS_SA126VB:0.0000010000,(((Aeromonas_phage_SD04:0.0000010000,Escherichia_phage_vB_EcoS_OddieOddie:0.0000010000)59:0.0000010000,Escherichia_phage_SeppeHuegi_strain_Bas24:0.0020125943)70:0.0020170545,Escherichia_phage_VogelGryff_strain_Bas25:0.0020257538)67:0.0040395465)55:0.0020091350)57:0.0020262684,Escherichia_phage_GottfriedDienst_strain_Bas21:0.0000021995)100:0.7559626381,(Alteromonas_phage_vB_AcoS-R7M:0.2961074979,((UNVERIFIED__Vibrio_phage_GH32:0.0276542154,Vibrio_phage_VpKK5:0.0219717019)100:0.1200267259,(Vibrio_phage_2.117.O._10N.261.45.E9:0.0000010000,Vibrio_phage_1.207.B._10N.222.51.C2:0.0000010000)100:0.1464695377)100:0.1699801550)63:0.0643656994)95:0.0726152307)100:0.1454663934,Vibrio_phage_vB_VpaS_AL-2:0.0000020087)71:0.0020002614,(UNVERIFIED__Vibrio_phage_VspDsh_1:0.0000010000,Vibrio_phage_vB_VpS_BA3:0.0000010000)82:0.0020003077)68:0.0000010000,Vibrio_phage_V07:0.0020118729);
+(Vibrio_phage_vB_VpaS_AL-2:0.0000020305,(((((Escherichia_phage_vB_EcoS_SA126VB:0.0000010000,(Escherichia_phage_VogelGryff_strain_Bas25:0.0020256274,(Escherichia_phage_vB_EcoS_OddieOddie:0.0000010000,(Escherichia_phage_SeppeHuegi_strain_Bas24:0.0020124690,Escherichia_phage_WildeMaa_strain_Bas23:0.0000010000)13:0.0000010000)74:0.0020169339)73:0.0040396619)52:0.0020090197,Escherichia_phage_Skure:0.0060650147)56:0.0020262386,Escherichia_phage_GottfriedDienst_strain_Bas21:0.0000020124)100:0.7559303137,(((Vibrio_phage_VpKK5:0.0219706591,UNVERIFIED__Vibrio_phage_GH32:0.0276560970)100:0.1200273346,(Vibrio_phage_1.207.B._10N.222.51.C2:0.0000010000,Vibrio_phage_1.117.O._10N.261.45.E9:0.0000010000)100:0.1464701782)100:0.1699781219,Alteromonas_phage_vB_AcoS-R7M:0.2961023389)58:0.0643660325)95:0.0726165192,(((Vibrio_phage_vB_VpaS_CHI:0.0000010000,Vibrio_phage_vB_VpaS_ALK:0.0000010000)98:0.0119378916,Vibrio_phage_vB_VhaS-tm:0.0141258593)83:0.0070306563,Vibrio_phage_pVco-14:0.0072447025)100:0.0982622678)100:0.1454663753,((Vibrio_phage_vB_VpS_CA8:0.0000010000,Vibrio_phage_vB_VpS_BA3:0.0000010000)85:0.0020000995,(Vibrio_phage_V07:0.0020116619,Vibrio_phage_PH669_Scaffold1_genomic_sequence:0.0000010000)74:0.0000010000)67:0.0020000470);
 
 CONSENSUS TREE
 --------------
 
 Consensus tree is constructed from 1000 bootstrap trees
-Log-likelihood of consensus tree: -4803.926503
-Robinson-Foulds distance between ML tree and consensus tree: 0
+Log-likelihood of consensus tree: -4803.926504
+Robinson-Foulds distance between ML tree and consensus tree: 2
 
 Branches with support >0.000000% are kept (extended consensus)
 Branch lengths are optimized by maximum likelihood on original alignment
 Numbers in parentheses are bootstrap supports (%)
 
-+--Vibrio_phage_PH669_Scaffold1_genomic_sequence
++--Vibrio_phage_vB_VpaS_AL-2
 |
-|                        +--Vibrio_phage_vB_VpaS_ALK
-|                     +--| (97)
-|                     |  +--Vibrio_phage_vB_VpaS_CHI
-|                  +--| (86)
-|                  |  +--Vibrio_phage_vB_VhaS-tm
-|             +----| (100)
-|             |    +--Vibrio_phage_pVco-14
-|     +-------| (100)
-|     |       |                                                   +--Escherichia_phage_Skure
-|     |       |                                                +--| (57)
-|     |       |                                                |  |  +--Escherichia_phage_vB_EcoS_SA126VB
-|     |       |                                                |  +--| (55)
-|     |       |                                                |     |           +**Aeromonas_phage_SD04
-|     |       |                                                |     |        +--|
-|     |       |                                                |     |        |  +**Escherichia_phage_WildeMaa_strain_Bas23
-|     |       |                                                |     |     +--| (59)
-|     |       |                                                |     |     |  +--Escherichia_phage_vB_EcoS_OddieOddie
-|     |       |                                                |     |  +--| (70)
-|     |       |                                                |     |  |  +--Escherichia_phage_SeppeHuegi_strain_Bas24
-|     |       |                                                |     +--| (67)
-|     |       |                                                |        +--Escherichia_phage_VogelGryff_strain_Bas25
-|     |       |   +--------------------------------------------| (100)
-|     |       |   |                                            +--Escherichia_phage_GottfriedDienst_strain_Bas21
-|     |       +---| (95)
-|     |           |  +----------------Alteromonas_phage_vB_AcoS-R7M
-|     |           +--| (63)
-|     |              |                +--UNVERIFIED__Vibrio_phage_GH32
-|     |              |         +------| (100)
-|     |              |         |      +--Vibrio_phage_VpKK5
-|     |              +---------| (100)
-|     |                        |          +**Vibrio_phage_2.117.O._10N.261.45.E9
-|     |                        |       +--|
-|     |                        |       |  +**Vibrio_phage_1.117.O._10N.261.45.E9
-|     |                        +-------| (100)
-|     |                                +--Vibrio_phage_1.207.B._10N.222.51.C2
-|  +--| (71)
-|  |  +--Vibrio_phage_vB_VpaS_AL-2
-+--| (68)
-|  |        +**UNVERIFIED__Vibrio_phage_VspDsh_1
-|  |     +**|
-|  |     |  +**BA3_CA8_0
-|  |  +--|
-|  |  |  +**Vibrio_phage_vB_VpS_CA8
-|  +--| (82)
-|     +--Vibrio_phage_vB_VpS_BA3
+|                                                              +--Escherichia_phage_vB_EcoS_SA126VB
+|                                                           +--| (52)
+|                                                           |  |  +--Escherichia_phage_VogelGryff_strain_Bas25
+|                                                           |  +--| (73)
+|                                                           |     |        +**Escherichia_phage_vB_EcoS_OddieOddie
+|                                                           |     |     +--|
+|                                                           |     |     |  +**Aeromonas_phage_SD04
+|                                                           |     |  +--| (55)
+|                                                           |     |  |  +--Escherichia_phage_WildeMaa_strain_Bas23
+|                                                           |     +--| (74)
+|                                                           |        +--Escherichia_phage_SeppeHuegi_strain_Bas24
+|                                                        +--| (56)
+|                                                        |  +--Escherichia_phage_Skure
+|           +--------------------------------------------| (100)
+|           |                                            +--Escherichia_phage_GottfriedDienst_strain_Bas21
+|       +---| (95)
+|       |   |                   +--Vibrio_phage_VpKK5
+|       |   |            +------| (100)
+|       |   |            |      +--UNVERIFIED__Vibrio_phage_GH32
+|       |   |  +---------| (100)
+|       |   |  |         |          +**Vibrio_phage_1.207.B._10N.222.51.C2
+|       |   |  |         |       +--|
+|       |   |  |         |       |  +**Vibrio_phage_2.117.O._10N.261.45.E9
+|       |   |  |         +-------| (100)
+|       |   |  |                 +--Vibrio_phage_1.117.O._10N.261.45.E9
+|       |   +--| (58)
+|       |      +-----------------Alteromonas_phage_vB_AcoS-R7M
++-------| (100)
+|       |          +--Vibrio_phage_vB_VpaS_CHI
+|       |       +--| (98)
+|       |       |  +--Vibrio_phage_vB_VpaS_ALK
+|       |    +--| (83)
+|       |    |  +--Vibrio_phage_vB_VhaS-tm
+|       +----| (100)
+|            +--Vibrio_phage_pVco-14
 |
-+--Vibrio_phage_V07
+|           +**Vibrio_phage_vB_VpS_CA8
+|        +**|
+|        |  +**BA3_CA8_0
+|     +--|
+|     |  +**UNVERIFIED__Vibrio_phage_VspDsh_1
+|  +--| (85)
+|  |  +--Vibrio_phage_vB_VpS_BA3
++--| (67)
+   |  +--Vibrio_phage_V07
+   +--| (74)
+      +--Vibrio_phage_PH669_Scaffold1_genomic_sequence
 
 
 Consensus tree in newick format: 
 
-(Vibrio_phage_PH669_Scaffold1_genomic_sequence:0.0000028189,((((((Vibrio_phage_vB_VpaS_ALK:0.0000028189,Vibrio_phage_vB_VpaS_CHI:0.0000028189)97:0.0119385465,Vibrio_phage_vB_VhaS-tm:0.0141265892)86:0.0070312608,Vibrio_phage_pVco-14:0.0072444684)100:0.0982564339,(((Escherichia_phage_Skure:0.0060666290,(Escherichia_phage_vB_EcoS_SA126VB:0.0000028189,((((Aeromonas_phage_SD04:0.0000000000,Escherichia_phage_WildeMaa_strain_Bas23:0.0000000000):0.0000028189,Escherichia_phage_vB_EcoS_OddieOddie:0.0000028189)59:0.0000028189,Escherichia_phage_SeppeHuegi_strain_Bas24:0.0020131999)70:0.0020176458,Escherichia_phage_VogelGryff_strain_Bas25:0.0020263606)67:0.0040407535)55:0.0020097100)57:0.0020265632,Escherichia_phage_GottfriedDienst_strain_Bas21:0.0000028189)100:0.7561795935,(Alteromonas_phage_vB_AcoS-R7M:0.2961739869,((UNVERIFIED__Vibrio_phage_GH32:0.0276487767,Vibrio_phage_VpKK5:0.0219788064)100:0.1200124832,((Vibrio_phage_2.117.O._10N.261.45.E9:0.0000000000,Vibrio_phage_1.117.O._10N.261.45.E9:0.0000000000):0.0000028189,Vibrio_phage_1.207.B._10N.222.51.C2:0.0000028189)100:0.1465011469)100:0.1700187835)63:0.0643206529)95:0.0726410949)100:0.1454840463,Vibrio_phage_vB_VpaS_AL-2:0.0000028242)71:0.0020005731,(((UNVERIFIED__Vibrio_phage_VspDsh_1:0.0000000000,BA3_CA8_0:0.0000000000):0.0000000000,Vibrio_phage_vB_VpS_CA8:0.0000000000):0.0000028189,Vibrio_phage_vB_VpS_BA3:0.0000028189)82:0.0020008214)68:0.0000028189,Vibrio_phage_V07:0.0020123957);
+(Vibrio_phage_vB_VpaS_AL-2:0.0000028242,(((((Escherichia_phage_vB_EcoS_SA126VB:0.0000028189,(Escherichia_phage_VogelGryff_strain_Bas25:0.0020261973,(((Escherichia_phage_vB_EcoS_OddieOddie:0.0000000000,Aeromonas_phage_SD04:0.0000000000):0.0000028189,Escherichia_phage_WildeMaa_strain_Bas23:0.0000028189)55:0.0000028189,Escherichia_phage_SeppeHuegi_strain_Bas24:0.0020130389)74:0.0020174855)73:0.0040404292)52:0.0020095518,Escherichia_phage_Skure:0.0060661430)56:0.0020263996,Escherichia_phage_GottfriedDienst_strain_Bas21:0.0000028189)100:0.7560555148,(((Vibrio_phage_VpKK5:0.0219654070,UNVERIFIED__Vibrio_phage_GH32:0.0276612417)100:0.1200520949,((Vibrio_phage_1.207.B._10N.222.51.C2:0.0000000000,Vibrio_phage_2.117.O._10N.261.45.E9:0.0000000000):0.0000028189,Vibrio_phage_1.117.O._10N.261.45.E9:0.0000028189)100:0.1464515447)100:0.1699968724,Alteromonas_phage_vB_AcoS-R7M:0.2961216104)58:0.0643364802)95:0.0726365075,(((Vibrio_phage_vB_VpaS_CHI:0.0000028189,Vibrio_phage_vB_VpaS_ALK:0.0000028189)98:0.0119383205,Vibrio_phage_vB_VhaS-tm:0.0141263221)83:0.0070311963,Vibrio_phage_pVco-14:0.0072444336)100:0.0982579908)100:0.1454764062,((((Vibrio_phage_vB_VpS_CA8:0.0000000000,BA3_CA8_0:0.0000000000):0.0000000000,UNVERIFIED__Vibrio_phage_VspDsh_1:0.0000000000):0.0000028189,Vibrio_phage_vB_VpS_BA3:0.0000028189)85:0.0020006584,(Vibrio_phage_V07:0.0020122358,Vibrio_phage_PH669_Scaffold1_genomic_sequence:0.0000028189)74:0.0000028189)67:0.0020004127);
 
 TIME STAMP
 ----------
 
-Date and time: Tue Jul 25 15:21:50 2023
-Total CPU time used: 559.648169 seconds (0h:9m:19s)
-Total wall-clock time used: 28.84901071 seconds (0h:0m:28s)
+Date and time: Tue Aug  1 21:40:50 2023
+Total CPU time used: 1366.543736 seconds (0h:22m:46s)
+Total wall-clock time used: 69.74805431 seconds (0h:1m:9s)
 

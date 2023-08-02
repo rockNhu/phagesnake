@@ -1,8 +1,8 @@
-## Tue Jul 25 15:53:14 2023
+## Tue Aug  1 21:39:38 2023
 ## emapper-2.1.9
 ## /data/yangmeiyan/miniconda3/envs/phage_protocol/bin/emapper.py -i output/BA3_CA8_0/BA3_CA8_0.faa -o BA3_CA8_0 --cpu 50 --output_dir output/BA3_CA8_0/eggnog --override --go_evidence non-electronic
 ##
-##/data/yangmeiyan/miniconda3/envs/phage_protocol/bin/diamond blastp -d /data/yangmeiyan/miniconda3/envs/phage_protocol/lib/python3.10/site-packages/data/eggnog_proteins.dmnd -q /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/BA3_CA8_0.faa --threads 50 -o /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/eggnog/BA3_CA8_0.emapper.hits --tmpdir /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/emappertmp_dmdn__x3zeutm --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
+##/data/yangmeiyan/miniconda3/envs/phage_protocol/bin/diamond blastp -d /data/yangmeiyan/miniconda3/envs/phage_protocol/lib/python3.10/site-packages/data/eggnog_proteins.dmnd -q /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/BA3_CA8_0.faa --threads 50 -o /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/BA3_CA8_0/eggnog/BA3_CA8_0.emapper.hits --tmpdir /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/emappertmp_dmdn__1ennfv8 --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
 #qseqid	sseqid	evalue	bitscore	qstart	qend	sstart	send	pident	qcov	scov
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_2	1540098.A0A0A0RW42_9CAUD	2.45e-75	268.0	4	776	5	752	27.2	97.4	95.9
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_3	537874.B3GVZ0_9CAUD	1.97e-10	63.9	8	173	2	161	31.7	94.9	98.8
@@ -53,5 +53,5 @@ MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_64	1468411.X2KTU1_9CAUD	4.82
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_65	1540098.A0A0A0RPB2_9CAUD	1.66e-08	57.4	6	126	3	129	28.7	86.4	90.1
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_83	1175654.A0A0S0N8V2_9CAUD	1.7e-24	100.0	4	146	21	170	41.6	93.5	85.7
 ## 48 queries scanned
-## Total time (seconds): 0.01081991195678711
-## Rate: 4436.27 q/s
+## Total time (seconds): 0.01320028305053711
+## Rate: 3636.29 q/s
