@@ -1,52 +1,39 @@
 # Snakemake script
-# 1.1 blastn to find the similar species genomes
+# The nucleotide alignment sub-workflow
+
 rule MMseqs_blastn:
     input:
         fa = fmt_fna_dir + "/{sample}.fasta",
         db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
         tmp_dir = temp(directory('tmp/{sample}')),
-        blastn_out = 'output/{sample}/blastn.tsv'
+        blastn_out = temp('output/{sample}/blastn.tsv')
     threads: 60
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''echo "{wildcards.sample} : nucl_align start" > {log}
+    shell: '''# 1.1 blastn to find the similar species genomes
+echo "{wildcards.sample} : nucl_align start" > {log}
 mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
     {output.tmp_dir} --threads {threads} --format-output "query,target,pident,qcov" >> {log}
 '''
 
-# 1.2 parse the blastn output
 rule catch_nucl_neibours:
     input: 
         tsv = 'output/{sample}/blastn.tsv'
     output: 
-        l = 'output/{sample}/blastn.list'
+        l = temp('output/{sample}/blastn.list'),
+        fmt_blastn = 'output/{sample}/fmt_blastn.tsv'
+    params:
+        name_db = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
+        idt = 75,
+        cov = 75
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
-    run: 
-        to_extract = dict()
-        for line in open(input.tsv):
-            content = line.strip('\n').split('\t') # input type is tsv
-            acc = content[1] # the second column is accession number
-            idt = float(content[2]) # the third column is fraction identity
-            cov = float(content[3]) # the fourth column is fraction coverage
-            if acc not in to_extract:
-                to_extract[acc] = [[idt],[cov]]
-            else:
-                to_extract[acc][0].append(idt) # the idtentity list
-                to_extract[acc][1].append(cov) # the coverage list
-        # remove idt and cov away from one genus
-        final_acc = []
-        for acc, values in to_extract.items():
-            final_idt = sum(values[0]) / len(values[0]) # the idt is avg
-            final_cov = sum(values[1]) * 100 # sum up cov and convert it to perc
-            if final_idt >= 75 and final_cov >= 75:
-                final_acc.append(acc)
-        # output to name list
-        with open(output.l,'w') as f:
-            f.writelines(i  + '\n' for i in final_acc)
+    shell: '''# 1.2 parse the blastn output
+python {script_dir}/get_neibour_nucl.py -i {input.tsv} \\
+    -o_list {output.l} -o_fmt {output.fmt_blastn} -nucl_id_db {params.name_db} \\
+    --identities {params.idt} --coverages {params.cov} >> {log}
+'''
 
-
-# 1.3 catch the neibour fna and seperate neibours wtih format to "n_output"
 rule catch_neibours_fna:
     input: 
         fa = fmt_fna_dir + "/{sample}.fasta",
@@ -57,7 +44,8 @@ rule catch_neibours_fna:
         directory("output/{sample}/n_output")
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''if [ -s {input.ex_list} ];then
+    shell: '''# 1.3 catch the neibour fna and seperate neibours wtih format to "n_output"
+if [ -s {input.ex_list} ];then
     python {script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
         -o {output} -ns {input.nameseq_dict} -tn {input.totalname_dict} --seperate >> {log}
     # add self fna
@@ -67,25 +55,28 @@ else
 fi
 '''
 
-# 1.4 do ANI using the pyani, the method is ANIb
 rule pyANI:
     input: 
         to_check = 'output/{sample}/blastn.list',
-        nd = "output/{sample}/n_output" # blastn out dir
+        nd = "output/{sample}/n_output"
     output:
-        directory("output/{sample}/ANI_output")
+        tab = "output/{sample}/ANI_output/ANIb_percentage_identity.tab"
+    params:
+        ani_dir = "output/{sample}/ANI_output",
+        method = "ANIb"
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''if [ -s {input.to_check} ];then
-    average_nucleotide_identity.py -i {input.nd} -o {output} -m ANIb -g >> {log}
+    shell: '''# 1.4 do ANI using the pyani, the method is ANIb
+if [ -s {input.to_check} ];then
+    average_nucleotide_identity.py -i {input.nd} -o {params.ani_dir} -m {params.method} -g -f >> {log}
 else
     echo "Error: empty neibours with {wildcards.sample}" >> {log}
-    mkdir -p {output}
-    touch {output}/ANIb_percentage_identity.tab
+    mkdir -p {params.ani_dir}
+    touch {output.tab}
 fi
+if [ ! -f {output.tab} ];then touch {output.tab};fi
 '''
 
-#1.5 replot the ANI output heatmap
 rule ANI_plot:
     input:
         tab = "output/{sample}/ANI_output/ANIb_percentage_identity.tab"
@@ -93,7 +84,8 @@ rule ANI_plot:
         svg = "output/{sample}/ANIb_percentage_identity.svg",
         png = "output/{sample}/ANIb_percentage_identity.png"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell:'''if [ -s {input.tab} ];then
+    shell:'''# 1.5 replot the ANI heatmap
+if [ -s {input.tab} ];then
     python {script_dir}/ani_heatmap.py -i {input.tab} -o {output.svg}
     python {script_dir}/ani_heatmap.py -i {input.tab} -o {output.png}
 else

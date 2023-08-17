@@ -1,1259 +1,266 @@
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_1	hypothetical protein	56.6	37.7	ON457559_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_1	hypothetical protein	56.6	37.7	ON457558_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_1	hypothetical protein	57.5	37.1	MT795651_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_1	hypothetical protein	57.5	35.5	MW114771_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_1	hypothetical protein	57.5	37.1	KX198614_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	100.0	MN102376_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.4	MN175679_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.4	MW423739_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.2	MH925093_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.2	OK349507_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	90.5	MT135025_00481
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.6	42.2	ON457559_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.6	42.2	MT795651_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.6	42.0	KX198614_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.6	42.1	MW114771_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	91.6	44.3	ON457558_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.7	OL960573_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	MK672798_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	LR025196_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	LT907986_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	MZ501112_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	KX534337_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	OL539454_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	MZ501110_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.5	OL960575_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.6	MH230177_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	95.7	27.7	MG948468_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	92.3	27.5	MZ501071_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	97.4	27.1	KM236243_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	97.4	27.1	LR025198_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	99.4	100.0	MN102376_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	OK349507_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MW423739_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MN175679_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MH925093_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	96.0	MT135025_00479
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	32.5	MG592618_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	OX241563_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	OX241556_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	OX241427_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	32.9	MG592493_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	32.9	MG592492_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592471_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592464_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592397_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MW824430_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592635_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592602_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592601_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592564_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.9	MG592528_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	91.4	31.1	MW824418_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	90.9	31.4	MG592463_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	97.1	32.6	MT028491_00134
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	94.9	31.7	FM163528_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	OK349507_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	MW423739_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	MN102376_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	99.5	MN175679_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	99.5	MH925093_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.0	86.5	MT135025_00478
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	MT679221_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	32.7	OK428535_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	MN445185_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535921_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535920_00123
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535919_00166
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535918_00259
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535916_00248
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535915_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535914_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535910_00218
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535909_00113
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	LR535902_00249
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	32.7	KU726251_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	32.7	JN641803_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	32.1	OM456492_00179
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	79.2	31.9	MT799840_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	77.1	29.7	KX397365_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	77.1	33.6	ON653033_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	93.1	50.4	MT795651_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	90.3	47.8	ON457559_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	90.3	47.8	ON457558_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	90.3	48.9	KX198614_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	90.3	46.7	MW114771_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	86.1	34.6	MG592667_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	86.1	34.6	MG592577_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	86.1	34.6	MG592491_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	80.6	40.0	MN871474_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	80.6	40.0	MN871472_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	80.6	40.0	MN871471_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	80.6	40.0	MN029011_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	80.6	40.0	MK816297_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	82.6	36.4	KX898400_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	unannotated protein	82.6	36.4	OP784576_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	88.9	34.8	OK562670_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	88.2	34.9	KP162168_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	hypothetical protein	89.6	33.3	KM378617_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_5	unannotated protein	89.6	33.3	OP331229_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MN102376_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MN175679_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MH925093_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	99.3	MW423739_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	99.3	OK349507_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	hypothetical protein	36.5	52.0	KM378617_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	unannotated protein	38.7	50.9	OP331229_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	38.7	50.9	MW451249_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	MT586120_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KU686213_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KU686212_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019091_00238
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019058_00248
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019159_00246
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019155_00242
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019152_00250
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019149_00245
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019148_00237
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019147_00243
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019144_00241
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019142_00241
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019141_00242
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019123_00241
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019111_00241
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	32.8	51.1	KJ019107_00239
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	93.1	47.1	ON457559_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	93.1	47.1	ON457558_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	93.8	45.4	MT795651_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	93.8	44.7	MW114771_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	93.8	44.7	KX198614_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	73.1	50.0	MN504636_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	83.4	38.0	OK562670_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	96.6	39.2	JX880072_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	82.1	38.7	MH059635_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	44.8	50.8	KX365747_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	69.7	36.2	LC102729_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	69.7	35.2	OK094707_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	69.7	35.2	AB910393_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	99.3	32.6	AB757800_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	99.3	32.6	OL959999_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	99.3	32.6	MK574011_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	69.7	31.7	MN820898_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	99.3	31.9	AB757801_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_7	hypothetical protein	58.6	36.5	OL960575_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	OK349507_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MW423739_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MN102376_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MN175679_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MH925093_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	96.0	MT135025_00475
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	68.4	KX198614_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	68.4	MT795651_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	68.0	MW114771_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	67.6	ON457559_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	67.6	ON457558_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	unannotated protein	98.4	57.0	OP331229_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	98.4	57.0	MW451249_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	98.4	57.0	KM378617_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.4	56.1	MG592667_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.4	56.1	MG592577_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.4	56.1	MG592491_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	94.8	57.6	MG948468_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	52.5	MT345684_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	OL960575_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	OL960573_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	OL539454_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	MZ501112_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	MZ501110_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	96.8	50.0	MZ501104_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	100.0	MN102376_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	95.4	MN175679_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	94.5	MH925093_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	96.1	MW423739_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	93.5	OK349507_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	80.5	MT135025_00474
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	43.2	63.4	MW114771_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	42.2	64.9	ON457559_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	42.2	64.9	ON457558_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	43.2	63.4	MT795651_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	43.2	62.7	KX198614_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.6	57.0	KM378617_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	unannotated protein	41.6	56.3	OP331229_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.6	56.3	MW451249_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.6	57.0	MG592667_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.6	57.0	MG592577_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.6	57.0	MG592491_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.2	50.0	OK562670_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	hypothetical protein	41.2	51.6	MT345684_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	41.2	51.6	MK069556_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	hypothetical protein	43.2	48.1	KU747973_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	hypothetical protein	41.9	48.8	MK387309_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	hypothetical protein	41.2	47.7	KX129925_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	40.9	46.0	KP162168_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	hypothetical protein	41.2	47.7	ON911540_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	89.2	41.1	MT795651_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	94.9	38.8	MG592667_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	94.9	38.8	MG592577_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	94.9	38.8	MG592491_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	89.2	40.4	KX198614_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	91.8	37.5	MW114771_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	89.2	37.6	ON457559_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	89.2	37.6	ON457558_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	unannotated protein	89.2	36.9	OP331229_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	89.2	36.9	MW451249_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	81.6	40.2	OM223115_00114
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	66.5	41.0	OK094665_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	77.2	40.9	MT354569_00118
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	78.5	36.3	MZ927745_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	74.1	37.6	OP453108_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	74.1	37.6	KC139512_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	74.1	37.6	MW355479_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	74.1	37.6	KX765864_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_10	hypothetical protein	74.1	37.6	KX765863_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	100.0	MN102376_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	99.4	MN175679_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	99.4	MH925093_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	94.1	MT135025_00472
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	91.9	MW423739_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	91.6	OK349507_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	96.7	65.8	ON457559_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	96.7	65.8	ON457558_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	96.7	65.5	MT795651_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	94.7	65.4	MW114771_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	94.7	65.1	KX198614_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	81.3	56.2	KM378617_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	unannotated protein	81.3	55.1	OP331229_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	81.3	55.1	MW451249_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	80.2	52.8	MG592667_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	80.2	52.8	MG592577_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	80.2	52.8	MG592491_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	94.2	43.8	MK675901_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	81.9	42.2	MG948468_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.6	KY926791_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.6	ON922918_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.3	OM386652_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.6	MZ501057_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.6	MK373795_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	75.5	42.6	MK373794_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	100.0	MN102376_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	99.8	MW423739_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	97.0	MN175679_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	96.3	MH925093_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	96.1	OK349507_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	93.3	MT135025_00471
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.3	60.2	KX198614_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	Putative DNA repair helicase RadD	99.3	59.5	MW114771_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	Putative DNA repair helicase RadD	99.3	59.3	MT795651_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.3	58.9	ON457559_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.3	58.9	ON457558_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	97.4	50.3	OK562670_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	97.0	50.4	KM378617_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	unannotated protein	97.0	50.0	OP331229_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	97.0	50.0	MW451249_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	93.2	51.7	MG592667_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	93.2	51.7	MG592577_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	93.2	51.7	MG592491_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	97.2	45.9	MK675901_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.3	OL960575_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.3	MZ501110_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.3	LN881725_00088
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.1	OL960573_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.3	KM236243_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.1	43.1	LR025196_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_13	hypothetical protein	74.6	49.1	MT795651_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_13	hypothetical protein	74.6	45.3	MW114771_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_13	hypothetical protein	74.6	45.3	KX198614_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_13	hypothetical protein	57.7	34.1	KP162168_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	99.0	62.4	MH925093_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	99.0	61.9	MW423739_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	99.0	62.4	MN175679_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	99.5	61.1	MT135025_00469
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	48.0	41.1	MG720309_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	35.9	45.1	MK559459_00091
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	35.9	46.5	JF713456_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	22.7	57.8	HQ317393_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	56.5	MT135026_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	unannotated protein	23.2	56.5	OQ164647_00390
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	56.5	ON190024_00391
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	56.5	MT135025_00191
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	56.5	MT135024_00267
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	56.5	AY283928_00149
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	ON190025_00384
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	ON000910_00271
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	MK568540_00393
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	MT612989_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	MT612988_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	KT919973_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	KT919972_00293
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	KP671755_00110
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_14	hypothetical protein	23.2	54.3	KC131129_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	39.0	52.6	KX898400_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	ON922918_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	MK373794_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	MZ501068_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	MT682705_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	MK373795_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	MK165087_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	KP719134_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	KP719133_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	31.3	47.5	OM386652_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	44.3	KP719132_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	31.3	47.5	KJ419279_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	40.5	43.0	KY926791_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	31.3	47.5	MZ501057_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	31.3	47.5	MG948468_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	unannotated protein	24.1	53.2	OP784576_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	unannotated protein	96.4	27.8	OP331229_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	96.4	27.8	MW451249_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	96.4	27.8	KM378617_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_15	hypothetical protein	32.3	44.4	MW057856_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	100.0	MN102376_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	99.4	MW423738_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	99.4	OK349507_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	95.0	MT135025_00467
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	96.8	MN175679_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	69.2	96.8	MH925093_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	unannotated protein	39.3	58.0	OP882271_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	unannotated protein	34.8	56.4	OP784576_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	34.8	56.4	KX898400_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	39.7	53.9	MT345684_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	56.0	ON911540_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	56.0	MW835180_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	56.0	MN504636_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	56.0	JQ067084_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	56.0	KX129925_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	31.7	59.2	MN820898_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	33.5	54.7	KX898399_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	46.9	47.3	KX198614_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	46.9	54.3	ON457559_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	46.9	54.3	ON457558_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	44.2	48.5	MT795651_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	37.9	50.6	MG948468_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	31.3	54.3	MW057861_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	31.3	54.3	MW057856_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_16	hypothetical protein	38.4	48.8	MW114771_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	OK349507_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	MT135025_00465
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	MN102376_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.6	MN175679_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.6	MH925093_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.1	MW423738_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	54.9	MW114771_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	54.2	KX198614_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	55.9	MT795651_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	51.3	ON457559_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	51.3	ON457558_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	unannotated protein	99.1	46.9	OP331229_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.1	46.9	MW451249_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.1	46.4	KM378617_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	44.5	OK562670_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	unannotated protein	99.6	43.7	OP784576_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	44.5	MN504636_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	44.5	KX129925_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	44.5	MW835180_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	98.7	46.3	MK672798_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	43.3	KX898400_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	44.1	KX898399_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	43.7	ON911540_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	46.1	MZ501071_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	7-carboxy-7-deazaguanine synthase	99.6	45.6	LR025198_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	100.0	MN102376_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	OK349507_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MT135025_00464
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MW423738_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.4	MN175679_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MH925093_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	unannotated protein	99.8	55.1	OP784576_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	55.0	ON911540_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	54.9	KX898400_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	55.0	KX898399_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	54.9	MW835180_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	55.0	JQ067084_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	54.9	MN504636_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	98.9	52.6	MT345684_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	54.9	KX129925_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.6	51.9	MK165087_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	52.4	OM386652_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.6	51.9	ON922918_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.6	MT682705_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.8	KY926791_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	98.7	52.3	MZ501057_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.6	MK373794_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.8	KP719134_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.8	KP719132_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.4	51.8	KP719133_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	unannotated protein	88.3	50.0	OP331229_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	88.3	50.0	MW451249_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	85.0	44.4	MW073017_00136
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	78.3	36.2	MT446405_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	78.3	36.2	MH816966_00087
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	75.0	48.9	ON457559_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	75.0	48.9	ON457558_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	78.3	34.0	JX128258_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	60.0	47.2	MW114771_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_19	hypothetical protein	75.0	46.7	KX198614_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	99.4	100.0	MN102376_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	99.4	98.7	OK349507_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	99.3	MN175679_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	99.3	MW423738_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	98.7	MT135025_00462
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	80.8	MH925093_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	unannotated protein	96.8	57.8	OP331229_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.8	57.8	MW451249_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.1	58.9	MG592667_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.1	58.9	MG592577_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.1	58.9	MG592491_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.8	57.1	KM378617_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.1	54.3	MW057856_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.1	53.8	MW057861_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	51.2	OL960573_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	51.2	OL539454_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	95.5	53.7	KX198614_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	50.0	MZ501110_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.1	49.4	MK165087_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	95.5	54.5	MT795651_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	95.5	53.9	MW114771_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	96.1	48.3	KP719132_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	48.6	LR025196_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	48.6	LT907986_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	48.6	MZ501091_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	OK349507_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MW423738_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MT135025_00460
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MN102376_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MN175679_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MH925093_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	78.8	87.8	KX198614_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	91.8	78.0	ON457559_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	91.8	78.0	ON457558_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	91.8	77.5	MW114771_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	91.8	77.5	MT795651_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	89.4	69.9	MG948468_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	90.9	62.4	MK675901_00091
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	ON911540_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	73.3	OK562670_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	MW835180_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	MN504636_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	KX898399_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	JQ067084_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	KX129925_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	unannotated protein	83.7	69.5	OP784576_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	83.7	69.5	KX898400_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	72.7	MW057861_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	92.3	63.8	MT345684_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	72.7	MW057856_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	95.2	36.7	HQ316604_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	95.2	36.7	MT451873_00091
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	95.2	35.4	ON015836_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	90.4	40.0	MK675901_00088
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	97.6	34.6	MZ462995_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	85.5	32.4	MF063068_00105
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_23	holin	95.2	32.9	OP547478_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	OK349507_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MW423738_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MN102376_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MN175679_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	99.4	MT135025_00457
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	99.4	MH925093_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.8	MW114771_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	72.2	MT795651_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	KX198614_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	ON457559_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	ON457558_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	64.1	MG948468_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.7	MN504636_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.7	KX898399_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.7	JQ067084_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	unannotated protein	98.4	62.7	OP784576_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.4	MW835180_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.7	KX898400_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.4	ON911540_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.4	62.4	KX129925_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	unannotated protein	98.4	60.9	OP882271_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.1	63.7	ON922918_00080
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.1	63.7	OM386652_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.1	63.7	MK373795_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	98.1	63.7	MK165087_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	100.0	MN102376_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.7	MW423738_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.7	MN175679_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.4	OK349507_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.4	MH925093_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	97.2	MT135025_00455
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	61.7	MW114771_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	61.4	ON457559_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	61.4	ON457558_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	61.4	KX198614_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	60.8	MT795651_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.7	ON911540_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.7	MW835180_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.7	KX898399_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.7	JQ067084_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.7	KX129925_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	unannotated protein	97.8	48.4	OP784576_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	48.4	KX898400_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	unannotated protein	97.8	48.1	OP882271_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	45.5	MT345684_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	45.0	KM378617_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	unannotated protein	97.8	44.3	OP331229_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	44.3	MW451249_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	45.6	OK562670_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	97.8	42.9	MG592667_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	100.0	MN102376_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	98.3	MH925093_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	98.3	OK349507_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	97.4	MW423738_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	97.4	MN175679_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	94.0	MT135025_00454
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	MN871474_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	MN871472_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	MN871471_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	OK499978_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	MT894004_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	MK521906_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	KX237516_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	45.5	ON086804_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	91.5	41.0	MH015255_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	91.5	41.0	KT870145_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	40.9	MZ602146_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	92.4	44.1	MN988486_00255
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	88.1	44.8	KY629563_00145
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	41.8	OP009283_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	42.7	OP009268_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	40.9	OP186293_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	40.0	KX587949_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	91.5	41.6	ON529856_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	93.2	39.1	MF612071_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	100.0	MN102376_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	99.3	OK349507_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.8	MN175679_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.8	MH925093_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.2	MW423738_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	95.1	MT135025_00453
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.5	56.4	MW114771_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.5	56.7	KX198614_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.5	56.3	ON457559_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.5	56.3	ON457558_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.5	56.0	MT795651_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	unannotated protein	99.3	45.2	OP784576_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.2	KX898400_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.8	MN504636_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.7	MW835180_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.6	JQ067084_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.4	KX898399_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.4	KX129925_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	45.6	ON911540_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	44.6	MK816297_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	44.4	MN029011_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	44.2	MN871474_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	44.2	MN871472_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	44.2	MN871471_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.3	43.4	OL960573_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_31	hypothetical protein	94.9	68.1	MT135025_00451
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_31	hypothetical protein	84.8	48.8	MW824370_00092
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_31	hypothetical protein	73.7	38.4	MK075003_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_31	hypothetical protein	51.5	47.1	MH884512_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_32	hypothetical protein	65.8	37.7	OX241556_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_32	hypothetical protein	65.8	37.7	OX241427_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_32	hypothetical protein	65.8	37.7	OX241563_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_32	hypothetical protein	63.2	32.4	MW824433_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	95.8	65.6	ON457559_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	95.8	65.6	ON457558_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	95.8	51.0	MT795651_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	83.3	56.3	MW114771_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	95.8	49.0	KX198614_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	81.3	53.8	HQ316582_00081
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	81.3	53.8	MG592672_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	81.3	53.8	MG592662_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	61.5	42.4	KU862660_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	67.7	37.9	MH533020_00124
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	38.2	KJ419279_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	MK373794_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	KP719133_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	OM386652_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	MT682705_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	KP719134_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	67.7	36.2	MK327941_00191
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	67.7	36.2	MF327006_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_33	hypothetical protein	54.2	36.4	MK165087_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	100.0	MN102376_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	87.2	MH925093_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	87.1	MN175679_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	83.0	MW423738_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	84.7	95.5	OK349507_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	75.3	ON457559_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	75.3	ON457558_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	73.5	MT795651_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	89.2	69.7	KX198614_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	unannotated protein	86.8	41.5	OP331229_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	86.8	41.5	MW451249_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.3	40.6	OK562670_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.3	40.1	LN610585_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.3	39.9	KU356689_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.3	40.2	LN610577_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.3	39.5	LN610584_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	93.1	38.6	KM378617_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	39.8	OP361299_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	39.4	KU204984_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	39.3	OP380269_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	39.0	JQ067087_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	38.5	MW835180_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	38.4	MN504636_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	79.6	38.9	ON932079_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	83.4	38.3	KX898399_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	100.0	OK349507_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	100.0	MN102376_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	98.5	MN175679_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	98.5	MH925093_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	95.4	MW423738_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	78.5	KX198614_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	75.4	MT795651_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	72.3	ON457559_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	72.3	ON457558_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	69.2	KM378617_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	unannotated protein	98.5	60.0	OP331229_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	60.0	MW451249_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MN871486_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MT118302_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	ON165687_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MN871478_00083
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MN871469_00084
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MN871463_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MN871456_00080
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	OL763419_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	DQ163916_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MZ089741_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MZ089734_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	KX198613_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	86.4	57.9	MH791406_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	100.0	MN102376_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	MN175679_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	MH925093_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	OK349507_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	95.8	KX198614_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	93.0	MT795651_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	90.1	ON457559_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	90.1	ON457558_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	56.3	ON331942_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	58.6	MW835180_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	58.6	MN504636_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	58.6	KX129925_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	55.7	MT118296_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	55.7	MT108725_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	55.7	MT108731_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	unannotated protein	95.8	59.4	OP784576_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	95.8	59.4	ON911540_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	95.8	59.4	KX898400_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	95.8	59.4	JQ067084_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	54.9	ON005621_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	56.3	ON932079_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	52.1	JQ067093_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	55.7	JQ067089_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	57.1	OK562670_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	97.2	55.7	MN734439_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	100.0	MN102376_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	95.9	OK349507_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	86.1	MN175679_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	86.1	MH925093_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	85.4	MW423738_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.9	ON457559_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.9	ON457558_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.2	MT795651_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	75.7	KX198614_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.7	ON932079_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	43.0	KX898400_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.3	42.2	KU204984_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	unannotated protein	98.1	42.6	OP784576_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.3	42.2	OP361299_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.3	41.8	OP380269_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	43.0	LN610585_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	42.3	MN504636_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	42.3	KX898399_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	43.0	LN610577_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.5	MT118296_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.5	MT108725_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.5	MT108731_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.9	KU356689_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	42.3	JQ067087_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	98.1	41.5	KX129925_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.8	100.0	MN102376_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.8	92.9	OK349507_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.6	63.5	MH925093_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.6	63.5	MN175679_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.6	61.8	MW423738_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	98.4	61.3	KX198614_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	98.5	58.4	MT795651_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.6	65.5	ON457559_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.6	65.5	ON457558_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	unannotated protein	99.5	31.4	OP331229_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.5	31.4	MW451249_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.3	29.6	KM378617_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.1	29.4	MH599087_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.4	29.2	MT118296_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.4	29.2	MT108725_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.4	29.2	MT108731_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.4	30.3	KU356689_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	30.0	OP361299_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	29.6	KU204984_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	29.2	OP380269_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.4	28.5	LN610584_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	28.2	LN610585_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	28.0	LN610577_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	87.1	28.8	JQ067093_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	91.3	29.0	MG893203_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	66.6	MG893203_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	65.6	MG602476_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	65.0	MF754114_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	65.0	MF754113_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	99.7	65.2	MW451246_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	99.7	65.2	HG992588_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	65.3	MZ592922_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	65.5	OK349507_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	99.7	63.8	MH599087_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	99.7	55.5	MH925090_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	99.7	55.1	OL314400_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	97.2	30.3	JQ692107_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	97.2	29.3	OK625546_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	97.2	29.3	MW451251_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	97.2	29.3	MN215888_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	97.2	29.3	MF754116_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	98.8	32.1	MT795651_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	98.8	26.8	KX198614_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	structural protein	99.4	24.1	KM378617_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	28.8	40.2	OP595601_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	28.8	40.2	OK483201_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	28.8	37.1	OP547477_00080
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_39	hypothetical protein	28.8	37.1	MF754115_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.6	100.0	MN102376_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	89.5	OK349507_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	82.2	MG893203_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	83.3	MG602476_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.9	MF754114_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.9	MF754113_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	82.6	MZ592922_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.2	MH599087_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.5	HG992588_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.2	MW451246_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	72.6	OL314400_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	72.6	MH925090_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	50.5	KM378617_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	48.0	MW451251_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	48.0	MN215888_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	48.0	MF754116_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	47.8	MT795651_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	47.8	JQ692107_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	95.7	49.8	KX198614_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	41.6	MW451249_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	37.9	MW423738_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	37.9	MN175679_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	37.9	MH925093_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	97.5	35.1	JX556418_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.6	35.7	MF754115_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	100.0	MN102376_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	99.5	OK349507_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	98.9	MN175679_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	98.9	MH925093_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	93.5	79.2	MT135025_00441
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	50.2	KX198614_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	49.2	MT795651_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	48.5	ON457559_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	48.5	ON457558_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	96.5	45.1	MW114771_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	92.3	43.7	MT345684_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.8	38.5	MT118296_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.8	38.5	MT108725_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.8	38.1	MT108731_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.3	37.6	OK562670_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.3	37.9	LN610577_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	37.8	KX241618_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.0	37.4	ON331942_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.3	37.6	LN610585_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.5	38.3	OL674541_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.0	36.8	JQ067087_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.5	37.6	OK275493_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.5	38.1	ON932080_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.5	37.6	OK275492_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	98.5	38.0	LR743532_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	OK349507_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MN102376_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MN175679_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MH925093_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	99.3	MW423737_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	91.1	MT135025_00440
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	87.5	41.2	MW114771_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	87.5	38.7	KX198614_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	87.5	36.1	ON457559_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	87.5	36.1	ON457558_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	87.5	36.1	MT795651_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	89.7	34.4	OK562670_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	89.7	36.9	MT108731_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	89.7	36.9	MT118296_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	89.7	36.9	MT108725_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	75.7	39.0	MW590698_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	70.6	39.6	ON529854_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	75.7	38.1	MT992243_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	75.7	38.1	MG674163_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	75.0	36.3	OL539452_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	75.0	36.3	MK608336_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	86.0	34.2	ON189045_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	74.3	35.6	OK499995_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	97.8	33.1	MZ089737_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	Tail assembly chaperone	91.9	30.9	KM378617_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	OK349507_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	MW423737_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	MN102376_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	99.1	MN175679_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	97.8	MH925093_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	84.5	MT135025_00439
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	98.7	58.0	MT795651_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.1	57.5	KX198614_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.1	56.9	ON457559_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.1	56.9	ON457558_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	unannotated protein	99.7	56.4	OP331229_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	56.4	MW451249_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.1	56.3	MW114771_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	98.7	54.9	KX241618_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	OK275493_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	OK275492_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	53.6	KM378617_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	OL674541_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.1	MT664984_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	53.8	KU204984_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	ON932080_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	LR743532_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.4	MG018224_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	53.8	OP380269_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	54.1	ON932084_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	100.0	MN102376_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	OK349507_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MW423737_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MN175679_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MH925093_00045
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	98.6	71.7	MT135025_00438
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	96.4	34.1	ON457559_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	96.4	34.1	ON457558_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	96.4	33.3	MT795651_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	95.0	25.9	OK275492_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	95.0	25.2	OK275493_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	94.3	23.0	OK499995_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	95.0	24.4	MT664984_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	81.4	25.4	MW590698_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	61.4	30.2	ON331942_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	61.4	29.1	ON005621_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	89.3	28.7	OL449681_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	94.3	22.6	OL539452_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	94.3	22.6	MK608336_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	87.9	27.5	OM982619_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	87.9	27.5	MG596800_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	89.3	28.7	ON062054_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	89.3	28.7	MZ826699_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	94.3	21.1	MG641885_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	95.0	25.2	KX241618_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	100.0	MN102376_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	99.3	MH925093_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.8	OK349507_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.8	MW423737_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.1	MN175679_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	94.3	74.2	MT135025_00437
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	94.3	42.9	ON457559_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	94.3	42.9	ON457558_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	93.6	43.2	KX198614_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	93.6	40.4	MW114771_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	91.4	40.3	MT795651_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	91.4	39.8	MT345684_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	37.4	MT118296_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	37.4	MT108725_00091
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	35.9	ON189045_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	93.6	36.6	ON189047_00029
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	90.7	37.5	MT108731_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	90.7	35.9	JQ067089_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	35.1	KX241618_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	34.4	OK275493_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	88.6	35.5	JQ067093_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	93.6	35.6	ON331942_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	95.7	33.3	OK275492_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	92.9	34.4	MT664984_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	94.3	33.8	ON932079_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	35.2	ON457559_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	35.2	ON457558_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	35.0	MW114771_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	31.1	MT345684_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	32.8	MT795651_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	hypothetical protein	96.8	34.4	KX198614_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	unannotated protein	97.6	32.3	OP331229_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	head closure Hc1	97.6	32.3	MW451249_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	head closure Hc1	99.2	31.8	MG592667_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	head closure Hc1	99.2	31.8	MG592577_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	head closure Hc1	99.2	31.8	MG592491_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_46	head closure Hc1	95.2	32.5	KM378617_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	OK349507_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	MW423737_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	MN102376_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	99.4	MN175679_00049
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	99.4	MH925093_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	83.4	MT135025_00435
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	90.9	38.8	MT795651_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	37.5	MT345684_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	79.5	39.3	ON457559_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	79.5	39.3	ON457558_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	90.9	34.4	KX198614_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	79.5	37.1	MW114771_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.7	MZ398240_00085
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.7	MN937349_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.1	MN871474_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.1	MN871472_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.1	MN871471_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.1	MN029011_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	36.1	MK816297_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	97.2	36.6	MG592667_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	97.2	36.6	MG592577_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	97.2	36.6	MG592491_00032
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	unannotated protein	79.5	36.2	OP331229_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	79.5	36.2	MW451249_00043
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	37.8	KX898399_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	54.0	38.1	MW114771_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	32.9	55.7	MG948468_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	34.7	44.6	KM378617_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	23.9	56.9	MT795651_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	23.9	56.9	ON457559_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	23.9	56.9	ON457558_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	unannotated protein	33.8	47.2	OP331229_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	33.8	47.2	MW451249_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	25.4	51.9	KX198614_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	MZ501068_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	24.9	45.3	MK373794_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	ON922918_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	OM386652_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	MZ501057_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	MT682705_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	MK373795_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	MK165087_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	KP719134_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_49	hypothetical protein	28.2	43.3	KJ419279_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	100.0	MN102376_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	OK349507_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	MW423737_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	MT135025_00432
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	97.7	MN175679_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	97.7	MH925093_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.4	MW835180_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.4	MN504636_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.4	JQ067084_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.1	ON911540_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.1	KX129925_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	61.1	KX898399_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	unannotated protein	95.2	59.9	OP784576_00042
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	60.5	KX898400_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	unannotated protein	94.9	59.4	OK283305_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	96.0	60.6	MW114771_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	96.0	59.1	ON457559_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	96.0	59.1	ON457558_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	96.0	58.9	MT795651_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	95.2	58.2	MN820898_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	94.6	57.2	MT345684_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	96.0	58.6	KX198614_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	unannotated protein	94.6	57.0	OP882271_00084
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	94.9	55.1	MN871474_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	94.9	55.1	MN871472_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MW423737_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MT135025_00431
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MN102376_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	OK349507_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	MN175679_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	MH925093_00052
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	98.6	50.2	MT795651_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	97.9	50.2	MW114771_00011
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	98.6	49.3	KX198614_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	98.6	48.8	ON457559_00067
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	98.6	48.8	ON457558_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	88.6	44.8	MG948468_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.7	41.8	KX898399_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	unannotated protein	86.6	41.3	OP784576_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	86.6	40.9	KX898400_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.0	40.7	ON922918_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.0	40.3	KY926791_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.7	40.6	MW835180_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.7	41.4	JQ067084_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	unannotated protein	89.7	40.9	OP882271_00085
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.0	40.7	KP719132_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	96.9	37.7	OL960575_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	96.9	37.7	MZ501110_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	96.9	37.3	KX534337_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	89.0	40.3	MZ501057_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	100.0	MN102376_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	OK349507_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MW423737_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MN175679_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MH925093_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.5	MT135025_00430
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	47.8	KX198614_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	47.5	MW114771_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	46.8	MT795651_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	46.8	ON457559_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	46.8	ON457558_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	98.5	35.0	MT345684_00025
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.3	KX898400_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	unannotated protein	97.9	36.3	OP784576_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.3	JQ067084_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.3	MN504636_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.6	ON911540_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.6	KX129925_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.3	MW835180_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	36.3	KX898399_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	unannotated protein	99.0	32.1	OP331229_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.0	32.1	MW451249_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	97.9	32.6	AY576273_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	98.7	30.6	KM378617_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	98.5	31.2	MG592667_00028
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	100.0	MN102376_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MT135025_00429
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MN175679_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MH925093_00054
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.6	OK349507_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.6	MW423737_00013
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	91.1	53.4	MT795651_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	53.9	ON457559_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	53.9	ON457558_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	52.9	MW114771_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	52.9	KX198614_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	91.8	45.0	MG592667_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	91.8	45.0	MG592577_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	91.8	45.0	MG592491_00027
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	unannotated protein	92.4	44.7	OP331229_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	92.4	44.7	MW451249_00037
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	91.8	44.8	KM378617_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	95.1	44.5	MT345684_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	90.9	45.3	AY576273_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	44.0	ON911540_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	44.0	MN504636_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	43.5	JQ067084_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	44.0	KX898399_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	43.8	KX129925_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	89.6	43.8	MW835180_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MN102376_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MN175679_00056
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MH925093_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.8	MW423737_00014
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.6	MT135025_00428
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.6	OK349507_00057
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	MW114771_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	ON457559_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	ON457558_00071
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	82.6	KX198614_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	unannotated protein	97.5	70.6	OP331229_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.5	70.6	MW451249_00036
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.5	69.9	KM378617_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592667_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592577_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592491_00026
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	70.2	MT345684_00022
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	OL539454_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MZ501112_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MH230177_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	OL960573_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MZ501110_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MZ501104_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MZ501071_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	59.1	MK672798_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_55	hypothetical protein	63.4	40.0	KX198614_00080
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	100.0	MN102376_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	99.1	MW423737_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	OK349507_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	MN175679_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	MH925093_00058
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	94.5	MT135025_00426
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	49.5	KM378617_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	unannotated protein	96.4	51.4	OP331229_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	51.4	MW451249_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	95.5	50.9	MG592667_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	95.5	50.9	MG592577_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	95.5	50.9	MG592491_00024
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	50.5	KX198614_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	88.3	49.0	MW176034_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	88.3	49.0	MW176032_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	93.7	50.0	MW114771_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	47.7	ON457559_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	47.7	ON457558_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	96.4	47.7	MT795651_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	81.1	52.2	MZ326867_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	88.3	43.9	MW590698_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	86.5	44.8	MK069556_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	88.3	43.9	MT992243_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	88.3	43.9	MG674163_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	82.0	41.8	ON602731_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	100.0	MW423737_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	100.0	MN102376_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	99.4	OK349507_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	98.8	MN175679_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	98.8	MH925093_00059
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	88.4	97.9	MT135025_00425
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	98.8	59.9	KX198614_00083
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	98.8	58.6	MW114771_00005
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	96.3	60.8	ON457559_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	96.3	60.8	ON457558_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	98.8	56.8	MT795651_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	98.2	53.1	KM378617_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	unannotated protein	98.2	48.8	OP331229_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	98.2	48.8	MW451249_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	49.7	MN922296_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	49.7	MN956515_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	49.0	MN812722_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	92.7	47.4	MN512538_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	82.3	50.4	MG592667_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	82.3	50.4	MG592577_00018
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	82.3	50.4	MG592491_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.9	46.5	MG592596_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	44.8	MG592547_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	44.8	MG592468_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	93.3	44.8	MG592467_00051
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	OK349507_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MW423737_00019
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MN102376_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MN175679_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MH925093_00060
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	93.3	MT135025_00424
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	98.9	47.8	MT795651_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	98.9	47.2	MW114771_00004
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	98.9	47.8	ON457559_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	98.9	47.8	ON457558_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	98.9	46.6	KX198614_00084
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	OL960575_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	OL960573_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	OL539454_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	MZ501104_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	MZ501091_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	MZ501071_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	MK672798_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	KM236243_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	MH230177_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	LR025198_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	LR025197_00017
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	LR025196_00076
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	LR025195_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	97.8	36.5	LT907986_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_60	hypothetical protein	98.8	68.4	MT135025_00423
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_60	hypothetical protein	42.6	51.4	ON457559_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_60	hypothetical protein	42.6	51.4	ON457558_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_60	hypothetical protein	42.6	48.6	KX198614_00087
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_60	hypothetical protein	42.6	48.6	MT795651_00081
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	100.0	MN102376_00062
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	98.9	MW423737_00021
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	98.9	MN175679_00063
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	97.5	OK349507_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	94.9	MT135025_00422
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	95.8	55.9	MW114771_00083
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	95.8	55.7	ON457559_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	95.8	55.7	ON457558_00080
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	98.9	54.5	KX198614_00088
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	95.8	55.9	MT795651_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	82.2	25.5	KC821625_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	82.2	25.5	KC821621_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	82.2	25.5	KC821604_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	82.2	25.5	HQ634192_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	84.7	31.7	ON529854_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	80.8	27.4	ON950054_00087
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	83.3	27.2	MG592537_00133
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	83.3	27.8	HQ316579_00157
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	83.3	27.8	HQ634195_00183
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	MZ501110_00050
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	MZ501104_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	MK672798_00055
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	LR025197_00068
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	LR025196_00039
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	85.0	27.4	LT907986_00016
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	77.1	29.7	KX198614_00091
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	80.2	27.3	MT795651_00085
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	80.2	26.0	ON457559_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	80.2	26.0	ON457558_00083
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	74.0	29.6	MW114771_00079
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	83.3	30.0	HQ317393_00149
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	unannotated protein	82.3	28.0	OQ164647_00108
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	ON190024_00108
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	MT135026_00296
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	MT135025_00326
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	MT135024_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	MN794232_00284
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	JN849462_00282
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	AY283928_00284
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	82.3	28.0	OK905446_00214
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_62	hypothetical protein	83.3	27.5	ON190025_00112
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	OK349507_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MW423737_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MN102376_00064
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MN175679_00065
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	96.5	MT135025_00420
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	97.2	60.4	MW114771_00078
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	46.0	MK675901_00034
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	95.8	36.2	MK069556_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	90.2	40.4	MN820898_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	90.9	41.5	OK562670_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	88.8	40.8	MG592667_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	88.8	40.8	MG592577_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	88.8	40.8	MG592491_00075
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	93.0	40.3	KM378617_00015
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	unannotated protein	88.8	41.4	OP331229_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	88.8	41.4	MW451249_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	93.0	39.6	MN937349_00094
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	93.0	39.6	MZ398241_00012
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	93.0	39.6	MZ398240_00097
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	MZ501057_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	MK373794_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	KP719134_00048
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	MK165087_00047
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	KJ419279_00020
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	94.4	41.1	OM386652_00023
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	94.3	31.0	ON857939_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	94.3	30.3	KU245542_00097
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	98.6	32.9	MT795651_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	91.4	29.4	MW114771_00077
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	98.6	30.8	KX198614_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	31.4	KR296692_00248
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	98.6	29.9	ON457559_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	98.6	29.9	ON457558_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MW021760_00146
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MN871501_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MT074480_00155
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MT074471_00155
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MH791405_00149
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	MG748547_00125
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	KF669654_00190
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	92.9	30.7	KF669653_00192
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	86.4	29.4	MZ501091_00082
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	72.9	30.8	KY652726_00188
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	86.4	29.7	OL960575_00085
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_64	hypothetical protein	86.4	28.7	KM236243_00081
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_66	hypothetical protein	81.5	48.2	MT795651_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_66	hypothetical protein	81.5	50.0	ON457559_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_66	hypothetical protein	81.5	50.0	ON457558_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_66	hypothetical protein	81.5	48.2	MW114771_00072
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_66	hypothetical protein	87.7	46.7	KX198614_00007
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_67	hypothetical protein	90.4	65.3	KX198614_00010
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_67	hypothetical protein	90.4	66.7	ON457559_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_67	hypothetical protein	90.4	66.7	ON457558_00008
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_67	hypothetical protein	90.4	60.0	MT795651_00009
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_67	hypothetical protein	90.4	58.7	MW114771_00069
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_74	hypothetical protein	68.4	89.6	MT135025_00410
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_74	hypothetical protein	75.5	31.1	KX198614_00006
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_78	hypothetical protein	99.0	66.3	MW423739_00001
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_80	hypothetical protein	99.1	61.8	MW423739_00003
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	96.7	43.1	MT345684_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	57.5	54.5	MN820898_00053
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	93.5	43.9	KX898400_00040
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	unannotated protein	93.5	43.0	OP784576_00002
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	JQ067084_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	ON911540_00038
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	MW835180_00070
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	MN504636_00066
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	KX898399_00041
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	53.6	59.8	KX129925_00044
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	unannotated protein	47.1	61.1	OP882271_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	93.5	36.9	ON457559_00030
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	93.5	36.9	ON457558_00031
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	57.5	46.7	MW114771_00046
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	93.5	35.6	KX198614_00035
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	93.5	35.6	MT795651_00033
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	48.4	50.0	MN029011_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	48.4	50.0	MK816297_00061
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	48.4	48.6	MN871474_00074
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_82	hypothetical protein	48.4	48.6	MN871472_00073
-MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_84	hypothetical protein	99.4	36.6	MT135025_00401
+Name	Description	Coverage%	Identity%	Target	Target_Total_Name
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	100.0	MN102376_00002	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.4	MN175679_00002	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.4	MW423739_00009	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.2	MH925093_00002	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	99.2	OK349507_00002	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_2	DNA primase	99.9	90.5	MT135025_00481	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	99.4	100.0	MN102376_00003	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	OK349507_00004	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MW423739_00010	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MN175679_00003	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	99.4	MH925093_00003	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_3	MazG-like pyrophosphatase	98.9	96.0	MT135025_00479	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	OK349507_00005	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	MW423739_00011	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	100.0	MN102376_00004	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	99.5	MN175679_00004	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.5	99.5	MH925093_00004	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_4	peptidase HslV family protein	99.0	86.5	MT135025_00478	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MN102376_00006	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MN175679_00006	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	100.0	MH925093_00006	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	99.3	MW423739_00013	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_6	pilin	99.3	99.3	OK349507_00007	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	OK349507_00009	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MW423739_00015	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MN102376_00008	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MN175679_00008	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	100.0	MH925093_00008	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_8	Sak4-like ssDNA annealing protein	99.6	96.0	MT135025_00475	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	100.0	MN102376_00009	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	95.4	MN175679_00009	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	94.5	MH925093_00009	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	96.1	MW423739_00016	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	93.5	OK349507_00010	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_9	single strand DNA binding protein	99.7	80.5	MT135025_00474	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	100.0	MN102376_00011	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	99.4	MN175679_00011	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	99.4	MH925093_00011	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	94.1	MT135025_00472	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	91.9	MW423739_00018	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_11	Cas4-domain exonuclease	99.7	91.6	OK349507_00012	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	100.0	MN102376_00012	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	99.8	MW423739_00019	MW423739 Vibrio phage PH669 Scaffold3 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	97.0	MN175679_00012	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	96.3	MH925093_00012	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	96.1	OK349507_00013	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_12	DNA helicase	99.8	93.3	MT135025_00471	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	OK349507_00020	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	MT135025_00465	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	100.0	MN102376_00018	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.6	MN175679_00019	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.6	MH925093_00019	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_17	QueE-like radical SAM domain protein	99.6	99.1	MW423738_00023	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	100.0	MN102376_00019	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	OK349507_00021	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MT135025_00464	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MW423738_00022	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.4	MN175679_00020	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_18	L-glutamine-D-fructose-6-phosphate aminotransferase	99.8	99.6	MH925093_00020	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	99.4	100.0	MN102376_00021	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	99.4	98.7	OK349507_00023	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	99.3	MN175679_00022	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	99.3	MW423738_00020	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	98.7	MT135025_00462	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_20	QueD-like 6-pyruvoyl-tetrahydropterin synthase	98.7	80.8	MH925093_00022	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	OK349507_00025	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MW423738_00018	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MT135025_00460	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MN102376_00023	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MN175679_00024	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	99.5	100.0	MH925093_00023	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	78.8	87.8	KX198614_00043	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	91.8	78.0	ON457559_00038	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	91.8	78.0	ON457558_00039	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	91.8	77.5	MW114771_00039	MW114771 Vibrio phage pVco-14, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase 1	91.8	77.5	MT795651_00041	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	ON911540_00031	ON911540 Xanthomonas phage vB_Xar_IVIA-DoCa3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	73.3	OK562670_00046	OK562670 Stenotrophomonas phage vB_SM_ytsc_ply2008005c, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	MW835180_00063	MW835180 Pseudomonas phage vB_PaeS_PAJD-1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	MN504636_00074	MN504636 Pseudomonas phage Quinobequin-P09, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	KX898399_00034	KX898399 Pseudomonas phage JG012, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	JQ067084_00037	JQ067084 Pseudomonas phage PaMx25, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	74.5	KX129925_00037	KX129925 Pseudomonas phage NP1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	72.7	MW057861_00005	MW057861 Providencia phage PSTCR7, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_22	GTP cyclohydrolase	77.4	72.7	MW057856_00044	MW057856 Providencia phage PSTCR4, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	OK349507_00028	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MW423738_00015	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MN102376_00026	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	100.0	MN175679_00027	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	99.4	MT135025_00457	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	99.4	MH925093_00026	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.8	MW114771_00038	MW114771 Vibrio phage pVco-14, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	72.2	MT795651_00042	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	KX198614_00044	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	ON457559_00039	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_25	queuine tRNA-ribosyltransferase	99.7	71.5	ON457558_00040	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	100.0	MN102376_00028	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.7	MW423738_00013	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.7	MN175679_00029	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.4	OK349507_00030	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	99.4	MH925093_00028	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_27	DNA polymerase processivity factor	99.7	97.2	MT135025_00455	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	100.0	MN102376_00029	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	98.3	MH925093_00029	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	98.3	OK349507_00031	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	97.4	MW423738_00012	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	97.4	MN175679_00030	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_28	GTP-binding domain protein	99.2	94.0	MT135025_00454	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	100.0	MN102376_00030	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	99.3	OK349507_00032	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.8	MN175679_00031	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.8	MH925093_00030	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	98.2	MW423738_00011	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_29	DNA polymerase	99.9	95.1	MT135025_00453	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	100.0	MN102376_00035	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	87.2	MH925093_00035	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	87.1	MN175679_00036	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	99.9	83.0	MW423738_00006	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	84.7	95.5	OK349507_00037	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	75.3	ON457559_00044	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	75.3	ON457558_00045	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_34	tail protein	85.1	73.5	MT795651_00048	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	100.0	OK349507_00038	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	100.0	MN102376_00036	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	98.5	MN175679_00037	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	98.5	MH925093_00036	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	95.4	MW423738_00005	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	78.5	KX198614_00051	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	75.4	MT795651_00049	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	72.3	ON457559_00045	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_35	tail assembly chaperone	98.5	72.3	ON457558_00046	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	100.0	MN102376_00037	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	MN175679_00038	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	MH925093_00037	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	98.6	OK349507_00039	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	95.8	KX198614_00052	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	93.0	MT795651_00050	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	90.1	ON457559_00046	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_36	tail assembly chaperone	98.6	90.1	ON457558_00047	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	100.0	MN102376_00038	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	95.9	OK349507_00040	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	86.1	MN175679_00039	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	86.1	MH925093_00038	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	85.4	MW423738_00004	MW423738 Vibrio phage PH669 Scaffold2 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.9	ON457559_00047	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.9	ON457558_00048	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	77.2	MT795651_00051	MT795651 Vibrio phage vB_VnaS-AQKL99, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_37	tail assembly protein	99.6	75.7	KX198614_00053	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.8	100.0	MN102376_00039	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_38	tail assembly protein	99.8	92.9	OK349507_00041	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.6	100.0	MN102376_00041	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	89.5	OK349507_00043	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	82.2	MG893203_00043	MG893203 Vibrio phage VP06, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	83.3	MG602476_00059	MG602476 Vibrio phage VVP001, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.9	MF754114_00043	MF754114 Vibrio phage vB_VpaS_KF4, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.9	MF754113_00006	MF754113 Vibrio phage vB_VpaS_KF3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	82.6	MZ592922_00045	MZ592922 Vibrio phage vB_VpS_C2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.2	MH599087_00061	MH599087 Vibrio phage R01, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.5	HG992588_00044	HG992588 Vibrio phage B1_1 genome assembly, chromosome: 1.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	99.3	81.2	MW451246_00055	MW451246 UNVERIFIED: Vibrio phage VP11, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	72.6	OL314400_00043	OL314400 Vibrio phage OTA22, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_40	structural protein	98.9	72.6	MH925090_00053	MH925090 UNVERIFIED: Vibrio phage ValLY_3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	100.0	MN102376_00042	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	99.5	OK349507_00044	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	98.9	MN175679_00043	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	99.9	98.9	MH925093_00042	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_41	tail length tape measure protein	93.5	79.2	MT135025_00441	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	OK349507_00045	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MN102376_00043	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MN175679_00044	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	100.0	MH925093_00043	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	99.3	MW423737_00002	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_42	tail length tape measure protein	99.3	91.1	MT135025_00440	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	OK349507_00046	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	MW423737_00003	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	100.0	MN102376_00044	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	99.1	MN175679_00045	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	97.8	MH925093_00044	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_43	minor tail protein	99.7	84.5	MT135025_00439	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	100.0	MN102376_00045	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	OK349507_00047	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MW423737_00004	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MN175679_00046	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	99.3	98.6	MH925093_00045	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_44	tail terminator	98.6	71.7	MT135025_00438	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	100.0	MN102376_00046	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	99.3	MH925093_00046	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.8	OK349507_00048	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.8	MW423737_00005	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	99.3	97.1	MN175679_00047	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_45	tail completion or Neck1 protein	94.3	74.2	MT135025_00437	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	OK349507_00050	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	MW423737_00007	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	100.0	MN102376_00048	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	99.4	MN175679_00049	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	99.4	MH925093_00048	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_47	head-tail adaptor Ad1	99.4	83.4	MT135025_00435	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	100.0	MN102376_00051	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	OK349507_00053	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	MW423737_00010	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	99.7	MT135025_00432	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	97.7	MN175679_00052	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_50	major head protein	99.7	97.7	MH925093_00051	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MW423737_00011	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MT135025_00431	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	100.0	MN102376_00052	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	OK349507_00054	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	MN175679_00053	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_51	head scaffolding protein	99.7	99.7	MH925093_00052	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	100.0	MN102376_00053	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	OK349507_00055	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MW423737_00012	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MN175679_00054	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.7	MH925093_00053	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_52	head morphogenesis	99.7	99.5	MT135025_00430	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	100.0	MN102376_00054	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MT135025_00429	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MN175679_00055	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.8	MH925093_00054	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.6	OK349507_00056	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_53	portal protein	99.8	99.6	MW423737_00013	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MN102376_00055	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MN175679_00056	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	100.0	MH925093_00055	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.8	MW423737_00014	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.6	MT135025_00428	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	99.8	99.6	OK349507_00057	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	MW114771_00008	MW114771 Vibrio phage pVco-14, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	ON457559_00070	ON457559 Vibrio phage vB_VpaS_CHI, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	83.6	ON457558_00071	ON457558 Vibrio phage vB_VpaS_ALK, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	82.6	KX198614_00079	KX198614 Vibrio phage vB_VhaS-tm, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	unannotated protein	97.5	70.6	OP331229_00068	OP331229 Vibrio phage 033B, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.5	70.6	MW451249_00036	MW451249 UNVERIFIED: Vibrio phage GH32, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592667_00026	MG592667 Vibrio phage 2.117.O._10N.261.45.E9, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592577_00021	MG592577 Vibrio phage 1.207.B._10N.222.51.C2, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	97.7	70.7	MG592491_00026	MG592491 Vibrio phage 1.117.O._10N.261.45.E9, partial genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_54	terminase large subunit	98.1	70.2	MT345684_00022	MT345684 Alteromonas phage vB_AcoS-R7M, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	100.0	MN102376_00058	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	99.1	MW423737_00017	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	OK349507_00060	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	MN175679_00059	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	98.2	MH925093_00058	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_57	holin	99.1	94.5	MT135025_00426	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	100.0	MW423737_00018	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	100.0	MN102376_00059	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	99.4	OK349507_00061	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	98.8	MN175679_00060	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	99.4	98.8	MH925093_00059	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_58	amidase	88.4	97.9	MT135025_00425	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	OK349507_00062	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MW423737_00019	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MN102376_00060	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MN175679_00061	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	100.0	MH925093_00060	MH925093 UNVERIFIED: Vibrio phage VspDsh_1, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_59	terminase small subunit	99.4	93.3	MT135025_00424	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	100.0	MN102376_00062	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	98.9	MW423737_00021	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	98.9	MN175679_00063	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	97.5	OK349507_00064	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_61	ATP-dependent DNA ligase	99.7	94.9	MT135025_00422	MT135025 Vibrio phage V07, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	OK349507_00066	OK349507 Vibrio phage vB_VpaS_AL-2, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MW423737_00023	MW423737 Vibrio phage PH669 Scaffold1 genomic sequence, sequence.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MN102376_00064	MN102376 Vibrio phage vB_VpS_CA8, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	100.0	MN175679_00065	MN175679 Vibrio phage vB_VpS_BA3, complete genome.
+MN102376.1_Vibrio_phage_vB_VpS_CA8,_complete_genome_63	RusA-like Holliday junction resolvase	99.3	96.5	MT135025_00420	MT135025 Vibrio phage V07, complete genome.

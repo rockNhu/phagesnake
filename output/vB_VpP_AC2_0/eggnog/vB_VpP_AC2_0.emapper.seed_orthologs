@@ -1,8 +1,8 @@
-## Tue Aug  1 17:08:29 2023
+## Thu Aug 17 15:38:08 2023
 ## emapper-2.1.9
 ## /data/yangmeiyan/miniconda3/envs/phage_protocol/bin/emapper.py -i output/vB_VpP_AC2_0/vB_VpP_AC2_0.faa -o vB_VpP_AC2_0 --cpu 50 --output_dir output/vB_VpP_AC2_0/eggnog --override --go_evidence non-electronic
 ##
-##/data/yangmeiyan/miniconda3/envs/phage_protocol/bin/diamond blastp -d /data/yangmeiyan/miniconda3/envs/phage_protocol/lib/python3.10/site-packages/data/eggnog_proteins.dmnd -q /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/vB_VpP_AC2_0/vB_VpP_AC2_0.faa --threads 50 -o /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/output/vB_VpP_AC2_0/eggnog/vB_VpP_AC2_0.emapper.hits --tmpdir /data/yangmeiyan/hsx_analyze/phage_protocol/phagesnake_time/emappertmp_dmdn__81lwd7n --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
+##/data/yangmeiyan/miniconda3/envs/phage_protocol/bin/diamond blastp -d /data/yangmeiyan/miniconda3/envs/phage_protocol/lib/python3.10/site-packages/data/eggnog_proteins.dmnd -q /data/yangmeiyan/phagesnake/output/vB_VpP_AC2_0/vB_VpP_AC2_0.faa --threads 50 -o /data/yangmeiyan/phagesnake/output/vB_VpP_AC2_0/eggnog/vB_VpP_AC2_0.emapper.hits --tmpdir /data/yangmeiyan/phagesnake/emappertmp_dmdn_7x4cm65v --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp
 #qseqid	sseqid	evalue	bitscore	qstart	qend	sstart	send	pident	qcov	scov
 vB_VpP_AC2_3	641832.C3VVQ1_9CAUD	8.97e-311	846.0	1	426	1	426	99.5	99.8	100.0
 vB_VpP_AC2_4	641832.C3VVQ4_9CAUD	0.0	1674.0	1	811	1	811	99.1	99.9	100.0
@@ -36,5 +36,5 @@ vB_VpP_AC2_48	641832.C3VVP2_9CAUD	7.15e-120	343.0	1	178	1	178	96.6	99.4	100.0
 vB_VpP_AC2_52	674081.D1L310_9CAUD	0.00036	45.4	30	115	2	83	32.6	59.7	71.9
 vB_VpP_AC2_53	641832.C3VVP6_9CAUD	0.0	1427.0	1	713	1	713	94.7	99.9	100.0
 ## 31 queries scanned
-## Total time (seconds): 0.010974645614624023
-## Rate: 2824.69 q/s
+## Total time (seconds): 0.011139631271362305
+## Rate: 2782.86 q/s

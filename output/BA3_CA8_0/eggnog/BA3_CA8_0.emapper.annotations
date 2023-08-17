@@ -1,4 +1,4 @@
-## Tue Aug  1 21:39:38 2023
+## Thu Aug 17 15:43:20 2023
 ## emapper-2.1.9
 ## /data/yangmeiyan/miniconda3/envs/phage_protocol/bin/emapper.py -i output/BA3_CA8_0/BA3_CA8_0.faa -o BA3_CA8_0 --cpu 50 --output_dir output/BA3_CA8_0/eggnog --override --go_evidence non-electronic
 ##
@@ -51,5 +51,5 @@ MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_64	1468411.X2KTU1_9CAUD	4.82
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_65	1540098.A0A0A0RPB2_9CAUD	1.66e-08	57.4	4QEKB@10239|Viruses,4QQVT@28883|Caudovirales,4QMR1@10699|Siphoviridae	10699|Siphoviridae	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 MN175679.1_Vibrio_phage_vB_VpS_BA3,_complete_genome_83	1175654.A0A0S0N8V2_9CAUD	1.7e-24	100.0	4QE1S@10239|Viruses,4QX6S@35237|dsDNA viruses  no RNA stage,4QRC4@28883|Caudovirales,4QN20@10699|Siphoviridae	10699|Siphoviridae	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 ## 48 queries scanned
-## Total time (seconds): 0.46550846099853516
-## Rate: 103.11 q/s
+## Total time (seconds): 0.45455503463745117
+## Rate: 105.60 q/s

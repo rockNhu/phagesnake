@@ -1,22 +1,24 @@
 # Snakemake script
-# 2.2.3 catch the terminase in the blastp fmt: self and neibours
+# The phylogenetic tree based on TerL sub-workflow
+
 rule find_terL:
     input: 
         blastp_fmt = "output/{sample}/blastp_fmt.tsv",
         faa = "output/{sample}/{sample}.faa"
     output: 
-        terl_list = temp("output/{sample}/TerL.list"),
-        terl_self = "output/{sample}/TerL_self.faa",
-        terl_neib = temp("output/{sample}/TerL_neib.faa"),
-        terl_neib_fmt = temp("output/{sample}/TerL_neib_fmt.faa"),
-        terl_faa = "output/{sample}/TerL.faa"
+        terl_list = "output/{sample}/TerL_tree/TerL.list",
+        terl_self = "output/{sample}/TerL_tree/TerL_self.faa",
+        terl_neib = "output/{sample}/TerL_tree/TerL_neib.faa",
+        terl_neib_fmt = "output/{sample}/TerL_tree/TerL_neib_fmt.faa",
+        terl_faa = "output/{sample}/TerL_tree/TerL.faa"
     params:
         totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict',
         nameseq_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_nameseq.pydict',
         genome_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict'
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''echo "{wildcards.sample} : TerL_tree start" > {log}
+    shell: '''# 2.2.3 catch the terminase in the blastp fmt: self and neibours
+echo "{wildcards.sample} : TerL_tree start" > {log}
 python {script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
     -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
@@ -31,21 +33,21 @@ python {script_dir}/cat_terL.py \\
     -o {output.terl_faa} -s {wildcards.sample} >> {log}
 '''
 
-
-# 2.2.4 phylogenetic_tree
 rule MAFFT_iqtree:
-    input: "output/{sample}/TerL.faa"
+    input: "output/{sample}/TerL_tree/TerL.faa"
     output:
         aln = "output/{sample}/TerL_tree/TerL.aln",
-        tree = "output/{sample}/TerL_tree/TerL.aln.treefile"
+        tree = "output/{sample}/TerL.aln.treefile"
     threads: 20
     params: wkdir = "output/{sample}/TerL_tree"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
-    shell: '''if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
+    shell: '''# 2.2.4 phylogenetic_tree
+if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
 if [ $(grep -c '>' {input}) -gt 3 ];then 
     mafft --auto --quiet {input} > {output.aln}
     iqtree -s {output.aln} -T {threads} -B 1000 --redo-tree >> {log}
+    cp {params.wkdir}/TerL.aln.treefile {output.tree}
 else
     echo "Error: {input} is not ok!"
     for i in {output};do
@@ -54,16 +56,14 @@ else
 fi
 '''
 
-
-# 2.2.5 ggtree visualization
 rule phylotree_visualize:
-    input: "output/{sample}/TerL_tree/TerL.aln.treefile"
+    input: "output/{sample}/TerL.aln.treefile"
     output:
         svg_out = "output/{sample}/TerL.svg",
         png_out = "output/{sample}/TerL.png"
     log: f"{log_dir}/" + "{sample}_terL_tree.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''
+    shell: '''# 2.2.5 ggtree visualization
 if [ -s {input} ];then
     python {script_dir}/plot_tree.py {input} {output.svg_out} >> {log}
     python {script_dir}/plot_tree.py {input} {output.png_out} >> {log}
@@ -74,16 +74,14 @@ fi
 
 rule TerL_clean:
     input:
-        faa = "output/{sample}/TerL.faa",
-        faa_self = "output/{sample}/TerL_self.faa",
-        treefile = "output/{sample}/TerL_tree/TerL.aln.treefile",
+        terl_tree = "output/{sample}/TerL.aln.treefile",
         svg_out = "output/{sample}/TerL.svg",
         png_out = "output/{sample}/TerL.png"
     output:
-        treefile = "output/{sample}/TerL.aln.treefile"
         status = temp("output/{sample}/TerL-clean")
-    shell: '''cp {input.treefile} {output.treefile}
-rm {input.faa}
-rm {input.faa_self}
+    params:
+        treedir = "output/{sample}/TerL_tree"
+    shell: '''# clean the temporary files in TerL tree
+if [ -d {params.treedir} ];then rm -r {params.treedir};fi
 touch {output.status}
 '''

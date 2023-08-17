@@ -269,7 +269,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="5-10bp"
-                     /product="head-tail adaptor"
+                     /product="Bacteriophage head to tail connecting protein"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLHVRTKTESAY
                      HFNATSNLTVLCWLTTLLVN"
                      /locus_tag="vB_VpP_AC2_0_0023"
@@ -309,7 +309,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="5-10bp"
-                     /product="head-tail adaptor"
+                     /product="Bacteriophage head to tail connecting protein"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLHVRTKTESAY
                      HFNATSNLTVLCWLTTLLVN"
                      /locus_tag="vB_VpP_AC2_0_0027"
@@ -622,7 +622,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="5-10bp"
-                     /product="endonuclease"
+                     /product="hypothetical protein"
                      /translation="MALNARELQFLRENYGTVGKCLSKQGVADALDKTYNEISHAIRYN
                      GITTGDKRRSGRKLTESQKRELVQQKDRGRSSEFLAGYYGITPQHVCRVYRAAKQQKY"
                      /locus_tag="vB_VpP_AC2_0_0049"

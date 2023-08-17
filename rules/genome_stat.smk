@@ -1,12 +1,14 @@
 # Snakemake script
-# 3.1 get orf.list
+# The genomic statistic sub-workflow
+
 rule get_orf_list:
     input: 
         faas = expand("output/{sample}/{sample}.faa",sample=Samples)
     output:
-        orf = "orf.list"
+        orf = temp("output/orf.list")
     log: f"{log_dir}/genome_stat.log"
     run:
+        # 3.1 get orf.list
         import os
 
         out = open(output.orf,'w')
@@ -15,14 +17,13 @@ rule get_orf_list:
             count = sum(1 for line in open(faa) if '>' in line)
             out.write(f'{name}:{count}\n')
 
-
-# 3.2 statistic genome infomation
 rule statistics_genome:
     input:
-        orf = "orf.list"
-    output: "seq_info.tsv"
+        orf = "output/orf.list"
+    output: f"output/seq_info{start_time}.tsv"
     log: f"{log_dir}/genome_stat.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/get_fasta_info2.py \\
-    -i {fmt_fna_dir} -orf {input.orf} -o . >> {log}
+    shell: '''# 3.2 statistic genome infomation
+python {script_dir}/get_fasta_info3.py \\
+    -i {fmt_fna_dir} -orf {input.orf} -o {output} >> {log}
 '''

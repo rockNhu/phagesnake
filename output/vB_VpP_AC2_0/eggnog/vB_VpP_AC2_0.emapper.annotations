@@ -1,4 +1,4 @@
-## Tue Aug  1 17:08:28 2023
+## Thu Aug 17 15:38:08 2023
 ## emapper-2.1.9
 ## /data/yangmeiyan/miniconda3/envs/phage_protocol/bin/emapper.py -i output/vB_VpP_AC2_0/vB_VpP_AC2_0.faa -o vB_VpP_AC2_0 --cpu 50 --output_dir output/vB_VpP_AC2_0/eggnog --override --go_evidence non-electronic
 ##
@@ -35,5 +35,5 @@ vB_VpP_AC2_48	641832.C3VVP2_9CAUD	7.15e-120	343.0	4QBIT@10239|Viruses,4QWU6@3523
 vB_VpP_AC2_52	674081.D1L310_9CAUD	0.00036	45.4	4QCYQ@10239|Viruses,4QVJ8@35237|dsDNA viruses  no RNA stage,4QTU8@28883|Caudovirales,4QNNT@10744|Podoviridae	10744|Podoviridae	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 vB_VpP_AC2_53	641832.C3VVP6_9CAUD	0.0	1427.0	4QBFJ@10239|Viruses,4QSD1@28883|Caudovirales,4QNRZ@10744|Podoviridae	10744|Podoviridae	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 ## 31 queries scanned
-## Total time (seconds): 0.483478307723999
-## Rate: 64.12 q/s
+## Total time (seconds): 0.422161340713501
+## Rate: 73.43 q/s

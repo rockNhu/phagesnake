@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MNNKIAHFTPDMTNDQMIHAWSLNQALLKELKTVEMEQRKQIAEK
                      MFPDAKNGTNKHELGAGYVLKYVRGEETKLDPTVFELLRPDLPEHVIDKAVKFTPSLIA
                      KGFKDLSMEDREKLEDALVTKPKSPTLDIVPPKEKKDEI"
@@ -121,7 +121,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="4Base/6BMM"
                      /rbs_spacer="13-15bp"
-                     /product="unannotated protein"
+                     /product="zinc-finger-containing domain"
                      /translation="MLERQQLPEPTHCHHCNHDHVQFVNHKVVYGTEKGNWPFIWLCSS
                      CGAVVSCHEGTRNPKGFMCDKHTAKMRQKAHHVFDKIWKRYMYCSRVHAYASLAASMKI
                      NFDDCHIGQFNAEECEYVIKWSKERLKLYKSKKKQKAVYRGGKKRVIKDKGAW"
@@ -172,7 +172,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MPKLSATAKAAAFGTMQVLKATEQNKGLLAPGLEGLSNGYLAGFT
                      ERVMKETLKAASIEKGRTGWWSEHICTIGNLMDMRAKALADNDHASVINFTAMIMYREA
                      AGECVPPKKIQCIYNPQVSVRGLFAEKDKGCGMCDLGKPVRTFIRRGVYVVEVEDGSLY
@@ -183,7 +183,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MLYILDTTSMKLVATTDTMEQAEYLADLLVDGKSNPHIDDMGFDG
                      LEVFSNAELATIYDHTTGSPIRNQRDRNDREFLVGLLLNLARDVKDERSVGALYGALGR
                      VPTKPSKLPAAEPRAAATPSTSGTGERQSGAKERIFELADQAWEAAGKPTDVSVVLKLR
@@ -194,7 +194,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MNKLALLALPLFASTGFGTEAEPEASTEAAGAATEGEATAKKEKV
                      EKPKMPSQNGVTRPRPDTLCGRVWAIADEMSAKKQAPVAVADLLVVTDAEGLNAGNVRC
                      EYAAWRKFHGVTGRIMSEKQMAEKAEKEAAKEAKKAEKEAAKKAREEERAAKKAEREAA
@@ -235,7 +235,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MSLIANNGLVCVGGPYHQQRILLECPNSGTLTFNANGMHGRYVYK
                      SSPINGGYLKWENH"
                      /locus_tag="BA3_CA8_1_0019"
@@ -273,7 +273,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="5-10bp"
-                     /product="holin"
+                     /product="hypothetical protein"
                      /translation="MVSYLVLFCATFLSVGLRVVQTRNIVSLNYKAMFLTSIGIDLSMV
                      IGVTGIVTEGWQAFFPIALGGALGSVTFAYLHKKFYG"
                      /locus_tag="BA3_CA8_1_0023"
@@ -469,7 +469,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="structural protein"
+                     /product="hypothetical protein"
                      /translation="MAYATQNYGSARTDLIQALRTQFEAAGYTIAGHEGESLCVKLGDD
                      LFVEYNCKNTRYVSRGTGEYADSLSWRMGTSHNGAQVAGNTSPLESHGIASRGWSGPKQ
                      HCPLPGKLHFCKTSVSGKLDYAFCLENPTDSKGSTYVGAELDCVDPQFGAYKHFYLAGQ
@@ -558,7 +558,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MSDDAFYNTIIEKVVPIIERFGTSYKVRSKGVYDPDTMETSEPTE
                      RTVKGVRANGFTASELGSDVGGMNRGGAFIIGHNSLLIEPSANILPTDEVEVDGQWQSC
                      NRTEKVQPGNIVVLYVVTIGG"
@@ -588,7 +588,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MKQVILDALAKVDVENDDHWTADGAVRVDVVSELIGEEVTRADIT
                      AAAPKFNRKNTELADGGVVVAESTTEPDLPVDTGNQVAEDDAKGDGEIPEPQFANPWEK
                      AATEARESMVKQEVNIGETQEAIAELTALRKDYVGKRVVIDAKIQEIDEEVHRLSQLCK
@@ -753,7 +753,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="AGGA"
                      /rbs_spacer="5-10bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MINVWYLFGTVGALLAVLAYFLVASSLWNATGERYNLCNLISSIL
                      MGLSLVGAADQRALVVSVGWMVVSLYMLYRLKRERGKLYVFDWVTRLRPK"
                      /locus_tag="BA3_CA8_1_0062"
@@ -942,7 +942,7 @@ FEATURES             Location/Qualifiers
                      /start_type="ATG"
                      /rbs_motic="GGA/GAG/AGG"
                      /rbs_spacer="11-12bp"
-                     /product="unannotated protein"
+                     /product="hypothetical protein"
                      /translation="MSTIKTYANKSGLIKALRRAGVADADHMPQQNAEGRWFQGTPKVV
                      IPNVVNSVAVLRGVALPCEAPKTVKLFGRGIKIEKNREEKNGIKRPSVGGACRAVWDEC
                      DRIYAETGLVPMPKQLKAWAREVGANENNAVIELYVWRKFEGHTKSKA"

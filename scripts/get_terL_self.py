@@ -48,7 +48,7 @@ class get_TerL(object):
             tag = content[0]  # first column is the tag of self protein
             # second column is the description of subject
             description = content[1]
-            acc = content[-1]  # final column is the acc of subject
+            acc = content[-2]  # the second final column is the acc of subject
             for ter in self.TerL_desc:
                 if ter in description:  # check the annotation is terminase
                     self.to_extract.add(acc)

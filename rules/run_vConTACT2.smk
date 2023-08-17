@@ -1,18 +1,17 @@
 # Snakemake script
 
-# 2.4.1 vConTACT gene2genome
 rule gene2genome:
     input: 'output/{sample}/{sample}.faa'
     output: 'output/{sample}/vcontact2/gene_to_genome.csv'
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     run:
+        # 2.4.1 vConTACT gene2genome
         with open(output[0],'w') as f:
             for line in open(input[0]):
                 if '>' in line:
                     name = line.split(' ',1)[0].replace('>', '')
                     f.write(f'{name},{wildcards.sample},none\n')
 
-# 2.4.2 bidirectory blast to get vConTACT input blastp file
 rule Diamond_blastp_raw:
     input:
         sample_faa = 'output/{sample}/{sample}.faa'
@@ -27,7 +26,8 @@ rule Diamond_blastp_raw:
     threads: 60
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''# the blastp cat front & reverse blastp outputs to final_blp
+    shell: '''# 2.4.2 bidirectory blast to get vConTACT input blastp file
+# the blastp cat front & reverse blastp outputs to final_blp
 diamond blastp --query {input.sample_faa} --db {params.vc2_db} \\
     -o {output.blp_f} -p {threads} --sensitive --quiet >> {log}
 diamond makedb --in {input.sample_faa} -p {threads} --db {output.sample_dmnd}
@@ -36,7 +36,6 @@ diamond blastp --query {params.database_faa} --db {output.sample_dmnd} \\
 cat {output.blp_f} {output.blp_r} > {output.final_blp}
 '''
 
-# 2.4.3 vConTACT2 main protocol
 rule vConTACT2:
     input: 
         g2g = 'output/{sample}/vcontact2/gene_to_genome.csv',
@@ -52,20 +51,20 @@ rule vConTACT2:
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     threads: 60
-    shell: '''# fmt input files, the sample head line was removed.
+    shell: '''# 2.4.3 vConTACT2 main protocol
+# fmt input files, the sample head line was removed.
 cat {params.vcontact2_db_blp} {input.blp} > {params.wk_dir}/vConTACT2_blastp.tsv
 cat {params.vcontact2_db_g2g} {input.g2g} > {params.wk_dir}/vConTACT2_gene_to_genome.csv
-
+# vcontact2 protocol
 vcontact2 --blast-fp {params.wk_dir}/vConTACT2_blastp.tsv \\
     --proteins-fp {params.wk_dir}/vConTACT2_gene_to_genome.csv \\
     --db 'None' --pcs-mode MCL --vcs-mode ClusterONE -t {threads} \\
     --output-dir {params.wk_dir} >> {log}
-
+# get final output
 cp {params.wk_dir}/c1.ntw {output.network}
 cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
 '''
 
-# 2.4.4 vConTACT visualization
 rule vConTACT_visualize:
     input: 
         network = 'output/{sample}/c1.ntw',
@@ -80,7 +79,7 @@ rule vConTACT_visualize:
     threads: 60
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     params: outdir = 'output/{sample}/graphanalyze_'
-    shell: '''
+    shell: '''# 2.4.4 vConTACT visualization
 python {script_dir}/smaller_vc_network.py -nwk {input.network} \\
     -ovv {input.overview} -db {input.db_data} -s {wildcards.sample} \\
     -onwk {output.small_network} -oovv {output.small_overview} \\
@@ -114,6 +113,9 @@ rule vcontact_clean:
         graph = "output/{sample}/{sample}_vConTACT2.html"
     output:
         status = temp('output/{sample}/vcontact-clean')
-    shell: '''rm -r output/{sample}/vcontact2
+    params:
+        workdir = "output/{sample}/vcontact2"
+    shell: '''# 2.5 cleanup the tempory
+if [ -d {params.workdir} ];then rm -r {params.workdir};fi
 touch {output.status}
 '''

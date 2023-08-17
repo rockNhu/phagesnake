@@ -2,6 +2,7 @@
 #-* coding = UTF-8 *-
 # @Author = Shixuan Huang (Rock Nhu)
 import os
+import datetime
 
 def fmt_dir_end(d):
     return d.rstrip('\\/')
@@ -21,25 +22,22 @@ script_dir = fmt_dir_end(config['script_dir'])
 fna_dir = fmt_dir_end(config['fna_dir'])
 fmt_fna_dir = fmt_dir_end(config['fmt_fna_dir'])
 os.system(f'python {script_dir}/fmt_input_file.py -i {fna_dir} -o {fmt_fna_dir} > {log_dir}/fmt.log')
+# the fmt input is gate of protocol
 Samples, = glob_wildcards(os.path.join(fmt_fna_dir,"{name}.fasta"))
 Samples = [sam for sam in Samples if '/' not in sam]
+# current time to make statistic
+start_time = datetime.datetime.now().strftime('%Y%m%d')
 
 if run_vc == True:
     rule all:
         input:
-            'Done-ANI',
-            'Done-TerL-tree',
-            'Done-anno',
-            'Done-Stat',
-            'Done-vConTACT'
+            'Done-all'
+
     include: 'rules/run_vConTACT2.smk'
 else:
     rule all:
         input:
-            'Done-ANI',
-            'Done-TerL-tree',
-            'Done-anno',
-            'Done-Stat'
+            'Done-all-none-vcontact'
 
 include: 'rules/nucl_align.smk'
 include: 'rules/TerL_tree.smk'
@@ -70,9 +68,9 @@ touch {output}
 
 rule TerL_tree:
     input: 
-        #expand("output/{sample}/TerL-clean",sample=Samples),
-        expand("output/{sample}/TerL.png",sample=Samples),
-        expand("output/{sample}/TerL.svg",sample=Samples)
+        expand("output/{sample}/TerL-clean",sample=Samples),
+        #expand("output/{sample}/TerL.png",sample=Samples),
+        #expand("output/{sample}/TerL.svg",sample=Samples)
     output: temp('Done-TerL-tree')
     shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
 touch {output}
@@ -93,11 +91,49 @@ touch {output}
 '''
 
 rule genome_stat: 
-    input: "seq_info.tsv"
+    input: f"output/seq_info{start_time}.tsv"
     output: temp('Done-Stat')
     shell: '''echo "Genome statistic - finished. Only python3 used."
 touch {output}
 '''
+
+rule finished_clean:
+    input:
+        'Done-ANI',
+        'Done-TerL-tree',
+        'Done-anno',
+        'Done-Stat',
+        'Done-vConTACT'
+    output:
+        temp('Done-all')
+    shell: '''# move the finished input out
+if [ ! -d finished_fna ];then mkdir finished_fna;fi
+if [ ! -d finished_fmt_fna ];then mkdir finished_fmt_fna;fi
+if [ $(ls -A {fna_dir}) ];then
+    mv {fna_dir}/* finished_fna
+    mv {fmt_fna_dir}/* finished_fmt_fna
+fi
+touch {output}
+'''
+
+rule finished_no_vc_clean:
+    input:
+        'Done-ANI',
+        'Done-TerL-tree',
+        'Done-anno',
+        'Done-Stat'
+    output:
+        temp('Done-all-none-vcontact')
+    shell: '''# move the finished input out
+if [ ! -d finished_fna ];then mkdir finished_fna;fi
+if [ ! -d finished_fmt_fna ];then mkdir finished_fmt_fna;fi
+if [ $(ls -A {fna_dir}) ];then
+    mv {fna_dir}/* finished_fna
+    mv {fmt_fna_dir}/* finished_fmt_fna
+fi
+touch {output}
+'''
+
 onerror:
     sys.stderr.write('\n\n')
     sys.stderr.write(

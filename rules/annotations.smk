@@ -1,5 +1,6 @@
 # Snakemake script
-# 2.1 prodigal annotation
+# The annotations sub-workflow
+
 rule Prodigal:
     input: fmt_fna_dir +"/{sample}.fasta"
     output: 
@@ -7,9 +8,10 @@ rule Prodigal:
         gff = "output/{sample}/{sample}.gff"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_annotations.log"
-    shell: "prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q -p meta > {log}"
+    shell: '''# 2.1 prodigal annotation
+prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q -p meta > {log}
+'''
 
-# 2.1.1 EggNOG annotation
 rule EggNOG:
     input: "output/{sample}/{sample}.faa"
     output: "output/{sample}/eggnog/{sample}.emapper.annotations"
@@ -18,59 +20,41 @@ rule EggNOG:
         out_dir = 'output/{sample}/eggnog'
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
-emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \\
-    --output_dir {params.out_dir} --override --go_evidence non-electronic >> {log}
+    shell: '''# 2.1.1 EggNOG annotation
+if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
+emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \
+--output_dir {params.out_dir} --override --go_evidence non-electronic >> {log}
 '''
 
-# 2.2.1 Diamond blastp All protein to find the annotation
 rule Diamond_blastp:
     input: 'output/{sample}/{sample}.faa'
-    output: 'output/{sample}/{sample}.dm.tsv'
+    output: temp('output/{sample}/{sample}.dm.tsv')
     params: 
         vc2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd"
     threads: 60
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''diamond blastp --query {input} --db {params.vc2_db} -o {output} \\
-    -p {threads} --quiet --sensitive --outfmt 6 qseqid sseqid pident qcovhsp >> {log}
+    shell: '''# 2.2.1 Diamond blastp All protein to find the annotation
+diamond blastp --query {input} --db {params.vc2_db} -o {output} \
+-p {threads} --quiet --sensitive --outfmt 6 qseqid sseqid pident qcovhsp >> {log}
 '''
 
-# 2.2.2 parse the blastp All output
 rule filter_All_BLASTp:
-    input: 'output/{sample}/{sample}.dm.tsv'
-    output: 'output/{sample}/blastp_fmt.tsv'
+    input: tsv = 'output/{sample}/{sample}.dm.tsv'
+    output: fmt_blastp = 'output/{sample}/blastp_fmt.tsv'
     params: 
-        totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict'
-    run:
-        def is_unknown(product):
-            unknow_words = [
-                'hypothetical','Unknow','unknow',
-                'Uncharactrized','uncharactrized','gp','Gp'
-            ]
-            return any(un in product for un in unknow_words)
+        nucl_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
+        prot_totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict',
+        idt = 70,
+        cov = 70
+    log: f"{log_dir}/" + "{sample}_annotations.log"
+    shell: '''# 2.2.2 parse the blastp All output
+python {script_dir}/get_neibour_prot.py \
+-i {input.tsv} -o_fmt {output.fmt_blastp} \
+-nucl_id_db {params.nucl_totalname_dict} -prot_id_db {params.prot_totalname_dict} \
+-idt {params.idt} -cov {params.cov} >> {log}
+'''
 
-
-        # load the id:totalname
-        with open(params.totalname_dict) as f:
-            total_name = eval(f.read())
-
-        out_line = ''
-        for line in open(input[0]):
-            contents = line.strip('\n').split('\t')
-            name = contents[0]
-            target = contents[1]
-            product = total_name[target].split(' ',1)[1]
-            idt = float(contents[2])
-            qcov = float(contents[3])
-            # the filter
-            if not is_unknown(product) or qcov < 70 or idt < 70:
-                out_line += f'{name}\t{product}\t{qcov}\t{idt}\t{target}\n'
-
-        with open(output[0],'w') as f:
-            f.write(out_line)
-
-# 2.3 fasta + Prodigal + EggNOG + blastp -> gbk
 rule final_gbk:
     input:
         fa = fmt_fna_dir + "/{sample}.fasta",
@@ -80,13 +64,13 @@ rule final_gbk:
     output: "output/{sample}/{sample}.gbk"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/make_final_gbk.py \\
-    -f {input.fa} -a {input.faa} \\
-    -b {input.blastp} -e {input.eggnog} \\
-    -o {output} >> {log}
+    shell: '''# 2.3 fasta + Prodigal + EggNOG + blastp -> gbk
+python {script_dir}/make_final_gbk.py \
+-f {input.fa} -a {input.faa} \
+-b {input.blastp} -e {input.eggnog} \
+-o {output} >> {log}
 '''
 
-# 2.3.1 genome_viewer
 rule genome_visualize:
     input: "output/{sample}/{sample}.gbk"
     output: 
@@ -94,11 +78,11 @@ rule genome_visualize:
         svg_out = "output/{sample}/{sample}.svg"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
+    shell: '''# 2.3.1 genome_viewer
+python {script_dir}/plot_arrow.py -i {input} -o {output.png_out} >> {log}
 python {script_dir}/plot_arrow.py -i {input} -o {output.svg_out} >> {log}
 '''
 
-# abricate protocol
 rule abr:
     input: fmt_fna_dir +"/{sample}.fasta"
     output: 
@@ -116,7 +100,8 @@ rule abr:
     threads: 8
     params:
         out_dir = "output/{sample}/ABRicate"
-    shell: '''if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
+    shell: '''# 2.4 abricate annotation
+if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
 abricate --quiet --nopath --db card {input} 1> {output.card_out} 2>> {log}
 abricate --quiet --nopath --db vfdb {input} 1> {output.vfdb_out} 2>> {log}
 abricate --quiet --nopath --db resfinder {input} 1> {output.resf_out} 2>> {log}
