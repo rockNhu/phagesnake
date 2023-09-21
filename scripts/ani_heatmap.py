@@ -1,5 +1,6 @@
 import pandas as pd
 import seaborn as sns
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import argparse
@@ -33,6 +34,7 @@ class clustermap(object):
         return df.rename(index=lambda x:self.fmt_name(x),columns=lambda x:self.fmt_name(x))
 
     def main(self):
+        matplotlib.rcParams['svg.fonttype'] = 'none'
         plt.rc('font',family='Times New Roman')
         cmap = mcolors.LinearSegmentedColormap.from_list(
             'custom_map',
