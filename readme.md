@@ -168,7 +168,7 @@ All results were in `output`.
 
 ### ANI output
 
-AC2: ![ac2ANI](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
+raw with pyani: AC2: ![ac2ANI](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
 
 replot AC2: ![ac2ANI_replot](output/vB_VpP_AC2_0/ANIb_percentage_identity.svg)
 

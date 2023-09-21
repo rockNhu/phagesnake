@@ -30,14 +30,13 @@ class clustermap(object):
 
     def get_file(self):
         df = pd.read_csv(self.input_file,sep='\t',index_col=0)
-        df[df < 0.7] = 0
         return df.rename(index=lambda x:self.fmt_name(x),columns=lambda x:self.fmt_name(x))
 
     def main(self):
         plt.rc('font',family='Times New Roman')
         cmap = mcolors.LinearSegmentedColormap.from_list(
             'custom_map',
-            [(0, '#a0a0a0'), (0.6999, '#a0a0a0'), (0.7, 'blue'), (0.9, 'white'), (1, 'red')]
+            [(0, '#a0a0a0'), (0.6999, '#a0a0a0'), (0.7, 'blue'),(0.9, "blue"), (0.95, 'white'), (1, 'red')]
         )
         if self.anno:
             afont = {
@@ -48,7 +47,7 @@ class clustermap(object):
                 }
             sns.clustermap(self.df,method ='ward',annot=True,fmt='.2',annot_kws=afont,metric='euclidean',cmap=cmap,vmin=0,vmax=1)
         else:
-            sns.clustermap(self.df,method ='ward',metric='euclidean',cmap=cmap,vmax=1)
+            sns.clustermap(self.df,method ='ward',metric='euclidean',cmap=cmap,vmin=0,vmax=1)
         plt.savefig(self.output_name)
 
 if __name__ == '__main__':
