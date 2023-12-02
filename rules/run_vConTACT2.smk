@@ -1,8 +1,8 @@
 # Snakemake script
 
 rule gene2genome:
-    input: 'output/{sample}/{sample}.faa'
-    output: 'output/{sample}/vcontact2/gene_to_genome.csv'
+    input: 'output/{sample}/2.annotations/{sample}.faa'
+    output: 'output/{sample}/6.vConTACT2_network/vcontact2/gene_to_genome.csv'
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     run:
         # 2.4.1 vConTACT gene2genome
@@ -14,12 +14,12 @@ rule gene2genome:
 
 rule Diamond_blastp_raw:
     input:
-        sample_faa = 'output/{sample}/{sample}.faa'
+        sample_faa = 'output/{sample}/2.annotations/{sample}.faa'
     output: 
-        sample_dmnd = 'output/{sample}/vcontact2/{sample}.dmnd',
-        blp_f = 'output/{sample}/vcontact2/{sample}_f.dm.tsv',
-        blp_r = 'output/{sample}/vcontact2/{sample}_r.dm.tsv',
-        final_blp = 'output/{sample}/vcontact2/{sample}_bidir.dm.tsv'
+        sample_dmnd = 'output/{sample}/6.vConTACT2_network/vcontact2/{sample}.dmnd',
+        blp_f = 'output/{sample}/6.vConTACT2_network/vcontact2/{sample}_f.dm.tsv',
+        blp_r = 'output/{sample}/6.vConTACT2_network/vcontact2/{sample}_r.dm.tsv',
+        final_blp = 'output/{sample}/6.vConTACT2_network/vcontact2/{sample}_bidir.dm.tsv'
     params: 
         database_faa = f"{db_path}/{db_prefix}_vConTACT2_proteins.faa",
         vc2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd"
@@ -38,13 +38,13 @@ cat {output.blp_f} {output.blp_r} > {output.final_blp}
 
 rule vConTACT2:
     input: 
-        g2g = 'output/{sample}/vcontact2/gene_to_genome.csv',
-        blp = 'output/{sample}/vcontact2/{sample}_bidir.dm.tsv'
+        g2g = 'output/{sample}/6.vConTACT2_network/vcontact2/gene_to_genome.csv',
+        blp = 'output/{sample}/6.vConTACT2_network/vcontact2/{sample}_bidir.dm.tsv'
     output:
-        network = 'output/{sample}/c1.ntw',
-        overview = 'output/{sample}/genome_by_genome_overview.csv'
+        network = 'output/{sample}/6.vConTACT2_network/c1.ntw',
+        overview = 'output/{sample}/6.vConTACT2_network/genome_by_genome_overview.csv'
     params:
-        wk_dir = 'output/{sample}/vcontact2',
+        wk_dir = 'output/{sample}/6.vConTACT2_network/vcontact2',
         vcontact2_db_blp = f"{db_path}/allVSall.dm.tsv",
         vcontact2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd",
         vcontact2_db_g2g = f"{db_path}/{db_prefix}_vConTACT2_gene_to_genome.csv"
@@ -67,18 +67,18 @@ cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
 
 rule vConTACT_visualize:
     input: 
-        network = 'output/{sample}/c1.ntw',
-        overview = 'output/{sample}/genome_by_genome_overview.csv',
+        network = 'output/{sample}/6.vConTACT2_network/c1.ntw',
+        overview = 'output/{sample}/6.vConTACT2_network/genome_by_genome_overview.csv',
         db_data = f'{db_path}/{db_prefix}_data.tsv'
     output: 
-        small_network = 'output/{sample}/small_c1.ntw',
-        small_overview = 'output/{sample}/small_genome_by_genome_overview.csv',
-        small_database = 'output/{sample}/small_data.tsv',
-        graph = "output/{sample}/{sample}_vConTACT2.html"
+        small_network = 'output/{sample}/6.vConTACT2_network/small_c1.ntw',
+        small_overview = 'output/{sample}/6.vConTACT2_network/small_genome_by_genome_overview.csv',
+        small_database = 'output/{sample}/6.vConTACT2_network/small_data.tsv',
+        graph = "output/{sample}/6.vConTACT2_network/{sample}_vConTACT2.html"
     log: f"{log_dir}/" + "{sample}_run_vConTACT2.log"
     threads: 60
     conda: f"{Conda_env_dir}/phagesnake.yaml"
-    params: outdir = 'output/{sample}/graphanalyze_'
+    params: outdir = 'output/{sample}/6.vConTACT2_network/graphanalyze_'
     shell: '''# 2.4.4 vConTACT visualization
 python {script_dir}/smaller_vc_network.py -nwk {input.network} \\
     -ovv {input.overview} -db {input.db_data} -s {wildcards.sample} \\
@@ -103,19 +103,21 @@ else
 fi
 '''
 
-rule vcontact_clean:
+rule vcontact_all:
     input:
-        network = 'output/{sample}/c1.ntw',
-        overview = 'output/{sample}/genome_by_genome_overview.csv',
-        small_network = 'output/{sample}/small_c1.ntw',
-        small_overview = 'output/{sample}/small_genome_by_genome_overview.csv',
-        small_database = 'output/{sample}/small_data.tsv',
-        graph = "output/{sample}/{sample}_vConTACT2.html"
+        network = 'output/{sample}/6.vConTACT2_network/c1.ntw',
+        overview = 'output/{sample}/6.vConTACT2_network/genome_by_genome_overview.csv',
+        small_network = 'output/{sample}/6.vConTACT2_network/small_c1.ntw',
+        small_overview = 'output/{sample}/6.vConTACT2_network/small_genome_by_genome_overview.csv',
+        small_database = 'output/{sample}/6.vConTACT2_network/small_data.tsv',
+        graph = "output/{sample}/6.vConTACT2_network/{sample}_vConTACT2.html",
+        db_data = f'{db_path}/{db_prefix}_data.tsv'
     output:
-        status = temp('output/{sample}/vcontact-clean')
+        touch(temp('output/{sample}_6.vConTACT2_network'))
+        db_data = 'output/{sample}/6.vConTACT2_network/' + f'{db_prefix}_data.tsv'
     params:
-        workdir = "output/{sample}/vcontact2"
+        workdir = "output/{sample}/6.vConTACT2_network/vcontact2"
     shell: '''# 2.5 cleanup the tempory
 if [ -d {params.workdir} ];then rm -r {params.workdir};fi
-touch {output.status}
+cp {input.db_data} {output.db_data}
 '''

@@ -47,19 +47,16 @@ include: 'rules/genome_stat.smk'
 
 rule nucl_align:
     input:
-        svg = expand("output/{sample}/ANIb_percentage_identity.svg",sample=Samples),
-        png = expand("output/{sample}/ANIb_percentage_identity.png",sample=Samples),
+        expand("output/{sample}_1.nucleotide_alignment",sample=Samples),
     output: temp('Done-ANI')
     shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
 touch {output}
 '''
 
 rule annotations:
-    input:
-        expand("output/{sample}/{sample}.png",sample=Samples),
-        expand("output/{sample}/{sample}.svg",sample=Samples),
-        expand("output/{sample}/{sample}.gbk",sample=Samples),
-        expand("output/{sample}/abr_check.tsv",sample=Samples)
+    input: 
+        expand("output/{sample}_2.annotations-clean",sample=Samples),
+        expand("output/{sample}_3.secuity_check-clean",sample=Samples)
     output: temp('Done-anno')
     shell: '''echo "Annotations - finished."
 echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
@@ -68,32 +65,24 @@ touch {output}
 
 rule TerL_tree:
     input: 
-        expand("output/{sample}/TerL-clean",sample=Samples),
-        #expand("output/{sample}/TerL.png",sample=Samples),
-        #expand("output/{sample}/TerL.svg",sample=Samples)
+        expand("output/{sample}_4.TerL_phylogenetic_tree",sample=Samples),
     output: temp('Done-TerL-tree')
     shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
 touch {output}
 '''
 
-rule run_vConTACT:
-    input: 
-        #clean_status = expand('output/{sample}/vcontact-clean',sample=Samples),
-        network = expand('output/{sample}/c1.ntw',sample=Samples),
-        overview = expand('output/{sample}/genome_by_genome_overview.csv',sample=Samples),
-        small_network = expand('output/{sample}/small_c1.ntw',sample=Samples),
-        small_overview = expand('output/{sample}/small_genome_by_genome_overview.csv',sample=Samples),
-        small_database = expand('output/{sample}/small_data.tsv',sample=Samples),
-        graph = expand("output/{sample}/{sample}_vConTACT2.html",sample=Samples)
-    output: temp('Done-vConTACT')
-    shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
+rule genome_stat: 
+    input: f"output/5.seq_info{start_time}.tsv"
+    output: temp('Done-Stat')
+    shell: '''echo "Genome statistic - finished. Only python3 used."
 touch {output}
 '''
 
-rule genome_stat: 
-    input: f"output/seq_info{start_time}.tsv"
-    output: temp('Done-Stat')
-    shell: '''echo "Genome statistic - finished. Only python3 used."
+rule run_vConTACT:
+    input: 
+        expand('output/{sample}_6.vConTACT2_network', sample=Samples)
+    output: temp('Done-vConTACT')
+    shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}
 '''
 
@@ -116,7 +105,7 @@ fi
 touch {output}
 '''
 
-rule finished_no_vc_clean:
+rule no_vc_finished_clean:
     input:
         'Done-ANI',
         'Done-TerL-tree',

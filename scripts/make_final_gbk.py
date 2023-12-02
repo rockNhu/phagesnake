@@ -101,6 +101,13 @@ class make_final_gbk(object):
         for record in SeqIO.parse(fasta_path, 'fasta'):
             seq_id = record.id
             features = record.features
+            # add source
+            source_feature = SeqFeature()
+            source_feature.type = 'source'
+            source_feature.location = FeatureLocation(0, len(record.seq), 1)
+            source_feature.qualifiers['organism'] = sample_name
+            source_feature.qualifiers['mol_type'] = 'genomic DNA'
+            features.append(source_feature)
             for name, data in faa_data.items():
                 # {name:[product, ec, gos, kos, cazy, pfam]}
                 eggnog = eggnog_data.get(name)

@@ -4,8 +4,8 @@
 rule Prodigal:
     input: fmt_fna_dir +"/{sample}.fasta"
     output: 
-        faa = "output/{sample}/{sample}.faa",
-        gff = "output/{sample}/{sample}.gff"
+        faa = "output/{sample}/2.annotations/{sample}.faa",
+        gff = "output/{sample}/2.annotations/{sample}.gff"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     shell: '''# 2.1 prodigal annotation
@@ -13,11 +13,11 @@ prodigal -i {input} -a {output.faa} -f gff -o {output.gff} -c -q -p meta > {log}
 '''
 
 rule EggNOG:
-    input: "output/{sample}/{sample}.faa"
-    output: "output/{sample}/eggnog/{sample}.emapper.annotations"
+    input: "output/{sample}/2.annotations/{sample}.faa"
+    output: "output/{sample}/2.annotations/eggnog/{sample}.emapper.annotations"
     threads: 50
     params:
-        out_dir = 'output/{sample}/eggnog'
+        out_dir = 'output/{sample}/2.annotations/eggnog'
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.1.1 EggNOG annotation
@@ -27,8 +27,8 @@ emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \
 '''
 
 rule Diamond_blastp:
-    input: 'output/{sample}/{sample}.faa'
-    output: temp('output/{sample}/{sample}.dm.tsv')
+    input: 'output/{sample}/2.annotations/{sample}.faa'
+    output: temp('output/{sample}/2.annotations/{sample}.dm.tsv')
     params: 
         vc2_db = f"{db_path}/{db_prefix}_vConTACT2_proteins.dmnd"
     threads: 60
@@ -40,8 +40,8 @@ diamond blastp --query {input} --db {params.vc2_db} -o {output} \
 '''
 
 rule filter_All_BLASTp:
-    input: tsv = 'output/{sample}/{sample}.dm.tsv'
-    output: fmt_blastp = 'output/{sample}/blastp_fmt.tsv'
+    input: tsv = 'output/{sample}/2.annotations/{sample}.dm.tsv'
+    output: fmt_blastp = 'output/{sample}/2.annotations/blastp_fmt.tsv'
     params: 
         nucl_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         prot_totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict',
@@ -58,10 +58,10 @@ python {script_dir}/get_neibour_prot.py \
 rule final_gbk:
     input:
         fa = fmt_fna_dir + "/{sample}.fasta",
-        faa = "output/{sample}/{sample}.faa",
-        blastp = "output/{sample}/blastp_fmt.tsv",
-        eggnog = "output/{sample}/eggnog/{sample}.emapper.annotations"
-    output: "output/{sample}/{sample}.gbk"
+        faa = "output/{sample}/2.annotations/{sample}.faa",
+        blastp = "output/{sample}/2.annotations/blastp_fmt.tsv",
+        eggnog = "output/{sample}/2.annotations/eggnog/{sample}.emapper.annotations"
+    output: "output/{sample}/2.annotations/{sample}.gbk"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.3 fasta + Prodigal + EggNOG + blastp -> gbk
@@ -72,10 +72,10 @@ python {script_dir}/make_final_gbk.py \
 '''
 
 rule genome_visualize:
-    input: "output/{sample}/{sample}.gbk"
+    input: "output/{sample}/2.annotations/{sample}.gbk"
     output: 
-        png_out = "output/{sample}/{sample}.png",
-        svg_out = "output/{sample}/{sample}.svg"
+        png_out = "output/{sample}/2.annotations/{sample}.png",
+        svg_out = "output/{sample}/2.annotations/{sample}.svg"
     log: f"{log_dir}/" + "{sample}_annotations.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.3.1 genome_viewer
@@ -86,29 +86,35 @@ python {script_dir}/plot_arrow.py -i {input} -o {output.svg_out} >> {log}
 rule abr:
     input: fmt_fna_dir +"/{sample}.fasta"
     output: 
-        card_out = "output/{sample}/ABRicate/CARD_out.tab",
-        vfdb_out = "output/{sample}/ABRicate/VFDB_out.tab",
-        resf_out = "output/{sample}/ABRicate/ResF_out.tab",
-        arga_out = "output/{sample}/ABRicate/ArgA_out.tab",
-        ecoh_out = "output/{sample}/ABRicate/EcoH_out.tab",
-        ecov_out = "output/{sample}/ABRicate/Ecoli_VF_out.tab",
-        megares_out = "output/{sample}/ABRicate/MegaRes_out.tab",
-        ncbi_out = "output/{sample}/ABRicate/NCBI_out.tab",
-        abr_check = "output/{sample}/abr_check.tsv"
-    log: f"{log_dir}/" + "{sample}_annotations.log"
+        abr_check = "output/{sample}/3.secuity_check/abr_check.tsv",
+        abr_dir = directory("output/{sample}/3.secuity_check/ABRicate")
+    log: f"{log_dir}/" + "{sample}_abr_check.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     threads: 8
-    params:
-        out_dir = "output/{sample}/ABRicate"
     shell: '''# 2.4 abricate annotation
-if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
-abricate --quiet --nopath --db card {input} 1> {output.card_out} 2>> {log}
-abricate --quiet --nopath --db vfdb {input} 1> {output.vfdb_out} 2>> {log}
-abricate --quiet --nopath --db resfinder {input} 1> {output.resf_out} 2>> {log}
-abricate --quiet --nopath --db argannot {input} 1> {output.arga_out} 2>> {log}
-abricate --quiet --nopath --db ecoh {input} 1> {output.ecoh_out} 2>> {log}
-abricate --quiet --nopath --db ecoli_vf {input} 1> {output.ecov_out} 2>> {log}
-abricate --quiet --nopath --db megares {input} 1> {output.megares_out} 2>> {log}
-abricate --quiet --nopath --db ncbi {input} 1> {output.ncbi_out} 2>> {log}
-python {script_dir}/count_final.py -i {params.out_dir} -o {output.abr_check} >> {log}
+if [ ! -d {output.abr_dir} ];then mkdir -p {output.abr_dir};fi
+abricate --quiet --nopath --db card {input} 1> {output.abr_dir}/CARD_out.tab 2>> {log}
+abricate --quiet --nopath --db vfdb {input} 1> {output.abr_dir}/VFDB_out.tab 2>> {log}
+abricate --quiet --nopath --db resfinder {input} 1> {output.abr_dir}/ResF_out.tab 2>> {log}
+abricate --quiet --nopath --db argannot {input} 1> {output.abr_dir}/ArgA_out.tab 2>> {log}
+abricate --quiet --nopath --db ecoh {input} 1> {output.abr_dir}/EcoH_out.tab 2>> {log}
+abricate --quiet --nopath --db ecoli_vf {input} 1> {output.abr_dir}/Ecoli_VF_out.tab 2>> {log}
+abricate --quiet --nopath --db megares {input} 1> {output.abr_dir}/MegaRes_out.tab 2>> {log}
+abricate --quiet --nopath --db ncbi {input} 1> {output.abr_dir}/NCBI_out.tab 2>> {log}
+python {script_dir}/count_final.py -i {output.abr_dir} -o {output.abr_check} >> {log}
 '''
+
+rule annotation_all:
+    input:
+        png_out = "output/{sample}/2.annotations/{sample}.png",
+        svg_out = "output/{sample}/2.annotations/{sample}.svg",
+        gbk = "output/{sample}/2.annotations/{sample}.gbk",
+        gff = "output/{sample}/2.annotations/{sample}.gff",
+        faa = "output/{sample}/2.annotations/{sample}.faa",
+        blastp = "output/{sample}/2.annotations/blastp_fmt.tsv",
+        eggnog_out = "output/{sample}/2.annotations/eggnog/{sample}.emapper.annotations",
+        abr_dir = "output/{sample}/3.secuity_check/ABRicate",
+        abr_check = "output/{sample}/3.secuity_check/abr_check.tsv"
+    output:
+        temp(touch("output/{sample}_2.annotations-clean")),
+        temp(touch("output/{sample}_3.secuity_check-clean"))

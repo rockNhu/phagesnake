@@ -1,0 +1,76 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=13;
+TAXLABELS
+[1] 'UNVERIFIED__Vibrio_phage_VspDsh_1'
+[2] 'Vibrio_phage_V07'
+[3] 'Vibrio_phage_1.207.B._10N.222.51.C2'
+[4] 'Vibrio_phage_vB_VpaS_CHI'
+[5] 'Vibrio_phage_vB_VhaS-tm'
+[6] 'Vibrio_phage_1.117.O._10N.261.45.E9'
+[7] 'Alteromonas_phage_vB_AcoS-R7M'
+[8] 'Vibrio_phage_PH669_Scaffold1_genomic_sequence'
+[9] 'Vibrio_phage_vB_VpS_BA3'
+[10] 'UNVERIFIED__Vibrio_phage_GH32'
+[11] 'Vibrio_phage_pVco-14'
+[12] 'Vibrio_phage_vB_VpaS_ALK'
+[13] 'Vibrio_phage_vB_VpaS_AL-2'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=13 nsplits=48;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 8,
+	46	 2 8,
+	100	 3,
+	100	 6,
+	100	 3 6,
+	100	 10,
+	100	 3 6 10,
+	100	 7,
+	100	 3 6 7 10,
+	100	 4,
+	100	 12,
+	97	 4 12,
+	100	 5,
+	72	 4 5 12,
+	100	 11,
+	100	 4 5 11 12,
+	100	 1 2 8 9 13,
+	100	 13,
+	51	 1 2 8 9,
+	69	 1 9,
+	100	 9,
+	100	 1,
+	7	 2 13,
+	41	 2 8 13,
+	12	 2 8 9 13,
+	7	 1 2 8 13,
+	6	 2 8 9,
+	17	 8 13,
+	22	 5 11,
+	21	 1 2 9,
+	1	 4 5 11,
+	5	 4 11 12,
+	2	 1 2 8,
+	10	 1 8 9,
+	1	 5 11 12,
+	4	 1 2,
+	2	 8 9 13,
+	1	 5 12,
+	1	 1 8 9 13,
+	2	 1 2 9 13,
+	0	 4 5 7 11 12,
+	0	 1 9 13,
+	0	 4 11,
+	2	 2 9,
+	0	 4 5,
+	0	 1 2 8 9 11 13,
+	0	 1 8 13,
+;
+END; [Splits]
+

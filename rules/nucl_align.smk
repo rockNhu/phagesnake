@@ -7,7 +7,7 @@ rule MMseqs_blastn:
         db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
         tmp_dir = temp(directory('tmp/{sample}')),
-        blastn_out = temp('output/{sample}/blastn.tsv')
+        blastn_out = temp('output/{sample}/1.nucleotide_alignment/blastn.tsv')
     threads: 60
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
@@ -19,10 +19,10 @@ mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
 
 rule catch_nucl_neibours:
     input: 
-        tsv = 'output/{sample}/blastn.tsv'
+        tsv = 'output/{sample}/1.nucleotide_alignment/blastn.tsv'
     output: 
-        l = temp('output/{sample}/blastn.list'),
-        fmt_blastn = 'output/{sample}/fmt_blastn.tsv'
+        l = temp('output/{sample}/1.nucleotide_alignment/blastn.list'),
+        fmt_blastn = 'output/{sample}/1.nucleotide_alignment/fmt_blastn.tsv'
     params:
         name_db = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         idt = 75,
@@ -37,11 +37,11 @@ python {script_dir}/get_neibour_nucl.py -i {input.tsv} \\
 rule catch_neibours_fna:
     input: 
         fa = fmt_fna_dir + "/{sample}.fasta",
-        ex_list = 'output/{sample}/blastn.list',
+        ex_list = 'output/{sample}/1.nucleotide_alignment/blastn.list',
         totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         nameseq_dict = f'{db_path}/{db_prefix}_genomes_nameseq.pydict'
     output: 
-        directory("output/{sample}/n_output")
+        directory("output/{sample}/1.nucleotide_alignment/blastn_output")
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 1.3 catch the neibour fna and seperate neibours wtih format to "n_output"
@@ -57,12 +57,12 @@ fi
 
 rule pyANI:
     input: 
-        to_check = 'output/{sample}/blastn.list',
-        nd = "output/{sample}/n_output"
+        to_check = 'output/{sample}/1.nucleotide_alignment/blastn.list',
+        nd = "output/{sample}/1.nucleotide_alignment/blastn_output"
     output:
-        tab = "output/{sample}/ANI_output/ANIb_percentage_identity.tab"
+        tab = "output/{sample}/1.nucleotide_alignment/pyani_out/ANIb_percentage_identity.tab"
     params:
-        ani_dir = "output/{sample}/ANI_output",
+        ani_dir = "output/{sample}/1.nucleotide_alignment/pyani_out",
         method = "ANIb"
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
@@ -79,10 +79,10 @@ if [ ! -f {output.tab} ];then touch {output.tab};fi
 
 rule ANI_plot:
     input:
-        tab = "output/{sample}/ANI_output/ANIb_percentage_identity.tab"
+        tab = "output/{sample}/1.nucleotide_alignment/pyani_out/ANIb_percentage_identity.tab"
     output:
-        svg = "output/{sample}/ANIb_percentage_identity.svg",
-        png = "output/{sample}/ANIb_percentage_identity.png"
+        svg = "output/{sample}/1.nucleotide_alignment/ANIb_percentage_identity.svg",
+        png = "output/{sample}/1.nucleotide_alignment/ANIb_percentage_identity.png"
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell:'''# 1.5 replot the ANI heatmap
 if [ -s {input.tab} ];then
@@ -93,3 +93,12 @@ else
     touch {output.png}
 fi
 '''
+
+rule nucl_align_all:
+    input:
+        svg = "output/{sample}/1.nucleotide_alignment/ANIb_percentage_identity.svg",
+        png = "output/{sample}/1.nucleotide_alignment/ANIb_percentage_identity.png",
+        blastn_out = "output/{sample}/1.nucleotide_alignment/blastn_output",
+        fmt_blastn = "output/{sample}/1.nucleotide_alignment/fmt_blastn.tsv"
+    output:
+        temp(touch("output/{sample}_1.nucleotide_alignment"))
