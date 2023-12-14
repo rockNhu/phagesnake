@@ -166,35 +166,35 @@ The example data were in `fna_files`. Here, two types of input FASTA format show
 
 All results were in `output`.
 
-### ANI output
+### Nucleotide alignment
 
-raw with pyani: AC2: ![ac2ANI](output/vB_VpP_AC2_0/ANI_output/ANIb_percentage_identity.png)
+raw with pyani: AC2: ![ac2ANI](output/vB_VpP_AC2_0/1.nucleotide_alignment/pyani_out/ANIb_percentage_identity.png)
 
-replot AC2: ![ac2ANI_replot](output/vB_VpP_AC2_0/ANIb_percentage_identity.svg)
+replot AC2: ![ac2ANI_replot](output/vB_VpP_AC2_0/1.nucleotide_alignment/ANIb_percentage_identity.svg)
 
-### Annotation output
+### Annotation
 
 The protein annotation of genome, using arrow plot with `.gbk`.
 
-AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/vB_VpP_AC2_0.png)
+AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/2.annotations/vB_VpP_AC2_0.png)
 
-CA8: ![vB_VpS_CA8](output/BA3_CA8_0/BA3_CA8_0.png)
+CA8: ![vB_VpS_CA8](output/BA3_CA8_0/2.annotations/BA3_CA8_0.png)
 
-BA3: ![vB_VpS_BA3](output/BA3_CA8_1/BA3_CA8_1.png)
+BA3: ![vB_VpS_BA3](output/BA3_CA8_1/2.annotations/BA3_CA8_1.png)
 
-### TerL tree output
+### TerL phylogenetic
 
-AC2: ![ac2terL](output/vB_VpP_AC2_0/TerL.png)
+AC2: ![ac2terL](output/vB_VpP_AC2_0/4.TerL_phylogenetic_tree/TerL.png)
 
-CA8: ![CA8terL](output/BA3_CA8_0/TerL.png)
+CA8: ![CA8terL](output/BA3_CA8_0/4.TerL_phylogenetic_tree/TerL.png)
 
-### vConTACT2 clust output
+### vConTACT2 clust
 
-AC2 vConTACT2 HTML [vConTACT2_out](output/vB_VpP_AC2_0/vB_VpP_AC2_0_vConTACT2.html), and the screenshot of it: ![ac2vc_l](output/vB_VpP_AC2_0/newplot.png)
+AC2 vConTACT2 HTML [vConTACT2_out](output/vB_VpP_AC2_0/6.vConTACT2_network/vB_VpP_AC2_0_vConTACT2.html)
 
 ### Genome Statistic
 
-[Genome_statistic](seq_info.tsv)
+[Genome_statistic](output/5.seq_info20231204.tsv)
 
 ## Other tips
 
