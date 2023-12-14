@@ -113,7 +113,7 @@ rule vcontact_all:
         graph = "output/{sample}/6.vConTACT2_network/{sample}_vConTACT2.html",
         db_data = f'{db_path}/{db_prefix}_data.tsv'
     output:
-        touch(temp('output/{sample}_6.vConTACT2_network'))
+        touch(temp('output/{sample}_6.vConTACT2_network')),
         db_data = 'output/{sample}/6.vConTACT2_network/' + f'{db_prefix}_data.tsv'
     params:
         workdir = "output/{sample}/6.vConTACT2_network/vcontact2"
