@@ -3,11 +3,11 @@ import os
 
 configfile: "config.yaml"
 db_path = config['db_path']
+script_dir = os.path.abspath("scripts")
 if not os.path.exists(db_path):
     os.makedirs(db_path)
 workdir: db_path
 db_prefix = config['db_prefix']
-script_dir = config['script_dir'].rstrip('\\/')
 
 rule all:
     input:

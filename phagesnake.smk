@@ -17,7 +17,7 @@ Conda_env_dir = fmt_dir_end(config['Conda_yaml_dir'])
 db_path = fmt_dir_end(config['db_path'])
 db_prefix = config['db_prefix']
 run_vc = config['run_vConTACT']
-script_dir = fmt_dir_end(config['script_dir'])
+script_dir = os.path.join(fmt_dir_end(config['workdir']), 'scripts')
 # fmt input sample files in fasta fmt
 fna_dir = fmt_dir_end(config['fna_dir'])
 fmt_fna_dir = fmt_dir_end(config['fmt_fna_dir'])

@@ -16,7 +16,7 @@ The first use:
 cd phagesnake
 conda create -n phagesnake -f ./envs/phagesnake.yaml
 conda activate phagesnake
-snakemake -s ./rules/setup.smk --cores 60
+snakemake -s setup.smk --cores 40
 bash run_phagesnake.sh
 ```
 
@@ -52,7 +52,7 @@ The "db_prefix" was a time of database, e.g. `1Oct2022`.
 
 ```bash
 conda activate phagesnake
-snakemake -s ./rules/setup.smk --cores 60
+snakemake -s setup.smk --cores 40
 ```
 
 ### 1. Input setting
