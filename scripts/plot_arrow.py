@@ -40,7 +40,7 @@ class MyCustomTranslator(BiopythonTranslator):
         color4 = [
             'scaffold', 'capsid', 'core protein', 'inner', 'collar', 'particle',
             'portal', 'tape', 'virion', 'prohead', 'head', 'tail', 'connector',
-            'structural', 'neck', 'Connector'
+            'structural', 'neck', 'Connector', 'Tail', 'Collar', 'baseplate'
         ]
         color10 = [
             'lysin', 'holin', 'glycosyl hydrolase', 'lysogentic', 'amidase',
@@ -54,14 +54,14 @@ class MyCustomTranslator(BiopythonTranslator):
         ]
         if any(c in anno for c in color1):
             return 'grey'
-        elif any(c in anno for c in color2):
-            return 'red'
         elif any(c in anno for c in color10):
             return 'orange'
-        elif any(c in anno for c in color4):
-            return 'skyblue'
+        elif any(c in anno for c in color2):
+            return 'red'
         elif any(c in anno for c in color5):
             return 'blue'
+        elif any(c in anno for c in color4):
+            return 'skyblue'
         elif any(c in anno for c in color3):
             return 'green'
         else:
