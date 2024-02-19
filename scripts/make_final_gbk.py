@@ -29,7 +29,7 @@ class make_final_gbk(object):
         '''The unknow annotation in blast or eggnog,
         return True, the anno is unknown'''
         unknow_words = ['Uncharacterized', 'uncharacterized',
-                        'Unannotated', 'unannotated'
+                        'Unannotated', 'unannotated',
                         'Unknow', 'unknow',
                         'Hypothetical', 'hypothetical',
                         ]

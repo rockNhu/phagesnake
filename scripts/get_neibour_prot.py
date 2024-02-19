@@ -4,7 +4,7 @@ import pathlib
 
 def is_unknown(product):
     unknow_words = [
-        'hypothetical','Unknow','unknow',
+        'Hypothetical', 'hypothetical','Unknow','unknow', 'unannotated', 'Unannotated'
         'Uncharactrized','uncharactrized','gp','Gp'
     ]
     return any(un in product for un in unknow_words)
@@ -37,9 +37,12 @@ for line in open(args.input):
     product = total_protein_name[target].split(' ',1)[1]
     idt = float(contents[2])
     qcov = float(contents[3])
-    target_name = total_genome_name[target.split('_')[0]]
+    target_name = total_genome_name.get(target.split('_')[0], '')
+    if not target_name:
+        print(f'Error target name: {target}')
+        continue
     # the filter
-    if not (is_unknown(product) or qcov < args.identities or idt < args.coverages):
+    if not is_unknown(product) and qcov >= args.identities and idt >= args.coverages:
         out_line += f'{name}\t{product}\t{qcov}\t{idt}\t{target}\t{target_name}\n'
 
 with open(args.output_fmt_tsv, 'w') as f:
