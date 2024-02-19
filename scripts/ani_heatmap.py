@@ -37,7 +37,7 @@ class clustermap(object):
         plt.rc('font',family='Times New Roman')
         cmap = mcolors.LinearSegmentedColormap.from_list(
             'custom_map',
-            [(0, '#a0a0a0'), (0.6999, '#a0a0a0'), (0.7, 'blue'), (0.9, 'white'), (1, 'red')]
+            [(0, '#a0a0a0'), (0.6999, '#a0a0a0'), (0.7, 'blue'), (0.8999, 'blue'), (0.9, 'blue'), (0.95, 'white'), (1, 'red')]
         )
         if self.anno:
             afont = {
