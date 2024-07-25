@@ -2,10 +2,10 @@ Name	Description	Coverage%	Identity%	Target	Target_Total_Name
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	100.0	ON864052_00003	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.8	MT501516_00011	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.5	FJ896200_00012	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OP117450_00026	OP117450 Vibrio phage SSJ01, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585160_00029	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585159_00029	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OK585158_00030	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	OP117450_00026	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON872379_00037	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON080941_00038	ON080941 Vibrio phage F23s2, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.1	ON080940_00002	ON080940 Vibrio phage H256D1, complete genome.
@@ -22,573 +22,528 @@ vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	99.3	LR794124_00011	LR794124 Vi
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MZ592921_00047	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MW250641_00038	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
 vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.8	MT178448_00011	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.6	ON457557_00011	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_3	DnaB-like replicative helicase	99.8	98.6	ON457556_00006	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	100.0	ON864052_00004	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.6	MT501516_00013	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.4	MW331544_00013	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.4	LR794124_00013	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.1	FJ896200_00015	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.3	ON080941_00036	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.0	ON872379_00035	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	99.1	MF754111_00038	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.3	OP117450_00024	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.9	MZ020222_00032	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.7	OK585158_00028	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.5	OM799543_00013	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.4	OK349506_00013	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.3	ON080940_00004	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.2	OK585160_00027	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	97.2	OK585159_00027	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MF754112_00024	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.2	ON457555_00013	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.2	ON457554_00013	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MN974282_00012	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.2	MK474470_00012	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	96.1	MZ592921_00001	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	95.8	OM362522_00037	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	95.8	MZ516827_00004	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_4	DNA polymerase	99.9	95.8	MZ182247_00004	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	100.0	ON864052_00006	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	OK585158_00025	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	ON080941_00033	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	OK349506_00015	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	96.4	FJ896200_00017	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	86.9	OM799543_00015	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	ON872379_00033	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	OM362522_00035	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	OP117450_00022	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.9	MZ592921_00003	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MZ516827_00007	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MZ020222_00030	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MT501516_00015	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	ON080940_00006	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MF754112_00027	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	85.4	MF754111_00040	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MN974282_00014	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MK474470_00014	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.8	MZ182247_00006	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457557_00015	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457556_00010	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457555_00015	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	84.3	ON457554_00015	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	83.8	OK585160_00025	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_6	nucleotidyltransferase	99.5	83.8	OK585159_00025	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_7	endonuclease	99.2	100.0	ON864052_00007	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	100.0	ON864052_00010	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	OK349506_00018	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MW331544_00019	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	LR794124_00019	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MT501516_00018	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MF754111_00043	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.6	MF754112_00030	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.1	ON080941_00030	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	98.1	ON872379_00030	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585160_00022	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585159_00022	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	ON080940_00009	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	OK585158_00022	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	OM799543_00018	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	OP117450_00019	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MZ516827_00010	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.6	FJ896200_00020	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ592921_00006	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MW250641_00031	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	97.1	MT178448_00018	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ020222_00027	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.7	MZ182247_00009	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	96.2	OM362522_00032	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	85.6	ON457557_00018	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_10	MazG-like pyrophosphatase	99.5	85.6	ON457556_00013	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	100.0	ON864052_00013	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.4	MT178448_00021	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.7	ON080941_00027	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.1	OK585160_00019	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.1	OK585159_00019	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.1	OP117450_00016	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.1	ON872379_00027	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	99.1	MF754111_00046	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	98.7	MW250641_00028	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	98.4	MF754112_00033	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.5	OK585158_00019	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.8	MT501516_00021	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ182247_00012	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ020222_00024	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.5	MZ516827_00013	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	ON080940_00012	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	OM362522_00029	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	OM799543_00021	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	MZ592921_00009	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.5	MW331544_00022	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	ON457557_00021	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	ON457556_00016	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	97.2	OK349506_00021	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	96.8	ON457555_00021	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_13	RNaseH	99.7	96.8	ON457554_00021	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	100.0	ON864052_00015	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	99.3	ON872379_00025	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	99.3	ON080941_00025	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MZ592921_00011	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MZ182247_00014	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	99.3	MT501516_00023	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OP117450_00014	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585160_00017	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585159_00017	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	ON080940_00014	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MZ516827_00015	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MZ020222_00022	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OK585158_00017	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OM799543_00023	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MF754111_00048	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	MF754112_00035	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	98.6	OM362522_00027	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.3	ON457555_00023	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.3	ON457554_00023	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.3	OK349506_00023	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.3	MN974282_00022	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.3	MK474470_00022	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	96.6	ON457557_00023	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	96.6	ON457556_00018	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_15	endonuclease VII	99.3	97.9	MW250641_00026	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	100.0	ON864052_00017	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	OK585158_00015	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	ON080941_00023	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.5	ON080940_00016	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK585160_00015	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK585159_00015	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	MT501516_00025	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	ON872379_00023	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	OM799543_00025	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	OK349506_00025	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	MW331544_00026	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	99.0	LR794124_00027	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	MZ182247_00016	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	97.9	MF754111_00001	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	98.5	FJ896200_00027	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	97.9	MN974282_00024	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	97.9	MK474470_00024	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	97.4	OM362522_00025	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	96.4	ON457557_00025	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	96.4	ON457556_00020	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	94.8	MT178448_00025	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	95.9	ON457555_00025	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.0	95.9	ON457554_00025	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	95.9	MF754112_00037	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_17	deoxynucleoside monophosphate kinase	99.5	94.3	MW250641_00024	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	100.0	ON864052_00019	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.8	MT501516_00027	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.6	OP117450_00010	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.6	MZ592921_00015	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.6	OM799543_00027	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON080941_00021	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	FJ896200_00029	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	MZ020222_00018	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON872379_00021	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	ON080940_00018	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.4	OK585158_00013	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.5	OK349506_00027	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MF754112_00039	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MF754111_00003	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.3	OK585160_00013	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.3	OK585159_00013	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.4	OM362522_00023	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.4	MW250641_00022	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.3	MZ182247_00018	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.1	MZ516827_00019	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.3	MW331544_00028	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	99.3	LR794124_00029	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_19	RNA polymerase	99.9	98.9	MT178448_00027	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	97.9	MN974282_00026	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_19	RNA polymerase	99.9	97.9	MK474470_00026	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	100.0	ON864052_00021	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	100.0	ON864052_00025	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	98.8	OK585158_00011	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON080941_00019	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MW331544_00030	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	LR794124_00031	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MT501516_00029	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	FJ896200_00031	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MN974282_00028	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MK474470_00028	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457557_00029	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457556_00024	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457555_00030	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	ON457554_00029	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MW250641_00020	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MT178448_00029	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	97.5	MF754111_00005	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK349506_00029	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK585160_00011	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	OK585159_00011	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	OP117450_00008	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	ON872379_00019	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	ON080940_00020	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	OM362522_00021	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_21	virion structural protein	98.8	96.3	MZ592921_00017	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457557_00030	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	MN974282_00029	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	94.1	MK474470_00029	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OP117450_00007	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	OM799543_00030	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_22	head-tail adaptor	91.9	91.2	MZ592921_00018	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	100.0	ON864052_00021	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	100.0	ON864052_00025	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	98.8	OK585158_00011	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON080941_00019	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MW331544_00030	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	LR794124_00031	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MT501516_00029	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	FJ896200_00031	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MN974282_00028	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MK474470_00028	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457557_00029	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457556_00024	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457555_00030	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	ON457554_00029	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MW250641_00020	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MT178448_00029	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	97.5	MF754111_00005	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK349506_00029	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK585160_00011	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	OK585159_00011	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	OP117450_00008	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	ON872379_00019	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	ON080940_00020	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	OM362522_00021	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_25	virion structural protein	98.8	96.3	MZ592921_00017	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457557_00030	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	MN974282_00029	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	94.1	MK474470_00029	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OP117450_00007	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	OM799543_00030	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_26	head-tail adaptor	91.9	91.2	MZ592921_00018	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	100.0	ON864052_00028	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.8	MF754111_00006	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	OM799543_00030	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.6	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	OP117450_00007	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	MW250641_00019	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.3	MF754112_00042	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	MT178448_00030	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	MZ592921_00018	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	98.9	MZ516827_00022	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	99.1	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_28	head-tail adaptor	99.8	98.7	MZ020222_00015	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	100.0	ON864052_00029	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	100.0	ON080941_00017	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	99.6	OK349506_00031	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	OK585158_00009	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	MW331544_00032	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.2	LR794124_00033	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_29	head scaffolding protein	99.6	99.3	MT501516_00031	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	99.3	FJ896200_00033	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.9	OK585159_00009	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OP117450_00006	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	ON872379_00017	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OM362522_00019	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	OM799543_00031	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	97.4	MZ592921_00019	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MF754112_00043	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MF754111_00007	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	98.5	MZ516827_00023	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	97.8	OK585160_00009	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	MZ020222_00014	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	MW250641_00018	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	96.3	MZ182247_00022	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	97.0	ON080940_00022	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	95.9	MT178448_00031	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	83.7	ON457557_00032	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_29	head scaffolding protein	99.6	83.7	ON457556_00026	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	100.0	ON864052_00030	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.7	MW331544_00033	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.7	LR794124_00034	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_30	major head protein	99.7	99.7	MT501516_00032	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.7	FJ896200_00034	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.4	OK585160_00008	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.4	OK585159_00008	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.4	ON080940_00023	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.4	OK349506_00032	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	99.1	MZ516827_00024	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	98.8	OK585158_00008	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.9	OM799543_00032	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.9	MF754111_00008	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	OP117450_00005	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	OM362522_00018	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	MZ592921_00020	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	ON872379_00016	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	MZ182247_00023	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	MZ020222_00013	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	MT178448_00032	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_30	major head protein	99.4	97.9	MF754112_00044	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_30	major head protein	99.7	97.6	ON080941_00016	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_30	major head protein	99.4	97.3	MW250641_00017	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_30	major head protein	99.4	96.7	ON457557_00033	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_30	major head protein	99.4	96.7	ON457556_00027	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	100.0	ON864052_00032	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	100.0	OK349506_00034	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	100.0	MZ516827_00026	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	100.0	MW331544_00035	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	100.0	LR794124_00036	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_32	tail protein	99.5	100.0	MT501516_00034	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	99.5	MF754111_00010	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	99.5	OK585158_00006	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	99.5	ON080941_00014	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	99.5	OM799543_00034	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	99.5	FJ896200_00036	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	98.9	MF754112_00046	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.8	ON080940_00025	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.8	MZ592921_00022	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.3	OK585160_00006	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.3	OK585159_00006	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.3	OP117450_00003	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	97.3	MW250641_00015	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.8	MT178448_00034	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	ON872379_00014	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	OM362522_00016	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	MZ182247_00025	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	MZ020222_00011	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	ON457557_00035	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_32	tail protein	99.5	96.2	ON457556_00029	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	100.0	ON864052_00033	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	99.0	MZ516827_00027	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.8	MT501516_00035	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.8	FJ896200_00037	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.8	MF754112_00047	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.7	MW331544_00036	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.7	LR794124_00037	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_33	tail protein	99.9	98.5	ON080941_00013	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.2	OK585160_00005	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.2	OK585159_00005	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	96.8	OK585158_00005	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.3	OK349506_00035	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	98.3	MF754111_00011	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.2	MN974282_00034	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.2	MK474470_00034	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.1	ON457555_00036	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.1	ON457554_00036	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.1	ON457557_00036	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.1	ON457556_00030	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.6	MZ592921_00023	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	95.4	ON080940_00026	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	95.0	MW250641_00014	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.4	MZ182247_00026	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	95.1	OP117450_00002	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_33	tail protein	99.9	94.2	ON872379_00013	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	100.0	ON864052_00034	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	98.4	OK585158_00004	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	98.4	FJ896200_00038	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK585160_00004	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK585159_00004	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	98.0	OK349506_00036	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457557_00037	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457556_00031	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457555_00037	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	ON457554_00037	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	MN974282_00035	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_34	internal virion protein	99.6	86.7	MK474470_00035	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.9	MZ182247_00027	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.4	MW250641_00013	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_34	internal virion protein	98.0	84.8	MT178448_00036	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.0	ON872379_00012	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.0	MZ020222_00009	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.0	OM362522_00014	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.4	ON080941_00012	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	84.4	MT501516_00036	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	83.0	OP117450_00001	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	83.0	ON080940_00027	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	83.0	OM799543_00036	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	83.0	MZ592921_00024	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_34	internal virion protein	85.1	83.0	MF754112_00048	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	100.0	ON864052_00035	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	99.0	MT501516_00037	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.9	MZ516827_00029	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.9	ON080941_00011	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.5	OK585158_00003	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.2	FJ896200_00039	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.2	OK349506_00037	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	MW331544_00038	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	LR794124_00039	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.0	ON080940_00028	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	97.8	OM799543_00037	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.1	OK585160_00003	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	98.1	OK585159_00003	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.3	MW250641_00012	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.3	MF754111_00013	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	95.2	ON872379_00011	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.8	MF754112_00049	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.7	MZ182247_00028	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.4	MT178448_00037	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	94.5	MZ020222_00008	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.5	MN974282_00036	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.5	MK474470_00036	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.4	ON457557_00038	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.4	ON457556_00032	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_35	internal virion lysozyme motif protein	99.9	93.3	ON457555_00038	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	100.0	ON864052_00036	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	MF754112_00050	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	OK585160_00002	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.3	OK585159_00002	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	ON872379_00010	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MF754111_00014	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ020222_00007	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OP117450_00046	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	ON080941_00010	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ182247_00029	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OM799543_00038	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ592921_00026	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	MZ516827_00030	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.2	OK585158_00002	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	OM362522_00011	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.0	ON080940_00029	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	MW250641_00011	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	99.1	MT501516_00038	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.9	OK349506_00038	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.9	MT178448_00038	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.8	MW331544_00039	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.8	LR794124_00040	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.5	FJ896200_00040	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.0	ON457555_00039	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_36	internal virion protein with endolysin domain protein	99.9	98.0	ON457554_00039	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	100.0	ON864052_00037	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	99.5	OK349506_00039	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	99.5	MZ516827_00031	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	99.0	ON080941_00009	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	99.0	MW331544_00040	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	99.0	LR794124_00041	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.5	OK585158_00001	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MF754111_00015	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.5	FJ896200_00041	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OM799543_00039	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MZ592921_00027	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MZ020222_00006	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	MT501516_00039	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OK585160_00001	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	98.0	OK585159_00001	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	97.5	ON080940_00030	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	97.0	ON872379_00009	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	97.0	OM362522_00010	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	97.0	MZ182247_00030	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	97.0	OP117450_00045	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	96.1	MW250641_00010	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	96.1	MT178448_00039	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	95.1	ON457555_00040	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	95.1	ON457554_00040	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
-vB_VpP_AC2_37	tail fiber protein	99.5	94.6	ON457557_00040	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585160_00047	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585159_00047	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	OK585158_00048	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	ON864052_00039	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MZ516827_00033	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MW331544_00042	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	LR794124_00043	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	MT501516_00041	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	100.0	FJ896200_00043	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OP117450_00043	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON872379_00007	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON080941_00007	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	ON080940_00032	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OM799543_00041	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	OK349506_00041	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MZ182247_00032	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MF754112_00003	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MT178448_00041	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	97.0	OM362522_00008	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	99.0	MW250641_00008	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MZ592921_00029	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MZ020222_00004	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	98.0	MF754111_00017	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	97.0	ON457557_00042	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_39	terminase small subunit	99.0	97.0	ON457556_00036	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	100.0	ON864052_00040	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.8	OP117450_00042	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.8	OM799543_00042	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.8	MZ592921_00030	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.8	MZ020222_00003	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585160_00046	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585159_00046	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK585158_00047	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	ON080941_00006	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	ON080940_00033	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	OK349506_00042	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MZ516827_00034	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MW331544_00043	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	LR794124_00044	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MT501516_00042	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	MF754112_00004	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.5	MW250641_00007	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.5	MF754111_00018	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.7	FJ896200_00044	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.5	ON872379_00006	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.4	OM362522_00007	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.2	MT178448_00042	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	99.4	MZ182247_00033	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	98.7	ON457557_00043	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
-vB_VpP_AC2_40	terminase large subunit	99.8	98.7	ON457556_00037	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	100.0	ON872379_00002	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	100.0	ON864052_00044	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	100.0	ON080940_00037	ON080940 Vibrio phage H256D1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	100.0	MZ516827_00038	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	100.0	MZ182247_00038	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	99.3	MT501516_00046	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	99.3	MF754112_00009	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	99.3	MF754111_00023	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	98.5	OK585160_00041	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	98.5	OK585159_00041	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	98.5	OM362522_00002	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	98.5	OM799543_00047	OM799543 Vibrio phage OY1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	97.8	MZ020222_00047	MZ020222 Vibrio phage BUCT233, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	96.4	OK349506_00046	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	96.4	OK585158_00043	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	96.4	ON080941_00002	ON080941 Vibrio phage F23s2, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	96.4	FJ896200_00048	FJ896200 Vibrio phage VP93, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	97.1	MZ592921_00035	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	96.4	MW250641_00002	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	95.6	MW331544_00047	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	95.6	LR794124_00048	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
-vB_VpP_AC2_44	endolysin	99.3	96.4	OP117450_00037	OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	93.4	MN974282_00046	MN974282 Vibrio phage OWB, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	93.4	MK474470_00046	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
-vB_VpP_AC2_44	endolysin	99.3	92.7	ON457557_00048	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	100.0	ON864052_00004	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.6	MT501516_00013	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.4	MW331544_00013	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.4	LR794124_00013	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.1	FJ896200_00015	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.3	ON080941_00036	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.0	ON872379_00035	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	99.1	MF754111_00038	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.3	OP117450_00024	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.9	MZ020222_00032	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.7	OK585158_00028	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.5	OM799543_00013	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.4	OK349506_00013	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.3	ON080940_00004	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.2	OK585160_00027	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	97.2	OK585159_00027	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.2	MF754112_00024	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.2	ON457555_00013	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.2	ON457554_00013	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.2	MN974282_00012	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.2	MK474470_00012	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	96.1	MZ592921_00001	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_5	DNA polymerase	99.9	95.8	OM362522_00037	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	100.0	ON864052_00006	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	96.4	OK585158_00025	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	96.4	ON080941_00033	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	96.4	OK349506_00015	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	96.4	FJ896200_00017	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	86.9	OM799543_00015	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.9	ON872379_00033	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.9	OM362522_00035	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.9	OP117450_00022	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.9	MZ592921_00003	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	MZ516827_00007	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	MZ020222_00030	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	MT501516_00015	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	ON080940_00006	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	MF754112_00027	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	85.4	MF754111_00040	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.8	MN974282_00014	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.8	MK474470_00014	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.8	MZ182247_00006	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.3	ON457557_00015	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.3	ON457556_00010	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.3	ON457555_00015	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_7	nucleotidyltransferase	99.5	84.3	ON457554_00015	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_8	endonuclease	99.2	100.0	ON864052_00007	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	100.0	ON864052_00010	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	OK349506_00018	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	MW331544_00019	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	LR794124_00019	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	MT501516_00018	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	MF754111_00043	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.6	MF754112_00030	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.1	ON080941_00030	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	98.1	ON872379_00030	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.6	OK585160_00022	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.6	OK585159_00022	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.6	ON080940_00009	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.6	OK585158_00022	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.1	OM799543_00018	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.1	OP117450_00019	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.1	MZ516827_00010	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.6	FJ896200_00020	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	96.7	MZ592921_00006	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.1	MW250641_00031	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	97.1	MT178448_00018	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	96.7	MZ020222_00027	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	96.7	MZ182247_00009	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_11	MazG-like pyrophosphatase	99.5	96.2	OM362522_00032	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	100.0	ON864052_00013	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.4	MT178448_00021	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.7	ON080941_00027	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.1	OP117450_00016	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.1	OK585160_00019	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.1	OK585159_00019	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.1	ON872379_00027	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	99.1	MF754111_00046	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	98.7	MW250641_00028	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	98.4	MF754112_00033	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.5	OK585158_00019	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.8	MT501516_00021	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.5	MZ182247_00012	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.5	MZ020222_00024	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.5	MZ516827_00013	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	ON080940_00012	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	OM362522_00029	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	OM799543_00021	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	MZ592921_00009	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.5	MW331544_00022	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	ON457557_00021	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	ON457556_00016	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_14	RNaseH	99.7	97.2	OK349506_00021	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	100.0	ON864052_00015	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	99.3	ON872379_00025	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	99.3	ON080941_00025	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	99.3	MZ592921_00011	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	99.3	MZ182247_00014	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	99.3	MT501516_00023	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OP117450_00014	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OK585160_00017	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OK585159_00017	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	ON080940_00014	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	MZ516827_00015	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	MZ020222_00022	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OK585158_00017	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OM799543_00023	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	MF754111_00048	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	MF754112_00035	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	98.6	OM362522_00027	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	97.3	ON457555_00023	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	97.3	ON457554_00023	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	97.3	OK349506_00023	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	97.3	MN974282_00022	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	97.3	MK474470_00022	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_16	endonuclease VII	99.3	96.6	ON457557_00023	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	100.0	ON864052_00017	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.5	OK585158_00015	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.5	ON080941_00023	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.5	ON080940_00016	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	OK585160_00015	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	OK585159_00015	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	MT501516_00025	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	ON872379_00023	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	98.5	OM799543_00025	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	OK349506_00025	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	MW331544_00026	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	99.0	LR794124_00027	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	98.5	MZ182247_00016	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	97.9	MF754111_00001	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	98.5	FJ896200_00027	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	97.9	MN974282_00024	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	97.9	MK474470_00024	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	97.4	OM362522_00025	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	96.4	ON457557_00025	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	96.4	ON457556_00020	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.5	94.8	MT178448_00025	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	95.9	ON457555_00025	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_18	deoxynucleoside monophosphate kinase	99.0	95.9	ON457554_00025	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	100.0	ON864052_00019	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.8	MT501516_00027	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.6	OP117450_00010	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.6	MZ592921_00015	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.6	OM799543_00027	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	ON080941_00021	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	FJ896200_00029	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	MZ020222_00018	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	ON872379_00021	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	ON080940_00018	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.4	OK585158_00013	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.5	OK349506_00027	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.4	MF754112_00039	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.4	MF754111_00003	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.3	OK585160_00013	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.3	OK585159_00013	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.4	OM362522_00023	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.4	MW250641_00022	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.3	MZ182247_00018	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.1	MZ516827_00019	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.3	MW331544_00028	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_20	RNA polymerase	99.9	99.3	LR794124_00029	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_20	RNA polymerase	99.9	98.9	MT178448_00027	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	100.0	ON864052_00021	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	100.0	ON864052_00025	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	98.8	OK585158_00011	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	ON080941_00019	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MW331544_00030	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	LR794124_00031	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MT501516_00029	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	FJ896200_00031	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MN974282_00028	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MK474470_00028	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	ON457557_00029	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	ON457556_00024	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	ON457555_00030	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	ON457554_00029	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MW250641_00020	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MT178448_00029	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	97.5	MF754111_00005	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	OK349506_00029	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	OP117450_00008	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	OK585160_00011	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	OK585159_00011	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	ON872379_00019	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_22	virion structural protein	98.8	96.3	ON080940_00020	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	ON457557_00030	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	MN974282_00029	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	94.1	MK474470_00029	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OP117450_00007	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_23	head-tail adaptor	91.9	91.2	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	100.0	ON864052_00021	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	100.0	ON864052_00025	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	98.8	OK585158_00011	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	ON080941_00019	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MW331544_00030	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	LR794124_00031	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MT501516_00029	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	FJ896200_00031	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MN974282_00028	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MK474470_00028	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	ON457557_00029	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	ON457556_00024	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	ON457555_00030	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	ON457554_00029	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MW250641_00020	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MT178448_00029	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	97.5	MF754111_00005	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	OK349506_00029	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	OP117450_00008	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	OK585160_00011	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	OK585159_00011	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	ON872379_00019	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_26	virion structural protein	98.8	96.3	ON080940_00020	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	ON457557_00030	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	MN974282_00029	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	94.1	MK474470_00029	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OP117450_00007	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_27	head-tail adaptor	91.9	91.2	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	100.0	ON864052_00028	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.8	OK585160_00010	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.8	OK585159_00010	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.8	OK585158_00010	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.8	MT501516_00030	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.8	MF754111_00006	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	ON080941_00018	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	OM799543_00030	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	OK349506_00030	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	MW331544_00031	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	LR794124_00032	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.6	FJ896200_00032	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.3	OP117450_00007	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.3	ON872379_00018	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.3	ON080940_00021	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.3	MW250641_00019	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.3	MF754112_00042	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.1	MT178448_00030	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.1	MZ592921_00018	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	98.9	ON457556_00025	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	98.9	ON457555_00031	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	98.9	ON457554_00030	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	98.9	MZ516827_00022	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_29	head-tail adaptor	99.8	99.1	OM362522_00020	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	100.0	ON864052_00029	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	100.0	ON080941_00017	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	99.6	OK349506_00031	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.2	OK585158_00009	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.2	MW331544_00032	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.2	LR794124_00033	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_30	head scaffolding protein	99.6	99.3	MT501516_00031	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	99.3	FJ896200_00033	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.9	OK585159_00009	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	OP117450_00006	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	ON872379_00017	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	OM362522_00019	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	OM799543_00031	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	97.4	MZ592921_00019	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	MF754112_00043	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	MF754111_00007	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	98.5	MZ516827_00023	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	97.8	OK585160_00009	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	97.0	MZ020222_00014	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	97.0	MW250641_00018	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	96.3	MZ182247_00022	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	97.0	ON080940_00022	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_30	head scaffolding protein	99.6	95.9	MT178448_00031	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	100.0	ON864052_00030	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.7	MW331544_00033	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.7	LR794124_00034	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_31	major head protein	99.7	99.7	MT501516_00032	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.7	FJ896200_00034	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.4	OK585160_00008	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.4	OK585159_00008	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.4	ON080940_00023	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.4	OK349506_00032	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	99.1	MZ516827_00024	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	98.8	OK585158_00008	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.9	OM799543_00032	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.9	MF754111_00008	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	OP117450_00005	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	OM362522_00018	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	MZ592921_00020	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	ON872379_00016	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	MZ182247_00023	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	MZ020222_00013	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	MT178448_00032	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_31	major head protein	99.4	97.9	MF754112_00044	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_31	major head protein	99.7	97.6	ON080941_00016	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_31	major head protein	99.4	97.3	MW250641_00017	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	100.0	ON864052_00032	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	100.0	OK349506_00034	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	100.0	MZ516827_00026	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	100.0	MW331544_00035	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	100.0	LR794124_00036	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_33	tail protein	99.5	100.0	MT501516_00034	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	99.5	MF754111_00010	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	99.5	OK585158_00006	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	99.5	ON080941_00014	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	99.5	OM799543_00034	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	99.5	FJ896200_00036	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	98.9	MF754112_00046	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.8	ON080940_00025	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.8	MZ592921_00022	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.3	OP117450_00003	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.3	OK585160_00006	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.3	OK585159_00006	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	97.3	MW250641_00015	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	96.8	MT178448_00034	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	96.2	ON872379_00014	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	96.2	OM362522_00016	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	96.2	MZ182247_00025	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_33	tail protein	99.5	96.2	MZ020222_00011	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	100.0	ON864052_00033	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	99.0	MZ516827_00027	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.8	MT501516_00035	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.8	FJ896200_00037	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.8	MF754112_00047	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.7	MW331544_00036	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.7	LR794124_00037	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_34	tail protein	99.9	98.5	ON080941_00013	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.2	OK585160_00005	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.2	OK585159_00005	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	96.8	OK585158_00005	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.3	OK349506_00035	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	98.3	MF754111_00011	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.2	MN974282_00034	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.2	MK474470_00034	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.1	ON457555_00036	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.1	ON457554_00036	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.1	ON457557_00036	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.1	ON457556_00030	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.6	MZ592921_00023	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	95.4	ON080940_00026	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	95.0	MW250641_00014	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_34	tail protein	99.9	94.4	MZ182247_00026	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	100.0	ON864052_00034	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	98.4	OK585158_00004	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	98.4	FJ896200_00038	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	98.0	OK585160_00004	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	98.0	OK585159_00004	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	98.0	OK349506_00036	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	ON457557_00037	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	ON457556_00031	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	ON457555_00037	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	ON457554_00037	ON457554 Vibrio phage vB_VpaP_M83, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	MN974282_00035	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_35	internal virion protein	99.6	86.7	MK474470_00035	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.9	MZ182247_00027	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.4	MW250641_00013	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_35	internal virion protein	98.0	84.8	MT178448_00036	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.0	ON872379_00012	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.0	MZ020222_00009	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.0	OM362522_00014	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.4	ON080941_00012	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	84.4	MT501516_00036	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	83.0	OP117450_00001	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	83.0	ON080940_00027	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	83.0	OM799543_00036	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_35	internal virion protein	85.1	83.0	MZ592921_00024	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	100.0	ON864052_00035	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	99.0	MT501516_00037	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.9	MZ516827_00029	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.9	ON080941_00011	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.5	OK585158_00003	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.2	FJ896200_00039	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.2	OK349506_00037	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.0	MW331544_00038	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.0	LR794124_00039	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.0	ON080940_00028	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	97.8	OM799543_00037	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.1	OK585160_00003	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	98.1	OK585159_00003	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	95.3	MW250641_00012	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	95.3	MF754111_00013	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	95.2	ON872379_00011	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	94.8	MF754112_00049	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	94.7	MZ182247_00028	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	94.4	MT178448_00037	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	94.5	MZ020222_00008	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	93.5	MN974282_00036	MN974282 Vibrio phage OWB, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	93.5	MK474470_00036	MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	93.4	ON457557_00038	ON457557 Vibrio phage vB_VpaP_M3, complete genome.
+vB_VpP_AC2_36	internal virion lysozyme motif protein	99.9	93.4	ON457556_00032	ON457556 Vibrio phage vB_VpaP_C2, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	100.0	ON864052_00036	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.3	MF754112_00050	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.3	OK585160_00002	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.3	OK585159_00002	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	ON872379_00010	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	MF754111_00014	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	MZ020222_00007	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	OP117450_00046	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.1	ON080941_00010	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	MZ182247_00029	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	OM799543_00038	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	MZ592921_00026	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	MZ516827_00030	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.2	OK585158_00002	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.1	OM362522_00011	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.0	ON080940_00029	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.1	MW250641_00011	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	99.1	MT501516_00038	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	98.9	OK349506_00038	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	98.9	MT178448_00038	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	98.8	MW331544_00039	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	98.8	LR794124_00040	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_37	internal virion protein with endolysin domain protein	99.9	98.5	FJ896200_00040	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	100.0	ON864052_00037	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	99.5	OK349506_00039	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	99.5	MZ516827_00031	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	99.0	ON080941_00009	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	99.0	MW331544_00040	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	99.0	LR794124_00041	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.5	OK585158_00001	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	MF754111_00015	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.5	FJ896200_00041	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	OM799543_00039	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	MZ592921_00027	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	MZ020222_00006	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	MT501516_00039	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	OK585160_00001	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	98.0	OK585159_00001	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	97.5	ON080940_00030	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	97.0	ON872379_00009	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	97.0	OM362522_00010	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	97.0	MZ182247_00030	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	97.0	OP117450_00045	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	96.1	MW250641_00010	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	96.1	MT178448_00039	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_38	tail fiber protein	99.5	95.1	ON457555_00040	ON457555 Vibrio phage vB_VpaP_M9, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	OK585160_00047	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	OK585159_00047	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	OK585158_00048	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	ON864052_00039	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	MZ516827_00033	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	MW331544_00042	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	LR794124_00043	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	MT501516_00041	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	100.0	FJ896200_00043	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	OP117450_00043	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	ON872379_00007	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	ON080941_00007	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	ON080940_00032	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	OM799543_00041	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	OK349506_00041	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	MZ182247_00032	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	MF754112_00003	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	MT178448_00041	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	97.0	OM362522_00008	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	99.0	MW250641_00008	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	98.0	MZ592921_00029	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	98.0	MZ020222_00004	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_40	terminase small subunit	99.0	98.0	MF754111_00017	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	100.0	ON864052_00040	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.8	OP117450_00042	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.8	OM799543_00042	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.8	MZ592921_00030	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.8	MZ020222_00003	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	OK585160_00046	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	OK585159_00046	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	OK585158_00047	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	ON080941_00006	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	ON080940_00033	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	OK349506_00042	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	MZ516827_00034	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	MW331544_00043	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	LR794124_00044	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	MT501516_00042	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	MF754112_00004	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.5	MW250641_00007	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.5	MF754111_00018	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.7	FJ896200_00044	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.5	ON872379_00006	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.4	OM362522_00007	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.2	MT178448_00042	MT178448 Vibrio phage vB_VpP_FE11, complete genome.
+vB_VpP_AC2_41	terminase large subunit	99.8	99.4	MZ182247_00033	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	100.0	ON872379_00002	ON872379 Vibrio phage vB_VpaP_1701, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	100.0	ON864052_00044	ON864052 Vibrio phage vB_VpP_AC2, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	100.0	ON080940_00037	ON080940 Vibrio phage H256D1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	100.0	MZ516827_00038	MZ516827 Vibrio phage vB_VpP_DE10, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	100.0	MZ182247_00038	MZ182247 Vibrio phage vB_VpP_DE18, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	99.3	MT501516_00046	MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	99.3	MF754112_00009	MF754112 Vibrio phage vB_VpaP_KF2, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	99.3	MF754111_00023	MF754111 Vibrio phage vB_VpaP_KF1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	98.5	OK585160_00041	OK585160 Vibrio phage vB_VpP_HA7, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	98.5	OK585159_00041	OK585159 Vibrio phage vB_VpP_HA5, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	98.5	OM362522_00002	OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	98.5	OM799543_00047	OM799543 Vibrio phage OY1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	97.8	MZ020222_00047	MZ020222 Vibrio phage BUCT233, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	96.4	OK349506_00046	OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	96.4	OK585158_00043	OK585158 Vibrio phage vB_VpP_HA1, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	96.4	ON080941_00002	ON080941 Vibrio phage F23s2, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	96.4	FJ896200_00048	FJ896200 Vibrio phage VP93, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	97.1	MZ592921_00035	MZ592921 Vibrio phage vB_VpP_NS8, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	96.4	MW250641_00002	MW250641 Vibrio phage vB_VpP_DE17, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	95.6	MW331544_00047	MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	95.6	LR794124_00048	LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.
+vB_VpP_AC2_45	endolysin	99.3	96.4	OP117450_00037	OP117450 Vibrio phage SSJ01, complete genome.
+vB_VpP_AC2_45	endolysin	99.3	93.4	MN974282_00046	MN974282 Vibrio phage OWB, complete genome.

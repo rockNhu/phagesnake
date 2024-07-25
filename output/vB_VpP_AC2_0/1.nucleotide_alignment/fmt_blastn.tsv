@@ -1,121 +1,161 @@
 Accession	identity%	coverage%
 ON864052 Vibrio phage vB_VpP_AC2, complete genome.	100.0	100.0
-MZ020222 Vibrio phage BUCT233, complete genome.	94.27000000000001	79.40000000000002
-MZ516827 Vibrio phage vB_VpP_DE10, complete genome.	94.38	62.20000000000001
-ON872379 Vibrio phage vB_VpaP_1701, complete genome.	94.78	89.2
-OP117450 UNVERIFIED_ORG: Vibrio phage SSJ01, complete genome.	93.44	80.90000000000002
-ON080940 Vibrio phage H256D1, complete genome.	95.38571428571427	63.70000000000001
-NC_048035 Vibrio phage vB_VpaP_KF1, complete genome.	94.41	71.10000000000002
-MF754111 Vibrio phage vB_VpaP_KF1, complete genome.	94.41	71.10000000000002
-MZ182247 Vibrio phage vB_VpP_DE18, complete genome.	92.97	64.1
-ON080941 Vibrio phage F23s2, complete genome.	95.34	75.50000000000003
-OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.	92.60999999999999	86.20000000000002
-MW250641 Vibrio phage vB_VpP_DE17, complete genome.	92.17999999999999	77.60000000000002
-OM799543 Vibrio phage OY1, complete genome.	94.28999999999999	86.19999999999999
-OK585158 Vibrio phage vB_VpP_HA1, complete genome.	95.65	77.49999999999999
-OK585160 Vibrio phage vB_VpP_HA7, complete genome.	94.91999999999999	82.0
-OK585159 Vibrio phage vB_VpP_HA5, complete genome.	94.91999999999999	82.0
-OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.	94.02000000000001	82.19999999999999
-NC_048036 Vibrio phage vB_VpaP_KF2, complete genome.	94.58	84.39999999999999
-MF754112 Vibrio phage vB_VpaP_KF2, complete genome.	94.58	84.39999999999999
-MZ592921 Vibrio phage vB_VpP_NS8, complete genome.	92.76	74.80000000000003
-ON457556 Vibrio phage vB_VpaP_C2, complete genome.	88.63000000000001	86.50000000000001
-MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.	95.78999999999999	82.5
-MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.	93.37	88.39999999999999
-LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.	93.35999999999999	88.39999999999999
-ON457557 Vibrio phage vB_VpaP_M3, complete genome.	88.89	88.99999999999999
-NC_048167 Vibrio phage vB_VpaS_OWB, complete genome.	89.89999999999999	84.89999999999999
-MN974282 Vibrio phage OWB, complete genome.	89.89999999999999	84.89999999999999
-MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.	89.89999999999999	84.89999999999999
-NC_012662 Vibrio phage VP93, complete genome.	94.39000000000001	74.7
-FJ896200 Vibrio phage VP93, complete genome.	94.39000000000001	74.7
-ON457555 Vibrio phage vB_VpaP_M9, complete genome.	89.77000000000001	81.39999999999999
-ON457554 Vibrio phage vB_VpaP_M83, complete genome.	88.91999999999999	86.4
-MT178448 Vibrio phage vB_VpP_FE11, complete genome.	91.9	81.1
+MZ020222 Vibrio phage BUCT233, complete genome.	93.22	77.40000000000002
+MZ516827 Vibrio phage vB_VpP_DE10, complete genome.	93.89	63.000000000000014
+ON872379 Vibrio phage vB_VpaP_1701, complete genome.	94.83	88.1
+OP117450 Vibrio phage SSJ01, complete genome.	93.44	80.90000000000002
+ON080940 Vibrio phage H256D1, complete genome.	95.1	63.80000000000001
+OQ302138 Vibrio phage VP9, complete genome.	93.03999999999998	76.29999999999998
+MF754111 Vibrio phage vB_VpaP_KF1, complete genome.	94.53999999999999	67.60000000000002
+NC_048035 Vibrio phage vB_VpaP_KF1, complete genome.	94.53999999999999	67.60000000000002
+MZ182247 Vibrio phage vB_VpP_DE18, complete genome.	93.38	59.5
+ON080941 Vibrio phage F23s2, complete genome.	93.19	69.50000000000001
+OM362522 Vibrio phage vB_VpaP_GHSM17, complete genome.	93.16999999999999	67.30000000000001
+MW250641 Vibrio phage vB_VpP_DE17, complete genome.	93.02000000000001	68.40000000000002
+OM799543 Vibrio phage OY1, complete genome.	91.85999999999999	72.39999999999999
+OK585158 Vibrio phage vB_VpP_HA1, complete genome.	95.44000000000001	70.7
+OK585160 Vibrio phage vB_VpP_HA7, complete genome.	94.91999999999999	76.6
+OK585159 Vibrio phage vB_VpP_HA5, complete genome.	94.91999999999999	76.6
+OK349506 Vibrio phage vB_VpaP_AL-1, complete genome.	92.92999999999999	75.9
+MF754112 Vibrio phage vB_VpaP_KF2, complete genome.	93.75	79.3
+NC_048036 Vibrio phage vB_VpaP_KF2, complete genome.	93.75	79.3
+OQ999171 Vibrio phage VPy02, complete genome.	94.85000000000001	76.6
+MZ592921 Vibrio phage vB_VpP_NS8, complete genome.	92.57000000000001	70.60000000000002
+ON457556 Vibrio phage vB_VpaP_C2, complete genome.	88.06	82.9
+MT501516 Vibrio phage vB_VpaP_MGD1, complete genome.	94.88	75.00000000000001
+MW331544 Vibrio phage vB_Vc_SrVc2, complete genome.	93.92999999999999	74.0
+LR794124 Vibrio phage vB_Vc_SrVc9 genome assembly, chromosome: 1.	93.9	74.0
+ON457557 Vibrio phage vB_VpaP_M3, complete genome.	88.79999999999998	74.6
+NC_048167 Vibrio phage vB_VpaS_OWB, complete genome.	90.45000000000002	65.10000000000001
+MK474470 UNVERIFIED: Vibrio phage vB_VpaS_OWB, complete genome.	90.45000000000002	65.10000000000001
+MN974282 Vibrio phage OWB, complete genome.	90.45000000000002	65.10000000000001
+FJ896200 Vibrio phage VP93, complete genome.	94.79	70.39999999999999
+NC_012662 Vibrio phage VP93, complete genome.	94.79	70.39999999999999
+ON457555 Vibrio phage vB_VpaP_M9, complete genome.	89.52	73.8
+ON457554 Vibrio phage vB_VpaP_M83, complete genome.	89.61	73.8
+MT178448 Vibrio phage vB_VpP_FE11, complete genome.	91.86	74.50000000000001
+OR067835 Salmonella phage KKP 3828, complete genome.	70.75	7.000000000000001
 FR687252 Pantoea phage LIMElight complete genome.	71.34	5.6
 NC_019454 Pantoea phage LIMElight, complete genome.	71.34	5.6
 MW590329 Klebsiella phage Kp_Pokalde_001, complete genome.	72.9	6.0
 KX587949 Klebsiella phage phiKpS2, complete genome.	73.3	5.8999999999999995
 NC_047857 Klebsiella phage phiKpS2, complete genome.	73.3	5.8999999999999995
-NC_048174 Shigella phage HRP29, complete genome.	70.425	6.1
+OQ884026 Klebsiella phage SDFMU_Pkc, complete genome.	71.43333333333334	7.400000000000001
 MK562503 Shigella phage Buco, complete genome.	70.425	6.1
-NC_027980 Enterobacter phage phiKDA1, complete genome.	71.36666666666666	4.9
+NC_048174 Shigella phage HRP29, complete genome.	70.425	6.1
 JQ267518 Enterobacter phage phiKDA1, complete genome.	71.36666666666666	4.9
+NC_027980 Enterobacter phage phiKDA1, complete genome.	71.36666666666666	4.9
 MT197175 Klebsiella phage VLC5, complete genome.	72.44000000000001	6.3
-NC_047783 Klebsiella phage vB_KpnP_KpV48, complete genome.	72.69999999999999	5.8
 KX237514 Klebsiella phage vB_KpnP_KpV48, complete genome.	72.69999999999999	5.8
+NC_047783 Klebsiella phage vB_KpnP_KpV48, complete genome.	72.69999999999999	5.8
 ON755175 Klebsiella phage KXP, complete genome.	73.13333333333333	7.3999999999999995
 OM513679 Erwinia phage Micant, complete genome.	70.56666666666668	7.000000000000001
 OM513680 Erwinia phage Loshitsa2, complete genome.	70.91666666666667	8.2
-KY385423 Klebsiella phage vB_KpnP_KpV74, complete genome.	74.05	7.1000000000000005
+OQ884028 Enterobacter phage SDFMU_Pec, complete genome.	71.96	5.800000000000001
 NC_047811 Klebsiella phage vB_KpnP_KpV74, complete genome.	74.05	7.1000000000000005
+KY385423 Klebsiella phage vB_KpnP_KpV74, complete genome.	74.05	7.1000000000000005
 MT197176 Klebsiella phage VLC6, complete genome.	73.74	5.499999999999999
 OK562429 Klebsiella phage P929, complete genome.	73.3	5.699999999999999
 MT559527 UNVERIFIED: Klebsiella phage vB_KpnP_cmc20192, complete genome.	74.17999999999999	4.8999999999999995
 MT701589 Klebsiella phage Pone, complete genome.	73.05999999999999	6.7
-MT360680 Klebsiella virus 2019KP1, complete genome.	72.82499999999999	3.6000000000000005
 MT939252 Klebsiella phage vB_KpnP_Dlv622, complete genome.	71.975	5.499999999999999
-KX856662 Klebsiella phage KP-Rio/2015, complete genome.	70.625	6.2
 NC_047779 Klebsiella phage KP-Rio/2015, complete genome.	70.625	6.2
+KX856662 Klebsiella phage KP-Rio/2015, complete genome.	70.625	6.2
+OY978783 Klebsiella phage vB_Kpn_K51PH129C1 genome assembly, chromosome: K51PH129C1_assembly.	70.64000000000001	5.9
 MZ333135 Erwinia phage Zoomie, complete genome.	70.9	8.299999999999999
+OQ884031 Enterobacter phage SDFMU_EhYP, complete genome.	73.17499999999998	3.6000000000000005
 ON602726 Klebsiella phage VLCpiA1q, complete genome.	74.46	3.900000000000001
+OR230584 Klebsiella phage QL, complete genome.	72.14999999999999	6.7
+OY757062 Klebsiella phage vB_Ko_K66PH128C1 genome assembly, chromosome: K66PH128C1_assembly.	71.725	4.4
 ON602762 Klebsiella phage VLCpiA1d, complete genome.	74.56666666666666	4.1000000000000005
 ON602754 Klebsiella phage VLCpiA1j, complete genome.	72.27142857142857	5.699999999999999
 ON602756 Klebsiella phage VLCpiA1f, complete genome.	72.21428571428571	6.4
 ON602757 Klebsiella phage VLCpiA1e, complete genome.	72.4	6.0
 ON132389 Klebsiella phage P1010, complete genome.	72.85	4.6000000000000005
-NC_048172 Escherichia phage Minorna, complete genome.	73.35999999999999	3.6999999999999997
+OR845139 UNVERIFIED_ORG: Escherichia phage EC22.5-2 clone NODE_2_length_42480_cov_16.618235 genomic sequence.	72.4	5.499999999999999
 MK598851 Escherichia phage Minorna, complete genome.	73.35999999999999	3.6999999999999997
+NC_048172 Escherichia phage Minorna, complete genome.	73.35999999999999	3.6999999999999997
 ON146449 Klebsiella phage FK1979, complete genome.	73.95	4.3
 MN176572 Klebsiella phage vB_KpnP_IME308, complete genome.	71.73333333333333	4.7
 MT090077 Klebsiella phage CX1, complete genome.	73.26	5.2
-NC_047787 Klebsiella phage KPV811, complete genome.	71.96666666666667	4.8
 KY000081 Klebsiella phage KPV811, complete genome.	71.96666666666667	4.8
+NC_047787 Klebsiella phage KPV811, complete genome.	71.96666666666667	4.8
 MN101220 Klebsiella phage KMI6, complete genome.	72.6	3.2
 ON602743 Klebsiella phage VLCpiA1h, complete genome.	72.0	5.4
 OM864357 Escherichia phage ZH5, complete genome.	71.94	4.2
+OR532808 Klebsiella phage RCIP0014, complete genome.	73.75	3.2
 MT559526 UNVERIFIED: Klebsiella phage vB_KpnP_cmc20191, complete genome.	72.6	3.0999999999999996
+OR532835 Klebsiella phage RCIP0041, complete genome.	73.175	3.3999999999999995
 MN101219 Klebsiella phage KMI5, complete genome.	72.19999999999999	3.3000000000000003
 MN101217 Klebsiella phage KMI3, complete genome.	72.19999999999999	3.3000000000000003
+OQ790081 Klebsiella phage Kpn13, complete genome.	72.46000000000001	5.4
 NC_047929 Shigella phage SFN6B, complete genome.	73.1	3.2
 KY684082 Shigella phage SFN6B, complete genome.	73.1	3.2
 MN176573 Klebsiella phage vB_KpnP_IME337, complete genome.	75.05999999999999	3.6000000000000005
 MZ602146 Klebsiella phage vB_KpnP_NER40, complete genome.	72.325	5.5
 ON602724 Klebsiella phage VLCpiA1o, complete genome.	73.22	4.2
 OU509533 Klebsiella pneumoniae phage strain 5899STDY8049228 genome assembly, chromosome: 1.	72.575	5.0
-NC_025418 Klebsiella phage NTUH-K2044-K1-1 DNA, complete genome.	72.32000000000001	5.0
 AB716666 Klebsiella phage NTUH-K2044-K1-1 DNA, complete genome.	72.32000000000001	5.0
+NC_025418 Klebsiella phage NTUH-K2044-K1-1 DNA, complete genome.	72.32000000000001	5.0
+OY978775 Klebsiella phage vB_Kpn_K25PH129C1 genome assembly, chromosome: K25PH129C1_assembly.	72.35	3.6999999999999997
 MZ571827 Klebsiella phage vB_KpnM-VAC25, complete genome.	74.28	3.900000000000001
+OR050521 Klebsiella phage vB_KpnP_ZX11, complete genome.	72.15	4.3999999999999995
 OL474125 Klebsiella phage BUCT86, complete genome.	71.5	4.8
 ON602752 Klebsiella phage VLCpiA1b, complete genome.	70.75	4.5
 OX335379 Klebsiella phage cp48 genome assembly, chromosome: 1.	72.39999999999999	5.7
-KU666550 Klebsiella phage KpV71, complete genome.	72.44999999999999	4.3
+OQ503491 Acinetobacter phage vB_AbaA_LLY, complete genome.	72.14999999999999	3.5999999999999996
+OR532833 Klebsiella phage RCIP0039, complete genome.	72.44	4.0
 NC_031246 Klebsiella phage vB_KpnP_KpV71, complete genome.	72.44999999999999	4.3
+KU666550 Klebsiella phage KpV71, complete genome.	72.44999999999999	4.3
 ON602728 Klebsiella phage VLCpiA1n, complete genome.	71.02499999999999	3.8
-NC_028870 Klebsiella phage vB_KpnP_SU552A, complete genome.	71.75999999999999	5.4
 KP708986 Klebsiella phage vB_KpnP_SU552A, complete genome.	71.75999999999999	5.4
+NC_028870 Klebsiella phage vB_KpnP_SU552A, complete genome.	71.75999999999999	5.4
 MK693005 Klebsiella phage KPR2, complete genome.	74.17999999999999	3.3999999999999995
 ON602723 Klebsiella phage VLCpiA1p, complete genome.	73.15	3.2
+OY978782 Klebsiella phage vB_Kpl_K39PH122C2 genome assembly, chromosome: K39PH122C2_assembly.	72.94000000000001	4.500000000000001
 OU509534 Klebsiella pneumoniae phage strain 5899STDY8049207 genome assembly, chromosome: 1.	71.41666666666666	6.199999999999999
 MZ208805 Klebsiella phage SRD2021, complete genome.	72.95	3.6000000000000005
 MN794002 Klebsiella phage VLC3, complete genome.	72.35	4.199999999999999
-NC_023567 Klebsiella phage F19, complete genome.	72.06666666666668	3.8
+OR532884 Klebsiella phage RCIP0090, complete genome.	72.4	4.000000000000001
 KF765493 Klebsiella phage F19, complete genome.	72.06666666666668	3.8
+NC_023567 Klebsiella phage F19, complete genome.	72.06666666666668	3.8
 OP413829 Klebsiella phage pKP-M186-2.2, complete genome.	73.73333333333333	4.7
+OQ819159 Klebsiella phage vB_KpnP_Ou2, complete genome.	71.72	4.3999999999999995
+OR982685 Klebsiella phage KP-PHA-Meh, complete genome.	73.78333333333335	4.6
 ON602748 Klebsiella phage VLCpiA1c, complete genome.	73.72	3.7999999999999994
+OR809313 Klebsiella phage KA, complete genome.	72.4125	6.6000000000000005
+OR532893 Klebsiella phage RCIP0099, complete genome.	70.94	3.8
 ON602767 Klebsiella phage VLCpiA1i, complete genome.	72.24	4.500000000000001
 OP114731 Klebsiella phage SKP1, complete genome.	71.53999999999999	5.8999999999999995
 MN794003 Klebsiella phage VLC4, complete genome.	71.775	4.0
 ON602739 Klebsiella phage VLCpiA1k, complete genome.	72.25000000000001	5.699999999999999
+OR532837 Klebsiella phage RCIP0043, complete genome.	71.875	4.200000000000001
+OR983332 Klebsiella phage Kpph9, complete genome.	71.775	5.6
 OL362278 Klebsiella phage 6993, complete genome.	72.22	4.5
+OM816837 Klebsiella phage vB_KpnP_BUCT712, complete genome.	73.51666666666667	4.3
 OP852425 Klebsiella phage BUCT631, complete genome.	73.51666666666667	4.3
+OY978777 Klebsiella phage vB_Kpl_K71PH129C1 genome assembly, chromosome: K71PH129C1_assembly.	71.625	3.5000000000000004
 OL362279 Klebsiella phage 6995, complete genome.	71.56	5.0
+OR532829 Klebsiella phage RCIP0035, complete genome.	71.875	5.0
+OR532888 Klebsiella phage RCIP0094, complete genome.	73.92500000000001	3.2
 OX335428 Klebsiella phage mtp6 genome assembly, chromosome: 1.	72.55999999999999	5.700000000000001
-KT367886 Klebsiella phage Kp2, complete genome.	73.925	3.2
+OR532905 Klebsiella phage RCIP0111, complete genome.	72.85	3.3999999999999995
 NC_028664 Klebsiella phage vB_Kp2, complete genome.	73.925	3.2
+KT367886 Klebsiella phage Kp2, complete genome.	73.925	3.2
 ON809559 Klebsiella phage pKp11, complete genome.	73.18333333333334	5.6000000000000005
-NC_028670 Klebsiella phage vB_KpnP_KpV41, complete genome.	71.6	5.1000000000000005
+OY979410 Klebsiella phage vB_Kpn_K15PH90 genome assembly, chromosome: K15PH90_assembly.	71.95	3.6000000000000005
+OY979411 Klebsiella phage vB_Kpn_K1PH164C1 genome assembly, chromosome: K1PH164C1_assembly.	73.075	3.3000000000000003
+OR532876 Klebsiella phage RCIP0082, complete genome.	73.25	3.3000000000000003
+OR532906 Klebsiella phage RCIP0112, complete genome.	73.5	2.9
+OR532821 Klebsiella phage RCIP0027, complete genome.	71.43333333333334	3.6000000000000005
+OR532830 Klebsiella phage RCIP0036, complete genome.	71.75	4.2
+OY757088 Klebsiella phage vB_Kpl_K72PH164C2 genome assembly, chromosome: K72PH164C2_assembly.	71.39999999999999	3.8
+OR532831 Klebsiella phage RCIP0037, complete genome.	71.75	4.2
+OR532838 Klebsiella phage RCIP0044, complete genome.	72.625	3.5000000000000004
+OR532832 Klebsiella phage RCIP0038, complete genome.	71.66666666666666	3.900000000000001
 KT964103 Klebsiella phage KpV41, complete genome.	71.6	5.1000000000000005
+NC_028670 Klebsiella phage vB_KpnP_KpV41, complete genome.	71.6	5.1000000000000005
+OQ871562 Klesiella phage xx20, complete genome.	73.45	4.7
 MZ634338 Klebsiella phage PWKp1, complete genome.	71.6	4.1000000000000005
 MZ634339 Klebsiella phage PWKp2, complete genome.	73.0	3.0
 MZ634343 Klebsiella phage PWKp9B, complete genome.	72.75	4.500000000000001
@@ -125,46 +165,63 @@ MK135468 Klebsiella phage 1 TK-2018, complete genome.	73.45	5.3999999999999995
 ON602740 Klebsiella phage VLCpiA1l, complete genome.	72.33333333333333	4.6
 MZ424864 Escherichia phage vB_EcoP_ZX6, complete genome.	72.5	4.6
 OP441381 Klebsiella phage vB_KpP_FBKp18, complete genome.	74.6	2.6
+OQ734493 Klebsiella phage pKP-M212-2.1, complete genome.	70.38	6.3
 MN380459 Klebsiella phage vB_KpnP_fHeKpn01, complete genome.	72.875	3.6999999999999997
-NC_047849 Klebsiella phage AltoGao, complete genome.	72.12	4.6
 MF612071 Klebsiella phage AltoGao, complete genome.	72.12	4.6
+NC_047849 Klebsiella phage AltoGao, complete genome.	72.12	4.6
 MN116494 Klebsiella phage vB_KpnP_Bp5, complete genome.	71.52000000000001	4.300000000000001
 OL979479 Klebsiella phage Kpn BHU2, partial genome.	73.65	5.300000000000001
-OK583893 Klebsiella phage KPPK108.2, complete genome.	72.86000000000001	4.4
-NC_047748 Klebsiella phage phiBO1E, complete genome.	71.50000000000001	3.0
+OR532898 Klebsiella phage RCIP0104, complete genome.	71.26	5.9
+OK583893 Klebsiella phage KPPK108.2, complete genome.	72.85999999999999	4.3999999999999995
 KM576124 Klebsiella phage phiBO1E, complete genome.	71.50000000000001	3.0
+NC_047748 Klebsiella phage phiBO1E, complete genome.	71.50000000000001	3.0
 MN794000 Klebsiella phage VLC1, complete genome.	72.325	3.3000000000000003
 ON602732 Klebsiella phage VLCpiA1a, complete genome.	71.75	3.8
-GQ413938 Klebsiella phage KP34, complete genome.	72.125	3.3000000000000003
+OR532843 Klebsiella phage RCIP0049, complete genome.	70.925	4.6000000000000005
 NC_013649 Klebsiella phage KP34, complete genome.	72.125	3.3000000000000003
+GQ413938 Klebsiella phage KP34, complete genome.	72.125	3.3000000000000003
 NC_047944 Klebsiella phage myPSH1235, complete genome.	71.88	3.7000000000000006
 MG972768 Klebsiella phage myPSH1235, complete genome.	71.88	3.7000000000000006
 ON602727 Klebsiella phage VLCpiA1m, complete genome.	71.02000000000001	5.1
-KT240186 Dickeya phage BF25/12, complete genome.	68.45	3.2
 NC_047759 Dickeya phage BF25/12, complete genome.	68.45	3.2
+KT240186 Dickeya phage BF25/12, complete genome.	68.45	3.2
 ON602761 Klebsiella phage VLCpiA1g, complete genome.	73.36666666666666	4.8
 OL979478 Klebsiella phage Kpn BHU1, partial genome.	72.225	3.900000000000001
 ON165415 Klebsiella phage JKP2, complete genome.	71.0	4.6000000000000005
 OL976437 Klebsiella phage Kpn BHU3, partial genome.	71.56	4.6000000000000005
 MN794001 Klebsiella phage VLC2, complete genome.	72.27499999999999	3.3000000000000003
-KX211991 Klebsiella phage KpV475, complete genome.	72.02	4.8
+OY757092 Klebsiella phage vB_Kpn_K24PH164C1 genome assembly, chromosome: K24PH164C1_assembly.	72.0	3.9
 NC_031025 Klebsiella phage vB_KpnP_KpV475, complete genome.	72.02	4.8
-OK583892 Klebsiella phage KPPK108.1, complete genome.	73.1	4.300000000000001
+KX211991 Klebsiella phage KpV475, complete genome.	72.02	4.8
+OK583892 Klebsiella phage KPPK108.1, complete genome.	73.1	4.3
 NC_028816 Klebsiella phage vB_KpnP_SU503, complete genome.	71.625	4.300000000000001
 KP708985 Klebsiella phage vB_KpnP_SU503, complete genome.	71.625	4.300000000000001
+OR532825 Klebsiella phage RCIP0031, complete genome.	71.96666666666665	3.7000000000000006
 MT682065 Klebsiella virus KpV2883, complete genome.	72.72	4.4
 MZ634340 Klebsiella phage PWKp3, complete genome.	72.66666666666667	4.400000000000001
-NC_027342 Proteus phage PM16, complete genome.	74.08	3.6000000000000005
-KF319020 Proteus phage PM16, complete genome.	74.08	3.6000000000000005
+OR532900 Klebsiella phage RCIP0106, complete genome.	71.775	4.1000000000000005
+LC776701 Pseudomonas phage Ep4 DNA, complete genome.	70.8	3.0
+OY757065 Klebsiella phage vB_Kpn_K40PH129C1 genome assembly, chromosome: K40PH129C1_assembly.	72.46666666666665	2.8
+KF319020 Proteus phage PM16, complete genome.	74.925	3.2
+NC_027342 Proteus phage PM16, complete genome.	74.925	3.2
 MT259468 Aeromonas phage PS, complete genome.	72.6	1.3
 NC_027363 Proteus phage PM 75, complete genome.	77.39999999999999	2.1
 KM819694 Proteus phage PM 75, complete genome.	77.39999999999999	2.1
 MG575418 Proteus phage vB_PmiP_RS1pmA, complete genome.	72.21666666666667	5.099999999999999
+OQ689084 Klebsiella phage vB_KpnA_SCNJ1-Z, complete genome.	73.9	3.6999999999999997
 MG575419 Proteus phage vB_PmiP_RS8pmA, complete genome.	74.95	2.5
+OR532866 Klebsiella phage RCIP0072, complete genome.	74.125	3.7000000000000006
 OL416096 Proteus phage 309, complete genome.	75.88000000000001	2.7
+OR850875 UNVERIFIED_ORG: Salmonella phage S.Kent 1-2-1 clone NODE_3_length_42603_cov_10.913206 genomic sequence.	74.34	2.1
+OR844702 UNVERIFIED_ORG: Escherichia phage ECO104 4-5-2 clone NODE_1_length_43051_cov_8.658049 genomic sequence.	72.6	1.9
+OR532840 Klebsiella phage RCIP0046, complete genome.	73.55000000000001	3.5000000000000004
+OR532881 Klebsiella phage RCIP0087, complete genome.	74.55	3.6000000000000005
+OR532882 Klebsiella phage RCIP0088, complete genome.	74.025	3.7000000000000006
+OR532904 Klebsiella phage RCIP0110, complete genome.	74.17500000000001	3.7000000000000006
 OM234793 UNVERIFIED: Pseudomonas phage PA28, complete genome.	71.85000000000001	3.7000000000000006
-NC_048148 Providencia phage vB PstP PS3, complete genome.	69.475	3.1000000000000005
+MT360680 Klebsiella virus 2019KP1, complete genome.	72.34	4.2
 MK387869 Providencia phage vB PstP PS3, complete genome.	69.475	3.1000000000000005
+NC_048148 Providencia phage vB PstP PS3, complete genome.	69.475	3.1000000000000005
 MN812690 UNVERIFIED: Dickeya phage Irene, complete genome.	71.46666666666667	1.9
 MK095208 Pectobacterium phage Nobby_B4, complete genome.	72.0	1.0
 MH807819 Pectobacterium phage Slant, complete genome.	72.0	1.0
@@ -172,8 +229,8 @@ KY953156 Pectobacterium phage vB_PatP_CB5, complete genome.	72.0	1.0
 NC_042131 Pectobacterium phage vB_PatP_CB5, complete genome.	72.0	1.0
 NC_031096 Pectobacterium phage PP90, complete genome.	69.55	2.0999999999999996
 KX278419 Pectobacterium phage PP90, complete genome.	69.55	2.0999999999999996
-NC_048056 Pectobacterium phage Gaspode, complete genome.	72.6	1.4000000000000001
 MH807811 Pectobacterium phage Gaspode, complete genome.	72.6	1.4000000000000001
+NC_048056 Pectobacterium phage Gaspode, complete genome.	72.6	1.4000000000000001
 NC_030923 Pseudomonas phage YMC11/06/C171_PPU_BP, complete genome.	69.56666666666666	2.6
 KU310944 Pseudomonas phage YMC11/06/C171_PPU_BP, complete genome.	69.56666666666666	2.6
 MN497414 Vibrio phage vB_VhaP_VH-5, complete genome.	68.60000000000001	2.9000000000000004
@@ -183,45 +240,47 @@ KX278418 Pectobacterium phage PP16, complete genome.	70.75	1.3
 NC_031068 Pectobacterium phage PP16, complete genome.	70.75	1.3
 MN270888 Pectobacterium phage CX5-1, complete genome.	68.0	1.9
 MN270887 Pectobacterium phage CX5, complete genome.	68.0	1.9
-NC_048103 Pectobacterium phage PPWS2 DNA, complete genome.	71.6	2.5
 LC375533 Pectobacterium phage PPWS2 DNA, complete genome.	71.6	2.5
-MN271656 Pectobacterium phage MA2, complete genome.	70.4	1.2
-LC063634 Pectobacterium phage PPWS1 DNA, complete genome.	70.4	0.7000000000000001
+NC_048103 Pectobacterium phage PPWS2 DNA, complete genome.	71.6	2.5
+MN271656 Pectobacterium phage MA2, complete genome.	69.2	0.8
+OQ921331 Escherichia phage vB_EcoP_PAS7, complete genome.	71.26	2.3
 NC_047758 Pectobacterium phage PPWS1 DNA, complete genome.	70.4	0.7000000000000001
+LC063634 Pectobacterium phage PPWS1 DNA, complete genome.	70.4	0.7000000000000001
 MN844877 Sphaerotilus phage vB_SnaP-R1, complete genome.	68.94999999999999	1.7999999999999998
-NC_025457 Acinetobacter phage vB_AbaP_Acibel007, complete genome.	67.85	1.7000000000000002
 KJ473423 Acinetobacter phage vB_AbaP_Acibel007, complete genome.	67.85	1.7000000000000002
+NC_025457 Acinetobacter phage vB_AbaP_Acibel007, complete genome.	67.85	1.7000000000000002
 MN850570 Escherichia phage mellemsur, complete genome.	67.8	0.8999999999999999
 MN850608 Escherichia phage megetsur, complete genome.	68.1	0.8999999999999999
 MN850568 Escherichia phage altidsur, complete genome.	68.1	0.8999999999999999
 MN812692 UNVERIFIED: Pectobacterium phage Rambam, partial genome.	76.5	1.2
 MN850592 Escherichia phage aldrigsur, complete genome.	67.3	0.8999999999999999
+OX359471 Variovorax phage VAC_51 genome assembly, chromosome: 1.	71.94999999999999	0.8
 MT227925 Vibrio phage phiV141, complete genome.	69.3	0.7000000000000001
-NC_048061 Pectobacterium phage Nobby, complete genome.	74.0	0.4
 MH807818 Pectobacterium phage Nobby, complete genome.	74.0	0.4
+NC_048061 Pectobacterium phage Nobby, complete genome.	74.0	0.4
 MK095205 Pectobacterium phage Nobby_B1, complete genome.	74.0	0.4
 MK095206 Pectobacterium phage Nobby_B2, complete genome.	74.0	0.4
 NC_047800 Ralstonia virus phiAp1, complete genome.	73.85	0.9000000000000001
 KY117485 Ralstonia phage phiAp1, complete genome.	73.85	0.9000000000000001
 MH807816 Pectobacterium phage Momine, complete genome.	73.4	0.4
-NC_048058 Pectobacterium phage Lelidair, complete genome.	73.4	0.4
 MH807814 Pectobacterium phage Lelidair, complete genome.	73.4	0.4
-NC_048120 Pectobacterium phage Zenivior, complete genome.	73.4	0.4
+NC_048058 Pectobacterium phage Lelidair, complete genome.	73.4	0.4
 MK095210 Pectobacterium phage Zenivior, complete genome.	73.4	0.4
+NC_048120 Pectobacterium phage Zenivior, complete genome.	73.4	0.4
 JX290549 Pectobacterium phage PhiM1, complete genome.	73.1	0.8
 NC_041854 Pectobacterium phage PhiM1, complete genome.	73.1	0.8
-NC_029081 Pectobacterium phage Peat1, complete genome.	72.80000000000001	0.8
 KR604693 Pectobacterium phage Peat1, complete genome.	72.80000000000001	0.8
-KY245949 UNVERIFIED: Acinetobacter phage AJO1 genomic sequence, sequence.	66.4	0.8999999999999999
-MK095196 Pectobacterium phage Clickz_B4, complete genome.	72.55000000000001	0.7000000000000001
-MK095194 Pectobacterium phage Clickz_B2, complete genome.	72.55000000000001	0.7000000000000001
-MK095198 Pectobacterium phage Clickz_B6, complete genome.	72.55000000000001	0.7000000000000001
-NC_013638 Pseudomonas phage phi-2, complete genome.	74.75	0.7000000000000001
-FN594518 Pseudomonas phage phi-2, complete genome, isolated from Pseudomonas fluorescens SBW25.	74.75	0.7000000000000001
+NC_029081 Pectobacterium phage Peat1, complete genome.	72.80000000000001	0.8
+KY245949 UNVERIFIED: Acinetobacter phage AJO1 genomic sequence.	66.4	0.8999999999999999
+MK095196 Pectobacterium phage Clickz_B4, complete genome.	72.9	0.4
+MK095194 Pectobacterium phage Clickz_B2, complete genome.	72.9	0.4
+MK095198 Pectobacterium phage Clickz_B6, complete genome.	72.9	0.4
+FN594518 Pseudomonas phage phi-2, complete genome, isolated from Pseudomonas fluorescens SBW25.	75.3	0.3
+NC_013638 Pseudomonas phage phi-2, complete genome.	75.3	0.3
 NC_025445 Enterobacteria phage J8-65, complete genome.	67.7	0.7000000000000001
 KM247287 Enterobacteria phage J8-65, complete genome.	67.7	0.7000000000000001
-NC_023570 Acinetobacter phage Petty, complete genome.	80.1	0.7000000000000001
-KF669656 Acinetobacter phage Petty, complete genome.	80.1	0.7000000000000001
+KF669656 Acinetobacter phage Petty, complete genome.	69.7	0.6
+NC_023570 Acinetobacter phage Petty, complete genome.	69.7	0.6
 MF033351 Acinetobacter phage vB_ApiP_P2, complete genome.	85.8	0.2
 NC_042007 Acinetobacter phage vB_ApiP_P2, complete genome.	85.8	0.2
 MW459163 Acinetobacter phage vB_AbaP_APK128, complete genome.	73.4	0.3
@@ -229,130 +288,32 @@ OM913598 Aeromonas phage vB_AspA_Lolek, complete genome.	79.4	0.2
 NC_042003 Acinetobacter phage vB_AbaP_B1, complete genome.	79.7	0.2
 MF033347 Acinetobacter phage vB_AbaP_B1, complete genome.	79.7	0.2
 MN651570 Acinetobacter phage vB_AbaP_APK89, complete genome.	79.7	0.2
+OQ982387 Acinetobacter phage vB_Ab-P-7, complete genome.	79.7	0.2
 NC_042005 Acinetobacter phage vB_AbaP_B5, complete genome.	79.7	0.2
 MF033349 Acinetobacter phage vB_AbaP_B5, complete genome.	79.7	0.2
+LC778449 Cronobacter phage RZ4 DNA, complete genome.	84.6	0.2
 MN850617 Escherichia phage forsur, complete genome.	78.75	0.5
 MN850583 Escherichia phage glasur, complete genome.	79.15	0.5
-MW056501 Acinetobacter phage vB_AbaA_fBenAci001, complete genome.	72.7	0.3
-MZ868724 Acinetobacter phage APK09, complete genome.	72.7	0.3
-NC_009936 Pseudomonas phage LKA1, complete genome.	86.1	0.2
 AM265639 Pseudomonas phage LKA1 complete genome, specific host Pseudomonas aeruginosa.	86.1	0.2
-NC_042124 Acinetobacter phage vB_AbaP_D2, complete genome.	78.7	0.2
-MH042230 Acinetobacter phage vB_AbaP_D2, complete genome.	78.7	0.2
-MW056503 Acinetobacter phage vB_AbaA_fBenAci003, complete genome.	78.7	0.2
-NC_031086 Acinetobacter phage phiAB6, complete genome.	78.7	0.2
-KT339321 Acinetobacter phage phiAB6, complete genome.	78.7	0.2
-MN614471 Acinetobacter phage vB_AbaP_APK48-3, complete genome.	78.7	0.2
-MF033350 Acinetobacter phage vB_ApiP_P1, complete genome.	78.7	0.2
-NC_042006 Acinetobacter phage vB_ApiP_P1, complete genome.	78.7	0.2
-MT263719 Acinetobacter virus vB_AbaP_AGC01, complete genome.	78.7	0.2
-MW366784 Acinetobacter phage Paty, complete genome.	78.7	0.2
-MZ868726 Acinetobacter phage APK77, complete genome.	78.7	0.2
-NC_041914 Acinetobacter phage vB_AbaP_AS12, complete genome.	83.85	0.3
-KY268295 Acinetobacter phage vB_AbaP_AS12, complete genome.	83.85	0.3
-MK257720 Acinetobacter phage vB_AbaP_APK2-2, complete genome.	78.7	0.2
-MK257719 Acinetobacter phage vB_AbaP_APK2, complete genome.	78.7	0.2
-NC_028675 Acinetobacter phage phiAB1, complete genome.	78.7	0.2
-HQ186308 Acinetobacter phage phiAB1, complete genome.	78.7	0.2
-LN878149 Cronobacter phage Dev-CD-23823 complete sequence.	83.5	0.2
+NC_009936 Pseudomonas phage LKA1, complete genome.	86.1	0.2
+LC779549 Cronobacter phage GY3 DNA, complete genome.	71.0	0.4
 NC_029070 Cronobacter phage Dev-CD-23823 complete sequence.	83.5	0.2
-NC_041915 Acinetobacter phage vB_AbaP_AS11, complete genome.	78.7	0.2
-KY268296 Acinetobacter phage vB_AbaP_AS11, complete genome.	78.7	0.2
-MK257721 Acinetobacter phage vB_AbaP_APK93, complete genome.	78.7	0.2
-MG599035 UNVERIFIED: Acinetobacter phage SWH-Ab-3, complete genome.	78.7	0.2
-NC_047883 Acinetobacter phage SWH-Ab-3, complete genome.	78.7	0.2
-MW366783 Acinetobacter phage Pipo, complete genome.	78.7	0.2
-MK257723 Acinetobacter phage vB_AbaP_APK37, complete genome.	78.7	0.2
-JX658790 Acinetobacter phage Abp1, complete genome.	78.7	0.2
-NC_021316 Acinetobacter phage Abp1, complete genome.	78.7	0.2
-MZ936316 Acinetobacter phage APK20, complete genome.	78.7	0.2
-MN604239 Acinetobacter phage vB_AbaP_APK87, complete genome.	78.7	0.2
-NC_020078 Cronobacter sakazakii phage vB_CskP_GAP227, complete genome.	71.0	0.4
+LN878149 Cronobacter phage Dev-CD-23823 complete sequence.	83.5	0.2
 KC107834 Cronobacter sakazakii phage vB_CskP_GAP227, complete genome.	71.0	0.4
+NC_020078 Cronobacter sakazakii phage vB_CskP_GAP227, complete genome.	71.0	0.4
 MW250276 Kosakonia virus Kc318, complete genome.	71.0	0.4
-MT741944 Acinetobacter phage vB_AbaP_APK81 chromosome linear, complete genome.	72.1	0.3
-NC_048076 Acinetobacter phage vB_AbaP_46-62_Aci07, complete genome.	72.1	0.3
-MH800200 Acinetobacter phage vB_AbaP_46-62_Aci07, complete genome.	72.1	0.3
-NC_047953 Pseudomonas phage vB_PaeP_130_113, complete genome.	74.2	0.3
-MH107770 Pseudomonas phage vB_PaeP_130_113, complete genome.	74.2	0.3
-MN395291 Acinetobacter phage vB_AbaP_IME546, complete genome.	77.7	0.2
-ON513429 Acinetobacter phage AB_SZ6, complete genome.	77.7	0.2
-ON210142 Acinetobacter phage APK127v, complete genome.	77.7	0.2
-KR149290 Acinetobacter phage Fri1, complete genome.	77.7	0.2
-NC_028848 Acinetobacter phage Fri1, complete genome.	77.7	0.2
-MN433707 Acinetobacter phage vB_AbaP_PMK34, complete genome.	77.7	0.2
-OL770263 Acinetobacter phage AbTP3phi1, complete genome.	77.7	0.2
-OM913597 Aeromonas phage vB_AspA_Bolek, complete genome.	78.7	0.2
-KT388102 Acinetobacter phage vB_AbaP_PD-6A3, complete genome.	84.6	0.3
-NC_028684 Acinetobacter phage vB_AbaP_PD-6A3, complete genome.	82.0	0.2
-OL964948 Acinetobacter phage vB_AbaP_PE21, complete genome.	82.0	0.2
-MH763831 Acinetobacter phage vB_AbaP_B09_Aci08, complete genome.	82.0	0.2
-NC_048081 Acinetobacter phage vB_AbaP_B09_Aci08, complete genome.	82.0	0.2
+NC_070758 Vibrio phage vB_VpaP_G1, complete genome.	81.0	0.4
 MZ592920 Vibrio phage vB_VpaP_G1, complete genome.	81.0	0.4
-NC_028836 Pseudomonas phage DL62, complete genome.	73.5	0.3
-KR054031 Pseudomonas phage DL62, complete genome.	73.5	0.3
-MZ553931 Pseudomonas phage vB_PaeA_55_1W, complete genome.	73.5	0.3
-MZ868725 Acinetobacter phage APK16, complete genome.	76.7	0.2
-MW056502 Acinetobacter phage vB_AbaA_fBenAci002, complete genome.	76.7	0.2
 MK095200 Pectobacterium phage Clickz_B8, complete genome.	80.05000000000001	0.3
 MK095199 Pectobacterium phage Clickz_B7, complete genome.	80.05000000000001	0.3
+NC_048116 Pectobacterium phage Clickz, complete genome.	80.05000000000001	0.3
 MK095195 Pectobacterium phage Clickz_B3, complete genome.	80.05000000000001	0.3
 MK095193 Pectobacterium phage Clickz, complete genome.	80.05000000000001	0.3
-NC_048116 Pectobacterium phage Clickz, complete genome.	80.05000000000001	0.3
 MK095197 Pectobacterium phage Clickz_B5, complete genome.	80.05000000000001	0.3
 OP019135 Acinetobacter phage vB_Ab4_Hep4, complete genome.	87.5	0.2
-KU743887 Pseudomonas phage phiNFS, complete genome.	72.7	0.3
-NC_047852 Pseudomonas phage phiNFS, complete genome.	72.7	0.3
-NC_005045 Pseudomonas phage phiKMV, complete genome.	72.7	0.3
-AJ505558 Bacteriophage phiKMV complete genome.	72.7	0.3
-KC969441 UNVERIFIED: Pseudomonas phage MBL, complete genome.	72.7	0.3
-OP556577 Pseudomonas phage vB PaM SEMA, complete genome.	72.7	0.3
-MN692672 Pseudomonas phage vB_PaeP_Lx18, complete genome.	72.7	0.3
-LN610580 Pseudomonas phage vB_PaeP_PAO1_1-15pyo, complete genome.	72.7	0.3
-NC_047967 Pseudomonas phage vB_PaeP_PAO1_1-15pyo, complete genome.	72.7	0.3
-EU056923 Pseudomonas phage PT5, complete genome.	72.7	0.3
-NC_011105 Pseudomonas phage PT5, complete genome.	72.7	0.3
-NC_011107 Pseudomonas phage PT2, complete genome.	72.7	0.3
-EU236438 Pseudomonas phage PT2, complete genome.	72.7	0.3
-KX711710 Pseudomonas phage vB_Pae-TbilisiM32, complete genome.	72.7	0.3
-NC_017865 Pseudomonas phage vB_Pae-TbilisiM32, complete genome.	72.7	0.3
-JQ307386 Pseudomonas phage vB_Pae-TbilisiM32, complete genome.	72.7	0.3
-MW406975 Pseudomonas phage MYY9, complete genome.	72.7	0.3
-MN615698 Pseudomonas phage vB_PaeP_SPCB, complete genome.	72.7	0.3
-FN263372 Pseudomonas phage phikF77, complete genome.	72.7	0.3
-NC_012418 Pseudomonas phage phikF77, complete genome.	72.7	0.3
-NC_048168 Pseudomonas phage RLP, complete genome.	72.7	0.3
-MH979674 Pseudomonas phage RLP, complete genome.	72.7	0.3
-NC_010326 Pseudomonas phage LUZ19, complete genome.	72.7	0.3
-AM910651 Pseudomonas phage LUZ19, complete genome.	72.7	0.3
-OP819285 Cronobacter phage EspYZU13, complete genome.	77.5	0.2
 MW286268 Pseudomonas phage Strit, complete genome.	71.3	0.4
 MW286266 Pseudomonas phage Bertil, complete genome.	71.3	0.4
-OL539469 Proteus phage vB_PmiP_Brookers, complete genome.	79.4	0.2
 MW286267 Pseudomonas phage Misse, complete genome.	72.7	0.3
-MW345241 Acinetobacter phage vB_AbaP_APK26, complete genome.	90.0	0.1
-NC_028987 Acinetobacter phage IME200, complete genome.	87.2	0.1
-MN807295 Acinetobacter phage vB_AbaP_APK116, complete genome.	90.0	0.1
-ON857928 Pseudomonas phage vB_PaeP_FBPa6, complete genome.	72.0	0.3
-ON857935 Pseudomonas phage vB_PaeP_FBPa25, complete genome.	72.0	0.3
-MN615699 Pseudomonas phage vB_PaeP_SPCG, complete genome.	72.0	0.3
-LC727700 Pseudomonas phage sp. LP phiLP DNA, complete genome.	72.0	0.3
-JX501340 Pseudomonas phage MPK7, complete genome.	72.0	0.3
-NC_022091 Pseudomonas phage MPK7, complete genome.	72.0	0.3
-JX997978 Pseudomonas phage MPK6, complete genome.	72.0	0.3
-NC_022746 Pseudomonas phage MPK6, complete genome.	72.0	0.3
-MW406976 Pseudomonas phage HX1, complete genome.	72.0	0.3
-MZ687409 Pseudomonas phage vB_Pae_QDWS, complete genome.	72.0	0.3
-ON857926 Pseudomonas phage vB_PaeM_FBPa3, complete genome.	72.0	0.3
-NC_027375 Pseudomonas phage vB_PaeP_PPA-ABTNL, complete genome.	72.0	0.3
-KM067278 Pseudomonas phage vB_PaeP_PPA-ABTNL, complete genome.	72.0	0.3
-OK539824 Pseudomonas phage phipa2, complete genome.	72.0	0.3
-KY618819 Pseudomonas phage PAXYB1, complete genome.	72.0	0.3
-MN901924 Pseudomonas phage vB_PaeP_PE3, complete genome.	72.0	0.3
-NC_026602 Pseudomonas phage vB_PaeP_PAO1_Ab05, complete genome.	72.0	0.3
-LN610574 Pseudomonas phage vB_PaeP_PAO1_Ab05, complete genome.	72.0	0.3
-ON857933 Pseudomonas phage vB_PaeP_FBPa18, complete genome.	72.0	0.3
-MN871455 UNVERIFIED_ORG: Pseudomonas phage Pa-B, complete genome.	74.0	0.2
 MK095204 Pectobacterium phage Koot_B1, complete genome.	78.85	0.3
 MK095203 Pectobacterium phage Koot, complete genome.	78.85	0.3
 NC_048118 Pectobacterium phage Koot, complete genome.	78.85	0.3
@@ -362,10 +323,10 @@ OP508218 Acinetobacter phage BM12, complete genome.	86.0	0.1
 OK546191 Acinetobacter phage vB_AbaP_ABWU2101, complete genome.	86.0	0.1
 ON604651 Aeromonas phage JELG-KS1, complete genome.	75.6	0.2
 MK095201 Pectobacterium phage Ekidair, complete genome.	80.6	0.1
-NC_048119 Pectobacterium phage Phoria, complete genome.	80.6	0.1
 MK095209 Pectobacterium phage Phoria, complete genome.	80.6	0.1
-JN651747 Aeromonas phage phiAS7, complete genome.	80.3	0.1
+NC_048119 Pectobacterium phage Phoria, complete genome.	80.6	0.1
 NC_019528 Aeromonas phage phiAS7, complete genome.	80.3	0.1
+JN651747 Aeromonas phage phiAS7, complete genome.	80.3	0.1
 OL634959 Bacteriophage Phi NF-1, complete genome.	86.9	0.1
 OX241572 Vibrio phage 275E43-1 genome assembly, chromosome: VP115E34_1.	84.3	0.1
 MK095207 Pectobacterium phage Nobby_B3, complete genome.	79.3	0.1

@@ -44,6 +44,15 @@ FEATURES             Location/Qualifiers
                      SVNQFEVIFDTQRCQFNCGFAESAMEA"
                      /locus_tag="vB_VpP_AC2_0_0003"
                      /transl_table=11
+     CDS             2359..2634
+                     /start_type="TTG"
+                     /rbs_motic="GGAG/GAGG"
+                     /rbs_spacer="5-10bp"
+                     /product="hypothetical protein"
+                     /translation="MSTQQDKVQHSYYPRDKINRVFHPASGANRSPHAARIKGKCVRTG
+                     DEHYYHSIGQAVDDGWCRKGIRRCLRGEQIQSNGMFWATWDGVEHE"
+                     /locus_tag="vB_VpP_AC2_0_0004"
+                     /transl_table=11
      CDS             2627..5062
                      /start_type="ATG"
                      /rbs_motic="GGAG/GAGG"
@@ -63,7 +72,7 @@ FEATURES             Location/Qualifiers
                      RQVIRDEVERTGNLPGNLKREMTDDGSARLYRRGYWTSPAGMRYSFRQVERWVKRADGR
                      GMEKVMDYKDTQLANYWCQGEAFFLMAVAFGMILRHMIAKNWYDNQVCLITNVHDAAYL
                      DAANEEVGREAALAVKDIMERAKDRILQLWPNYGHLKDVPFPAAAEMGSSMYNKTHIH"
-                     /locus_tag="vB_VpP_AC2_0_0004"
+                     /locus_tag="vB_VpP_AC2_0_0005"
                      /GO="GO:0003674,GO:0003824,GO:0004518,GO:0004527,GO:0006139
                      ,GO:0006725,GO:0006807,GO:0008150,GO:0008152,GO:0008408,GO:
                      0009987,GO:0016787,GO:0016788,GO:0034641,GO:0043170,GO:0044
@@ -79,7 +88,7 @@ FEATURES             Location/Qualifiers
                      ELWYKRSGIEKAVQNGLTPTALHTSSSLHLYIQDRTGKALGTVWEYFRDGENGTVQLRV
                      PNGTTVVYNDDPLYLQYLKDKSADDKYEIDVEQWHEEHRTQARVYKQALEQFKTLKQLT
                      DGWDGIEKYLPEEFEVQSTAVAVIPQLP"
-                     /locus_tag="vB_VpP_AC2_0_0005"
+                     /locus_tag="vB_VpP_AC2_0_0006"
                      /transl_table=11
      CDS             5660..6253
                      /start_type="ATG"
@@ -90,7 +99,7 @@ FEATURES             Location/Qualifiers
                      LDIVVACGDSCTAQVFDWMSKMSSQLSQVNIASEVFLAYTDDPDNCDSDFDEKLYGGIK
                      IKHPVIEIDVLFSRKPSINEAVADFDCELNRVWTDDMRFVKGRLYTIDTFAQGYPLVLG
                      TARTGRADKMIELCAKYDCIPVMHDLSKLDELRE"
-                     /locus_tag="vB_VpP_AC2_0_0006"
+                     /locus_tag="vB_VpP_AC2_0_0007"
                      /transl_table=11
      CDS             6307..6663
                      /start_type="ATG"
@@ -100,7 +109,7 @@ FEATURES             Location/Qualifiers
                      /translation="MSKINLLSCINSLDFEQLDSLLTRLMYDRVEPNGMGCLEWQGSKT
                      PDGYGRIRVPDFGTTYTHRVVLALDGIDVDAYEVVRHICNNPACCNKYHIKAGTQKENV
                      ADMWKAGNAAQQKA"
-                     /locus_tag="vB_VpP_AC2_0_0007"
+                     /locus_tag="vB_VpP_AC2_0_0008"
                      /transl_table=11
      CDS             6752..7567
                      /start_type="ATG"
@@ -112,7 +121,7 @@ FEATURES             Location/Qualifiers
                      AKKLFDRMNYTGTLKHLAQGLNQCFRMELDVQEKDGREYNTMKFETLSPLPKFDPETGS
                      PITLPEFDTSKIQVFLWANPTKETWDSLYIDGTDDKGKSKNFIQEDILKAVDYEGSPLQ
                      ALLEGGLPMPPADEPKAESAPTQADHAAAAQAAMPDAPAMPTMPDAPAV"
-                     /locus_tag="vB_VpP_AC2_0_0008"
+                     /locus_tag="vB_VpP_AC2_0_0009"
                      /transl_table=11
      CDS             7614..7946
                      /start_type="ATG"
@@ -122,7 +131,7 @@ FEATURES             Location/Qualifiers
                      /translation="MNITQFAQRIKKAYSFQTDIERIVTDYKEQTVKVYRRGKVLPRVY
                      RLSIINKSGGLKQKYRSWAMTNYMLVIGGDAGAHMAQYSGIMNDDNVVMLEDFKTMTNH
                      QIINPR"
-                     /locus_tag="vB_VpP_AC2_0_0009"
+                     /locus_tag="vB_VpP_AC2_0_0010"
                      /transl_table=11
      CDS             7958..8587
                      /start_type="ATG"
@@ -133,7 +142,7 @@ FEATURES             Location/Qualifiers
                      TPLAQACKLSEEMNEVITAIVKGKLDLLKDGIGDSIVVLDIIAAQLGADFEDVVNTSDY
                      TQMLAQLEAVAALHPEKNRAGIIGTLNAQTSDIIGSLYNYDIDNEESLADAVIAIEHLR
                      RMYCTLYIIAHHYDLTLYECVNFAYGEIKDRRGEMRDGVFVKEADL"
-                     /locus_tag="vB_VpP_AC2_0_0010"
+                     /locus_tag="vB_VpP_AC2_0_0011"
                      /transl_table=11
      CDS             8587..8790
                      /start_type="ATG"
@@ -142,7 +151,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MLTYFPDATLLCTDDTDGELWVINGGWNLKLDGEEATVVLTGKRI
                      HVGKAERLTRDEFEKKYPNFGY"
-                     /locus_tag="vB_VpP_AC2_0_0011"
+                     /locus_tag="vB_VpP_AC2_0_0012"
                      /transl_table=11
      CDS             8800..9225
                      /start_type="ATG"
@@ -152,7 +161,7 @@ FEATURES             Location/Qualifiers
                      /translation="MFKWLKKKCNEVVDKFKSVNVGVAFKRFLAVPLLAVIGYDIHVMA
                      AAPSVGHFMALSIDLVLVAWWYEWLSGQGKTVFDIELLNKYKLCRTLLALLFILALPAL
                      LILVALTWFVVEFVPETFRDFKGLASDMWNYIKTGDR"
-                     /locus_tag="vB_VpP_AC2_0_0012"
+                     /locus_tag="vB_VpP_AC2_0_0013"
                      /transl_table=11
      CDS             9228..10178
                      /start_type="ATG"
@@ -165,7 +174,7 @@ FEATURES             Location/Qualifiers
                      EQKLATTSTIDNRFGYVKWYEGENMPLKGHGTAFFWAQMLMGDSADNIRGIDRLDGKLC
                      GPTKAYEFLTDLITGSPDDETTVANTIIGKYAAARQDPLAEAEMLWLRRSADDSGYAYL
                      MEVVTVPEYRNWLEQLHTYHMAVIKHKQDNPDEEA"
-                     /locus_tag="vB_VpP_AC2_0_0013"
+                     /locus_tag="vB_VpP_AC2_0_0014"
                      /transl_table=11
      CDS             10165..10371
                      /start_type="ATG"
@@ -174,7 +183,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MKKPSKNHAVKLYERALELWYKDSKPETRAELEATMIELRDTDRD
                      MWQSAFNQIKEDMDMEALANEFV"
-                     /locus_tag="vB_VpP_AC2_0_0014"
+                     /locus_tag="vB_VpP_AC2_0_0015"
                      /transl_table=11
      CDS             10358..10798
                      /start_type="ATG"
@@ -184,7 +193,7 @@ FEATURES             Location/Qualifiers
                      /translation="MSSSKTLRKVTRAQLRTIGRKLGAEQGGKCPLCLNELQFSTKGAV
                      VVDHNHETGEIRGALCRSCNAGEGKVANAVGRWIVGKMDYQQIIPALRRLADYLESTEK
                      EGTGLMYPGHKTEEDKRAARAKKERARRAAALKMRARSKEQE"
-                     /locus_tag="vB_VpP_AC2_0_0015"
+                     /locus_tag="vB_VpP_AC2_0_0016"
                      /transl_table=11
      CDS             10798..10917
                      /start_type="ATG"
@@ -192,7 +201,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="hypothetical protein"
                      /translation="MASGEKPSEWCARMSREAKDGDTAYHYWQMQRHWESKGQ"
-                     /locus_tag="vB_VpP_AC2_0_0016"
+                     /locus_tag="vB_VpP_AC2_0_0017"
                      /transl_table=11
      CDS             10914..11498
                      /start_type="ATG"
@@ -203,7 +212,7 @@ FEATURES             Location/Qualifiers
                      HVGMALPKFIALASDRNTKDVGQIELGGKSPREVLIHVSEDIIKPQFGADHYGKMAGAR
                      AAEVLEYGRIPVFTDCGFPEEAVSVADCIEHSPMGGEVLVVRMYGRGCTFANDSRSYLT
                      VKHPAIEYLDVVMIEGKPEAACRTIVERLRS"
-                     /locus_tag="vB_VpP_AC2_0_0017"
+                     /locus_tag="vB_VpP_AC2_0_0018"
                      /transl_table=11
      CDS             11465..11671
                      /start_type="ATG"
@@ -212,7 +221,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MSNHRGASAELVFVDEAPVNVDKEYAIIAGMIQSGMSGAARSLYF
                      KVTDAEKRRVLRLMIQRNLKTTL"
-                     /locus_tag="vB_VpP_AC2_0_0018"
+                     /locus_tag="vB_VpP_AC2_0_0019"
                      /transl_table=11
      CDS             11684..14134
                      /start_type="ATG"
@@ -234,7 +243,7 @@ FEATURES             Location/Qualifiers
                      GINQVVLYNFDYERNHRQKAVSGISPNFIHQGDSSHLMMTILNFDGDIIPIHDSVATHA
                      CDVDDLHRVLREQFVILYTEHQNPLEVIRDAALEAGADLEGIEMPPMGTLNLELVKDSP
                      FFFC"
-                     /locus_tag="vB_VpP_AC2_0_0019"
+                     /locus_tag="vB_VpP_AC2_0_0020"
                      /GO="GO:0008150,GO:0016032,GO:0019080,GO:0019083,GO:0039695
                      ,GO:0044403,GO:0044419,GO:0051704"
                      /transl_table=11
@@ -246,7 +255,7 @@ FEATURES             Location/Qualifiers
                      /translation="MSNYTLEFYTGRKAVLGARVVANLAYHNNPEFAQGITSKDFRDSV
                      ADSVDGFMCMGIHHKGNLIGGCAITAPYTTPHISGRGVGVVLSYVLPNHNIGHHMYRAI
                      MRYAKAQRLDWVLIPHKQGEYEYRLKYYKVKHGIR"
-                     /locus_tag="vB_VpP_AC2_0_0020"
+                     /locus_tag="vB_VpP_AC2_0_0021"
                      /transl_table=11
      CDS             14572..14817
                      /start_type="ATG"
@@ -255,7 +264,7 @@ FEATURES             Location/Qualifiers
                      /product="virion structural protein"
                      /translation="MGFDSGKGAAKEARRQAEAQKKQFEAEQTRMREANTLQANKALDD
                      VVKVETGGSANLAADDALGLTTRKRKMADVSSSLGL"
-                     /locus_tag="vB_VpP_AC2_0_0021"
+                     /locus_tag="vB_VpP_AC2_0_0022"
                      /transl_table=11
      CDS             14826..14936
                      /start_type="ATG"
@@ -263,7 +272,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="head-tail adaptor"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLA"
-                     /locus_tag="vB_VpP_AC2_0_0022"
+                     /locus_tag="vB_VpP_AC2_0_0023"
                      /GO="GO:0005575,GO:0008150,GO:0016032,GO:0019012,GO:0019028
                      ,GO:0019058,GO:0019068,GO:0019072,GO:0019073,GO:0032991,GO:
                      0044403,GO:0044419,GO:0044423,GO:0046798,GO:0051704"
@@ -275,7 +284,7 @@ FEATURES             Location/Qualifiers
                      /product="Bacteriophage head to tail connecting protein"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLHVRTKTESAY
                      HFNATSNLTVLCWLTTLLVN"
-                     /locus_tag="vB_VpP_AC2_0_0023"
+                     /locus_tag="vB_VpP_AC2_0_0024"
                      /GO="GO:0005575,GO:0008150,GO:0016032,GO:0019012,GO:0019028
                      ,GO:0019058,GO:0019068,GO:0019072,GO:0019073,GO:0032991,GO:
                      0044403,GO:0044419,GO:0044423,GO:0046798,GO:0051704"
@@ -286,7 +295,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="hypothetical protein"
                      /translation="MYRAIMRYAKAQRLDWVLIPHKQGEYEYRLKYYKVKHGIR"
-                     /locus_tag="vB_VpP_AC2_0_0024"
+                     /locus_tag="vB_VpP_AC2_0_0025"
                      /transl_table=11
      CDS             15572..15817
                      /start_type="ATG"
@@ -295,7 +304,7 @@ FEATURES             Location/Qualifiers
                      /product="virion structural protein"
                      /translation="MGFDSGKGAAKEARRQAEAQKKQFEAEQTRMREANTLQANKALDD
                      VVKVETGGSANLAADDALGLTTRKRKMADVSSSLGL"
-                     /locus_tag="vB_VpP_AC2_0_0025"
+                     /locus_tag="vB_VpP_AC2_0_0026"
                      /transl_table=11
      CDS             15826..15936
                      /start_type="ATG"
@@ -303,7 +312,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="head-tail adaptor"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLA"
-                     /locus_tag="vB_VpP_AC2_0_0026"
+                     /locus_tag="vB_VpP_AC2_0_0027"
                      /GO="GO:0005575,GO:0008150,GO:0016032,GO:0019012,GO:0019028
                      ,GO:0019058,GO:0019068,GO:0019072,GO:0019073,GO:0032991,GO:
                      0044403,GO:0044419,GO:0044423,GO:0046798,GO:0051704"
@@ -315,7 +324,7 @@ FEATURES             Location/Qualifiers
                      /product="Bacteriophage head to tail connecting protein"
                      /translation="MQTQETHEALFKRYEDSEVTLSSERYAFWTVPTVLHVRTKTESAY
                      HFNATSNLTVLCWLTTLLVN"
-                     /locus_tag="vB_VpP_AC2_0_0027"
+                     /locus_tag="vB_VpP_AC2_0_0028"
                      /GO="GO:0005575,GO:0008150,GO:0016032,GO:0019012,GO:0019028
                      ,GO:0019058,GO:0019068,GO:0019072,GO:0019073,GO:0032991,GO:
                      0044403,GO:0044419,GO:0044423,GO:0046798,GO:0051704"
@@ -333,7 +342,7 @@ FEATURES             Location/Qualifiers
                      LARAFMYTGNVRDAERVTAEEIKNNVREAEENMGGIYATLAEILHIPLAHILTVEARPE
                      LLALLQANAVSLDIQVGTAAINRSIVVQRLGLVANDINLILPVLAQATKRTNPDRVIDL
                      ILAGHGVDPTEIFYTEQELQQLQAAEEAAAQAPASGMALDAGSAALLSEQQGLTQ"
-                     /locus_tag="vB_VpP_AC2_0_0028"
+                     /locus_tag="vB_VpP_AC2_0_0029"
                      /GO="GO:0005575,GO:0008150,GO:0016032,GO:0019012,GO:0019028
                      ,GO:0019058,GO:0019068,GO:0019072,GO:0019073,GO:0032991,GO:
                      0044403,GO:0044419,GO:0044423,GO:0046798,GO:0051704"
@@ -348,7 +357,7 @@ FEATURES             Location/Qualifiers
                      ALRYGDASLIDEKFLQERLGNYAGYAKTLAETYLTNAASNTERTVNEVHTLAGGAEAWS
                      QARDVFMANAPAHIQTAVKTMANSGLAKDAAQMVLDYARQSGALPVQGQHIHGMGGQAG
                      NTALSAAEFSKELADLRTKFGNTSFESGPAGQAYQNLLERRARGKQLGR"
-                     /locus_tag="vB_VpP_AC2_0_0029"
+                     /locus_tag="vB_VpP_AC2_0_0030"
                      /transl_table=11
      CDS             18364..19362
                      /start_type="ATG"
@@ -361,7 +370,7 @@ FEATURES             Location/Qualifiers
                      KTAAVTQEELEANAISINEAHKAGVTELVKRKVPLTDQITLVSPDIYSALVEHPKLLNQ
                      EFNVDMSDYGGRRVVRMNGVPVVECTEFPTGAIAAHPLGTSFNVSAEDAKCQMVTFSKS
                      RTLVTVEAHPFTTRIWDDEKEFCNVLDCYAMYTVGQRRPDTAIVTKFEEPA"
-                     /locus_tag="vB_VpP_AC2_0_0030"
+                     /locus_tag="vB_VpP_AC2_0_0031"
                      /transl_table=11
      CDS             19374..19502
                      /start_type="ATG"
@@ -369,7 +378,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="hypothetical protein"
                      /translation="MAKVIDLRAKWTPDEARQKQKRNARQNKPVASGAPEKTETES"
-                     /locus_tag="vB_VpP_AC2_0_0031"
+                     /locus_tag="vB_VpP_AC2_0_0032"
                      /transl_table=11
      CDS             19568..20128
                      /start_type="ATG"
@@ -380,7 +389,7 @@ FEATURES             Location/Qualifiers
                      DGWWFNEREMTLYPDVEGHIYLPSTTIDIYDAASDVMYGENEDGLLLDYATNNIVFDES
                      KLLRIVFDTPFEHMPEMAQQIVAYEAAMQVYANDLGVDNQYQNLDRQAQEAFRVLHKQN
                      LRNRRYSTSKTGRYRRIRSALYT"
-                     /locus_tag="vB_VpP_AC2_0_0032"
+                     /locus_tag="vB_VpP_AC2_0_0033"
                      /GO="GO:0005575,GO:0019012"
                      /transl_table=11
      CDS             20138..22480
@@ -402,7 +411,7 @@ FEATURES             Location/Qualifiers
                      VDEVSWEFTVEPGFKDSQIYLGFRYESLFAPTPPMLKDQNDTLISTAPVRLLRYELTTR
                      NTGEFDVRIVDPTIGLDYSDSATSLVFGTDSVQLNQALVSDLARVPVPCRSNAQSTEMY
                      LSTDGTQDMNILEIEYIIRYNQRRRRV"
-                     /locus_tag="vB_VpP_AC2_0_0033"
+                     /locus_tag="vB_VpP_AC2_0_0034"
                      /transl_table=11
      CDS             22490..23236
                      /start_type="ATG"
@@ -414,7 +423,7 @@ FEATURES             Location/Qualifiers
                      SNQTRAMAAATDTVGASARDAAQSVMVNADRASGAVKNQAEITTEGFNMMLRKTTDEGT
                      NALQGGVESSGEQIMNAAYGQAAGIMVGAAANYGFSQYAPQGDTTPQEVPSAGQSNTEH
                      DWWGRSVLDSLDLNFSVTDKPVTTSW"
-                     /locus_tag="vB_VpP_AC2_0_0034"
+                     /locus_tag="vB_VpP_AC2_0_0035"
                      /transl_table=11
      CDS             23246..25924
                      /start_type="ATG"
@@ -437,7 +446,7 @@ FEATURES             Location/Qualifiers
                      TVGFGRHTNSGKAIDDEVTLPQAIGMLKGDLEDTYIPMVKSAAKSAGLELSDAAYPVLV
                      DLAYHGGGGSANPVAKAMADYAEGVNQFDNLTNRMLVMNTMMQTPAYKQSGKTRQEQLR
                      TDLTSWLQQNQPAKNPYPTYY"
-                     /locus_tag="vB_VpP_AC2_0_0035"
+                     /locus_tag="vB_VpP_AC2_0_0036"
                      /transl_table=11
      CDS             25974..29828
                      /start_type="ATG"
@@ -468,7 +477,7 @@ FEATURES             Location/Qualifiers
                      NGDYAGLAMLMMYQFPLMLMATHAKLALDGKEAQSPRELITNTAMNMSAIGGITLLSPL
                      FLGESPRHSLTSLGYVTQSIGAVQDMVSDGRMDTQRMSKILPFAQEFMPLRAVINNMGE
                      "
-                     /locus_tag="vB_VpP_AC2_0_0036"
+                     /locus_tag="vB_VpP_AC2_0_0037"
                      /transl_table=11
      CDS             29851..30462
                      /start_type="ATG"
@@ -479,7 +488,7 @@ FEATURES             Location/Qualifiers
                      WQGRTQINFTNAPLAGGVEVTLTRRTNRTALRHIFSEGAEFTRANLDDAHTQLLYLSQE
                      MTEGSGISDFYGDLDMHRYRVRNMAQGTDNRDAVTFLQLKEVADRVTAIENIKGTNRRG
                      PITISTKSPDTVPVQYEEWVMIGDVDNGAFVNSSNDKDQE"
-                     /locus_tag="vB_VpP_AC2_0_0037"
+                     /locus_tag="vB_VpP_AC2_0_0038"
                      /GO="GO:0003674,GO:0003824,GO:0004553,GO:0005575,GO:0008150
                      ,GO:0016032,GO:0016787,GO:0016798,GO:0019012,GO:0019058,GO:
                      0019062,GO:0022610,GO:0044403,GO:0044406,GO:0044409,GO:0044
@@ -507,7 +516,7 @@ FEATURES             Location/Qualifiers
                      DWKWENFFSGFYNELPPPYELPKPYDDDMPKDADGTWLPTSYLAAGKNPPQYITPYRLE
                      WRNDRKLQGSGNGEFQFLNLVQGARYKMTIKVARTTTQAAGLQLVTFEPGNDVIDIPMF
                      EGDTYELTFIAQSQQRVSLRRNTTNNKYEGLTDIRLERI"
-                     /locus_tag="vB_VpP_AC2_0_0038"
+                     /locus_tag="vB_VpP_AC2_0_0039"
                      /EC="3.2.1.18"
                      /KEGG_ko="ko:K01186"
                      /CAZy="GH33"
@@ -522,7 +531,7 @@ FEATURES             Location/Qualifiers
                      /product="terminase small subunit"
                      /translation="MAKAASRSRLAALHAAFTDALIDELKQSREEEIPLPAADKSVIAK
                      FLKDNNISADADDEAMGELADEFEDELAQRREARKQELLGRLQDGDDDELAGII"
-                     /locus_tag="vB_VpP_AC2_0_0039"
+                     /locus_tag="vB_VpP_AC2_0_0040"
                      /transl_table=11
      CDS             33523..35442
                      /start_type="GTG"
@@ -541,7 +550,7 @@ FEATURES             Location/Qualifiers
                      MSYPRDRRWQYSAFLQLQDITYDKGCLSKDDRADAIAMLVQELNAHLVEDERSAAEKAL
                      QMRVAEFILNPMAYQGVDTRPRNKGTASRLSVAGKPLHKRTGIGVGTGTLSRLNSRHRK
                      RGRL"
-                     /locus_tag="vB_VpP_AC2_0_0040"
+                     /locus_tag="vB_VpP_AC2_0_0041"
                      /transl_table=11
      CDS             35439..35531
                      /start_type="ATG"
@@ -549,7 +558,7 @@ FEATURES             Location/Qualifiers
                      /rbs_spacer="5-10bp"
                      /product="hypothetical protein"
                      /translation="MNKRLDSFKREDWFGLLRTIADFILRRKNK"
-                     /locus_tag="vB_VpP_AC2_0_0041"
+                     /locus_tag="vB_VpP_AC2_0_0042"
                      /transl_table=11
      CDS             35547..35846
                      /start_type="ATG"
@@ -558,7 +567,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MAEKDAVFMQDFEDKSTREILLDHERRLFAMEQTQKELADSLKQM
                      REDSAEMLKTFKEVAPVVKKTLYFLAGVGAVYLVGGDGKLLETAVTVATKLAAM"
-                     /locus_tag="vB_VpP_AC2_0_0042"
+                     /locus_tag="vB_VpP_AC2_0_0043"
                      /transl_table=11
      CDS             35855..36412
                      /start_type="ATG"
@@ -569,7 +578,7 @@ FEATURES             Location/Qualifiers
                      QEMYSRYPALRSGQVELILGWPWPDPEPTPDYTHELTSADLTATVLGFNPSKGSISPPD
                      LDGWTLYALEVNSSSNFVRLTPRDPAAPWTAVTVEYAGISIRMARSGNRYDSPTGPDVD
                      ALYNALKPSVGTPVGITLTPEV"
-                     /locus_tag="vB_VpP_AC2_0_0043"
+                     /locus_tag="vB_VpP_AC2_0_0044"
                      /transl_table=11
      CDS             36434..36847
                      /start_type="ATG"
@@ -579,7 +588,7 @@ FEATURES             Location/Qualifiers
                      /translation="MLIKDTANFKITKFACQHCGALKLDLALLMLVQMLREHFGEPLKV
                      ESGYRCPVHNKAVGGAENSRHLHGDAVDLHLLNKDRGNFQKLQKLYDTALALNPNGGVG
                      LYDWGVHVDTRGEKARWDYRSDKYKEVMGKMDV"
-                     /locus_tag="vB_VpP_AC2_0_0044"
+                     /locus_tag="vB_VpP_AC2_0_0045"
                      /transl_table=11
      CDS             36840..37196
                      /start_type="ATG"
@@ -589,7 +598,7 @@ FEATURES             Location/Qualifiers
                      /translation="MSEHKVTQELVESKVKSEQYVVVPSTTLTFCVLTLENGFTVTGES
                      ACVDPENFDKAVGEHWAKVDAMKKVWPLEAYLMKQKLYEAELEKERTFLAMAVRGEAQR
                      SETKQAEHNAVYEG"
-                     /locus_tag="vB_VpP_AC2_0_0045"
+                     /locus_tag="vB_VpP_AC2_0_0046"
                      /transl_table=11
      CDS             37271..37624
                      /start_type="GTG"
@@ -599,7 +608,7 @@ FEATURES             Location/Qualifiers
                      /translation="MKATGNQAQNPAQEKCYTQARGFSPIHARVSPVGVRVCALACARS
                      RAYAWAIQRVRVRACGYPWESIGKRRESMAARWLAGLRSMLAFFRHSVAFFARLLTHWL
                      VTCQRMAIYWLST"
-                     /locus_tag="vB_VpP_AC2_0_0046"
+                     /locus_tag="vB_VpP_AC2_0_0047"
                      /transl_table=11
      CDS             39075..39338
                      /start_type="ATG"
@@ -608,7 +617,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MFKRLKQLSKSFYLTFIRPRRVYHFEVVYRDSMRRVQKKHFQVCA
                      RTRNEAYGLARHVSYINNVRGYKLSLTNVSLFDGGQSMQSAY"
-                     /locus_tag="vB_VpP_AC2_0_0047"
+                     /locus_tag="vB_VpP_AC2_0_0048"
                      /transl_table=11
      CDS             39377..39913
                      /start_type="ATG"
@@ -619,7 +628,7 @@ FEATURES             Location/Qualifiers
                      VAWMDNWSRTDAAMLDATLRVLCPTKWINPNPSKGIKGHYKRDTKKADEIMGKLGVNRE
                      MTYPEFYPILEQYWLENSEKKKSEELTLDQKQGKLKGQMARLLGQWAEAGLSYGEVETM
                      LKRARDGKDILPKAK"
-                     /locus_tag="vB_VpP_AC2_0_0048"
+                     /locus_tag="vB_VpP_AC2_0_0049"
                      /transl_table=11
      CDS             39916..40227
                      /start_type="ATG"
@@ -628,7 +637,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MALNARELQFLRENYGTVGKCLSKQGVADALDKTYNEISHAIRYN
                      GITTGDKRRSGRKLTESQKRELVQQKDRGRSSEFLAGYYGITPQHVCRVYRAAKQQKY"
-                     /locus_tag="vB_VpP_AC2_0_0049"
+                     /locus_tag="vB_VpP_AC2_0_0050"
                      /transl_table=11
      CDS             40237..40386
                      /start_type="ATG"
@@ -637,7 +646,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MSKLKQWWAKHAERVIVVALLVGMVTVGVVVGWGLKALELMFYKW
                      ALGF"
-                     /locus_tag="vB_VpP_AC2_0_0050"
+                     /locus_tag="vB_VpP_AC2_0_0051"
                      /transl_table=11
      CDS             40412..40645
                      /start_type="ATG"
@@ -646,7 +655,7 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
                      /translation="MNAQEHAEYLKTEHLKLQDAFHKYHNHTRKRQETLRDIYSERARV
                      VGLSLVTYCKRFNIRGVLFKGELDANLSNGSA"
-                     /locus_tag="vB_VpP_AC2_0_0051"
+                     /locus_tag="vB_VpP_AC2_0_0052"
                      /transl_table=11
      CDS             40617..41048
                      /start_type="ATG"
@@ -656,7 +665,7 @@ FEATURES             Location/Qualifiers
                      /translation="MRIYQMVARNFNSGHIHRIIRTNLEQGEKLTLRDSTALIWFMLSE
                      QKSFRLSYQELQLVHPKLRKLLPLERKLCHRTLTDGTQVLDTVRFYSETYARRTLKLLK
                      EHGQYDLLTELTNGQEQAFNAMFEATQRIANAWQSDMLD"
-                     /locus_tag="vB_VpP_AC2_0_0052"
+                     /locus_tag="vB_VpP_AC2_0_0053"
                      /transl_table=11
      CDS             41089..43230
                      /start_type="ATG"
@@ -676,7 +685,7 @@ FEATURES             Location/Qualifiers
                      AQSASGYIEINLEECYECDSRTHEDDMCTVYEGGHERQVCGACRDRYYVWVDHDQDYHH
                      QSDVTFSEYTGEYILDDELEVCPLVGPMHEDRMDECAATGKRVFEDRLVDGCLTSEDAA
                      TLGVLDEWLDYHREDEDEE"
-                     /locus_tag="vB_VpP_AC2_0_0053"
+                     /locus_tag="vB_VpP_AC2_0_0054"
                      /transl_table=11
 ORIGIN
         1 gttgtattgg taaagacatt cgccgtgctg tagatgacga ggggcgcacc cttgacgacc
