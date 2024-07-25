@@ -42,7 +42,7 @@ for line in open(args.input):
         print(f'Error target name: {target}')
         continue
     # the filter
-    if not is_unknown(product) and qcov >= args.identities and idt >= args.coverages:
+    if not (is_unknown(product) or qcov < args.identities or idt < args.coverages):
         out_line += f'{name}\t{product}\t{qcov}\t{idt}\t{target}\t{target_name}\n'
 
 with open(args.output_fmt_tsv, 'w') as f:

@@ -99,7 +99,7 @@ abricate --quiet --nopath --db resfinder {input} 1> {output.abr_dir}/ResF_out.ta
 abricate --quiet --nopath --db argannot {input} 1> {output.abr_dir}/ArgA_out.tab 2>> {log}
 abricate --quiet --nopath --db ecoh {input} 1> {output.abr_dir}/EcoH_out.tab 2>> {log}
 abricate --quiet --nopath --db ecoli_vf {input} 1> {output.abr_dir}/Ecoli_VF_out.tab 2>> {log}
-abricate --quiet --nopath --db megares {input} 1> {output.abr_dir}/MegaRes_out.tab 2>> {log}
+#abricate --quiet --nopath --db megares {input} 1> {output.abr_dir}/MegaRes_out.tab 2>> {log}
 abricate --quiet --nopath --db ncbi {input} 1> {output.abr_dir}/NCBI_out.tab 2>> {log}
 python {script_dir}/count_final.py -i {output.abr_dir} -o {output.abr_check} >> {log}
 '''

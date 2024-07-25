@@ -1,5 +1,5 @@
 # Snakemake script
-
+clusterone_path = 'clusterone/cluster_one-1.0.jar'
 rule gene2genome:
     input: 'output/{sample}/2.annotations/{sample}.faa'
     output: 'output/{sample}/6.vConTACT2_network/vcontact2/gene_to_genome.csv'
@@ -59,7 +59,7 @@ cat {params.vcontact2_db_g2g} {input.g2g} > {params.wk_dir}/vConTACT2_gene_to_ge
 vcontact2 --blast-fp {params.wk_dir}/vConTACT2_blastp.tsv \\
     --proteins-fp {params.wk_dir}/vConTACT2_gene_to_genome.csv \\
     --db 'None' --pcs-mode MCL --vcs-mode ClusterONE -t {threads} \\
-    --output-dir {params.wk_dir} >> {log}
+    --c1-bin {clusterone_path} --output-dir {params.wk_dir} >> {log}
 # get final output
 cp {params.wk_dir}/c1.ntw {output.network}
 cp {params.wk_dir}/genome_by_genome_overview.csv {output.overview}
