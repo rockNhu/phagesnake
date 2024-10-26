@@ -22,7 +22,7 @@ rule EggNOG:
     conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.1.1 EggNOG annotation
 if [ ! -d {params.out_dir} ];then mkdir -p {params.out_dir};fi
-emapper.py -i {input} -o {wildcards.sample} --cpu {threads} \
+emapper.py --data_dir ''' + db_path + '''/ -m mmseqs -i {input} -o {wildcards.sample} --cpu {threads} \
 --output_dir {params.out_dir} --override --go_evidence non-electronic >> {log}
 '''
 
