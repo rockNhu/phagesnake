@@ -90,3 +90,8 @@ diamond makedb --in {input.protein} -p {threads} --db {output.dmnd}
 diamond blastp --query {input.protein} --db {output.dmnd} -p {threads} \\
     --sensitive -o {output.ava}
 '''
+
+rule make_eggnog_database:
+    output:
+        f'{db_path}eggnog.db'
+    shell: '''download_eggnog_data.py --data_dir {db_path} -M'''
