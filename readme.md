@@ -1,35 +1,9 @@
 # PhageSnake
 
-The PhageSnake was a basic automated bacteriophage(phage) genome analysis workflow, coded by Snakemake. It should run on Linux.
+PhageSnake is a basic automated bacteriophage(phage) genome analysis workflow, coded by Snakemake.
+PhageSnake runs on Linux platform.
+Phagesnkae was designed to make phage genome analysis easy and create an all-in-one workflow.
 
-**The input file must be phage genomic assembly in FASTA format.**
-
-## Easy Usage
-
-The first use:
-
-1. Makesure that total PhageSnake is download and Conda is installed. 
-2. Copy the phage genomic FASTA file into `fna_files`.
-3. run follow:
-
-```bash
-cd phagesnake
-conda create -n phagesnake -f ./envs/phagesnake.yaml
-conda activate phagesnake
-snakemake -s setup.smk --cores 40
-bash run_phagesnake.sh
-```
-
-The later use:
-
-1. Copy the phage genomic FASTA file into `fna_files`.
-2. run follow:
-
-```bash
-cd phagesnake
-conda activate phagesnake
-bash run_phagesnake.sh
-```
 
 ## Usage
 
@@ -41,6 +15,8 @@ It was easier to rebuild an environment by [CONDA](https://github.com/conda/cond
 Used software was listed in `./envs/phagesnake.yaml`.
 
 ```bash
+git clone https://github.com/rockNhu/phagesnake.git
+cd phagesnake
 conda create -n phagesnake -f ./envs/phagesnake.yaml
 ```
 
@@ -48,11 +24,12 @@ conda create -n phagesnake -f ./envs/phagesnake.yaml
 
 The used database would download from [INPHARED](https://github.com/RyanCook94/inphared).
 The location of the download database is set in `config.yaml`, and an absolute path is recommended here.
-The "db_prefix" was a time of database, e.g. `1Oct2022`.
+The "db_prefix" was a time of database, e.g. `1Sep2024`.
 
 ```bash
 conda activate phagesnake
-snakemake -s setup.smk --cores 40
+snakemake -s scripts/database_install/setup.smk --cores 40
+download_eggnog_data.py --data-dir Database
 ```
 
 ### 1. Input setting
@@ -87,11 +64,16 @@ snakemake -s phagesnake.smk --cluster 'qsub -d . -e error.log -o output.log' -j 
 
 The Directed Acyclic Graph(DAG) plot of PhageSnake:
 
-![dag](dag.svg)
+![alldag](all_dag.svg)
+
+The common used Directed Acyclic Graph(DAG) plot of PhageSnake:
+![no_vc_dag](no_vc_dag.svg)
+
+You can change the corresponding settings in `config.yaml`
 
 ### 1. Nucleotide alignment sub-workflow
 
-This sub-workflow part present as `nucl_align` in the DAG plot.
+This sub-workflow part present as `nucl_align` in the DAG plot. It is a taxonomy-related workflow. Align to the neibour genomes could show what species it is.
 
 - [MMseqs2](https://github.com/soedinglab/MMseqs2) was used to align the phage genome with the INPHARED database. The output in this step is `blastn.tsv`.
 - The `blastn.tsv` was filtered by **identity > 75%** and **coverage > 75%**(The coarse genus range) of alignment, and the output file was `blastn.list`, it recorded NCBI genome accession ids.
@@ -128,18 +110,7 @@ Terminase Large subunit(TerL) was a common gene in DNA phages(but not in every p
 - Then, [MAFFT](https://github.com/GSLBiotech/mafft) was used to align all TerLs and [IQ-Tree](https://github.com/iqtree/iqtree2) to build a phylogenetic tree.
 - Finally, visualization of the tree was plotted by the `Phylo` package of [Biopython](https://github.com/biopython/biopython)
 
-### 4. vConTACT sub-workflow (Optional)
-
-This sub-workflow was present as `run_vConTACT` in the DAG plot.
-
-- First, input files of vConTACT were also collected from the [Annotation workflow](#2-annotation-workflow).
-- Then, an accelerated method from [MetaPhage](https://github.com/MattiaPandolfoVR/MetaPhage) was used in this workflow.
-- Finally, visualization of the network was plotted by [graphanalyzer](https://github.com/lazzarigioele/graphanalyzer), it was also recommended in the article provided accelerated method. This step is in beta.
-
-The accelerated method was successful, but would also be taken a very long time in vConTACT calculation. So, this part was optional. It meant the phages were novel enough and it was necessary to get taxonomy around the genus level, this part was recommended.
-If this part was necessary, set `run_vConTACT` as `True` in `config.yaml` (default was `False`).
-
-### 5. Genome statistic sub-workflow
+### 4. Genome statistic sub-workflow
 
 This sub-workflow was present as `genome_stat` in the DAG plot.
 
@@ -151,6 +122,17 @@ This sub-workflow was present as `genome_stat` in the DAG plot.
 |scaffolds number|Scaffolds of genome, to check the genome quality|
 |length|How many base pairs in genome|
 |ORFs number|Predict Open Reading Frames number in genome|
+
+### 5. vConTACT sub-workflow (Optional)
+
+This sub-workflow was present as `run_vConTACT` in the DAG plot.
+
+- First, input files of vConTACT were also collected from the [Annotation workflow](#2-annotation-workflow).
+- Then, an accelerated method from [MetaPhage](https://github.com/MattiaPandolfoVR/MetaPhage) was used in this workflow.
+- Finally, visualization of the network was plotted by [graphanalyzer](https://github.com/lazzarigioele/graphanalyzer), it was also recommended in the article provided accelerated method. This step is in beta.
+
+The accelerated method was successful, but would also be taken a very long time in vConTACT calculation. So, this part was optional. It meant the phages were novel enough and it was necessary to get taxonomy around the genus level, this part was recommended.
+If this part was necessary, set `run_vConTACT` as `True` in `config.yaml` (default was `False`).
 
 ## Example and output
 
@@ -168,9 +150,7 @@ All results were in `output`.
 
 ### Nucleotide alignment
 
-raw with pyani: AC2: ![ac2ANI](output/vB_VpP_AC2_0/1.nucleotide_alignment/pyani_out/ANIb_percentage_identity.png)
-
-replot AC2: ![ac2ANI_replot](output/vB_VpP_AC2_0/1.nucleotide_alignment/ANIb_percentage_identity.svg)
+[VIRIDIC heatmap of AC2](output/vB_VpP_AC2_0/1.nucleotide_alignment/viridic_out/04_VIRIDIC_out/Heatmap.PDF)
 
 ### Annotation
 
@@ -188,25 +168,10 @@ AC2: ![ac2terL](output/vB_VpP_AC2_0/4.TerL_phylogenetic_tree/TerL.png)
 
 CA8: ![CA8terL](output/BA3_CA8_0/4.TerL_phylogenetic_tree/TerL.png)
 
-### vConTACT2 clust
-
-AC2 vConTACT2 HTML [vConTACT2_out](output/vB_VpP_AC2_0/6.vConTACT2_network/vB_VpP_AC2_0_vConTACT2.html)
-
 ### Genome Statistic
 
 [Genome_statistic](output/5.seq_info20231204.tsv)
 
-## Other tips
+### vConTACT2 clust
 
-#### The ProtectedOutputException
-
-Often, the outputs were unsatisfactory, the temporary could be changed by hand, then rerun the workflow. In another way, it could build a new small workflow for optimization.
-
-In old version, when rerun workflow, the files marked as `protected()` would throw the **ProtectedOutputException**, these files should be deleted, then rerun it. The `protected()` sign was deleted in new version.
-
-To fix this **Exception**, could run with `--dry-run` to check.
-
-```bash
-# check the workflow
-snakemake -s phagesnake.smk --dry-run -R
-```
+[vConTACT2 visualized output HTML of AC2](output/vB_VpP_AC2_0/6.vConTACT2_network/vB_VpP_AC2_0_vConTACT2.html)

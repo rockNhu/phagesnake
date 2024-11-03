@@ -1,47 +1,48 @@
 # Snakemake script
 # The phylogenetic tree based on TerL sub-workflow
+TerL_script_dir = script_dir + "Taxonomy/TerL_tree"
 
 rule find_terL:
     input: 
-        blastp_fmt = "output/{sample}/2.annotations/blastp_fmt.tsv",
-        faa = "output/{sample}/2.annotations/{sample}.faa"
+        blastp_fmt = homedir + "/output/{sample}/2.annotations/blastp_fmt.tsv",
+        faa = homedir + "/output/{sample}/2.annotations/{sample}.faa"
     output: 
-        terl_list = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.list",
-        terl_self = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_self.faa",
-        terl_neib = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_neib.faa",
-        terl_neib_fmt = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_neib_fmt.faa",
-        terl_faa = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.faa"
+        terl_list = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.list",
+        terl_self = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_self.faa",
+        terl_neib = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_neib.faa",
+        terl_neib_fmt = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_neib_fmt.faa",
+        terl_faa = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.faa"
     params:
         totalname_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_totalname.pydict',
         nameseq_dict = f'{db_path}/{db_prefix}_vConTACT2_proteins_nameseq.pydict',
         genome_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict'
-    log: f"{log_dir}/" + "{sample}_terL_tree.log"
+    log: log_dir + "/{sample}_terL_tree.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.2.3 catch the terminase in the blastp fmt: self and neibours
 echo "{wildcards.sample} : TerL_tree start" > {log}
-python {script_dir}/get_terL_self.py \\
+python {TerL_script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
     -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
-python {script_dir}/get_seqs_from_dict.py \\
+python {TerL_script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict} >> {log}
-python {script_dir}/terL_neib_id2name.py \\
+python {TerL_script_dir}/terL_neib_id2name.py \\
     -i {output.terl_neib} -tn {params.genome_totalname_dict} \\
     -o {output.terl_neib_fmt} >> {log}
-python {script_dir}/cat_terL.py \\
+python {TerL_script_dir}/cat_terL.py \\
     --self {output.terl_self} --neib {output.terl_neib_fmt} \\
     -o {output.terl_faa} -s {wildcards.sample} >> {log}
 '''
 
 rule MAFFT_iqtree:
-    input: "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.faa"
+    input: homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.faa"
     output:
-        aln = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.aln",
-        tree = "output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile"
+        aln = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.aln",
+        tree = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile"
     threads: 20
-    params: wkdir = "output/{sample}/4.TerL_phylogenetic_tree/TerL_tree"
+    params: wkdir = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
-    log: f"{log_dir}/" + "{sample}_terL_tree.log"
+    log: log_dir + "/{sample}_terL_tree.log"
     shell: '''# 2.2.4 phylogenetic_tree
 if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
 if [ $(grep -c '>' {input}) -gt 3 ];then 
@@ -57,16 +58,16 @@ fi
 '''
 
 rule phylotree_visualize:
-    input: "output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile"
+    input: homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile"
     output:
-        svg_out = "output/{sample}/4.TerL_phylogenetic_tree/TerL.svg",
-        png_out = "output/{sample}/4.TerL_phylogenetic_tree/TerL.png"
-    log: f"{log_dir}/" + "{sample}_terL_tree.log"
+        svg_out = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.svg",
+        png_out = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.png"
+    log: log_dir + "/{sample}_terL_tree.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 2.2.5 ggtree visualization
 if [ -s {input} ];then
-    python {script_dir}/plot_tree.py {input} {output.svg_out} >> {log}
-    python {script_dir}/plot_tree.py {input} {output.png_out} >> {log}
+    python {TerL_script_dir}/plot_tree.py {input} {output.svg_out} >> {log}
+    python {TerL_script_dir}/plot_tree.py {input} {output.png_out} >> {log}
 else
     touch {output}
 fi
@@ -74,13 +75,13 @@ fi
 
 rule TerL_clean:
     input:
-        terl_tree = "output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile",
-        svg_out = "output/{sample}/4.TerL_phylogenetic_tree/TerL.svg",
-        png_out = "output/{sample}/4.TerL_phylogenetic_tree/TerL.png"
+        terl_tree = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.aln.treefile",
+        svg_out = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.svg",
+        png_out = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.png"
     output:
-        temp(touch("output/{sample}_4.TerL_phylogenetic_tree"))
+        temp(touch(homedir + "/output/{sample}_4.TerL_phylogenetic_tree"))
     params:
-        treedir = "output/{sample}/TerL_tree"
+        treedir = homedir + "/output/{sample}/TerL_tree"
     shell: '''# clean the temporary files in TerL tree
 if [ -d {params.treedir} ];then rm -r {params.treedir};fi
 '''

@@ -8,6 +8,7 @@ if not os.path.exists(db_path):
     os.makedirs(db_path)
 workdir: db_path
 db_prefix = config['db_prefix']
+setup_script_dir = script_dir + '/database_install'
 
 rule all:
     input:
@@ -74,8 +75,8 @@ rule make_py_dict:
         f'{db_prefix}_vConTACT2_proteins_totalname.pydict',
         f'{db_prefix}_vConTACT2_proteins_nameseq.pydict',
     shell: '''
-python {script_dir}/mkdict.py {input.genomes}
-python {script_dir}/mkdict.py {input.protein}
+python {setup_script_dir}/mkdict.py {input.genomes}
+python {setup_script_dir}/mkdict.py {input.protein}
 '''
 
 rule vConTACT2_accelerate_db:
@@ -90,8 +91,3 @@ diamond makedb --in {input.protein} -p {threads} --db {output.dmnd}
 diamond blastp --query {input.protein} --db {output.dmnd} -p {threads} \\
     --sensitive -o {output.ava}
 '''
-
-rule make_eggnog_database:
-    output:
-        f'{db_path}eggnog.db'
-    shell: '''download_eggnog_data.py --data_dir {db_path} -M'''

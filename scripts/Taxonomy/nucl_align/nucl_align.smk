@@ -47,7 +47,7 @@ rule catch_neibours_fna:
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 3 catch the neibour fna and seperate neibours wtih format to "n_output"
 if [ -s {input.ex_list} ];then
-    python {align_script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
+    python {script_dir}/get_seqs_from_dict.py -i {input.ex_list} \\
         -o {output} -ns {input.nameseq_dict} -tn {input.totalname_dict} --seperate >> {log}
     # add self fna
     cp {input.fa} {output}/{wildcards.sample}.fasta
