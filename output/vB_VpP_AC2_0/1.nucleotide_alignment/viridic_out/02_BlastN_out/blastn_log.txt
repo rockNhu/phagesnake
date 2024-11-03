@@ -1,0 +1,1 @@
+Warning: [blastn] Number of threads was reduced to 6 to match the number of available CPUs

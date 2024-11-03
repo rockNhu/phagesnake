@@ -7,20 +7,22 @@ import datetime
 def fmt_dir_end(d):
     return d.rstrip('\\/')
 
-
+# global variants setting
 configfile: "config.yaml"
 workdir: fmt_dir_end(config['workdir'])
-log_dir = fmt_dir_end(config['log_dir'])
-if not os.path.exists(log_dir):
-    os.makedirs(log_dir)
-Conda_env_dir = fmt_dir_end(config['Conda_yaml_dir'])
+homedir = fmt_dir_end(os.getcwd())
 db_path = fmt_dir_end(config['db_path'])
 db_prefix = config['db_prefix']
 run_vc = config['run_vConTACT']
-script_dir = os.path.join(fmt_dir_end(config['workdir']), 'scripts')
+script_dir = os.path.join(homedir, 'scripts')
+Conda_env_dir = os.path.join(homedir, 'envs')
+log_dir = os.path.join(homedir, 'log')
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
 # fmt input sample files in fasta fmt
 fna_dir = fmt_dir_end(config['fna_dir'])
-fmt_fna_dir = fmt_dir_end(config['fmt_fna_dir'])
+fmt_fna_dir = os.path.join(homedir, 'fmt_fna')
 os.system(f'python {script_dir}/fmt_input_file.py -i {fna_dir} -o {fmt_fna_dir} > {log_dir}/fmt.log')
 # the fmt input is gate of protocol
 Samples, = glob_wildcards(os.path.join(fmt_fna_dir,"{name}.fasta"))
@@ -33,16 +35,16 @@ if run_vc == True:
         input:
             'Done-all'
 
-    include: 'rules/run_vConTACT2.smk'
+    include: 'scripts/Taxonomy/run_vConTACT2//run_vConTACT2.smk'
 else:
     rule all:
         input:
             'Done-all-none-vcontact'
 
-include: 'rules/nucl_align.smk'
-include: 'rules/TerL_tree.smk'
-include: 'rules/annotations.smk'
-include: 'rules/genome_stat.smk'
+include: 'scripts/Taxonomy/nucl_align/nucl_align.smk'
+include: 'scripts/Taxonomy/TerL_tree/TerL_tree.smk'
+include: 'scripts/annotations/annotations.smk'
+include: 'scripts/genome_stat/genome_stat.smk'
 
 
 rule nucl_align:
