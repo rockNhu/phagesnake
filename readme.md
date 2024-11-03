@@ -77,8 +77,8 @@ This sub-workflow part present as `nucl_align` in the DAG plot. It is a taxonomy
 
 - [MMseqs2](https://github.com/soedinglab/MMseqs2) was used to align the phage genome with the INPHARED database. The output in this step is `blastn.tsv`.
 - The `blastn.tsv` was filtered by **identity > 75%** and **coverage > 75%**(The coarse genus range) of alignment, and the output file was `blastn.list`, it recorded NCBI genome accession ids.
-- Using the acc. ids to catch the sequence and calculate Average Nucleotide Identity(ANI).
-- ANI was calculated by [pyani](https://github.com/widdowquinn/pyani), the final output file were all in `ANI_output`, and `ANIb_percentage_identity` was used to claim the identities between the phages.
+- Using the "acc." ids to catch the sequence and calculate Average Nucleotide Identity(ANI).
+- ANI was calculated by [VIRIDIC](https://rhea.icbm.uni-oldenburg.de/viridic/), the final output file were all in `viridic_output`.
 
 ### 2. Annotation sub-workflow
 
@@ -142,7 +142,7 @@ The example data were in `fna_files`. Here, two types of input FASTA format show
 
 1. The assembly only had 1 contig was the best. In example data, `vB_VpP_AC2.fasta` had a complete genome. The genome of this single contig was recommended.
 
-2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In example data, `CA8_BA3.fasta` had multiple genomes. In the default PhageSnake workflow, it would be divided into contigs and analyzed one by one. If any length of contig was lower than 5000 bp, it would be skipped.
+2. Sometimes, the phage genome assembly had multiple genomes. Each contig of assembly should be considered a separate genome. In the default PhageSnake workflow, it would be divided into contigs and analyzed one by one. If any length of contig was lower than 5000 bp, it would be skipped.
 
 ## Result
 
@@ -158,15 +158,9 @@ The protein annotation of genome, using arrow plot with `.gbk`.
 
 AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/2.annotations/vB_VpP_AC2_0.png)
 
-CA8: ![vB_VpS_CA8](output/BA3_CA8_0/2.annotations/BA3_CA8_0.png)
-
-BA3: ![vB_VpS_BA3](output/BA3_CA8_1/2.annotations/BA3_CA8_1.png)
-
 ### TerL phylogenetic
 
 AC2: ![ac2terL](output/vB_VpP_AC2_0/4.TerL_phylogenetic_tree/TerL.png)
-
-CA8: ![CA8terL](output/BA3_CA8_0/4.TerL_phylogenetic_tree/TerL.png)
 
 ### Genome Statistic
 
