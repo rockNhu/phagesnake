@@ -3,7 +3,7 @@ import os
 
 configfile: "config.yaml"
 db_path = config['db_path']
-script_dir = os.path.abspath("scripts")
+script_dir = os.path.join(os.getcwd(), 'scripts')
 if not os.path.exists(db_path):
     os.makedirs(db_path)
 workdir: db_path
@@ -61,8 +61,9 @@ function download() {{
 }}
 for file in {output};do
     download ${{file}}
+    gunzip ${{file}}
 done
-gunzip *.gz
+# gunzip *.gz
 '''
 
 rule make_py_dict:
