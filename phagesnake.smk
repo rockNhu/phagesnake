@@ -47,21 +47,27 @@ include: 'scripts/annotations/annotations.smk'
 include: 'scripts/genome_stat/genome_stat.smk'
 
 
-rule nucl_align:
-    input:
-        expand("output/{sample}_1.nucleotide_alignment",sample=Samples),
-    output: temp('Done-ANI')
-    shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
-touch {output}
-'''
-
 rule annotations:
     input: 
-        expand("output/{sample}_2.annotations-clean",sample=Samples),
-        expand("output/{sample}_3.secuity_check-clean",sample=Samples)
+        expand("output/{sample}_1.annotations-clean",sample=Samples),
     output: temp('Done-anno')
     shell: '''echo "Annotations - finished."
 echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
+touch {output}
+'''
+
+rule genome_stat: 
+    input: f"output/2.seq_info{start_time}.tsv"
+    output: temp('Done-Stat')
+    shell: '''echo "Genome statistic - finished. Only python3 used."
+touch {output}
+'''
+
+rule nucl_align:
+    input:
+        expand("output/{sample}_3.nucleotide_alignment",sample=Samples),
+    output: temp('Done-ANI')
+    shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
 touch {output}
 '''
 
@@ -73,16 +79,9 @@ rule TerL_tree:
 touch {output}
 '''
 
-rule genome_stat: 
-    input: f"output/5.seq_info{start_time}.tsv"
-    output: temp('Done-Stat')
-    shell: '''echo "Genome statistic - finished. Only python3 used."
-touch {output}
-'''
-
 rule run_vConTACT:
     input: 
-        expand('output/{sample}_6.vConTACT2_network', sample=Samples)
+        expand('output/{sample}_5.vConTACT2_network', sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}

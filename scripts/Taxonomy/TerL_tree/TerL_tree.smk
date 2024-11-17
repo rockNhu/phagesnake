@@ -4,8 +4,8 @@ TerL_script_dir = script_dir + "Taxonomy/TerL_tree"
 
 rule find_terL:
     input: 
-        blastp_fmt = homedir + "/output/{sample}/2.annotations/blastp_fmt.tsv",
-        faa = homedir + "/output/{sample}/2.annotations/{sample}.faa"
+        blastp_fmt = homedir + "/output/{sample}/1.annotations/blastp_fmt.tsv",
+        faa = homedir + "/output/{sample}/1.annotations/{sample}.faa"
     output: 
         terl_list = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL.list",
         terl_self = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree/TerL_self.faa",

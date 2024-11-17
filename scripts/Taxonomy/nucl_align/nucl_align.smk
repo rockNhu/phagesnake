@@ -8,7 +8,7 @@ rule MMseqs_blastn:
         db = f'{db_path}/{db_prefix}_genomes.fa'
     output:
         tmp_dir = temp(directory('tmp/{sample}')),
-        blastn_out = temp(homedir + '/output/{sample}/1.nucleotide_alignment/blastn.tsv')
+        blastn_out = temp(homedir + '/output/{sample}/3.nucleotide_alignment/blastn.tsv')
     threads: 60
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
@@ -20,10 +20,10 @@ mmseqs easy-search --search-type 3 {input.fa} {input.db} {output.blastn_out} \\
 
 rule catch_nucl_neibours:
     input: 
-        tsv = homedir + '/output/{sample}/1.nucleotide_alignment/blastn.tsv'
+        tsv = homedir + '/output/{sample}/3.nucleotide_alignment/blastn.tsv'
     output: 
-        l = temp(homedir + '/output/{sample}/1.nucleotide_alignment/blastn.list'),
-        fmt_blastn = homedir + '/output/{sample}/1.nucleotide_alignment/fmt_blastn.tsv'
+        l = temp(homedir + '/output/{sample}/3.nucleotide_alignment/blastn.list'),
+        fmt_blastn = homedir + '/output/{sample}/3.nucleotide_alignment/fmt_blastn.tsv'
     params:
         name_db = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         idt = 75,
@@ -38,11 +38,11 @@ python {align_script_dir}/get_neibour_nucl.py -i {input.tsv} \\
 rule catch_neibours_fna:
     input: 
         fa = fmt_fna_dir + "/{sample}.fasta",
-        ex_list = homedir + '/output/{sample}/1.nucleotide_alignment/blastn.list',
+        ex_list = homedir + '/output/{sample}/3.nucleotide_alignment/blastn.list',
         totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict',
         nameseq_dict = f'{db_path}/{db_prefix}_genomes_nameseq.pydict'
     output: 
-        directory(homedir + "/output/{sample}/1.nucleotide_alignment/blastn_output")
+        directory(homedir + "/output/{sample}/3.nucleotide_alignment/blastn_output")
     log: f"{log_dir}/" + "{sample}_nucl_align.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 3 catch the neibour fna and seperate neibours wtih format to "n_output"
@@ -58,11 +58,11 @@ fi
 
 rule VIRIDIC_prepare:
     input: 
-        to_check = homedir + '/output/{sample}/1.nucleotide_alignment/blastn.list',
-        nd = homedir + "/output/{sample}/1.nucleotide_alignment/blastn_output"
+        to_check = homedir + '/output/{sample}/3.nucleotide_alignment/blastn.list',
+        nd = homedir + "/output/{sample}/3.nucleotide_alignment/blastn_output"
     output:
-        viridic_wkdir = directory(homedir + '/output/{sample}/1.nucleotide_alignment/viridic_out'),
-        combined_neib = homedir + "/output/{sample}/1.nucleotide_alignment/viridic_out/combined_neibour.fasta"
+        viridic_wkdir = directory(homedir + '/output/{sample}/3.nucleotide_alignment/viridic_out'),
+        combined_neib = homedir + "/output/{sample}/3.nucleotide_alignment/viridic_out/combined_neibour.fasta"
     log: log_dir + "/{sample}_nucl_align.log"
     shell: '''# 4 catch all neibour genomes to one fasta file 
 mkdir -p {output.viridic_wkdir}
@@ -76,10 +76,10 @@ fi
 
 rule VIRIDIC:
     input:
-        viridic_wkdir = homedir + '/output/{sample}/1.nucleotide_alignment/viridic_out',
-        fa = homedir + "/output/{sample}/1.nucleotide_alignment/viridic_out/combined_neibour.fasta"
+        viridic_wkdir = homedir + '/output/{sample}/3.nucleotide_alignment/viridic_out',
+        fa = homedir + "/output/{sample}/3.nucleotide_alignment/viridic_out/combined_neibour.fasta"
     output:
-        homedir + '/output/{sample}/1.nucleotide_alignment/viridic_out/done'
+        homedir + '/output/{sample}/3.nucleotide_alignment/viridic_out/done'
     params:
         viridic_script = homedir + '/external_software/viridic'
     log: log_dir + "/{sample}_nucl_align.log"
@@ -94,6 +94,6 @@ touch {output}
 
 rule nucl_align_all:
     input:
-        homedir + "/output/{sample}/1.nucleotide_alignment/viridic_out/done"
+        homedir + "/output/{sample}/3.nucleotide_alignment/viridic_out/done"
     output:
-        temp(touch("output/{sample}_1.nucleotide_alignment"))
+        temp(touch("output/{sample}_3.nucleotide_alignment"))

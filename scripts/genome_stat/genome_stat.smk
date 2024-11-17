@@ -4,7 +4,7 @@ stat_script_dir = script_dir + '/genome_stat'
 
 rule get_orf_list:
     input: 
-        faas = expand("output/{sample}/2.annotations/{sample}.faa",sample=Samples)
+        faas = expand("output/{sample}/1.annotations/{sample}.faa",sample=Samples)
     output:
         orf = temp("output/orf.list")
     log: f"{log_dir}/genome_stat.log"
@@ -22,7 +22,7 @@ rule statistics_genome:
     input:
         orf = "output/orf.list",
         fna_dir = fmt_fna_dir
-    output: f"output/5.seq_info{start_time}.tsv"
+    output: f"output/2.seq_info{start_time}.tsv"
     log: f"{log_dir}/genome_stat.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     shell: '''# 3.2 statistic genome infomation

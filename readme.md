@@ -4,7 +4,6 @@ PhageSnake is a basic automated bacteriophage(phage) genome analysis workflow, c
 PhageSnake runs on Linux platform.
 Phagesnkae was designed to make phage genome analysis easy and create an all-in-one workflow.
 
-
 ## Usage
 
 ### 0. Installation
@@ -24,12 +23,44 @@ conda create -n phagesnake -f ./envs/phagesnake.yaml
 
 The used database would download from [INPHARED](https://github.com/RyanCook94/inphared).
 The location of the download database is set in `config.yaml`, and an absolute path is recommended here.
-The "db_prefix" was a time of database, e.g. `1Sep2024`.
+The "db_prefix" was the time INPHARED database updated, e.g. `1Sep2024`.
 
 ```bash
 conda activate phagesnake
 snakemake -s scripts/database_install/setup.smk --cores 40
 download_eggnog_data.py --data-dir Database
+```
+
+#### 0.3 VIRIDIC-dependent R package download
+
+```bash
+R 
+```
+
+```R
+options(repos=c(CRAN="https://cloud.r-project.org/"))
+install.packages("stringr")
+install.packages("magrittr")
+install.packages("dplyr")
+install.packages("tibble")
+install.packages("purrr")
+install.packages("tidyr")
+install.packages("ggplot2")
+install.packages("DT")
+install.packages("shiny")
+install.packages("shinyjs")
+install.packages("shinyWidgets")
+install.packages("shinythemes")
+install.packages("seqinr")
+install.packages("BiocManager")
+BiocManager::install("IRanges")
+install.packages("reshape2")
+install.packages("pheatmap")
+install.packages("fastcluster")
+install.packages("parallelDist")
+install.packages("furrr")
+install.packages("future")
+BiocManager::install("ComplexHeatmap")
 ```
 
 ### 1. Input setting
@@ -71,16 +102,7 @@ The common used Directed Acyclic Graph(DAG) plot of PhageSnake:
 
 You can change the corresponding settings in `config.yaml`
 
-### 1. Nucleotide alignment sub-workflow
-
-This sub-workflow part present as `nucl_align` in the DAG plot. It is a taxonomy-related workflow. Align to the neibour genomes could show what species it is.
-
-- [MMseqs2](https://github.com/soedinglab/MMseqs2) was used to align the phage genome with the INPHARED database. The output in this step is `blastn.tsv`.
-- The `blastn.tsv` was filtered by **identity > 75%** and **coverage > 75%**(The coarse genus range) of alignment, and the output file was `blastn.list`, it recorded NCBI genome accession ids.
-- Using the "acc." ids to catch the sequence and calculate Average Nucleotide Identity(ANI).
-- ANI was calculated by [VIRIDIC](https://rhea.icbm.uni-oldenburg.de/viridic/), the final output file were all in `viridic_output`.
-
-### 2. Annotation sub-workflow
+### 1. Annotation sub-workflow
 
 This sub-workflow part present as `annotations` in the DAG plot.
 
@@ -100,17 +122,7 @@ This sub-workflow part present as `annotations` in the DAG plot.
 | <font color="skyblue">$\blacksquare$</font> SkyBlue |   Structure    |
 | <font color="Green">$\blacksquare$</font>  Green    | Host dependent |
 
-### 3. TerL Tree sub-workflow
-
-This sub-workflow was present as `terL_tree` in the DAG plot.
-
-Terminase Large subunit(TerL) was a common gene in DNA phages(but not in every phage), so it was always used for phylogenetic analysis.
-
-- First, prepare for analysis. To get TerL, used alignment output from the [Annotation workflow](#2-annotation-workflow). The TerL of the phage was found in annotations of it, and others were found in protein alignment.
-- Then, [MAFFT](https://github.com/GSLBiotech/mafft) was used to align all TerLs and [IQ-Tree](https://github.com/iqtree/iqtree2) to build a phylogenetic tree.
-- Finally, visualization of the tree was plotted by the `Phylo` package of [Biopython](https://github.com/biopython/biopython)
-
-### 4. Genome statistic sub-workflow
+### 2. Genome statistic sub-workflow
 
 This sub-workflow was present as `genome_stat` in the DAG plot.
 
@@ -122,6 +134,26 @@ This sub-workflow was present as `genome_stat` in the DAG plot.
 |scaffolds number|Scaffolds of genome, to check the genome quality|
 |length|How many base pairs in genome|
 |ORFs number|Predict Open Reading Frames number in genome|
+
+### 3. Nucleotide alignment sub-workflow
+
+This sub-workflow part present as `nucl_align` in the DAG plot. It is a taxonomy-related workflow. Align to the neibour genomes could show what species it is.
+
+- [MMseqs2](https://github.com/soedinglab/MMseqs2) was used to align the phage genome with the INPHARED database. The output in this step is `blastn.tsv`.
+- The `blastn.tsv` was filtered by **identity > 75%** and **coverage > 75%**(The coarse genus range) of alignment, and the output file was `blastn.list`, it recorded NCBI genome accession ids.
+- Using the "acc." ids to catch the sequence and calculate Average Nucleotide Identity(ANI).
+- ANI was calculated by [VIRIDIC](https://rhea.icbm.uni-oldenburg.de/viridic/), the final output file were all in `viridic_output`.
+
+### 4. TerL Tree sub-workflow
+
+This sub-workflow was present as `terL_tree` in the DAG plot.
+
+Terminase Large subunit(TerL) was a common gene in DNA phages(but not in every phage), so it was always used for phylogenetic analysis.
+
+- First, prepare for analysis. To get TerL, used alignment output from the [Annotation workflow](#2-annotation-workflow). The TerL of the phage was found in annotations of it, and others were found in protein alignment.
+- Then, [MAFFT](https://github.com/GSLBiotech/mafft) was used to align all TerLs and [IQ-Tree](https://github.com/iqtree/iqtree2) to build a phylogenetic tree.
+- Finally, visualization of the tree was plotted by the `Phylo` package of [Biopython](https://github.com/biopython/biopython)
+
 
 ### 5. vConTACT sub-workflow (Optional)
 
