@@ -23,7 +23,7 @@ echo "{wildcards.sample} : TerL_tree start" > {log}
 python {TerL_script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
     -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
-python {TerL_script_dir}/get_seqs_from_dict.py \\
+python {script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict} >> {log}
 python {TerL_script_dir}/terL_neib_id2name.py \\

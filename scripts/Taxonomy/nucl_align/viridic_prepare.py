@@ -2,7 +2,6 @@
 #-* coding = UTF-8 *-
 # @Author = Shixuan Huang
 import os
-import pathlib
 import argparse
 
 parser = argparse.ArgumentParser(
