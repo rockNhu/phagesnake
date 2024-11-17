@@ -1,6 +1,6 @@
 # Snakemake script
 # The phylogenetic tree based on TerL sub-workflow
-TerL_script_dir = script_dir + "Taxonomy/TerL_tree"
+TerL_script_dir = script_dir + "/Taxonomy/TerL_tree"
 
 rule find_terL:
     input: 
