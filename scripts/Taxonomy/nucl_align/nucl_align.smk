@@ -96,4 +96,4 @@ rule nucl_align_all:
     input:
         homedir + "/output/{sample}/3.nucleotide_alignment/viridic_out/done"
     output:
-        temp(touch("output/{sample}_3.nucleotide_alignment"))
+        temp(touch(homedir + "/output/{sample}_3.nucleotide_alignment"))

@@ -33,23 +33,23 @@ start_time = datetime.datetime.now().strftime('%Y%m%d')
 if run_vc == True:
     rule all:
         input:
-            'Done-all'
+            f'{homedir}/Done-all'
 
-    include: 'scripts/Taxonomy/run_vConTACT2//run_vConTACT2.smk'
+    include: f'{script_dir}/Taxonomy/run_vConTACT2//run_vConTACT2.smk'
 else:
     rule all:
         input:
-            'Done-all-none-vcontact'
+            f'{homdir }/Done-all-none-vcontact'
 
-include: 'scripts/Taxonomy/nucl_align/nucl_align.smk'
-include: 'scripts/Taxonomy/TerL_tree/TerL_tree.smk'
-include: 'scripts/annotations/annotations.smk'
-include: 'scripts/genome_stat/genome_stat.smk'
+include: f'{script_dir}/Taxonomy/nucl_align/nucl_align.smk'
+include: f'{script_dir}/Taxonomy/TerL_tree/TerL_tree.smk'
+include: f'{script_dir}/annotations/annotations.smk'
+include: f'{script_dir}/genome_stat/genome_stat.smk'
 
 
 rule annotations:
     input: 
-        expand("output/{sample}_1.annotations-clean",sample=Samples),
+        expand(homedir + "/output/{sample}_1.annotations-clean",sample=Samples),
     output: temp('Done-anno')
     shell: '''echo "Annotations - finished."
 echo "Prodigal + EggNog + DIAMOND + Biopython + dna_feature_viewer used."
@@ -57,7 +57,7 @@ touch {output}
 '''
 
 rule genome_stat: 
-    input: f"output/2.seq_info{start_time}.tsv"
+    input: f"{homedir}/output/2.seq_info{start_time}.tsv"
     output: temp('Done-Stat')
     shell: '''echo "Genome statistic - finished. Only python3 used."
 touch {output}
@@ -65,7 +65,7 @@ touch {output}
 
 rule nucl_align:
     input:
-        expand("output/{sample}_3.nucleotide_alignment",sample=Samples),
+        expand(homedir + "/output/{sample}_3.nucleotide_alignment",sample=Samples),
     output: temp('Done-ANI')
     shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
 touch {output}
@@ -73,7 +73,7 @@ touch {output}
 
 rule TerL_tree:
     input: 
-        expand("output/{sample}_4.TerL_phylogenetic_tree",sample=Samples),
+        expand(homdir + "/output/{sample}_4.TerL_phylogenetic_tree",sample=Samples),
     output: temp('Done-TerL-tree')
     shell: '''echo "TerL phylotree - finished. MAFFT + IQ-TREE + Biopython used."
 touch {output}
@@ -81,7 +81,7 @@ touch {output}
 
 rule run_vConTACT:
     input: 
-        expand('output/{sample}_5.vConTACT2_network', sample=Samples)
+        expand(homdir + '/output/{sample}_5.vConTACT2_network', sample=Samples)
     output: temp('Done-vConTACT')
     shell: '''echo "vConTACT cluster - finished. vConTACT2 + graphanalyzer used."
 touch {output}

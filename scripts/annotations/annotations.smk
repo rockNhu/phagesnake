@@ -118,4 +118,4 @@ rule annotation_all:
         abr_dir = homedir + "/output/{sample}/1.annotations/ABRicate",
         abr_check = homedir + "/output/{sample}/1.annotations/abr_check.tsv"
     output:
-        temp(touch(homedir + "/output/{sample}_1.annotations-clean")),
+        temp(touch(homedir + "/output/{sample}_1.annotations-clean"))
