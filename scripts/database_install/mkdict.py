@@ -2,10 +2,11 @@
 #-* coding = UTF-8 *-
 # Author = Shixuan Huang (Rock Nhu)
 import pathlib
-import re,sys
+import re
+import sys
 input_file = sys.argv[1]
 content = pathlib.Path(input_file).read_text()
-res = re.findall('(>(.*?)\n[A-Z|\n|\ ]*)',content)
+res = re.findall(r'(>(.*?)\n[A-Z|a-z|\n| ]*)',content)
 if res == []:
     exit('The fasta file is empty.')
 # simplify the name and save as dict
