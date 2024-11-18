@@ -1,6 +1,7 @@
 # Snakemake script
 # The phylogenetic tree based on TerL sub-workflow
 TerL_script_dir = script_dir + "/Taxonomy/TerL_tree"
+tree_based_on = config[tree_based_on]
 
 rule find_terL:
     input: 
@@ -22,7 +23,7 @@ rule find_terL:
 echo "{wildcards.sample} : TerL_tree start" > {log}
 python {TerL_script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
-    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
+    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} {tree_based_on} >> {log}
 python {script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict} >> {log}
