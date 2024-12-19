@@ -1,7 +1,6 @@
 # Snakemake script
 # The phylogenetic tree based on TerL sub-workflow
 TerL_script_dir = script_dir + "/Taxonomy/TerL_tree"
-tree_based_on = config[tree_based_on]
 
 rule find_terL:
     input: 
@@ -19,11 +18,11 @@ rule find_terL:
         genome_totalname_dict = f'{db_path}/{db_prefix}_genomes_totalname.pydict'
     log: log_dir + "/{sample}_terL_tree.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''# 1 catch the terminase in the blastp fmt: self and neibours
+    shell: '''# 2.2.3 catch the terminase in the blastp fmt: self and neibours
 echo "{wildcards.sample} : TerL_tree start" > {log}
 python {TerL_script_dir}/get_terL_self.py \\
     -i {input.blastp_fmt} -o {output.terl_list} \\
-    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} {tree_based_on} >> {log}
+    -f {input.faa} -of {output.terl_self} -s {wildcards.sample} >> {log}
 python {script_dir}/get_seqs_from_dict.py \\
     -i {output.terl_list} -o {output.terl_neib} \\
     -ns {params.nameseq_dict} -tn {params.totalname_dict} >> {log}
@@ -44,7 +43,7 @@ rule MAFFT_iqtree:
     params: wkdir = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL_tree"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
     log: log_dir + "/{sample}_terL_tree.log"
-    shell: '''# 2 phylogenetic_tree
+    shell: '''# 2.2.4 phylogenetic_tree
 if [ ! -d {params.wkdir} ];then mkdir -p {params.wkdir};fi
 if [ $(grep -c '>' {input}) -gt 3 ];then 
     mafft --auto --quiet {input} > {output.aln}
@@ -65,7 +64,7 @@ rule phylotree_visualize:
         png_out = homedir + "/output/{sample}/4.TerL_phylogenetic_tree/TerL.png"
     log: log_dir + "/{sample}_terL_tree.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''# 3 ggtree visualization
+    shell: '''# 2.2.5 ggtree visualization
 if [ -s {input} ];then
     python {TerL_script_dir}/plot_tree.py {input} {output.svg_out} >> {log}
     python {TerL_script_dir}/plot_tree.py {input} {output.png_out} >> {log}

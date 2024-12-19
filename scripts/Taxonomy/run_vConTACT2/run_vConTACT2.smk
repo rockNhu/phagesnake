@@ -1,5 +1,5 @@
 # Snakemake script
-clusterone_path = 'external_software/clusterone/cluster_one-1.0.jar'
+clusterone_path = homedir + '/external_software/clusterone/cluster_one-1.0.jar'
 runvc_script_dir = script_dir + '/run_vConTACT2'
 rule gene2genome:
     input: homedir + '/output/{sample}/1.annotations/{sample}.faa'

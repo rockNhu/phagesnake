@@ -9,8 +9,7 @@ import re
 class get_TerL(object):
     '''This class is to get TerL from blastp_out,
     get alignment output to find the TerL,
-    output is a list of target protein ids,
-    also it could be used to catch other gene.'''
+    output is a list of target protein ids.'''
 
     def __init__(self):
         self.get_input_var()
@@ -31,12 +30,14 @@ class get_TerL(object):
                             help='Path of output faa, self terL faa')
         parser.add_argument('-s', '--sample', required=True,
                             help='name')
-        parser.add_argument('description', nargs='+',
-                            help='Genes the tree based on and theirs alias')
         self.args = parser.parse_args()
         # set the several description types of "Terminase large subunit"
-        # [ 'DNA maturase B', 'DNA packaging', 'terminase large', 'Terminase large', 'terminase, large subunit', 'TerL', 'Large Terminase', 'Terminase' ]
-        self.TerL_desc = self.args.description
+        self.TerL_desc = [
+            'DNA maturase B', 'DNA packaging',
+            'terminase large', 'Terminase large',
+            'terminase, large subunit', 'TerL',
+            'Large Terminase', 'Terminase'
+        ]
         self.to_extract = set()  # TODO: make output acc list
         self.self_prot_tag = set()  # TODO: get self terL tag
         self.seq = ''  # TODO: get self terL seqs
@@ -63,9 +64,9 @@ class get_TerL(object):
                     self.seq += re_find_seq.replace('\n', '')
         except IndexError:
             self.seq = ''
-            print(f'Error: Reference Gene Not Found in {self.args.sample}')
+            print(f'Error: Terminase Not Found in {self.args.sample}')
         except Exception as e:
-            print(f'Other error in Gene found\n{e}')
+            print(f'Other error in Terminase found\n{e}')
 
     def output(self):
         # output neibour ids to list

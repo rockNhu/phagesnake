@@ -39,7 +39,7 @@ if run_vc == True:
 else:
     rule all:
         input:
-            f'{homdir }/Done-all-none-vcontact'
+            f'{homedir}/Done-all-none-vcontact'
 
 include: f'{script_dir}/Taxonomy/nucl_align/nucl_align.smk'
 include: f'{script_dir}/Taxonomy/TerL_tree/TerL_tree.smk'
@@ -67,7 +67,7 @@ rule nucl_align:
     input:
         expand(homedir + "/output/{sample}_3.nucleotide_alignment",sample=Samples),
     output: temp('Done-ANI')
-    shell: '''echo "Nucleotide alignment - finished. MMseqs2 + pyANI used."
+    shell: '''echo "Nucleotide alignment - finished. MMseqs2 + VIRIDIC used."
 touch {output}
 '''
 

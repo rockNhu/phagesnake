@@ -6,10 +6,10 @@ rule get_orf_list:
     input: 
         faas = expand(homedir + "/output/{sample}/1.annotations/{sample}.faa",sample=Samples)
     output:
-        orf = temp(f"{homedir}/output/orf.list")
+        orf = temp(homedir + "/output/orf.list")
     log: f"{log_dir}/genome_stat.log"
     run:
-        # 1 get orf.list
+        # 3.1 get orf.list
         import os
 
         out = open(output.orf,'w')
@@ -20,12 +20,12 @@ rule get_orf_list:
 
 rule statistics_genome:
     input:
-        orf = f"{homedir}/output/orf.list",
+        orf = homedir + "/output/orf.list",
         fna_dir = fmt_fna_dir
     output: f"{homedir}/output/2.seq_info{start_time}.tsv"
     log: f"{log_dir}/genome_stat.log"
     #conda: f"{Conda_env_dir}/phagesnake.yaml"
-    shell: '''# 2 statistic genome infomation
+    shell: '''# 3.2 statistic genome infomation
 python {stat_script_dir}/get_fasta_info.py \\
     -i {input.fna_dir} -orf {input.orf} -o {output} >> {log}
 '''
