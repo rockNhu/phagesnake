@@ -1,18 +1,6 @@
 # the config file of snakemake
 workdir: "./"
 fna_dir: "fna_files/"
-db_path: "Database/"
-db_prefix: "1Sep2024"
-run_vConTACT: False
-tree_based_on: 
-  - 'DNA maturase B'
-  - 'DNA packaging'
-  - 'terminase large'
-  - 'Terminase large'
-  - 'terminase, large subunit'
-  - 'TerL'
-  - 'Large Terminase'
-  - 'Terminase'
-# other tree based on example
-# tree_based_on:
-#   - 'portal'
+db_path : "Database/"
+db_prefix : "1Sep2024"
+run_vConTACT: True
