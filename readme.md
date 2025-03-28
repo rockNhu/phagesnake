@@ -4,8 +4,9 @@ PhageSnake is a basic automated bacteriophage(phage) genome analysis workflow, c
 PhageSnake runs on Linux platform.
 Phagesnkae was designed to make phage genome analysis easy by creating an all-in-one workflow.
 
-The [light release](https://github.com/rockNhu/phagesnake/releases/download/alpha/phagesnake.zip) is recommand to use.
-Or the whole git is available to download by `git clone https://github.com/rockNhu/phagesnake.git`
+The [light release](https://github.com/rockNhu/phagesnake/releases/tag/alpha) is recommand to use.
+Or the whole git is available to download by
+`git clone https://github.com/rockNhu/phagesnake.git`
 
 ## Usage
 
@@ -26,7 +27,7 @@ conda create -n phagesnake -f ./envs/phagesnake.yaml
 The database would download from [INPHARED](https://github.com/RyanCook94/inphared).
 The location of the download database is set in `config.yaml`, and an absolute path is recommended.
 The "db_prefix" parameter was the time INPHARED database updated, e.g. `1Sep2024`.
-Also, the `1Sep2024` database and pre-alignment is available at [Database of PhageSnake](Database/)
+Also, the `1Sep2024` database and pre-alignment is [allVSall.dm.tsv.gz](https://github.com/rockNhu/phagesnake/releases/download/alpha/allVSall.dm.tsv.gz)
 
 ```bash
 gunzip Database/*
@@ -192,24 +193,27 @@ PhageSnake also have a convient scripts called `outzip.sh` to zip the import out
 bash outzip.sh
 ```
 
-### Nucleotide alignment
-
-[VIRIDIC heatmap of AC2](output/vB_VpP_AC2_0/1.nucleotide_alignment/viridic_out/04_VIRIDIC_out/Heatmap.PDF)
-
 ### Annotation
 
-The protein annotation of genome, using arrow plot with `.gbk`.
+The protein annotation of genome, using `.gbk` to figure out arrow plot.
 
-AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/2.annotations/vB_VpP_AC2_0.png)
-
-### TerL phylogenetic
-
-AC2: ![ac2terL](output/vB_VpP_AC2_0/4.TerL_phylogenetic_tree/TerL.png)
+AC2: ![vB_VpP_AC2](output/vB_VpP_AC2_0/1.annotations/vB_VpP_AC2_0.png)
 
 ### Genome Statistic
 
-[Genome_statistic](output/5.seq_info20231204.tsv)
+[Genome_statistic](output/2.seq_info20241231.tsv)
+
+### Nucleotide alignment
+
+[VIRIDIC heatmap of AC2](output/vB_VpP_AC2_0/3.nucleotide_alignment/viridic_out/04_VIRIDIC_out/Heatmap.PDF)
+
+
+### TerL phylogenetic
+
+The basic phylogenetic 
+
+AC2: ![ac2terL](output/vB_VpP_AC2_0/4.TerL_phylogenetic_tree/TerL.png)
 
 ### vConTACT2 clust
 
-[vConTACT2 visualized output HTML of AC2](output/vB_VpP_AC2_0/6.vConTACT2_network/vB_VpP_AC2_0_vConTACT2.html)
+![vConTACT2 visualized output HTML of AC2](output/vB_VpP_AC2_0/5.vConTACT_network/vB_VpP_AC2_0_vConTACT2.html)
