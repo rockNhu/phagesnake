@@ -3,7 +3,6 @@
 # @Author = Shixuan Huang
 import re
 import argparse
-import pathlib
 
 
 class get_terL(object):
@@ -32,7 +31,8 @@ class get_terL(object):
 
     def main(self):
         # fmt output contig name
-        content = pathlib.Path(self.args.neib).read_text()
+        with open(self.args.neib) as f:
+            content = f.read()
         res = re.findall('>(.*?)\n([A-Z|\n]*)', content)
         for result in res:
             name = result[0]
