@@ -5,7 +5,7 @@ import re
 import sys
 input_file = sys.argv[1]
 with open(input_file) as f:
-    content = f.read_text()
+    content = f.read()
 res = re.findall(r'(>(.*?)\n[A-Z|\n| ]*)',content)
 if res == []:
     exit('The fasta file is empty.')
