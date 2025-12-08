@@ -2,5 +2,5 @@
 workdir: "./"
 fna_dir: "fna_files/"
 db_path : "Database/"
-db_prefix : "1Sep2024"
-run_vConTACT: True
+db_prefix : "14Apr2025"
+run_vConTACT: False
